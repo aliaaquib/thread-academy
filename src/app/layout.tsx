@@ -16,6 +16,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/seo";
 import { t } from "@/lib/strings";
 import { AskAiWidget } from "@/components/AskAiWidget";
 import { AutoLang } from "@/components/AutoLang";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -72,6 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <AutoLang />
       {children}
       <AskAiWidget />
+      <Analytics />
     </body>
     </html>
   );

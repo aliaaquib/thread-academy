@@ -1,12 +1,13 @@
 {
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "gray-matter": "^4.0.3",
     "next": "16.3.8",
     "next-mdx-remote": "^6.0.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
-  "description": "Thread Academy \u2014 a free, W3Schools-style interactive learning library for school students. Static Next.js site.",
+  "description": "Thread Academy — a free, W3Schools-style interactive learning library for school students. Static Next.js site.",
   "devDependencies": {
     "@types/node": "^20.16.0",
     "@types/react": "^19.2.0",
