@@ -406,11 +406,11 @@ h1,h2,h3{font-family:Newsreader,serif;letter-spacing:-.035em}
 .today-card h2{font-size:2.15rem;line-height:1.02;margin:10px 0 14px}
 .today-card p{color:var(--muted);margin:0 0 18px}
 .inline-link{display:inline-flex;align-items:center;gap:10px;font-weight:800;border-bottom:2px solid var(--accent);padding-bottom:3px}
-.search-wrap{margin-top:66px;width:100%;position:relative}
+.search-wrap{margin-top:66px;max-width:100%;position:relative}
 .hero-search{width:100%;height:78px;border:2px solid var(--ink);background:var(--bg);padding:0 150px 0 58px;font-size:1.08rem;outline:none;box-shadow:7px 7px 0 var(--accent)}
 .search-icon{position:absolute;left:23px;top:27px}
 .search-submit{position:absolute;right:14px;top:13px;height:52px;padding:0 24px;border:0;background:var(--ink);color:var(--bg);font-weight:800}
-.quick-links{display:flex;gap:10px 20px;flex-wrap:wrap;margin-top:24px;font-size:.84rem}
+.quick-links{display:flex;gap:10px 20px;flex-wrap:wrap;margin-top:24px;font-size:.84rem;width:fit-content;max-width:100%}
 .quick-links span{color:var(--muted)}
 .quick-links a{font-weight:700;border-bottom:1px solid var(--line)}
 .quick-links a:hover{border-color:var(--ink)}

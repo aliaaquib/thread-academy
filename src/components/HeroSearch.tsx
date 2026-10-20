@@ -9,7 +9,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { withLang, type Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 import { openSiteSearch } from "./search-bus";
@@ -21,9 +21,32 @@ export interface QuickLink {
 
 export default function HeroSearch({ lang, links }: { lang: Lang; links: QuickLink[] }) {
   const [query, setQuery] = useState("");
+  const formRef = useRef<HTMLFormElement>(null);
+  const linksRef = useRef<HTMLDivElement>(null);
+
+  // The search bar is exactly as wide as the "Try:" quick-links row under
+  // it — its length therefore varies with the labels (and the language).
+  // Measured after layout (and again when fonts land / the window resizes);
+  // if the row is wider than the hero, the bar simply stays full width.
+  useLayoutEffect(() => {
+    const sync = () => {
+      const form = formRef.current;
+      const row = linksRef.current;
+      if (!form || !row) return;
+      const w = row.offsetWidth;
+      const parentW = form.parentElement?.clientWidth ?? 0;
+      form.style.width = w > 0 && parentW > 0 && w < parentW ? `${w}px` : "";
+    };
+    sync();
+    document.fonts?.ready.then(sync).catch(() => {});
+    window.addEventListener("resize", sync);
+    return () => window.removeEventListener("resize", sync);
+  });
+
   return (
     <>
       <form
+        ref={formRef}
         className="search-wrap"
         role="search"
         onSubmit={(e) => {
@@ -48,7 +71,7 @@ export default function HeroSearch({ lang, links }: { lang: Lang; links: QuickLi
         </button>
       </form>
       {links.length > 0 && (
-        <div className="quick-links">
+        <div className="quick-links" ref={linksRef}>
           <span>{t(lang, "hero.try")}</span>
           {links.map((l) => (
             <Link key={l.href} href={withLang(l.href, lang)}>
