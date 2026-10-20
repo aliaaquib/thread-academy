@@ -23,6 +23,7 @@ import {
   type CurriculumId,
 } from "@/lib/curricula";
 import CurriculumCard from "@/components/CurriculumCard";
+import HowItWorksDeck from "@/components/HowItWorksDeck";
 import { JsonLd, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
 import { langMeta, withLang, type Lang } from "@/lib/i18n";
 import { t, tn } from "@/lib/strings";
@@ -227,6 +228,8 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
           ))}
         </div>
       </section>
+
+      <HowItWorksDeck lang={lang} />
     </>
   );
 }
