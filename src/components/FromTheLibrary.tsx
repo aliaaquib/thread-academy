@@ -157,65 +157,66 @@ function QuoteMark({ size = 16 }: { size?: number }) {
  */
 export function FaceAvatar({ v }: { v: number }) {
   const ink = "var(--ink)";
+  // Arc-band hair, as in the founder's reference faces.
+  const band = (
+    <path d="M11.3 20.4A13.5 13.5 0 0 1 36.7 20.4" fill="none" stroke={ink} strokeWidth="5.5" strokeLinecap="round" />
+  );
   return (
     <svg width="40" height="40" viewBox="0 0 48 48" aria-hidden="true">
-      <circle cx="24" cy="25" r="14" fill="#fff" stroke={ink} strokeWidth="2.6" />
-      {v === 2 ? (
+      <circle cx="24" cy="25" r="15" fill="#fff" stroke={ink} strokeWidth="3.2" />
+      {v !== 2 && (
         <>
-          <rect x="12.5" y="21.5" width="10" height="7" rx="3.5" fill={ink} />
-          <rect x="25.5" y="21.5" width="10" height="7" rx="3.5" fill={ink} />
-          <path d="M22.5 23.5h3" stroke={ink} strokeWidth="2" />
+          <circle cx="18.2" cy="25.5" r="2" fill={ink} />
+          <circle cx="29.8" cy="25.5" r="2" fill={ink} />
         </>
-      ) : (
+      )}
+      {v === 2 && (
         <>
-          <circle cx="18.5" cy="25" r="1.7" fill={ink} />
-          <circle cx="29.5" cy="25" r="1.7" fill={ink} />
+          <rect x="12.3" y="22.3" width="10.2" height="7.6" rx="3.6" fill={ink} />
+          <rect x="25.5" y="22.3" width="10.2" height="7.6" rx="3.6" fill={ink} />
+          <path d="M22.5 24.8h3" stroke={ink} strokeWidth="2.2" />
         </>
       )}
       {v === 3 && (
         <>
-          <circle cx="18.5" cy="25" r="4.6" fill="none" stroke={ink} strokeWidth="2" />
-          <circle cx="29.5" cy="25" r="4.6" fill="none" stroke={ink} strokeWidth="2" />
-          <path d="M23.1 25h1.8" stroke={ink} strokeWidth="2" />
+          <circle cx="18.2" cy="25.5" r="4.8" fill="none" stroke={ink} strokeWidth="2.1" />
+          <circle cx="29.8" cy="25.5" r="4.8" fill="none" stroke={ink} strokeWidth="2.1" />
+          <path d="M23 25.5h2" stroke={ink} strokeWidth="2.1" />
         </>
       )}
       {v !== 8 && (
-        <path d="M19.5 30.5c1.4 1.7 7.6 1.7 9 0" fill="none" stroke={ink} strokeWidth="2.2" strokeLinecap="round" />
+        <path d="M18.6 30.6c1.5 2 9.3 2 10.8 0" fill="none" stroke={ink} strokeWidth="2.6" strokeLinecap="round" />
       )}
-      {(v === 0 || v === 1 || v === 2 || v === 6 || v === 8) && (
-        <path d="M11 22c1-7 6-11 13-11s12 4 13 11c-4-3.5-8-5-13-5s-9 1.5-13 5Z" fill={ink} />
-      )}
-      {v === 1 && <path d="M17.5 12.5c-1 1.5-1.6 3-1.8 4.7" stroke="#fff" strokeWidth="1.7" fill="none" strokeLinecap="round" />}
-      {v === 2 && <circle cx="24" cy="8" r="4.2" fill={ink} />}
-      {v === 3 && (
-        <path d="M12.5 20c1.5-5.5 5.5-8.5 11.5-8.5S34 14.5 35.5 20" fill="none" stroke={ink} strokeWidth="2.4" strokeLinecap="round" />
+      {(v === 0 || v === 2 || v === 3 || v === 6 || v === 8) && band}
+      {v === 1 && (
+        <path d="M10.8 27c-1-9.5 5-16.5 13.2-16.5C32 10.5 37.5 16 37.8 23c-4.5-4-9-6-14.5-4.8-5.8 1.2-10.5 4.3-12.5 8.8Z" fill={ink} />
       )}
       {v === 4 && (
         <>
-          <circle cx="13.5" cy="16.5" r="3.6" fill={ink} />
-          <circle cx="18" cy="12.8" r="3.6" fill={ink} />
-          <circle cx="24" cy="11.8" r="3.6" fill={ink} />
-          <circle cx="30" cy="12.8" r="3.6" fill={ink} />
-          <circle cx="34.5" cy="16.5" r="3.6" fill={ink} />
+          <circle cx="13" cy="17" r="4" fill={ink} />
+          <circle cx="18.5" cy="12.8" r="4" fill={ink} />
+          <circle cx="24.5" cy="12.2" r="4" fill={ink} />
+          <circle cx="30.5" cy="12.8" r="4" fill={ink} />
+          <circle cx="35.2" cy="17" r="4" fill={ink} />
         </>
       )}
       {v === 5 && (
         <>
-          <path d="M10.5 21a13.5 11 0 0 1 27 0Z" fill={ink} />
-          <path d="M7 21h34" stroke={ink} strokeWidth="3" strokeLinecap="round" />
+          <path d="M9.8 21a14.2 11.5 0 0 1 28.4 0Z" fill={ink} />
+          <path d="M6.5 21h35" stroke={ink} strokeWidth="3.2" strokeLinecap="round" />
         </>
       )}
       {v === 6 && (
         <>
-          <path d="M10.5 19c-.5 9 0 16 2.5 21h4.5c-2-6-2.5-13-2-21Z" fill={ink} />
-          <path d="M37.5 19c.5 9 0 16-2.5 21H30.5c2-6 2.5-13 2-21Z" fill={ink} />
+          <path d="M9.6 19c-.6 9.5 0 17 2.8 22h4.8c-2.2-6.5-2.8-13.5-2.2-22Z" fill={ink} />
+          <path d="M38.4 19c.6 9.5 0 17-2.8 22h-4.8c2.2-6.5 2.8-13.5 2.2-22Z" fill={ink} />
         </>
       )}
       {v === 7 && (
-        <path d="M11.5 21l2.5-6.5 3 3.5 2.5-6 3.5 4 2.5-6 3 4.5 2.5-5.5 2.5 6.5 2-3 1 8.5c-3.5-3.5-8.5-5-12.5-5s-9 1.5-12.5 5Z" fill={ink} />
+        <path d="M11 21.5 13.5 15l3 3.5L19 12l3.5 4.2L25 10.5l3 4.7 2.5-4.2 2.5 6.5 2-3.2 1.8 7.2c-3.8-3.8-8.3-5.4-12.8-5.4s-9 1.6-13 5.4Z" fill={ink} />
       )}
       {v === 8 && (
-        <path d="M12.5 29c.8 6.5 5 10.5 11.5 10.5S34.7 35.5 35.5 29c-2.5 2.8-6 4-11.5 4s-9-1.2-11.5-4Z" fill={ink} />
+        <path d="M12.6 29.5c.8 6.8 5.2 11 11.4 11s10.6-4.2 11.4-11c-2.6 3-6.2 4.3-11.4 4.3s-8.8-1.3-11.4-4.3Z" fill={ink} />
       )}
     </svg>
   );
