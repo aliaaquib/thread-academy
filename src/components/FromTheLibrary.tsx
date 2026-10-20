@@ -137,6 +137,21 @@ function QuoteMark({ size = 16 }: { size?: number }) {
   );
 }
 
+const AVATAR_STYLES = [
+  { background: "var(--accent)", color: "var(--accent-ink)" },
+  { background: "var(--ink)", color: "#fff" },
+  { background: "var(--surface-2)", color: "var(--ink)" },
+];
+function initials(role: string): string {
+  return role
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0])
+    .join("")
+    .toUpperCase();
+}
+
 function ReviewColumn({
   label,
   items,
@@ -161,9 +176,14 @@ function ReviewColumn({
         <div className={down ? "tm-track tm-track-down" : "tm-track"}>
           {doubled.map((r, i) => (
             <div key={i} className="tm-review">
+              <div className="tm-review-head">
+                <span className="tm-avatar" style={AVATAR_STYLES[i % 3]} aria-hidden="true">
+                  {initials(r.role)}
+                </span>
+                <span className="tm-review-role">{r.role}</span>
+              </div>
               <QuoteMark />
               <p className="tm-review-quote">“{r.text}”</p>
-              <span className="tm-review-role">{r.role}</span>
             </div>
           ))}
         </div>
@@ -225,8 +245,12 @@ export default function FromTheLibrary({ lang }: { lang: Lang }) {
           </p>
           <p className="tm-founder-note">“{R.founderNote}”</p>
           <div className="tm-founder-foot">
-            <strong>{R.founderName}</strong>
-            <span>{R.founderRole}</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="tm-founder-avatar" src="/images/founder.jpg" alt={R.founderName} loading="lazy" />
+            <div>
+              <strong>{R.founderName}</strong>
+              <span>{R.founderRole}</span>
+            </div>
           </div>
         </article>
 
