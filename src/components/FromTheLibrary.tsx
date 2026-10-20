@@ -50,15 +50,19 @@ export default function FromTheLibrary({ lang, data }: { lang: Lang; data: Libra
     return () => io.disconnect();
   }, []);
   return (
-    <section className={`section${on ? " tm-on" : ""}`} id="library" ref={ref}>
+    <section className={`section${on ? " tm-on" : ""}`} id="testimonials" ref={ref}>
       {/* ---- header ---- */}
       <div className="tm-head tm-reveal">
         <div className="tm-head-left">
           <SectionTag label={t(lang, "home.tm.tag")} />
           <h2>
             {t(lang, "home.tm.title1")}
-            <br />
-            {t(lang, "home.tm.title2")}
+            {t(lang, "home.tm.title2") && (
+              <>
+                <br />
+                {t(lang, "home.tm.title2")}
+              </>
+            )}
           </h2>
         </div>
         <p className="tm-lede">{t(lang, "home.tm.lede")}</p>
