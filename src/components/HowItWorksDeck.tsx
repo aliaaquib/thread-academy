@@ -1,11 +1,14 @@
 /**
- * HOW IT WORKS — INTERACTIVE DECK (home page, after the static steps).
+ * HOW IT WORKS — INTERACTIVE DECK (home page).
  * Three alternating panels with working mini-demos of the student journey:
  *   01 Find your lesson — subject pills + "open chapter" loading state machine
  *   02 Learn step by step — a worked example that reveals one step at a time
  *   03 Ask AI — a mock tutor chat (thinking dots, then a typed answer)
  * The subject toggle (Mathematics / Computer Science / Biology) drives the
- * mock content in all three panels. All copy is localized (strings.ts for UI
+ * mock content in all three panels. Each demo also AUTO-PLAYS in a loop
+ * while the section is on screen — pausing on hover/focus, stepping aside
+ * for 12s after any click inside a card, and never running for visitors
+ * who prefer reduced motion. All copy is localized (strings.ts for UI
  * chrome, MOCK below for the demo content). Styled with the site's own
  * design tokens in globals.css (.hiw-* classes) — no extra libraries.
  */
@@ -361,8 +364,81 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
     setTyped(0);
   }
 
+  /* ---- Autoplay: each demo loops while the section is on screen.
+   * Gates live in a ref so timers can check them at fire time: the card
+   * must not be hovered/focused, a click inside it buys 12s of manual
+   * control, and reduced-motion visitors get a fully manual deck. ---- */
+  const sectionRef = useRef<HTMLElement>(null);
+  const gates = useRef({
+    inView: false,
+    reduced: false,
+    hover: { 1: false, 2: false, 3: false } as Record<number, boolean>,
+    manualUntil: { 1: 0, 2: 0, 3: 0 } as Record<number, number>,
+  });
+  const autoTimers = useRef<Record<number, ReturnType<typeof setTimeout> | null>>({ 1: null, 2: null, 3: null });
+
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => { gates.current.inView = entry.isIntersecting; },
+      { threshold: 0.15 },
+    );
+    io.observe(el);
+    gates.current.reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const snapshot = autoTimers.current;
+    return () => {
+      io.disconnect();
+      Object.values(snapshot).forEach((id) => { if (id) clearTimeout(id); });
+    };
+  }, []);
+
+  function canPlay(card: number) {
+    const g = gates.current;
+    return g.inView && !g.reduced && !g.hover[card] && Date.now() >= g.manualUntil[card];
+  }
+  function schedule(card: number, fn: () => void, delay: number) {
+    const prev = autoTimers.current[card];
+    if (prev) clearTimeout(prev);
+    autoTimers.current[card] = setTimeout(() => {
+      if (!canPlay(card)) { schedule(card, fn, 1500); return; }
+      fn();
+    }, delay);
+  }
+  const cardGateProps = (card: number) => ({
+    onMouseEnter: () => { gates.current.hover[card] = true; },
+    onMouseLeave: () => { gates.current.hover[card] = false; },
+    onFocus: () => { gates.current.hover[card] = true; },
+    onBlur: () => { gates.current.hover[card] = false; },
+    onClickCapture: () => { gates.current.manualUntil[card] = Date.now() + 12000; },
+  });
+
+  /* Card 1 loop: open the chapter, hold the lesson list, reset. */
+  useEffect(() => {
+    if (s1 === "idle") schedule(1, () => setS1("loading"), 1500);
+    else if (s1 === "done") schedule(1, () => { setS1("idle"); setProgress(0); }, 3800);
+    return () => { const id = autoTimers.current[1]; if (id) clearTimeout(id); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [s1, subject]);
+
+  /* Card 2 loop: reveal one step at a time, hold, restart. */
+  useEffect(() => {
+    if (!exampleDone) schedule(2, () => setRevealed((r) => Math.min(totalSteps, r + 1)), 1800);
+    else schedule(2, () => setRevealed(1), 3600);
+    return () => { const id = autoTimers.current[2]; if (id) clearTimeout(id); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [revealed, subject]);
+
+  /* Card 3 loop: ask, think, type the answer, hold, reset. */
+  useEffect(() => {
+    if (chat === "idle") schedule(3, ask, 1400);
+    else if (chat === "done") schedule(3, resetChat, 4000);
+    return () => { const id = autoTimers.current[3]; if (id) clearTimeout(id); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chat, subject]);
+
   return (
-    <section className="section" id="how">
+    <section className="section" id="how" ref={sectionRef}>
       <div className="section-head">
         <div>
           <SectionTag label={t(lang, "home.stag.how")} />
@@ -382,7 +458,7 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
             { t: t(lang, "home.hiw.1.f2t"), d: t(lang, "home.hiw.1.f2d") },
           ]}
         >
-          <div className="hiw-card">
+          <div className="hiw-card" {...cardGateProps(1)}>
             <div className="hiw-pills" role="tablist" aria-label="subject">
               {SUBJECTS.map((s) => (
                 <button
@@ -408,8 +484,8 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
             {s1 === "done" ? (
               <>
                 <ul className="hiw-lessons">
-                  {mock.lessons.map((l) => (
-                    <li key={l.title}>
+                  {mock.lessons.map((l, i) => (
+                    <li key={l.title} style={{ animationDelay: `${i * 130}ms` }}>
                       <span className="hiw-check" aria-hidden="true">✓</span>
                       <span className="hiw-lesson-title">{l.title}</span>
                       <span className="hiw-lesson-mins">{l.mins} {t(lang, "home.hiw.1.min")}</span>
@@ -452,7 +528,7 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
             { t: t(lang, "home.hiw.2.f2t"), d: t(lang, "home.hiw.2.f2d") },
           ]}
         >
-          <div className="hiw-card">
+          <div className="hiw-card" {...cardGateProps(2)}>
             <div className="hiw-path">{t(lang, "home.hiw.2.example")} · {mock.chapter}</div>
             <div className="hiw-example-title">{mock.exampleTitle}</div>
             <ol className="hiw-steps">
@@ -491,7 +567,7 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
             { t: t(lang, "home.hiw.3.f2t"), d: t(lang, "home.hiw.3.f2d") },
           ]}
         >
-          <div className="hiw-card">
+          <div className="hiw-card" {...cardGateProps(3)}>
             <div className="hiw-chat">
               <button
                 type="button"

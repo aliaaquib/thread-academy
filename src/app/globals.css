@@ -797,7 +797,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .hiw-chapter strong{display:block;font-size:1.15rem}
 .hiw-chapter span{font-size:.8rem;color:var(--muted)}
 .hiw-lessons{list-style:none;margin:0 0 18px;padding:0;display:flex;flex-direction:column}
-.hiw-lessons li{display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid var(--line);font-size:.92rem}
+.hiw-lessons li{display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid var(--line);font-size:.92rem;animation:hiw-in .5s ease both}
 .hiw-lessons li:last-child{border-bottom:1px solid var(--line)}
 .hiw-check{width:22px;height:22px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:.75rem;font-weight:800;flex-shrink:0}
 .hiw-lesson-title{flex:1;font-weight:600}
@@ -808,7 +808,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .hiw-btn.ghost{background:transparent;color:var(--ink)}
 .hiw-btn.ghost:hover{background:var(--surface)}
 .hiw-bar{height:6px;background:var(--surface-2);margin:16px 0 4px;overflow:hidden}
-.hiw-bar span{display:block;height:100%;background:var(--accent-deep);transition:width .12s linear}
+.hiw-bar span{display:block;height:100%;background:var(--accent-deep);transition:width .3s ease}
 .hiw-hint{font-size:.78rem;color:var(--muted);margin:12px 0 0;text-align:center}
 .hiw-example-title{font-size:1.25rem;font-weight:800;margin:0 0 18px;letter-spacing:-.01em}
 .hiw-steps{list-style:none;margin:0 0 6px;padding:0;display:flex;flex-direction:column;gap:10px}
@@ -821,6 +821,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .hiw-bubble.you{background:var(--surface);font-weight:600;cursor:pointer}
 .hiw-bubble.you:hover:not(:disabled){border-color:var(--ink)}
 .hiw-bubble.you:disabled{cursor:default;opacity:.7}
+.hiw-bubble.ai{animation:hiw-in .45s ease both}
 .hiw-bubble.ai strong{display:block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-deep);margin-bottom:8px}
 .hiw-bubble.ai p{margin:0;font-size:.92rem;color:var(--ink)}
 .hiw-bubble.thinking{display:flex;gap:6px;align-items:center;width:auto;align-self:flex-start}
