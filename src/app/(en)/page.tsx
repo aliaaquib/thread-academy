@@ -181,7 +181,6 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
       <header className="home-hero">
         <div className="hero-grid">
           <div>
-            <SectionTag label={t(lang, "home.stag.hero")} />
             <h1>
               {t(lang, "home.hero.a")} <span className="underline">{t(lang, "home.hero.b")}</span>
             </h1>
