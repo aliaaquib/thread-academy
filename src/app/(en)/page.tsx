@@ -24,6 +24,7 @@ import {
 } from "@/lib/curricula";
 import CurriculumCard from "@/components/CurriculumCard";
 import HowItWorksDeck from "@/components/HowItWorksDeck";
+import SectionTag from "@/components/SectionTag";
 import FromTheLibrary, { type LibraryData } from "@/components/FromTheLibrary";
 import { getChapterTopics } from "@/lib/chapters";
 import { JsonLd, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
@@ -180,6 +181,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
       <header className="home-hero">
         <div className="hero-grid">
           <div>
+            <SectionTag label={t(lang, "home.stag.hero")} />
             <h1>
               {t(lang, "home.hero.a")} <span className="underline">{t(lang, "home.hero.b")}</span>
             </h1>
@@ -191,7 +193,10 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
       <section className="section" id="curricula">
         <div className="section-head">
-          <h2>{t(lang, "curricula.title")}</h2>
+          <div>
+            <SectionTag label={t(lang, "nav.curricula")} />
+            <h2>{t(lang, "curricula.title")}</h2>
+          </div>
           <p>{t(lang, "curricula.hero.lede")}</p>
         </div>
         <div className="subjects-grid">
@@ -215,7 +220,10 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
       <section className="section" id="subjects">
         <div className="section-head">
-          <h2>{t(lang, "home.subjects.title")}</h2>
+          <div>
+            <SectionTag label={t(lang, "home.stag.subjects")} />
+            <h2>{t(lang, "home.subjects.title")}</h2>
+          </div>
           <p>{t(lang, "home.subjects.lede")}</p>
         </div>
         {CATEGORY_ORDER.map((category) => (
@@ -269,6 +277,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
       <section className="section" id="why">
         <aside className="today-card">
+          <SectionTag label={t(lang, "home.stag.why")} />
           <div className="today-label">{t(lang, "home.why.kicker")}</div>
           <h2>{t(lang, "home.why.title")}</h2>
           <p>{t(lang, "home.why.copy")}</p>
@@ -280,7 +289,10 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
       <section className="section" id="how">
         <div className="section-head">
-          <h2>{t(lang, "home.how.title")}</h2>
+          <div>
+            <SectionTag label={t(lang, "home.stag.how")} />
+            <h2>{t(lang, "home.how.title")}</h2>
+          </div>
           <p>{t(lang, "home.how.lede")}</p>
         </div>
         <div className="how-grid">

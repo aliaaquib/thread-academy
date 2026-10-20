@@ -124,6 +124,10 @@ const en: Dict = {
   "home.tm.cta.a": "Pick a subject!",
   "home.tm.cta.btn": "Start learning",
   "home.tm.quote.tag": "From the lesson",
+  "home.stag.hero": "Thread Academy",
+  "home.stag.subjects": "Subjects",
+  "home.stag.why": "Why Thread Academy",
+  "home.stag.how": "How it works",
 
   // ---- subjects index ----
   "subjects.meta.title": "Subjects",
@@ -630,6 +634,10 @@ const tr: Dict = {
   "home.tm.cta.a": "Bir ders seç!",
   "home.tm.cta.btn": "Öğrenmeye başla",
   "home.tm.quote.tag": "Dersten",
+  "home.stag.hero": "Thread Academy",
+  "home.stag.subjects": "Dersler",
+  "home.stag.why": "Neden Thread Academy",
+  "home.stag.how": "Nasıl çalışır",
 
   // ---- subjects index ----
   "subjects.meta.title": "Dersler",
@@ -1120,6 +1128,10 @@ const ru: Dict = {
   "home.tm.cta.a": "Выбери предмет!",
   "home.tm.cta.btn": "Начать учиться",
   "home.tm.quote.tag": "Из урока",
+  "home.stag.hero": "Thread Academy",
+  "home.stag.subjects": "Предметы",
+  "home.stag.why": "Почему Thread Academy",
+  "home.stag.how": "Как это работает",
 
   // ---- subjects index ----
   "subjects.meta.title": "Предметы",
@@ -1616,6 +1628,10 @@ const ky: Dict = {
   "home.tm.cta.a": "Предмет танда!",
   "home.tm.cta.btn": "Үйрөнүүнү баштоо",
   "home.tm.quote.tag": "Сабактан",
+  "home.stag.hero": "Thread Academy",
+  "home.stag.subjects": "Предметтер",
+  "home.stag.why": "Эмне үчүн Thread Academy",
+  "home.stag.how": "Кантип иштейт",
 
   // ---- subjects index ----
   "subjects.meta.title": "Предметтер",

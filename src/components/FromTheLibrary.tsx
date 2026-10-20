@@ -11,6 +11,7 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
+import SectionTag from "./SectionTag";
 
 export interface LibraryData {
   totalLessons: number;
@@ -20,14 +21,6 @@ export interface LibraryData {
   quote: { text: string; title: string; meta: string; href: string };
   cards: { title: string; desc: string; meta: string; glyph: string; href: string }[];
   learnHref: string;
-}
-
-function Sparkle() {
-  return (
-    <svg className="tm-spark" width="18" height="18" viewBox="0 0 24 24" fill="var(--ink)" aria-hidden="true">
-      <path d="M12 0c.9 6.8 3.4 9.3 10.2 12C15.4 14.7 12.9 17.2 12 24c-.9-6.8-3.4-9.3-10.2-12C8.6 9.3 11.1 6.8 12 0Z" />
-    </svg>
-  );
 }
 
 function FeatureIcon({ kind }: { kind: "chapters" | "languages" | "ai" }) {
@@ -58,12 +51,7 @@ export default function FromTheLibrary({ lang, data }: { lang: Lang; data: Libra
       {/* ---- header ---- */}
       <div className="tm-head">
         <div className="tm-head-left">
-          <div className="tm-tagrow">
-            <span className="tm-badge">
-              <Sparkle />
-            </span>
-            <span className="tm-pill">{t(lang, "home.tm.tag")}</span>
-          </div>
+          <SectionTag label={t(lang, "home.tm.tag")} />
           <h2>
             {t(lang, "home.tm.title1")}
             <br />

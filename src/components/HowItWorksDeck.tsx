@@ -15,6 +15,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 import { getSubject } from "@/lib/subjects";
+import SectionTag from "./SectionTag";
 
 type SubjectSlug = "mathematics" | "computer-science" | "biology";
 const SUBJECTS: SubjectSlug[] = ["mathematics", "computer-science", "biology"];
@@ -364,7 +365,7 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
     <section className="section" id="how-it-works">
       <div className="section-head">
         <div>
-          <div className="eyebrow">{t(lang, "home.hiw.kicker")}</div>
+          <SectionTag label={t(lang, "home.hiw.kicker")} />
           <h2>{t(lang, "home.hiw.title")}</h2>
         </div>
         <p>{t(lang, "home.hiw.lede")}</p>
