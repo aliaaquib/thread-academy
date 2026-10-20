@@ -26,6 +26,7 @@ import CurriculumCard from "@/components/CurriculumCard";
 import HowItWorksDeck from "@/components/HowItWorksDeck";
 import SectionTag from "@/components/SectionTag";
 import FromTheLibrary, { type LibraryData } from "@/components/FromTheLibrary";
+import StatsNumbers, { type StatsData } from "@/components/StatsNumbers";
 import { getChapterTopics } from "@/lib/chapters";
 import { JsonLd, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
 import { langMeta, withLang, type Lang } from "@/lib/i18n";
@@ -179,6 +180,13 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
   const marqueeCards = marqueeSpots
     .map(([s, c, tp]) => lessonCard(s, c, tp))
     .filter((c): c is NonNullable<typeof c> => !!c);
+  const statsData: StatsData = {
+    lessons: totalLessons,
+    chapters: totalChapters,
+    languages: 4,
+    subjects: SUBJECT_SLUGS.length,
+    learnHref: withLang(curriculumPath("cambridge"), lang),
+  };
   const libraryData: LibraryData | null =
     quoteSpot && marqueeCards.length >= 3
       ? {
@@ -339,6 +347,8 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
       <HowItWorksDeck lang={lang} />
 
       {libraryData && <FromTheLibrary lang={lang} data={libraryData} />}
+
+      <StatsNumbers lang={lang} data={statsData} />
     </>
   );
 }
