@@ -25,7 +25,7 @@ import {
 import CurriculumCard from "@/components/CurriculumCard";
 import HowItWorksDeck from "@/components/HowItWorksDeck";
 import SectionTag from "@/components/SectionTag";
-import FromTheLibrary, { type LibraryData } from "@/components/FromTheLibrary";
+import FromTheLibrary from "@/components/FromTheLibrary";
 import StatsNumbers, { type StatsData } from "@/components/StatsNumbers";
 import WhyCards from "@/components/WhyCards";
 import { getChapterTopics } from "@/lib/chapters";
@@ -107,40 +107,6 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
       totalLessons += getChapterTopics(slug, ch.id, "en").length;
     }
   }
-  const lessonCard = (subject: string, chapterId: string, topicSlug: string) => {
-    const topic = getChapterTopics(subject, chapterId, lang).find((tp) => tp.slug === topicSlug);
-    if (!topic) return null;
-    const subjectName = getSubject(subject, lang)?.name ?? subject;
-    const chapterTitle =
-      getChaptersForSubject(subject, lang).find((c) => c.id === chapterId)?.title ?? chapterId;
-    let href: string | null = null;
-    for (const g of [9, 8, 7, 10, 11, 12]) {
-      href = chapterPathForGrade(subject, g, chapterId, topicSlug);
-      if (href) break;
-    }
-    return {
-      title: topic.title,
-      desc: topic.desc,
-      text: topic.desc,
-      meta: `${subjectName} · ${chapterTitle}`,
-      glyph: GLYPHS[subject] ?? "•",
-      href: href ?? curriculumPath("cambridge"),
-      subjectName,
-      chapterTitle,
-    };
-  };
-  const quoteSpot = lessonCard("mathematics", "algebra", "introduction");
-  const marqueeSpots: [string, string, string][] = [
-    ["mathematics", "algebra", "introduction"],
-    ["biology", "cell-biology", "cell-structure"],
-    ["physics", "forces", "newtons-laws"],
-    ["computer-science", "programming", "variables"],
-    ["chemistry", "particles", "particle-model"],
-    ["mathematics", "algebra", "linear-equations"],
-  ];
-  const marqueeCards = marqueeSpots
-    .map(([s, c, tp]) => lessonCard(s, c, tp))
-    .filter((c): c is NonNullable<typeof c> => !!c);
   const statsData: StatsData = {
     lessons: totalLessons,
     chapters: totalChapters,
@@ -148,18 +114,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
     subjects: SUBJECT_SLUGS.length,
     learnHref: withLang(curriculumPath("cambridge"), lang),
   };
-  const libraryData: LibraryData | null =
-    quoteSpot && marqueeCards.length >= 3
-      ? {
-          quote: {
-            text: quoteSpot.text,
-            title: quoteSpot.title,
-            meta: quoteSpot.meta,
-            href: quoteSpot.href,
-          },
-          cards: marqueeCards,
-        }
-      : null;
+
 
 
   // First Cambridge level with content — homepage subject/category links
@@ -292,7 +247,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
       <StatsNumbers lang={lang} data={statsData} />
 
-      {libraryData && <FromTheLibrary lang={lang} data={libraryData} />}
+      <FromTheLibrary lang={lang} />
     </>
   );
 }
