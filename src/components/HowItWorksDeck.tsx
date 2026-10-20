@@ -362,13 +362,13 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
   }
 
   return (
-    <section className="section" id="how-it-works">
+    <section className="section" id="how">
       <div className="section-head">
         <div>
-          <SectionTag label={t(lang, "home.hiw.kicker")} />
-          <h2>{t(lang, "home.hiw.title")}</h2>
+          <SectionTag label={t(lang, "home.stag.how")} />
+          <h2>{t(lang, "home.how.title")}</h2>
         </div>
-        <p>{t(lang, "home.hiw.lede")}</p>
+        <p>{t(lang, "home.how.lede")}</p>
       </div>
 
       <div className="hiw-deck">

@@ -95,12 +95,6 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
   const params = await props.params;
   const lang = requireLang(params);
 
-  const steps = [1, 2, 3, 4].map((n) => ({
-    num: String(n).padStart(2, "0"),
-    title: t(lang, `home.how.${n}.title`),
-    text: t(lang, `home.how.${n}.text`),
-  }));
-
   // ---- From the Library: real counts + real lessons, computed from the
   // content library (nothing here is invented social proof).
   const libChapters = SUBJECT_SLUGS.map((slug) => getChaptersForSubject(slug, lang));
@@ -284,27 +278,6 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
             {t(lang, "home.why.link")} <span aria-hidden="true">→</span>
           </Link>
         </aside>
-      </section>
-
-      <section className="section" id="how">
-        <div className="section-head">
-          <div>
-            <SectionTag label={t(lang, "home.stag.how")} />
-            <h2>{t(lang, "home.how.title")}</h2>
-          </div>
-          <p>{t(lang, "home.how.lede")}</p>
-        </div>
-        <div className="how-grid">
-          {steps.map((step) => (
-            <div key={step.num} className="how-step">
-              <div className="how-step-head">
-                <div className="how-n">{step.num}</div>
-                <h3>{step.title}</h3>
-              </div>
-              <p>{step.text}</p>
-            </div>
-          ))}
-        </div>
       </section>
 
       <HowItWorksDeck lang={lang} />
