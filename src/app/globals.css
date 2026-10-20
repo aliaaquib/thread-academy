@@ -941,7 +941,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-note{font-size:.82rem;color:var(--muted);margin:10px 0 16px}
 .tm-review-quote{font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:1.06rem;line-height:1.45;color:var(--ink);margin:10px 0 14px}
 .tm-review-meta strong{font-weight:800}
-@media(prefers-reduced-motion:reduce){.why-card{opacity:1;transform:none;transition:none}.why-ic{opacity:1;transform:none;transition:none}.why-ic svg .dr{stroke-dashoffset:0!important;transition:none!important}.why-ic svg .fd{opacity:1!important;transition:none!important}.wic-pin,.wic-tassel,.wic-shackle{animation:none!important}}
+@media(prefers-reduced-motion:reduce){.why-card{opacity:1;transform:none;transition:none}.why-ic{opacity:1;transform:none;transition:none}.why-ic svg .dr{stroke-dashoffset:0!important;transition:none!important}.why-ic svg .fd{opacity:1!important;transition:none!important}.wic-pin,.wic-tassel,.wic-shackle,.wic-spin-a,.wic-spin-b{animation:none!important}}
 
 /* Testimonials smooth scroll reveal (driven by FromTheLibrary) */
 .tm-reveal{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s cubic-bezier(.22,.9,.3,1)}
@@ -989,3 +989,9 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 @keyframes why-swing{from{transform:rotate(-8deg)}to{transform:rotate(9deg)}}
 .wic-shackle{animation:why-lift 1.8s ease-in-out infinite alternate}
 @keyframes why-lift{from{transform:translateY(0)}to{transform:translateY(-1.8px)}}
+
+/* Why icons: sparkle-style slow spin, alternating direction per card */
+.wic-spin-a{animation:why-spin-a 14s linear infinite}
+.wic-spin-b{animation:why-spin-b 14s linear infinite}
+@keyframes why-spin-a{to{transform:rotate(360deg)}}
+@keyframes why-spin-b{to{transform:rotate(-360deg)}}
