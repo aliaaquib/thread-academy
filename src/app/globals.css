@@ -914,7 +914,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .st-btn2:hover{background:var(--line)}
 .st-proof{display:flex;align-items:center;gap:14px;margin-top:38px}
 .st-stack{display:flex}
-.st-stack>span{width:42px;height:42px;border-radius:50%;border:2px solid var(--bg);background:#fff;display:grid;place-items:center;margin-left:-10px;overflow:hidden}
+.st-stack>span{width:42px;height:42px;display:grid;place-items:center;margin-left:-10px}
 .st-stack>span:first-child{margin-left:0}
 .st-stack>span.alt{background:var(--accent);color:var(--accent-ink)}
 .st-proof p{font-size:.86rem;color:var(--muted);margin:0}
