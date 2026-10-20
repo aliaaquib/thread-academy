@@ -8,7 +8,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSearch, { type QuickLink } from "@/components/HeroSearch";
-import { CATEGORY_ORDER, SUBJECT_SLUGS, getSubject, subjectsByCategory } from "@/lib/subjects";
+import { CATEGORY_ORDER, subjectsByCategory } from "@/lib/subjects";
 import { getChaptersForSubject } from "@/lib/stage-chapters";
 import { getTopicContent, type TopicParams } from "@/lib/content";
 import { gradeSlug } from "@/lib/grades";
@@ -24,9 +24,6 @@ import {
 } from "@/lib/curricula";
 import CurriculumCard from "@/components/CurriculumCard";
 import HowItWorksDeck from "@/components/HowItWorksDeck";
-import FeaturesBento, { type BentoData } from "@/components/FeaturesBento";
-import FeaturesSplit, { type SplitData } from "@/components/FeaturesSplit";
-import { getChapterTopics } from "@/lib/chapters";
 import { JsonLd, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
 import { langMeta, withLang, type Lang } from "@/lib/i18n";
 import { t, tn } from "@/lib/strings";
@@ -101,68 +98,6 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
     text: t(lang, `home.how.${n}.text`),
   }));
 
-  // ---- Features sections: every number computed from the real content
-  // library (chapter counts, category counts, lesson total, real lessons).
-  const chartData = SUBJECT_SLUGS.map((slug) => ({
-    label: getSubject(slug, lang)?.name ?? slug,
-    value: getChaptersForSubject(slug, lang).length,
-  }));
-  const totalChapters = chartData.reduce((s, d) => s + d.value, 0);
-  let totalLessons = 0;
-  for (const slug of SUBJECT_SLUGS) {
-    for (const ch of getChaptersForSubject(slug, "en")) {
-      totalLessons += getChapterTopics(slug, ch.id, "en").length;
-    }
-  }
-  const DONUT_COLORS: Record<string, string> = {
-    STEM: "var(--accent-deep)",
-    HUMANITIES: "var(--ink)",
-    LANGUAGES: "var(--muted)",
-  };
-  const spotlight = (q: (typeof QUICK)[number]) => {
-    const content = getTopicContent(q, lang);
-    const href = chapterPathForGrade(q.subject, q.grade, q.chapter, q.topic);
-    if (!content || !href) return null;
-    const subject = getSubject(q.subject, lang);
-    const chapter = getChaptersForSubject(q.subject, lang).find((c) => c.id === q.chapter);
-    return {
-      title: content.title,
-      meta: `${subject?.name ?? ""} · ${chapter?.title ?? ""}`,
-      href,
-      glyph: GLYPHS[q.subject] ?? "•",
-      subjectName: subject?.name ?? "",
-      chapterTitle: chapter?.title ?? "",
-    };
-  };
-  const featuredSpot = spotlight(QUICK[0]);
-  const upNextSpot = spotlight(QUICK[1]);
-  const bentoData: BentoData | null =
-    featuredSpot && upNextSpot
-      ? {
-          chart: chartData,
-          totalChapters,
-          totalSubjects: SUBJECT_SLUGS.length,
-          totalLessons,
-          donut: CATEGORY_ORDER.map((c) => ({
-            label: t(lang, `subject.category.${c.toLowerCase()}`),
-            count: subjectsByCategory(c, lang).length,
-            color: DONUT_COLORS[c] ?? "var(--muted)",
-          })),
-          featured: featuredSpot,
-          upNext: upNextSpot,
-          links: {
-            curriculum: withLang(curriculumPath("cambridge"), lang),
-            about: withLang("/about", lang),
-            subjects: "#subjects",
-          },
-        }
-      : null;
-  const splitData: SplitData | null = featuredSpot
-    ? {
-        lesson: featuredSpot,
-        links: { learn: withLang(curriculumPath("cambridge"), lang), how: "#how-it-works" },
-      }
-    : null;
 
   // First Cambridge level with content — homepage subject/category links
   // land here so they never point at an empty level.
@@ -297,9 +232,6 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
       <HowItWorksDeck lang={lang} />
 
-      {bentoData && <FeaturesBento lang={lang} data={bentoData} />}
-
-      {splitData && <FeaturesSplit lang={lang} data={splitData} />}
     </>
   );
 }
