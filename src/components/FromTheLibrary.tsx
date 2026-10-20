@@ -192,6 +192,8 @@ function ReviewColumn({
         <div className={down ? "tm-track tm-track-down" : "tm-track"}>
           {doubled.map((r, i) => (
             <div key={i} className="tm-review">
+              <QuoteMark />
+              <p className="tm-review-quote">“{r.text}”</p>
               <div className="tm-review-head">
                 <span className="tm-avatar" style={AVATAR_STYLES[i % 3]} aria-hidden="true">
                   {initials(r.name)}
@@ -201,8 +203,6 @@ function ReviewColumn({
                   <span>{r.meta}</span>
                 </span>
               </div>
-              <QuoteMark />
-              <p className="tm-review-quote">“{r.text}”</p>
             </div>
           ))}
         </div>

@@ -964,7 +964,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 @media(max-width:980px){.tm-founder{min-height:0}}
 
 /* Testimonial avatars: monograms for reviews, real photo for founder */
-.tm-review-head{display:flex;align-items:center;gap:11px;margin-bottom:13px}
+.tm-review-head{display:flex;align-items:center;gap:11px;margin-top:15px}
 .tm-avatar{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:800;flex-shrink:0;letter-spacing:.02em}
 .tm-founder-foot{display:flex;align-items:center;gap:15px}
 .tm-founder-avatar{width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);flex-shrink:0}
