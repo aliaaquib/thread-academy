@@ -970,3 +970,8 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-founder-avatar{width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);flex-shrink:0}
 .tm-founder-foot strong{display:block;font-size:1.05rem}
 .tm-founder-foot span{color:var(--muted);font-size:.88rem}
+
+/* Testimonial byline: name over subject/class */
+.tm-review-who{display:flex;flex-direction:column;line-height:1.3;min-width:0}
+.tm-review-who strong{font-size:.92rem;font-weight:800}
+.tm-review-who span{font-size:.78rem;font-weight:600;color:var(--muted)}
