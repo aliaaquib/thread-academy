@@ -15,6 +15,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 import SectionTag from "./SectionTag";
+import { FaceAvatar } from "./FromTheLibrary";
 
 export interface StatsData {
   lessons: number;
@@ -46,7 +47,30 @@ function CardIcon({ kind }: { kind: "book" | "layers" | "globe" }) {
   );
 }
 
-const STACK = ["x²", "DNA", "</>", "A", "∑"];
+/** Count-up number: animates 0 → value when the section reveals.
+ * SSR/no-JS keeps the real figure (initial state); reduced-motion
+ * shows the final number immediately. */
+function CountUp({ value, start }: { value: number; start: boolean }) {
+  const [n, setN] = useState(value);
+  useEffect(() => {
+    if (!start) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setN(value);
+      return;
+    }
+    let raf = 0;
+    const t0 = performance.now();
+    const dur = 1500;
+    const tick = (now: number) => {
+      const p = Math.min(1, (now - t0) / dur);
+      setN(Math.round((1 - Math.pow(1 - p, 3)) * value));
+      if (p < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [start, value]);
+  return <>{n}</>;
+}
 
 export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsData }) {
   const ref = useRef<HTMLElement>(null);
@@ -85,12 +109,12 @@ export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsDa
           </p>
           <div className="st-btns st-reveal" style={{ transitionDelay: "240ms" }}>
             <Link href={data.learnHref} className="st-btn1">
-              <span className="st-btn1-circle" aria-hidden="true">
-                <svg width="13" height="13" viewBox="0 0 11 11" fill="none" aria-hidden="true">
-                  <path d="M0.35 10 9.85 0.5M9.85 0.5V8.5M9.85 0.5H1.85" stroke="var(--accent-ink)" strokeWidth="1.4" />
+              {t(lang, "home.tm.cta.btn")}
+              <span className="st-btn1-arrow" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 11 11" fill="none" aria-hidden="true">
+                  <path d="M0.35 10 9.85 0.5M9.85 0.5V8.5M9.85 0.5H1.85" stroke="var(--accent)" strokeWidth="1.5" />
                 </svg>
               </span>
-              {t(lang, "home.tm.cta.btn")}
             </Link>
             <a href="#subjects" className="st-btn2">
               {t(lang, "home.st.btn2")}
@@ -98,11 +122,13 @@ export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsDa
           </div>
           <div className="st-proof st-reveal" style={{ transitionDelay: "320ms" }}>
             <span className="st-stack" aria-hidden="true">
-              {STACK.map((g, i) => (
-                <span key={g} className={i % 2 ? "alt" : undefined}>{g}</span>
+              {[2, 3, 8].map((v) => (
+                <span key={v}>
+                  <FaceAvatar v={v} />
+                </span>
               ))}
             </span>
-            <p>{t(lang, "home.st.proof", { s: data.subjects, n: data.languages })}</p>
+            <p>{t(lang, "home.st.proof")}</p>
           </div>
         </div>
 
@@ -113,7 +139,7 @@ export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsDa
               <CardIcon kind="book" />
               <span>{t(lang, "home.tm.stat.unit")}</span>
             </div>
-            <div className="st-num">{data.lessons}</div>
+            <div className="st-num"><CountUp value={data.lessons} start={on} /></div>
             <p className="st-cap">{t(lang, "home.st.c1.cap")}</p>
           </article>
           <div className="st-row2">
@@ -122,7 +148,7 @@ export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsDa
                 <CardIcon kind="layers" />
                 <span>{t(lang, "home.st.c2.label")}</span>
               </div>
-              <div className="st-num">{data.chapters}</div>
+              <div className="st-num"><CountUp value={data.chapters} start={on} /></div>
               <p className="st-cap">{t(lang, "home.st.c2.cap")}</p>
             </article>
             <article className="st-card st-reveal st-scale" style={{ transitionDelay: "440ms" }}>
@@ -130,7 +156,7 @@ export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsDa
                 <CardIcon kind="globe" />
                 <span>{t(lang, "home.st.c3.label")}</span>
               </div>
-              <div className="st-num">{data.languages}</div>
+              <div className="st-num"><CountUp value={data.languages} start={on} /></div>
               <p className="st-cap">{t(lang, "home.st.c3.cap")}</p>
             </article>
           </div>

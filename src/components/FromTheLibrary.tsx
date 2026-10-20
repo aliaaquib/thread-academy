@@ -155,7 +155,7 @@ function QuoteMark({ size = 16 }: { size?: number }) {
  * 4 curly · 5 cap · 6 long hair · 7 spiky · 8 beard · 9 plain.
  * Teachers use adult variants [0,1,2,3,8]; students [5,6,7,4,9].
  */
-function FaceAvatar({ v }: { v: number }) {
+export function FaceAvatar({ v }: { v: number }) {
   const ink = "var(--ink)";
   return (
     <svg width="40" height="40" viewBox="0 0 48 48" aria-hidden="true">
