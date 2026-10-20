@@ -834,7 +834,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 /* ---------- Why Thread Academy + curricula grid (home page) ---------- */
 .subjects-grid.curricula-grid{grid-template-columns:repeat(2,1fr);max-width:920px;margin:0 auto}
 .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.why-card{background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:44px 42px;min-height:320px;display:flex;flex-direction:column;opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.9,.3,1),border-color .25s ease,box-shadow .3s ease}
+.why-card{background:#fff;border:1px solid var(--line);border-radius:26px;padding:44px 42px;min-height:320px;display:flex;flex-direction:column;opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.9,.3,1),border-color .25s ease,box-shadow .3s ease}
 .why-grid.in .why-card{opacity:1;transform:none}
 .why-grid.in .why-card:hover{transform:translateY(-4px);border-color:var(--ink);box-shadow:0 18px 42px rgba(23,25,20,.09)}
 .why-ic{width:60px;height:60px;border-radius:18px;background:var(--accent);display:grid;place-items:center;color:var(--accent-ink);opacity:0;transform:scale(.5);transition:transform .6s cubic-bezier(.34,1.56,.64,1) .3s,opacity .4s ease .3s}
@@ -858,7 +858,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-head h2{font-size:clamp(2.7rem,5vw,4.3rem);line-height:1;margin:0}
 .tm-lede{max-width:300px;color:var(--muted);font-size:.95rem;line-height:1.6;margin:0;padding-bottom:6px;text-align:right}
 .tm-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
-.tm-card{background:var(--surface);border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;min-height:520px}
+.tm-card{background:#fff;border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;min-height:520px}
 .tm-stat-row{display:flex;align-items:flex-start;gap:16px;margin-bottom:30px}
 .tm-stat-big{display:flex;align-items:baseline;gap:4px}
 .tm-stat-big strong{font-size:3rem;font-weight:800;line-height:1;letter-spacing:-.02em}
@@ -889,7 +889,8 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-track{display:flex;flex-direction:column;padding:14px 14px 0;animation:tm-up 30s linear infinite}
 .tm-marquee:hover .tm-track{animation-play-state:paused}
 @keyframes tm-up{from{transform:translateY(0)}to{transform:translateY(-50%)}}
-.tm-review{display:block;background:var(--surface);border:1px solid var(--line);padding:20px;margin-bottom:14px;color:var(--ink)}
+.tm-review{display:block;background:#fff;border:1px solid var(--line);padding:20px;margin-bottom:14px;color:var(--ink);transition:border-color .25s ease,box-shadow .3s ease}
+.tm-review:hover{border-color:var(--ink);box-shadow:0 10px 26px rgba(23,25,20,.07)}
 .tm-review:hover{border-color:var(--ink)}
 .tm-review strong{display:block;font-size:.98rem;margin-bottom:8px}
 .tm-review p{font-size:.86rem;color:var(--muted);line-height:1.6;margin:0 0 16px}
@@ -917,7 +918,8 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .st-stack>span.alt{background:var(--accent);color:var(--accent-ink)}
 .st-proof p{font-size:.86rem;color:var(--muted);margin:0}
 .st-cards{display:flex;flex-direction:column;gap:20px}
-.st-card{background:var(--surface);border:1px solid var(--line);padding:40px 44px}
+.st-card{background:#fff;border:1px solid var(--line);padding:40px 44px;transition:border-color .25s ease,box-shadow .3s ease,transform .3s ease}
+.st-card:hover{border-color:var(--ink);box-shadow:0 14px 34px rgba(23,25,20,.07)}
 .st-card-head{display:flex;align-items:center;gap:11px;font-size:1.05rem;font-weight:700;margin-bottom:42px}
 .st-card-head svg{color:var(--accent-deep)}
 .st-num{font-size:clamp(3.8rem,5.5vw,5rem);font-weight:300;line-height:1;letter-spacing:-.02em}
@@ -940,3 +942,8 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-review-quote{font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:1.06rem;line-height:1.45;color:var(--ink);margin:10px 0 14px}
 .tm-review-meta strong{font-weight:800}
 @media(prefers-reduced-motion:reduce){.why-card{opacity:1;transform:none;transition:none}.why-ic{opacity:1;transform:none;transition:none}.why-ic-float{animation:none}}
+
+/* Testimonials smooth scroll reveal (driven by FromTheLibrary) */
+.tm-reveal{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s cubic-bezier(.22,.9,.3,1)}
+.tm-on .tm-reveal{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.tm-reveal{opacity:1;transform:none;transition:none}}

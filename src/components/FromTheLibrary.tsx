@@ -7,8 +7,12 @@
  * size; the photo card carries that lesson's attribution; the right
  * column is a slow CSS marquee of quote cards (list doubled, -50% loop).
  * Data is computed from the content library on the server.
+ * Client component only for the scroll reveal (.tm-reveal in
+ * globals.css): columns fade + rise in a stagger when in view.
  */
+"use client";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import type { Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 import SectionTag from "./SectionTag";
@@ -28,10 +32,27 @@ function QuoteMark({ size = 34 }: { size?: number }) {
 
 export default function FromTheLibrary({ lang, data }: { lang: Lang; data: LibraryData }) {
   const doubled = [...data.cards, ...data.cards];
+  const ref = useRef<HTMLElement>(null);
+  const [on, setOn] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setOn(true);
+          io.disconnect();
+        }
+      },
+      { threshold: 0.12 },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
   return (
-    <section className="section" id="library">
+    <section className={`section${on ? " tm-on" : ""}`} id="library" ref={ref}>
       {/* ---- header ---- */}
-      <div className="tm-head">
+      <div className="tm-head tm-reveal">
         <div className="tm-head-left">
           <SectionTag label={t(lang, "home.tm.tag")} />
           <h2>
@@ -45,7 +66,7 @@ export default function FromTheLibrary({ lang, data }: { lang: Lang; data: Libra
 
       <div className="tm-grid">
         {/* ---- left: featured quote ---- */}
-        <article className="tm-card tm-featured">
+        <article className="tm-card tm-featured tm-reveal" style={{ transitionDelay: "120ms" }}>
           <QuoteMark size={40} />
           <blockquote className="tm-featured-quote">“{data.quote.text}”</blockquote>
           <div className="tm-featured-foot">
@@ -61,7 +82,7 @@ export default function FromTheLibrary({ lang, data }: { lang: Lang; data: Libra
         </article>
 
         {/* ---- center: photo + attribution of the featured lesson ---- */}
-        <article className="tm-photo group">
+        <article className="tm-photo group tm-reveal" style={{ transitionDelay: "240ms" }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1200&auto=format&fit=crop"
@@ -78,7 +99,7 @@ export default function FromTheLibrary({ lang, data }: { lang: Lang; data: Libra
         </article>
 
         {/* ---- right: marquee of quote cards ---- */}
-        <div className="tm-marquee">
+        <div className="tm-marquee tm-reveal" style={{ transitionDelay: "360ms" }}>
           <div className="tm-track">
             {doubled.map((c, i) => (
               <Link key={`${c.href}-${i}`} href={c.href} className="tm-review">
