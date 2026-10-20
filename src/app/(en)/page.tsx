@@ -91,6 +91,46 @@ function quickLinks(lang: Lang): QuickLink[] {
 }
 
 /** The page itself — what the visitor sees. */
+/** Abstract two-tone marks for the Why cards (steps, globe, book, waves). */
+function WhyGlyph({ kind }: { kind: number }) {
+  const ink = "var(--ink)";
+  const accent = "var(--accent)";
+  if (kind === 1)
+    return (
+      <svg width="58" height="58" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <rect x="5" y="30" width="9" height="13" fill={ink} />
+        <rect x="19" y="21" width="9" height="22" fill={ink} />
+        <rect x="33" y="12" width="9" height="31" fill={accent} stroke={ink} strokeWidth="1.5" />
+        <path d="M5 22 L19 14 L33 6" stroke={ink} strokeWidth="2.5" />
+        <circle cx="36" cy="4.5" r="2.6" fill={ink} />
+      </svg>
+    );
+  if (kind === 2)
+    return (
+      <svg width="58" height="58" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <circle cx="24" cy="24" r="17" stroke={ink} strokeWidth="2.5" />
+        <ellipse cx="24" cy="24" rx="8" ry="17" stroke={ink} strokeWidth="2.5" />
+        <path d="M7 24h34" stroke={ink} strokeWidth="2.5" />
+        <circle cx="24" cy="24" r="3.4" fill={accent} stroke={ink} strokeWidth="1.5" />
+      </svg>
+    );
+  if (kind === 3)
+    return (
+      <svg width="58" height="58" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <path d="M24 12 C19 8 11 7 6 9 V38 C11 36 19 37 24 41 C29 37 37 36 42 38 V9 C37 7 29 8 24 12 Z" stroke={ink} strokeWidth="2.5" />
+        <path d="M24 12 V41" stroke={ink} strokeWidth="2.5" />
+        <path d="M31 9 V20 L35 16.5 L39 20 V8.4" fill={accent} stroke={ink} strokeWidth="1.5" />
+      </svg>
+    );
+  return (
+    <svg width="58" height="58" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <path d="M6 13 C13 6 20 6 24 13 C28 20 35 20 42 13" stroke={ink} strokeWidth="3" />
+      <path d="M6 25 C13 18 20 18 24 25 C28 32 35 32 42 25" stroke={accent} strokeWidth="3" />
+      <path d="M6 37 C13 30 20 30 24 37 C28 44 35 44 42 37" stroke={ink} strokeWidth="3" />
+    </svg>
+  );
+}
+
 export default async function HomePage(props: { params: Promise<LangParam> }) {
   const params = await props.params;
   const lang = requireLang(params);
@@ -192,7 +232,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
           </div>
           <p>{t(lang, "curricula.hero.lede")}</p>
         </div>
-        <div className="subjects-grid">
+        <div className="subjects-grid curricula-grid">
           {curricula.map((c) => (
             <CurriculumCard
               key={c.id}
@@ -269,15 +309,31 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
       </section>
 
       <section className="section" id="why">
-        <aside className="today-card">
-          <SectionTag label={t(lang, "home.stag.why")} />
-          <div className="today-label">{t(lang, "home.why.kicker")}</div>
-          <h2>{t(lang, "home.why.title")}</h2>
+        <div className="section-head">
+          <div>
+            <SectionTag label={t(lang, "home.stag.why")} />
+            <h2>{t(lang, "home.why.title")}</h2>
+          </div>
           <p>{t(lang, "home.why.copy")}</p>
+        </div>
+        <div className="why-grid">
+          {[1, 2, 3, 4].map((n) => (
+            <article key={n} className="why-card">
+              <span className="why-ic" aria-hidden="true">
+                <WhyGlyph kind={n} />
+              </span>
+              <div className="why-card-text">
+                <h3>{t(lang, `home.why.${n}.t`)}</h3>
+                <p>{t(lang, `home.why.${n}.d`)}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+        <p style={{ marginTop: 30 }}>
           <Link className="inline-link" href={withLang("/about", lang)}>
             {t(lang, "home.why.link")} <span aria-hidden="true">→</span>
           </Link>
-        </aside>
+        </p>
       </section>
 
       <HowItWorksDeck lang={lang} />

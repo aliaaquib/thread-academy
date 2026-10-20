@@ -401,8 +401,6 @@ h1,h2,h3{font-family:Newsreader,serif;letter-spacing:-.035em}
 .home-hero h1 .underline{position:relative;display:inline-block}
 .home-hero h1 .underline:after{content:"";position:absolute;left:0;right:0;bottom:.02em;height:.13em;background:var(--accent);z-index:-1}
 .hero-copy{font-size:1.14rem;max-width:650px;color:var(--muted);margin:0}
-.today-card{border-top:4px solid var(--ink);padding-top:22px}
-.today-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.09em;font-weight:800;color:var(--muted)}
 .today-card h2{font-size:2.15rem;line-height:1.02;margin:10px 0 14px}
 .today-card p{color:var(--muted);margin:0 0 18px}
 .inline-link{display:inline-flex;align-items:center;gap:10px;font-weight:800;border-bottom:2px solid var(--accent);padding-bottom:3px}
@@ -722,7 +720,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .video-play{width:52px;height:52px;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;font-size:1.1rem;color:var(--ink)}
 
 /* ---------- 10. Responsive (verbatim) ---------- */
-@media(max-width:980px){.nav-links{display:none}.hero-grid{grid-template-columns:1fr;gap:54px}.today-card{max-width:500px}.subjects-grid{grid-template-columns:repeat(2,1fr)}.overview-grid{grid-template-columns:1fr}.overview-aside{max-width:600px}.path-picker{grid-template-columns:1fr}.stage-nav{display:grid;grid-template-columns:repeat(2,1fr)}.lesson-layout{grid-template-columns:1fr}.lesson-sidebar{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}.side-list{display:grid;grid-template-columns:repeat(4,1fr)}.side-list a{display:block}.side-list a span:first-child{display:block;margin-bottom:3px}.lesson-article{padding-left:30px;padding-right:30px}}
+@media(max-width:980px){.nav-links{display:none}.hero-grid{grid-template-columns:1fr;gap:54px}.subjects-grid{grid-template-columns:repeat(2,1fr)}.overview-grid{grid-template-columns:1fr}.overview-aside{max-width:600px}.path-picker{grid-template-columns:1fr}.stage-nav{display:grid;grid-template-columns:repeat(2,1fr)}.lesson-layout{grid-template-columns:1fr}.lesson-sidebar{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}.side-list{display:grid;grid-template-columns:repeat(4,1fr)}.side-list a{display:block}.side-list a span:first-child{display:block;margin-bottom:3px}.lesson-article{padding-left:30px;padding-right:30px}}
 @media(max-width:650px){.nav{height:68px;padding:0 18px;gap:12px}.brand-logo{height:34px}.nav-actions .text-btn,.nav-actions .learn-btn{display:none}.view{min-height:calc(100vh - 68px)}.home-hero{padding:70px 20px 72px}.home-hero h1{font-size:clamp(3.55rem,17vw,5rem)}.hero-grid{gap:44px}.hero-search{height:68px;padding:0 18px 0 58px}.search-submit{position:static;width:100%;height:50px;margin-top:14px}.search-icon{top:23px}.section{padding:78px 20px}.section-head{grid-template-columns:1fr;gap:18px;margin-bottom:34px}.subjects-grid{grid-template-columns:1fr}.subject-card{min-height:190px}.curriculum-grid{grid-template-columns:1fr}.curriculum-card{min-height:270px;padding:28px}.footer{padding:44px 20px 28px}.footer-grid{grid-template-columns:1fr 1fr;gap:32px}.footer-bottom{display:block}.footer-bottom span{display:block;margin-top:7px}.page-hero,.textbook-page,.curr-page{padding-left:20px;padding-right:20px}.overview-grid{gap:44px}.subject-overview{padding:0 20px 78px}.chapter-link{grid-template-columns:38px 1fr auto;gap:10px}.chapter-title{font-size:1.35rem}.chapter-status{display:none}.stage-nav{grid-template-columns:1fr 1fr}.stage-panel{padding:24px}.grade-grid{grid-template-columns:1fr 1fr}.lesson-sidebar{padding:28px 20px}.side-list{grid-template-columns:1fr 1fr}.lesson-top{padding:42px 20px 35px}.lesson-top h1{font-size:3.7rem}.lesson-article{padding:46px 20px 80px}.lesson-article h2{font-size:2.35rem}.concept-diagram{grid-template-columns:1fr}.diagram-arrow{transform:rotate(90deg);justify-self:center}.lab-body{grid-template-columns:1fr}.editor-pane{border-right:0;border-bottom:1px solid rgba(255,255,255,.15)}.answer-row{flex-direction:column}.lesson-finish{align-items:stretch}.complete-btn,.next-btn{width:100%}.search-overlay{padding:78px 14px}.search-panel{padding:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
@@ -832,6 +830,18 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .hiw-caret{display:inline-block;width:2px;height:1em;background:var(--accent-deep);vertical-align:-2px;animation:hiw-blink .8s infinite}
 @media(max-width:980px){.hiw-row{grid-template-columns:1fr}.hiw-side{padding:36px 24px}.hiw-side:first-child{border-right:0;border-bottom:1px solid var(--line)}.hiw-row.flipped .hiw-demo-side{order:1;border-left:0}.hiw-row.flipped .hiw-text-side{order:2}.hiw-features{grid-template-columns:1fr}.hiw-feature{border-right:0;margin-right:0;padding-right:0}.hiw-stepnum{top:22px;right:24px}}
 
+
+/* ---------- Why Thread Academy + curricula grid (home page) ---------- */
+.subjects-grid.curricula-grid{grid-template-columns:repeat(2,1fr);max-width:920px;margin:0 auto}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.why-card{background:var(--surface);border:1px solid var(--line);padding:44px 42px;min-height:320px;display:flex;flex-direction:column;transition:border-color .25s ease}
+.why-card:hover{border-color:var(--ink)}
+.why-ic{display:block;line-height:0}
+.why-card-text{margin-top:auto;padding-top:64px}
+.why-card h3{font-size:1.7rem;margin:0 0 12px;line-height:1.15}
+.why-card p{font-size:.98rem;color:var(--muted);line-height:1.6;margin:0;max-width:420px}
+@media(max-width:980px){.why-grid{grid-template-columns:1fr}.why-card{min-height:0;padding:36px 30px}.why-card-text{padding-top:44px}}
+@media(max-width:650px){.subjects-grid.curricula-grid{grid-template-columns:1fr;max-width:560px}}
 
 /* ---------- From the Library (home page) ---------- */
 .tm-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:48px;flex-wrap:wrap}
