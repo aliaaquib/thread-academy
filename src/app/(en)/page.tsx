@@ -96,7 +96,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
   const lang = requireLang(params);
 
   const steps = [1, 2, 3, 4].map((n) => ({
-    num: String(n),
+    num: String(n).padStart(2, "0"),
     title: t(lang, `home.how.${n}.title`),
     text: t(lang, `home.how.${n}.text`),
   }));
@@ -297,8 +297,10 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
         <div className="how-grid">
           {steps.map((step) => (
             <div key={step.num} className="how-step">
-              <div className="how-n">{step.num}</div>
-              <h3>{step.title}</h3>
+              <div className="how-step-head">
+                <div className="how-n">{step.num}</div>
+                <h3>{step.title}</h3>
+              </div>
               <p>{step.text}</p>
             </div>
           ))}
