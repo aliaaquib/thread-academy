@@ -8,7 +8,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSearch, { type QuickLink } from "@/components/HeroSearch";
-import { CATEGORY_ORDER, subjectsByCategory } from "@/lib/subjects";
+import { CATEGORY_ORDER, SUBJECT_SLUGS, getSubject, subjectsByCategory } from "@/lib/subjects";
 import { getChaptersForSubject } from "@/lib/stage-chapters";
 import { getTopicContent, type TopicParams } from "@/lib/content";
 import { gradeSlug } from "@/lib/grades";
@@ -24,6 +24,8 @@ import {
 } from "@/lib/curricula";
 import CurriculumCard from "@/components/CurriculumCard";
 import HowItWorksDeck from "@/components/HowItWorksDeck";
+import FromTheLibrary, { type LibraryData } from "@/components/FromTheLibrary";
+import { getChapterTopics } from "@/lib/chapters";
 import { JsonLd, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
 import { langMeta, withLang, type Lang } from "@/lib/i18n";
 import { t, tn } from "@/lib/strings";
@@ -97,6 +99,68 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
     title: t(lang, `home.how.${n}.title`),
     text: t(lang, `home.how.${n}.text`),
   }));
+
+  // ---- From the Library: real counts + real lessons, computed from the
+  // content library (nothing here is invented social proof).
+  const libChapters = SUBJECT_SLUGS.map((slug) => getChaptersForSubject(slug, lang));
+  const totalChapters = libChapters.reduce((s, c) => s + c.length, 0);
+  let totalLessons = 0;
+  for (const slug of SUBJECT_SLUGS) {
+    for (const ch of getChaptersForSubject(slug, "en")) {
+      totalLessons += getChapterTopics(slug, ch.id, "en").length;
+    }
+  }
+  const lessonCard = (subject: string, chapterId: string, topicSlug: string) => {
+    const topic = getChapterTopics(subject, chapterId, lang).find((tp) => tp.slug === topicSlug);
+    if (!topic) return null;
+    const subjectName = getSubject(subject, lang)?.name ?? subject;
+    const chapterTitle =
+      getChaptersForSubject(subject, lang).find((c) => c.id === chapterId)?.title ?? chapterId;
+    let href: string | null = null;
+    for (const g of [9, 8, 7, 10, 11, 12]) {
+      href = chapterPathForGrade(subject, g, chapterId, topicSlug);
+      if (href) break;
+    }
+    return {
+      title: topic.title,
+      desc: topic.desc,
+      text: topic.desc,
+      meta: `${subjectName} · ${chapterTitle}`,
+      glyph: GLYPHS[subject] ?? "•",
+      href: href ?? curriculumPath("cambridge"),
+      subjectName,
+      chapterTitle,
+    };
+  };
+  const quoteSpot = lessonCard("mathematics", "algebra", "introduction");
+  const marqueeSpots: [string, string, string][] = [
+    ["mathematics", "algebra", "introduction"],
+    ["biology", "cell-biology", "cell-structure"],
+    ["physics", "forces", "newtons-laws"],
+    ["computer-science", "programming", "variables"],
+    ["chemistry", "particles", "particle-model"],
+    ["mathematics", "algebra", "linear-equations"],
+  ];
+  const marqueeCards = marqueeSpots
+    .map(([s, c, tp]) => lessonCard(s, c, tp))
+    .filter((c): c is NonNullable<typeof c> => !!c);
+  const libraryData: LibraryData | null =
+    quoteSpot && marqueeCards.length >= 3
+      ? {
+          totalLessons,
+          totalSubjects: SUBJECT_SLUGS.length,
+          totalChapters,
+          totalLanguages: 4,
+          quote: {
+            text: quoteSpot.text,
+            title: quoteSpot.title,
+            meta: quoteSpot.meta,
+            href: quoteSpot.href,
+          },
+          cards: marqueeCards,
+          learnHref: withLang(curriculumPath("cambridge"), lang),
+        }
+      : null;
 
 
   // First Cambridge level with content — homepage subject/category links
@@ -232,6 +296,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
       <HowItWorksDeck lang={lang} />
 
+      {libraryData && <FromTheLibrary lang={lang} data={libraryData} />}
     </>
   );
 }
