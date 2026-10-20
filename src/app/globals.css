@@ -889,11 +889,11 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-track{position:absolute;top:0;left:0;right:0;display:flex;flex-direction:column;padding:14px 14px 0;animation:tm-up 30s linear infinite}
 .tm-marquee:hover .tm-track{animation-play-state:paused}
 @keyframes tm-up{from{transform:translateY(0)}to{transform:translateY(-50%)}}
-.tm-review{display:block;background:#fff;border:1px solid var(--line);padding:20px;margin-bottom:14px;color:var(--ink);transition:border-color .25s ease,box-shadow .3s ease}
+.tm-review{display:block;background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px 28px;margin-bottom:14px;color:var(--ink);box-shadow:0 2px 14px rgba(23,25,20,.04);transition:border-color .25s ease}
 
 .tm-review:hover{border-color:var(--ink)}
 .tm-review strong{display:block;font-size:.98rem;margin-bottom:8px}
-.tm-review p{font-size:.88rem;color:var(--muted);line-height:1.65;margin:0 0 16px}
+.tm-review p{font-size:1.02rem;font-weight:500;color:var(--ink);line-height:1.6;margin:0 0 20px}
 .tm-review-meta{display:flex;align-items:center;gap:9px;font-size:.76rem;font-weight:700;color:var(--muted)}
 .tm-review-glyph{width:28px;height:28px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:.62rem;font-weight:800;flex-shrink:0}
 @media(min-width:1200px){.tm-marquee{height:604px}.tm-founder{height:640px}}
@@ -940,7 +940,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-featured-attrib{font-weight:800;font-size:1rem;margin:0}
 .tm-featured-attrib span{display:block;font-weight:600;color:var(--muted);font-size:.85rem;margin-top:3px}
 .tm-note{font-size:.82rem;color:var(--muted);margin:10px 0 16px}
-.tm-review-quote{font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:1.06rem;line-height:1.45;color:var(--ink);margin:10px 0 14px}
+.tm-review-quote{font-family:inherit;font-style:normal}
 .tm-review-meta strong{font-weight:800}
 @media(prefers-reduced-motion:reduce){.why-card{opacity:1;transform:none;transition:none}.why-ic{opacity:1;transform:none;transition:none}.why-ic-float{animation:none!important}}
 
@@ -957,7 +957,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-track-down{animation:tm-down 38s linear infinite}
 @keyframes tm-down{from{transform:translateY(-50%)}to{transform:translateY(0)}}
 .tm-marquee:hover .tm-track-down{animation-play-state:paused}
-.tm-review-role{font-size:.8rem;font-weight:700;color:var(--muted)}
+.tm-review-role{font-size:.88rem;font-weight:500;color:var(--muted)}
 .tm-founder{background:#fff;border:1px solid var(--line);padding:38px 36px;display:flex;flex-direction:column;min-height:520px}
 .tm-founder-note{font-family:'Newsreader',Georgia,serif;font-size:1.5rem;font-weight:300;line-height:1.45;margin:30px 0 0}
 .tm-founder-foot{margin-top:auto;padding-top:36px}
@@ -966,9 +966,9 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 @media(max-width:980px){.tm-founder{min-height:0}}
 
 /* Testimonial avatars: monograms for reviews, real photo for founder */
-.tm-review-head{display:flex;align-items:center;gap:11px;margin-top:15px}
-.tm-avatar{width:46px;height:46px;border-radius:50%;background:var(--surface);border:2px solid var(--accent);display:grid;place-items:center;flex-shrink:0;overflow:hidden}
-.tm-avatar svg{width:35px;height:35px}
+.tm-review-head{display:flex;align-items:center;gap:13px}
+.tm-avatar{width:54px;height:54px;border-radius:50%;background:var(--surface);border:2px solid var(--accent);display:grid;place-items:center;flex-shrink:0;overflow:hidden}
+.tm-avatar svg{width:42px;height:42px}
 .tm-founder-foot{display:flex;align-items:center;gap:15px}
 .tm-founder-avatar{width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);flex-shrink:0}
 .tm-founder-foot strong{display:block;font-size:1.05rem}
@@ -976,7 +976,7 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 
 /* Testimonial byline: name over subject/class */
 .tm-review-who{display:flex;flex-direction:column;line-height:1.3;min-width:0}
-.tm-review-who strong{font-size:.92rem;font-weight:800}
+.tm-review-who strong{font-size:1rem;font-weight:800}
 .tm-review-who span{font-size:.78rem;font-weight:600;color:var(--muted)}
 
 
