@@ -139,13 +139,6 @@ const REVIEWS: Record<Lang, Reviews> = {
   },
 };
 
-function QuoteMark({ size = 16 }: { size?: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="var(--accent-deep)" aria-hidden="true">
-      <path d="M10.2 5C6.6 6.6 4.5 9.6 4.5 13.6c0 3 1.7 5 4.1 5 2.1 0 3.7-1.6 3.7-3.7 0-2-1.3-3.4-3.2-3.6.3-1.9 1.6-3.6 3.4-4.5L10.2 5Zm9.5 0c-3.6 1.6-5.7 4.6-5.7 8.6 0 3 1.7 5 4.1 5 2.1 0 3.7-1.6 3.7-3.7 0-2-1.3-3.4-3.2-3.6.3-1.9 1.6-3.6 3.4-4.5L19.7 5Z" transform="scale(0.95) translate(0.5,0.5)" />
-    </svg>
-  );
-}
 
 /**
  * Illustrated doodle-face avatars (original SVGs in the style the
@@ -254,7 +247,6 @@ function ReviewColumn({
         <div className={down ? "tm-track tm-track-down" : "tm-track"}>
           {doubled.map((r, i) => (
             <div key={i} className="tm-review">
-              <QuoteMark />
               <p className="tm-review-quote">“{r.text}”</p>
               <div className="tm-review-head">
                 <span className="tm-avatar" aria-hidden="true">

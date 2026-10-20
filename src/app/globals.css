@@ -890,10 +890,10 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 .tm-marquee:hover .tm-track{animation-play-state:paused}
 @keyframes tm-up{from{transform:translateY(0)}to{transform:translateY(-50%)}}
 .tm-review{display:block;background:#fff;border:1px solid var(--line);padding:20px;margin-bottom:14px;color:var(--ink);transition:border-color .25s ease,box-shadow .3s ease}
-.tm-review:hover{border-color:var(--ink);box-shadow:0 10px 26px rgba(23,25,20,.07)}
+
 .tm-review:hover{border-color:var(--ink)}
 .tm-review strong{display:block;font-size:.98rem;margin-bottom:8px}
-.tm-review p{font-size:.86rem;color:var(--muted);line-height:1.6;margin:0 0 16px}
+.tm-review p{font-size:.88rem;color:var(--muted);line-height:1.65;margin:0 0 16px}
 .tm-review-meta{display:flex;align-items:center;gap:9px;font-size:.76rem;font-weight:700;color:var(--muted)}
 .tm-review-glyph{width:28px;height:28px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:.62rem;font-weight:800;flex-shrink:0}
 @media(min-width:1200px){.tm-marquee{height:604px}.tm-founder{height:640px}}
@@ -952,13 +952,14 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 /* Testimonials columns + founder note */
 .tm-col{display:flex;flex-direction:column;gap:14px;min-width:0}
 .tm-col .tm-marquee{flex:1;min-height:0}
-.tm-col-label{display:flex;align-items:center;gap:8px;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.tm-col-label{display:flex;align-items:center;gap:8px;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-deep);margin:0}
+.tm-col-label svg{animation:stag-spin 6s linear infinite}
 .tm-track-down{animation:tm-down 38s linear infinite}
 @keyframes tm-down{from{transform:translateY(-50%)}to{transform:translateY(0)}}
 .tm-marquee:hover .tm-track-down{animation-play-state:paused}
 .tm-review-role{font-size:.8rem;font-weight:700;color:var(--muted)}
 .tm-founder{background:#fff;border:1px solid var(--line);padding:38px 36px;display:flex;flex-direction:column;min-height:520px}
-.tm-founder-note{font-family:'Newsreader',Georgia,serif;font-size:1.5rem;line-height:1.45;margin:30px 0 0}
+.tm-founder-note{font-family:'Newsreader',Georgia,serif;font-size:1.5rem;font-weight:300;line-height:1.45;margin:30px 0 0}
 .tm-founder-foot{margin-top:auto;padding-top:36px}
 .tm-founder-foot strong{display:block;font-size:1.05rem}
 .tm-founder-foot span{color:var(--muted);font-size:.88rem}
@@ -966,7 +967,8 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 
 /* Testimonial avatars: monograms for reviews, real photo for founder */
 .tm-review-head{display:flex;align-items:center;gap:11px;margin-top:15px}
-.tm-avatar{width:40px;height:40px;display:grid;place-items:center;flex-shrink:0}
+.tm-avatar{width:46px;height:46px;border-radius:50%;background:var(--surface);border:2px solid var(--accent);display:grid;place-items:center;flex-shrink:0;overflow:hidden}
+.tm-avatar svg{width:35px;height:35px}
 .tm-founder-foot{display:flex;align-items:center;gap:15px}
 .tm-founder-avatar{width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);flex-shrink:0}
 .tm-founder-foot strong{display:block;font-size:1.05rem}
@@ -981,3 +983,5 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 /* Why icons: gentle float (Lucide set) */
 .why-ic-float{display:grid;place-items:center;animation:why-float 5s ease-in-out infinite alternate}
 @keyframes why-float{from{transform:translateY(-2.5px)}to{transform:translateY(2.5px)}}
+
+@media (prefers-reduced-motion: reduce){.tm-col-label svg{animation:none}}
