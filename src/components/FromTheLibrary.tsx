@@ -147,19 +147,78 @@ function QuoteMark({ size = 16 }: { size?: number }) {
   );
 }
 
-const AVATAR_STYLES = [
-  { background: "var(--accent)", color: "var(--accent-ink)" },
-  { background: "var(--ink)", color: "#fff" },
-  { background: "var(--surface-2)", color: "var(--ink)" },
-];
-function initials(name: string): string {
-  return name
-    .split(" ")
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((w) => w[0])
-    .join("")
-    .toUpperCase();
+/**
+ * Illustrated doodle-face avatars (original SVGs in the style the
+ * founder picked: white face, bold ink ring, simple features).
+ * Generic illustrations — not depictions of real people. Variants:
+ * 0 dark hair · 1 hair + parting · 2 bun + sunglasses · 3 glasses ·
+ * 4 curly · 5 cap · 6 long hair · 7 spiky · 8 beard · 9 plain.
+ * Teachers use adult variants [0,1,2,3,8]; students [5,6,7,4,9].
+ */
+function FaceAvatar({ v }: { v: number }) {
+  const ink = "var(--ink)";
+  return (
+    <svg width="40" height="40" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="25" r="14" fill="#fff" stroke={ink} strokeWidth="2.6" />
+      {v === 2 ? (
+        <>
+          <rect x="12.5" y="21.5" width="10" height="7" rx="3.5" fill={ink} />
+          <rect x="25.5" y="21.5" width="10" height="7" rx="3.5" fill={ink} />
+          <path d="M22.5 23.5h3" stroke={ink} strokeWidth="2" />
+        </>
+      ) : (
+        <>
+          <circle cx="18.5" cy="25" r="1.7" fill={ink} />
+          <circle cx="29.5" cy="25" r="1.7" fill={ink} />
+        </>
+      )}
+      {v === 3 && (
+        <>
+          <circle cx="18.5" cy="25" r="4.6" fill="none" stroke={ink} strokeWidth="2" />
+          <circle cx="29.5" cy="25" r="4.6" fill="none" stroke={ink} strokeWidth="2" />
+          <path d="M23.1 25h1.8" stroke={ink} strokeWidth="2" />
+        </>
+      )}
+      {v !== 8 && (
+        <path d="M19.5 30.5c1.4 1.7 7.6 1.7 9 0" fill="none" stroke={ink} strokeWidth="2.2" strokeLinecap="round" />
+      )}
+      {(v === 0 || v === 1 || v === 2 || v === 6 || v === 8) && (
+        <path d="M11 22c1-7 6-11 13-11s12 4 13 11c-4-3.5-8-5-13-5s-9 1.5-13 5Z" fill={ink} />
+      )}
+      {v === 1 && <path d="M17.5 12.5c-1 1.5-1.6 3-1.8 4.7" stroke="#fff" strokeWidth="1.7" fill="none" strokeLinecap="round" />}
+      {v === 2 && <circle cx="24" cy="8" r="4.2" fill={ink} />}
+      {v === 3 && (
+        <path d="M12.5 20c1.5-5.5 5.5-8.5 11.5-8.5S34 14.5 35.5 20" fill="none" stroke={ink} strokeWidth="2.4" strokeLinecap="round" />
+      )}
+      {v === 4 && (
+        <>
+          <circle cx="13.5" cy="16.5" r="3.6" fill={ink} />
+          <circle cx="18" cy="12.8" r="3.6" fill={ink} />
+          <circle cx="24" cy="11.8" r="3.6" fill={ink} />
+          <circle cx="30" cy="12.8" r="3.6" fill={ink} />
+          <circle cx="34.5" cy="16.5" r="3.6" fill={ink} />
+        </>
+      )}
+      {v === 5 && (
+        <>
+          <path d="M10.5 21a13.5 11 0 0 1 27 0Z" fill={ink} />
+          <path d="M7 21h34" stroke={ink} strokeWidth="3" strokeLinecap="round" />
+        </>
+      )}
+      {v === 6 && (
+        <>
+          <path d="M10.5 19c-.5 9 0 16 2.5 21h4.5c-2-6-2.5-13-2-21Z" fill={ink} />
+          <path d="M37.5 19c.5 9 0 16-2.5 21H30.5c2-6 2.5-13 2-21Z" fill={ink} />
+        </>
+      )}
+      {v === 7 && (
+        <path d="M11.5 21l2.5-6.5 3 3.5 2.5-6 3.5 4 2.5-6 3 4.5 2.5-5.5 2.5 6.5 2-3 1 8.5c-3.5-3.5-8.5-5-12.5-5s-9 1.5-12.5 5Z" fill={ink} />
+      )}
+      {v === 8 && (
+        <path d="M12.5 29c.8 6.5 5 10.5 11.5 10.5S34.7 35.5 35.5 29c-2.5 2.8-6 4-11.5 4s-9-1.2-11.5-4Z" fill={ink} />
+      )}
+    </svg>
+  );
 }
 
 function Sparkle() {
@@ -173,11 +232,13 @@ function Sparkle() {
 function ReviewColumn({
   label,
   items,
+  variants,
   down,
   delay,
 }: {
   label: string;
   items: Review[];
+  variants: number[];
   down?: boolean;
   delay: string;
 }) {
@@ -195,8 +256,8 @@ function ReviewColumn({
               <QuoteMark />
               <p className="tm-review-quote">“{r.text}”</p>
               <div className="tm-review-head">
-                <span className="tm-avatar" style={AVATAR_STYLES[i % 3]} aria-hidden="true">
-                  {initials(r.name)}
+                <span className="tm-avatar" aria-hidden="true">
+                  <FaceAvatar v={variants[i % variants.length]} />
                 </span>
                 <span className="tm-review-who">
                   <strong>{r.name}</strong>
@@ -252,7 +313,7 @@ export default function FromTheLibrary({ lang }: { lang: Lang }) {
 
       <div className="tm-grid">
         {/* ---- left: teacher reviews, scrolling down ---- */}
-        <ReviewColumn label={R.teachersLabel} items={R.teachers} down delay="120ms" />
+        <ReviewColumn label={R.teachersLabel} items={R.teachers} variants={[0, 1, 2, 3, 8]} down delay="120ms" />
 
         {/* ---- center: founder note ---- */}
         <article className="tm-founder tm-reveal" style={{ transitionDelay: "240ms" }}>
@@ -272,7 +333,7 @@ export default function FromTheLibrary({ lang }: { lang: Lang }) {
         </article>
 
         {/* ---- right: student reviews, scrolling up ---- */}
-        <ReviewColumn label={R.studentsLabel} items={R.students} delay="360ms" />
+        <ReviewColumn label={R.studentsLabel} items={R.students} variants={[5, 6, 7, 4, 9]} delay="360ms" />
       </div>
     </section>
   );
