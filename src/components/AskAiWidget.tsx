@@ -390,7 +390,7 @@ export function AskAiWidget() {
             transition: "transform .15s ease",
           }}
         >
-          <span aria-hidden="true">✦</span>
+          <span aria-hidden="true" className="brand-star">✦</span>
           {t("label")}
         </button>
       )}
@@ -424,7 +424,7 @@ export function AskAiWidget() {
             }}
           >
             <p style={{ margin: 0, fontSize: 14, fontWeight: 600, color: "#fff" }}>
-              <span aria-hidden="true" style={{ marginRight: 8 }}>
+              <span aria-hidden="true" className="brand-star" style={{ marginRight: 8 }}>
                 ✦
               </span>
               {t("title")}
@@ -468,7 +468,7 @@ export function AskAiWidget() {
                       whiteSpace: "nowrap",
                     }}
                   >
-                    ✦ {user.name}
+                    <span aria-hidden="true" className="brand-star brand-star-deep">✦</span> {user.name}
                   </span>
                   <button
                     type="button"

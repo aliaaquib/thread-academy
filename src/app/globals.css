@@ -985,3 +985,8 @@ a.chapter-link:hover{background:var(--surface);padding-left:16px;padding-right:1
 @keyframes why-float{from{transform:translateY(-2.5px)}to{transform:translateY(2.5px)}}
 
 @media (prefers-reduced-motion: reduce){.tm-col-label svg{animation:none}}
+
+/* Ask AI widget stars: brand lime + sparkle spin (deep green on light) */
+.brand-star{color:var(--accent);display:inline-block;animation:stag-spin 6s linear infinite}
+.brand-star-deep{color:var(--accent-deep)}
+@media (prefers-reduced-motion: reduce){.brand-star{animation:none}}
