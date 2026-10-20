@@ -1,83 +1,68 @@
 /**
  * WHY THREAD ACADEMY cards (home page #why).
  * Four real features in rounded white cards: icon tile on the LEFT,
- * title + text on the right. Icons are bold stroke SVGs (36px) that
- * draw in fast when the grid scrolls into view (.dr paths use
- * pathLength=1 dash animation; .fd shapes fade), with a fallback
- * timer so they can never stay hidden. Continuous icon animation:
- * a dot travels the route (SMIL animateMotion), the globe meridian
- * spins (SMIL rx), the cap tassel swings and the lock shackle
- * bounces (CSS). Cards fade + rise in a stagger; hover lifts card
- * + tile. CSS in globals.css (.why-*); reduced-motion disables it.
+ * title + text on the right. Icons are the Lucide SVGs the founder
+ * picked (route, languages, graduation-cap, lock-open) — note his
+ * paste for card 3 repeated the languages icon, so card 3 uses
+ * Lucide graduation-cap, the matching teacher icon. Animation:
+ * cards fade + rise in a stagger, tiles pop with a spring, glyphs
+ * float gently, hover lifts card + tile (CSS .why-* in globals.css,
+ * switched on here when the grid scrolls into view; fallback timer
+ * so cards never stay hidden). Reduced-motion disables it all.
  */
 "use client";
 
-import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 
-const ROUTE_PATH = "M5 16.2V11a3 3 0 0 1 3-3h5a3 3 0 0 0 3 3v.2";
-
 function WhyIcon({ kind }: { kind: number }) {
   const common = {
-    width: 36,
-    height: 36,
+    width: 32,
+    height: 32,
     viewBox: "0 0 24 24",
     fill: "none",
     stroke: "currentColor",
-    strokeWidth: 2.2,
+    strokeWidth: 2,
     strokeLinecap: "round" as const,
     strokeLinejoin: "round" as const,
     "aria-hidden": true,
   };
   if (kind === 1)
-    // Clear structure — bold route from a start dot up to a pin,
-    // with a dot that keeps travelling the path.
+    // lucide-route
     return (
       <svg {...common}>
-        <circle className="fd" cx="5" cy="18.7" r="2.3" />
-        <path className="dr" pathLength={1} d={ROUTE_PATH} />
-        <g className="wic-pin">
-          <path className="dr" pathLength={1} d="M16 1.8a3.3 3.3 0 0 1 3.3 3.3c0 2.2-3.3 5.5-3.3 5.5s-3.3-3.3-3.3-5.5A3.3 3.3 0 0 1 16 1.8Z" />
-          <circle className="fd" cx="16" cy="5.1" r="1.2" />
-        </g>
-        <circle r="1.9" fill="currentColor" stroke="none">
-          <animateMotion dur="3.4s" repeatCount="indefinite" path={ROUTE_PATH} />
-        </circle>
+        <circle cx="6" cy="19" r="3" />
+        <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" />
+        <circle cx="18" cy="5" r="3" />
       </svg>
     );
   if (kind === 2)
-    // Four languages — globe whose meridian spins (rx oscillation).
+    // lucide-languages
     return (
       <svg {...common}>
-        <circle className="fd" cx="12" cy="12" r="8.8" />
-        <ellipse className="fd" cx="12" cy="12" rx="4" ry="8.8">
-          <animate attributeName="rx" values="4;8.6;4;0.8;4" keyTimes="0;0.25;0.5;0.75;1" dur="7s" repeatCount="indefinite" />
-        </ellipse>
-        <path className="dr" pathLength={1} d="M4.1 9.2h15.8" />
-        <path className="dr" pathLength={1} d="M4.1 14.8h15.8" />
+        <path d="m5 8 6 6" />
+        <path d="m4 14 6-6 2-3" />
+        <path d="M2 5h12" />
+        <path d="M7 2h1" />
+        <path d="m22 22-5-10-5 10" />
+        <path d="M14 18h6" />
       </svg>
     );
   if (kind === 3)
-    // Built by a teacher — graduation cap, tassel swinging.
+    // lucide-graduation-cap (his paste repeated the languages icon)
     return (
       <svg {...common}>
-        <path className="dr" pathLength={1} d="M2.5 9.8 12 5l9.5 4.8L12 14.6Z" />
-        <path className="dr" pathLength={1} d="M6.2 12.3v3.3c0 1.7 2.6 3 5.8 3s5.8-1.3 5.8-3v-3.3" />
-        <g className="wic-tassel">
-          <path className="dr" pathLength={1} d="M21.5 9.8v4.4" />
-          <circle className="fd" cx="21.5" cy="15.9" r="1.4" />
-        </g>
+        <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+        <path d="M6 12.5V16c0 1.66 2.7 3 6 3s6-1.34 6-3v-3.5" />
+        <path d="M22 10v6" />
       </svg>
     );
-  // Free, no account — open padlock, shackle bouncing.
+  // lucide-lock-open
   return (
     <svg {...common}>
-      <rect className="fd" x="4.5" y="10.5" width="15" height="9.5" rx="2.5" />
-      <path className="dr wic-shackle" pathLength={1} d="M8 10.5V7.2a4.2 4.2 0 0 1 7.9-1.9" />
-      <circle className="fd" cx="15.9" cy="5.3" r="0.9" fill="currentColor" stroke="none" />
-      <circle className="fd" cx="12" cy="14.2" r="1.6" fill="currentColor" stroke="none" />
-      <path className="dr" pathLength={1} d="M12 15.6v1.7" />
+      <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+      <path d="M7 11V7a5 5 0 0 1 9.9-1" />
     </svg>
   );
 }
@@ -88,7 +73,7 @@ export default function WhyCards({ lang }: { lang: Lang }) {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    // Fallback: never leave cards/icons hidden if IO doesn't fire.
+    // Fallback: never leave cards hidden if IO doesn't fire.
     const fb = setTimeout(() => setOn(true), 1600);
     const io = new IntersectionObserver(
       ([entry]) => {
@@ -110,12 +95,10 @@ export default function WhyCards({ lang }: { lang: Lang }) {
     <div className={`why-grid${on ? " in" : ""}`} ref={ref}>
       {[1, 2, 3, 4].map((n, i) => (
         <article key={n} className="why-card" style={{ transitionDelay: `${i * 120}ms` }}>
-          <span
-            className="why-ic"
-            aria-hidden="true"
-            style={{ "--dr-delay": `${0.25 + i * 0.1}s` } as CSSProperties}
-          >
-            <WhyIcon kind={n} />
+          <span className="why-ic" aria-hidden="true">
+            <span className="why-ic-float" style={{ animationDelay: `${i * 0.7}s` }}>
+              <WhyIcon kind={n} />
+            </span>
           </span>
           <div className="why-card-text">
             <h3>{t(lang, `home.why.${n}.t`)}</h3>
