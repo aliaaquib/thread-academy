@@ -314,7 +314,7 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
         }
         return p + 10;
       });
-    }, 110);
+    }, 150);
     return () => clearInterval(id);
   }, [s1]);
 
@@ -350,11 +350,11 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
               setChat("done");
               return n;
             }
-            return n + 3;
+            return n + 2;
           });
-        }, 16);
+        }, 24);
         timers.current.push(id as unknown as ReturnType<typeof setTimeout>);
-      }, 900),
+      }, 1200),
     );
   }
   function resetChat() {
@@ -415,24 +415,24 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
 
   /* Card 1 loop: open the chapter, hold the lesson list, reset. */
   useEffect(() => {
-    if (s1 === "idle") schedule(1, () => setS1("loading"), 1500);
-    else if (s1 === "done") schedule(1, () => { setS1("idle"); setProgress(0); }, 3800);
+    if (s1 === "idle") schedule(1, () => setS1("loading"), 2200);
+    else if (s1 === "done") schedule(1, () => { setS1("idle"); setProgress(0); }, 4600);
     return () => { const id = autoTimers.current[1]; if (id) clearTimeout(id); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [s1, subject]);
 
   /* Card 2 loop: reveal one step at a time, hold, restart. */
   useEffect(() => {
-    if (!exampleDone) schedule(2, () => setRevealed((r) => Math.min(totalSteps, r + 1)), 1800);
-    else schedule(2, () => setRevealed(1), 3600);
+    if (!exampleDone) schedule(2, () => setRevealed((r) => Math.min(totalSteps, r + 1)), 2600);
+    else schedule(2, () => setRevealed(1), 4400);
     return () => { const id = autoTimers.current[2]; if (id) clearTimeout(id); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [revealed, subject]);
 
   /* Card 3 loop: ask, think, type the answer, hold, reset. */
   useEffect(() => {
-    if (chat === "idle") schedule(3, ask, 1400);
-    else if (chat === "done") schedule(3, resetChat, 4000);
+    if (chat === "idle") schedule(3, ask, 2000);
+    else if (chat === "done") schedule(3, resetChat, 5000);
     return () => { const id = autoTimers.current[3]; if (id) clearTimeout(id); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chat, subject]);
@@ -485,7 +485,7 @@ export default function HowItWorksDeck({ lang }: { lang: Lang }) {
               <>
                 <ul className="hiw-lessons">
                   {mock.lessons.map((l, i) => (
-                    <li key={l.title} style={{ animationDelay: `${i * 130}ms` }}>
+                    <li key={l.title} style={{ animationDelay: `${i * 180}ms` }}>
                       <span className="hiw-check" aria-hidden="true">✓</span>
                       <span className="hiw-lesson-title">{l.title}</span>
                       <span className="hiw-lesson-mins">{l.mins} {t(lang, "home.hiw.1.min")}</span>
