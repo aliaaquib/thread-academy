@@ -1,12 +1,12 @@
 /**
- * FROM THE LIBRARY (home page, last section).
- * Adapted from a testimonials layout — but Thread Academy has no review
- * system, so nothing here is invented social proof: the left card shows
- * the library's real counts, the photo card quotes a real lesson, and
- * the marquee scrolls real lesson cards (title + the site's own topic
- * description), all computed from the content library on the server.
- * Motion is pure CSS (.tm-* in globals.css): a slow-spinning sparkle
- * badge and a seamless vertical marquee (list doubled, -50% loop).
+ * FROM THE LIBRARY — the home page's TESTIMONIAL section (last section).
+ * Testimonial in layout only: Thread Academy has no review system and no
+ * named reviewers to quote, so every "quote" here is a real line from a
+ * real lesson (its own topic description), shown with the lesson it came
+ * from and linking to it. The featured card quotes one lesson at large
+ * size; the photo card carries that lesson's attribution; the right
+ * column is a slow CSS marquee of quote cards (list doubled, -50% loop).
+ * Data is computed from the content library on the server.
  */
 import Link from "next/link";
 import type { Lang } from "@/lib/i18n";
@@ -14,32 +14,14 @@ import { t } from "@/lib/strings";
 import SectionTag from "./SectionTag";
 
 export interface LibraryData {
-  totalLessons: number;
-  totalSubjects: number;
-  totalChapters: number;
-  totalLanguages: number;
   quote: { text: string; title: string; meta: string; href: string };
   cards: { title: string; desc: string; meta: string; glyph: string; href: string }[];
-  learnHref: string;
 }
 
-function FeatureIcon({ kind }: { kind: "chapters" | "languages" | "ai" }) {
-  if (kind === "chapters")
-    return (
-      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-        <path d="M4 6h16M4 12h16M4 18h10" />
-      </svg>
-    );
-  if (kind === "languages")
-    return (
-      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M3 12h18M12 3c2.5 2.6 3.9 5.7 3.9 9S14.5 18.4 12 21c-2.5-2.6-3.9-5.7-3.9-9S9.5 5.6 12 3Z" />
-      </svg>
-    );
+function QuoteMark({ size = 34 }: { size?: number }) {
   return (
-    <svg width="17" height="17" viewBox="0 0 24 24" fill="var(--accent-deep)" aria-hidden="true">
-      <path d="M12 2c.7 5.4 2.7 7.4 8.1 9.5-5.4 2.1-7.4 4.1-8.1 9.5-.7-5.4-2.7-7.4-8.1-9.5C9.3 9.4 11.3 7.4 12 2Z" />
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="var(--accent-deep)" aria-hidden="true">
+      <path d="M10.2 5C6.6 6.6 4.5 9.6 4.5 13.6c0 3 1.7 5 4.1 5 2.1 0 3.7-1.6 3.7-3.7 0-2-1.3-3.4-3.2-3.6.3-1.9 1.6-3.6 3.4-4.5L10.2 5Zm9.5 0c-3.6 1.6-5.7 4.6-5.7 8.6 0 3 1.7 5 4.1 5 2.1 0 3.7-1.6 3.7-3.7 0-2-1.3-3.4-3.2-3.6.3-1.9 1.6-3.6 3.4-4.5L19.7 5Z" transform="scale(0.95) translate(0.5,0.5)" />
     </svg>
   );
 }
@@ -62,48 +44,23 @@ export default function FromTheLibrary({ lang, data }: { lang: Lang; data: Libra
       </div>
 
       <div className="tm-grid">
-        {/* ---- left: real counts + CTA ---- */}
-        <article className="tm-card tm-stats">
-          <div className="tm-stat-row">
-            <div className="tm-stat-big">
-              <strong>{data.totalLessons}</strong>
-              <span>{t(lang, "home.tm.stat.unit")}</span>
-            </div>
-            <p>
-              {t(lang, "home.tm.stat.text", { s: data.totalSubjects, n: data.totalLanguages })}
+        {/* ---- left: featured quote ---- */}
+        <article className="tm-card tm-featured">
+          <QuoteMark size={40} />
+          <blockquote className="tm-featured-quote">“{data.quote.text}”</blockquote>
+          <div className="tm-featured-foot">
+            <p className="tm-featured-attrib">
+              {data.quote.title}
+              <span>{data.quote.meta}</span>
             </p>
-          </div>
-          <ul className="tm-features">
-            <li>
-              <FeatureIcon kind="chapters" />
-              <span>{t(lang, "home.tm.f1", { c: data.totalChapters })}</span>
-            </li>
-            <li>
-              <FeatureIcon kind="languages" />
-              <span>{t(lang, "home.tm.f2")}</span>
-            </li>
-            <li>
-              <FeatureIcon kind="ai" />
-              <span>{t(lang, "home.tm.f3")}</span>
-            </li>
-          </ul>
-          <div className="tm-cta">
-            <p className="tm-cta-q">{t(lang, "home.tm.cta.q")}</p>
-            <p className="tm-cta-a">{t(lang, "home.tm.cta.a")}</p>
-            <div className="tm-cta-row">
-              <Link href={data.learnHref} className="tm-btn">
-                {t(lang, "home.tm.cta.btn")}
-              </Link>
-              <Link href={data.learnHref} className="tm-btn-round" aria-label={t(lang, "home.tm.cta.btn")}>
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
-                  <path d="M7 17L17 7M9 7h8v8" />
-                </svg>
-              </Link>
-            </div>
+            <p className="tm-note">{t(lang, "home.tm.note")}</p>
+            <Link href={data.quote.href} className="inline-link">
+              {t(lang, "home.tm.read")} <span aria-hidden="true">→</span>
+            </Link>
           </div>
         </article>
 
-        {/* ---- center: photo + real lesson quote ---- */}
+        {/* ---- center: photo + attribution of the featured lesson ---- */}
         <article className="tm-photo group">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -115,23 +72,23 @@ export default function FromTheLibrary({ lang, data }: { lang: Lang; data: Libra
           <div className="tm-photo-gradient" aria-hidden="true" />
           <Link href={data.quote.href} className="tm-photo-caption">
             <span className="tm-quote-tag">{t(lang, "home.tm.quote.tag")}</span>
-            <span className="tm-quote">“{data.quote.text}”</span>
-            <span className="tm-attrib">
-              — {data.quote.title}, {data.quote.meta}
-            </span>
+            <span className="tm-quote">{data.quote.title}</span>
+            <span className="tm-attrib">{data.quote.meta}</span>
           </Link>
         </article>
 
-        {/* ---- right: marquee of real lessons ---- */}
+        {/* ---- right: marquee of quote cards ---- */}
         <div className="tm-marquee">
           <div className="tm-track">
             {doubled.map((c, i) => (
               <Link key={`${c.href}-${i}`} href={c.href} className="tm-review">
-                <strong>{c.title}</strong>
-                <p>“{c.desc}”</p>
+                <QuoteMark size={18} />
+                <p className="tm-review-quote">“{c.desc}”</p>
                 <span className="tm-review-meta">
                   <span className="tm-review-glyph" aria-hidden="true">{c.glyph}</span>
-                  {c.meta}
+                  <span>
+                    <strong>{c.title}</strong> · {c.meta}
+                  </span>
                 </span>
               </Link>
             ))}
