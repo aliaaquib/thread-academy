@@ -13,7 +13,7 @@ lede: "Make decisions with diamonds, and combine conditions with AND, OR and NOT
 Most programs cannot do the same thing every time — they have to react. A game reacts to your score, a login reacts to your password. That reacting has a name: selection.
 
 <Definition term="Selection">
-  Choosing which instructions to run based on whether a condition is true or false.
+Choosing which instructions to run based on whether a condition is true or false.
 </Definition>
 
 ## Key ideas
@@ -71,34 +71,26 @@ A condition's answer is a **Boolean**: True or False. You will also see it writt
 </Diagram>
 
 <WorkedExample title="Trace the entry check">
-  The flowchart above runs for a visitor who is 10 years old and has a ticket.
+The flowchart above runs for a visitor who is 10 years old and has a ticket.
 
-  Check the condition: "age ≥ 12" is false (10 is less than 12), "has ticket" is true. AND needs *both* — false AND true gives false. Take the No path: "Refuse entry".
+Check the condition: "age ≥ 12" is false (10 is less than 12), "has ticket" is true. AND needs *both* — false AND true gives false. Take the No path: "Refuse entry".
 
-  **Answer:** Entry refused, even though they have a ticket — AND is strict. If the visitor were 14 with a ticket, both parts would be true and they would get in.
+**Answer:** Entry refused, even though they have a ticket — AND is strict. If the visitor were 14 with a ticket, both parts would be true and they would get in.
 </WorkedExample>
 
 <ImportantNote title="Common mistakes">
-  - **A diamond with only one path out** Correction: a decision must have both Yes and No paths leading somewhere — even if one just goes straight to STOP.
-  - **Mixing up AND and OR** Correction: AND needs both conditions true; OR needs only one. "Weekend" is Saturday OR Sunday, not AND — no day is both.
-  - **Reading NOT backwards** Correction: NOT flips the result. "NOT (score ≥ 50)" is true when the score is *below* 50.
+- **A diamond with only one path out** Correction: a decision must have both Yes and No paths leading somewhere — even if one just goes straight to STOP.
+- **Mixing up AND and OR** Correction: AND needs both conditions true; OR needs only one. "Weekend" is Saturday OR Sunday, not AND — no day is both.
+- **Reading NOT backwards** Correction: NOT flips the result. "NOT (score ≥ 50)" is true when the score is *below* 50.
 </ImportantNote>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="In a flowchart, how many arrows leave a decision diamond, and what are they labelled?">
-    Two arrows: one labelled Yes (condition true) and one labelled No (condition false).
-  </PracticeItem>
-  <PracticeItem question="A cinema rule: 'age ≥ 12 OR with an adult'. A 9-year-old arrives with her father. Does she get in?" hint="OR needs only one side to be true.">
-    Yes — "with an adult" is true, and OR needs just one true side.
-  </PracticeItem>
-  <PracticeItem question="What does 'NOT (temperature > 30)' mean in plain words?" hint="NOT flips the condition.">
-    The temperature is 30 or below — NOT turns "hotter than 30" into its opposite.
-  </PracticeItem>
-  <PracticeItem question="Why might you put one decision inside another instead of using AND?">
-    When the second question only makes sense after the first answer — e.g. ask "do you have an umbrella?" only if it is raining.
-  </PracticeItem>
+  <PracticeItem question="In a flowchart, how many arrows leave a decision diamond, and what are they labelled?" />
+  <PracticeItem question="A cinema rule: 'age ≥ 12 OR with an adult'. A 9-year-old arrives with her father. Does she get in?" answer="OR needs only one side to be true." />
+  <PracticeItem question="What does 'NOT (temperature > 30)' mean in plain words?" answer="NOT flips the condition." />
+  <PracticeItem question="Why might you put one decision inside another instead of using AND?" />
 </PracticeQuestions>
 
 ## Quick check
@@ -110,8 +102,8 @@ A condition's answer is a **Boolean**: True or False. You will also see it writt
 </Quiz>
 
 <Summary>
-  - Selection: choosing which instructions run based on whether a condition is true or false — the diamond in a flowchart.
-  - Decisions can nest: a Yes/No path can lead to another diamond for more specific situations.
-  - AND needs both conditions true; OR needs at least one; NOT flips a condition's answer.
-  - Watch out for: diamonds with a missing branch, mixing up AND and OR, and reading NOT backwards.
+- Selection: choosing which instructions run based on whether a condition is true or false — the diamond in a flowchart.
+- Decisions can nest: a Yes/No path can lead to another diamond for more specific situations.
+- AND needs both conditions true; OR needs at least one; NOT flips a condition's answer.
+- Watch out for: diamonds with a missing branch, mixing up AND and OR, and reading NOT backwards.
 </Summary>
