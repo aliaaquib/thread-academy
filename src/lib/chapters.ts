@@ -137,7 +137,7 @@ export const CHAPTER_TOPICS: Record<string, Topic[]> = {
     { slug: "time-and-phrases", title: "Time and Phrases", desc: "Telling time, daily expressions." },
   ],
   "networks-and-the-effects-of-using-them": [
-    { slug: "routers", title: "Routers", desc: "test2" },
+    { slug: "routers", title: "Routers", desc: "Learn what routers do, how they forward data, and why they are essential for connecting a home, school or business network to the internet." },
   ],
 };
 
