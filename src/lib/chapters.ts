@@ -136,6 +136,9 @@ export const CHAPTER_TOPICS: Record<string, Topic[]> = {
     { slug: "russian-numbers", title: "Numbers", desc: "Counting to 100 and beyond." },
     { slug: "time-and-phrases", title: "Time and Phrases", desc: "Telling time, daily expressions." },
   ],
+  "networks-and-the-effects-of-using-them": [
+    { slug: "routers", title: "Routers", desc: "test2" },
+  ],
 };
 
 export function getChapterTopics(subject: string, chapterId: string, lang: Lang = "en"): Topic[] {

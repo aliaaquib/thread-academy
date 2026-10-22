@@ -87,7 +87,8 @@ export const BAND_CHAPTERS: Record<string, Record<Band, Chapter[]>> = {
       { id: "networks-and-digital-communication", title: "Networks and Digital Communication", desc: "How devices connect and data travels the world." },
       { id: "computer-systems", title: "Computer Systems", desc: "What is inside a computer, and how it thinks in binary." },
       { id: "creating-media", title: "Creating Digital Media", desc: "Make simple presentations, images and animations." },
-    ],
+          { id: "networks-and-the-effects-of-using-them", title: "Networks and the Effects of Using Them", desc: "test" },
+],
     "developing": [
       { id: "computational-thinking", title: "Computational Thinking", desc: "The problem-solving mindset behind every program." },
       { id: "programming", title: "Programming Fundamentals", desc: "Python from zero: variables, data, logic, loops and functions." },

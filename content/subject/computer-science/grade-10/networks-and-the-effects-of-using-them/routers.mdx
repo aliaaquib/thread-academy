@@ -1,0 +1,159 @@
+---
+title: "Routers"
+lede: "test1"
+---
+
+<LearningObjectives>
+  <li>By the end of this lesson, you should be able to: </li>
+</LearningObjectives>
+
+<BeforeYouStart>
+Write one or two lines that remind students what they learned in the earlier topic this one builds on.
+</BeforeYouStart>
+
+## What is a router?  
+ router is a networking device that connects two or more networks and forwards data packets between them using destination IP addresses.
+
+For example, a school may have a local network connecting computers in classrooms, the library and the computer laboratory. A router can connect this school network to the internet, allowing students and teachers to access online resources.
+
+Without a router or another suitable Layer 3 routing device, separate IP networks cannot communicate directly with each other.
+
+## How does a router work?
+
+When you request a webpage, your device sends data packets towards the web server. The router examines the destination IP address of each packet and determines where it should be forwarded next.
+
+The process works as follows:
+
+1. **Data is sent:** Your computer sends a request to access a website.
+2. **The router receives the packet:** The packet reaches the router, usually through your local network.
+3. **The destination is examined:** The router reads the destination IP address in the packet header.
+4. **A route is selected:** The router checks its routing table to determine the appropriate next hop or outgoing interface.
+5. **The packet is forwarded:** The router sends the packet towards the destination network.
+6. **The process continues:** Other routers may forward the packet until it reaches the destination network.
+
+The reply follows a suitable route back to your device. It does not necessarily follow exactly the same route.
+
+## What is a routing table?
+
+A **routing table** is a set of information stored by a router that helps it decide where to send packets.
+
+A routing table can contain:
+
+- Destination network addresses.
+- The next hop used to reach a destination.
+- The outgoing network interface.
+- Route information used to select an appropriate path.
+
+For example, a router might have one route for devices on the school's local network and another route directing internet traffic to the school's internet gateway.
+
+The router uses this information to forward packets towards their destinations.
+
+## IP addresses and data packets
+
+Every device communicating over an IP network uses an IP address to identify its network interface. An IP packet contains a source IP address and a destination IP address.
+
+The router uses the **destination IP address** to make its forwarding decision.
+
+For example:
+
+- A student's computer sends a request to a website.
+- The router checks the website server's destination IP address.
+- The router forwards the packet towards the appropriate next network.
+- The server receives the request and sends a response.
+
+A router does not need to know the contents of a webpage to forward an ordinary IP packet. Its main routing decision is based on network addressing and routing information.
+
+## Router vs network switch
+
+Routers and switches both help devices communicate, but they perform different jobs.
+
+| Router | Network switch |
+| --- | --- |
+| Connects different IP networks. | Connects devices within a local network. |
+| Uses destination IP addresses to forward packets. | Normally uses MAC addresses to forward Ethernet frames. |
+| Selects a route or next hop for a packet. | Sends frames towards the appropriate device or port. |
+| Commonly connects a local network to the internet. | Commonly connects computers, printers and other devices on a LAN. |
+
+A home router may also include a network switch and wireless access point in the same physical device.
+
+## Where are routers used?
+
+Routers are used in many everyday situations:
+
+- **Homes:** Connect home devices to an internet service.
+- **Schools:** Connect classroom and office networks to external networks.
+- **Businesses:** Connect departments and branch networks.
+- **The internet:** Forward data between networks around the world.
+
+## Advantages of routers
+
+- Allow devices on different networks to communicate.
+- Enable local networks to access the internet.
+- Help direct packets towards their intended destinations.
+- Can connect wired and wireless network equipment when combined with other networking functions.
+- May support security features such as firewalls, access controls and network address translation.
+
+## Limitations of routers
+
+- Routers can be expensive to purchase and maintain in large networks.
+- Incorrect configuration can prevent devices from accessing other networks.
+- A failed router can interrupt communication between the networks it connects.
+- Poor performance or insufficient capacity can slow down network traffic.
+
+## Examples
+
+<Example title="Example">
+Work through one example here, step by step, the way you would on the board.
+</Example>
+
+<ExamFocus
+  items={[
+    { good: "", bad: "", note: "f asked to explain how a router works, mention the destination IP address, the routing table, route selection and forwarding the packet to the next network." },
+  ]}
+  mistake="Write the one mistake students make most often in this topic."
+/>
+
+## Practice
+
+<PracticeQuestions>
+  <PracticeItem question="1. What is the main purpose of a router?  Think about what happens when data needs to travel from one network to another." answer="A router connects different networks and forwards data packets towards their destinations using IP addresses." />
+  <PracticeItem question="Why does a router examine the destination IP address?" answer="t uses the destination IP address to identify the destination network and select an appropriate route or next hop." level="challenge" />
+  <PracticeItem question="What is the purpose of a routing table?" answer="A  routing table stores route information that helps the router determine where packets should be forwarded." />
+  <PracticeItem question="Explain one difference between a router and a network switch." answer="A router forwards packets between IP networks using IP addresses, whereas a typical network switch forwards frames within a LAN using MAC addresses." />
+  <PracticeItem question="A school router fails. Explain one possible effect on the school network." answer="Devices may lose access to the internet or to other networks connected through that router. Devices on the same local network may still communicate if their local switches remain operational." />
+</PracticeQuestions>
+
+<Quiz>
+  <QuizQuestion
+    question="Which address does a router normally examine when deciding where to forward an IP packet?"
+    options={["The destination IP address","The computer's screen resolution","The file name","The keyboard language"]}
+    answer={0}
+    explanation=""
+  />
+  <QuizQuestion
+    question="What is a routing table used for?"
+    options={["Storing images","Recording users' passwords","Helping determine where packets should be forwarded","Increasing screen brightness"]}
+    answer={2}
+    explanation=""
+  />
+  <QuizQuestion
+    question="Which device normally connects different IP networks?"
+    options={["Keyboard","Router","Monitor","Scanner"]}
+    answer={1}
+    explanation=""
+  />
+  <QuizQuestion
+    question="Which statement best describes a network switch?"
+    options={["It normally connects devices within a LAN.","It converts printed documents into digital files.","It stores websites permanently.","It creates computer programs."]}
+    answer={0}
+    explanation=""
+  />
+</Quiz>
+
+<Summary>
+- A router connects different IP networks and forwards data packets between them.
+- Routers examine destination IP addresses to make forwarding decisions.
+- A routing table contains information used to select a route or next hop.
+- Routers are essential to communication between local networks and the internet.
+- Switches normally connect devices within a LAN, while routers forward packets between networks.
+</Summary>
