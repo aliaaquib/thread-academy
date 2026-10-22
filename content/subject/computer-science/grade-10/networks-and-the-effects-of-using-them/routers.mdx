@@ -12,10 +12,6 @@ lede: "A router helps devices communicate across different networks. Every time 
   <li>Distinguish between a router and a network switch.</li>
 </LearningObjectives>
 
-<BeforeYouStart>
-Write one or two lines that remind students what they learned in the earlier topic this one builds on.
-</BeforeYouStart>
-
 ## What is a router?
 
 router is a networking device that connects two or more networks and forwards data packets between them using destination IP addresses.
@@ -109,21 +105,17 @@ Routers are used in many everyday situations:
 ## Examples
 
 <Example title="Example">
-Work through one example here, step by step, the way you would on the board.
+- A student's computer sends a request to a website.
+- The router checks the website server's destination IP address.
+- The router forwards the packet towards the appropriate next network.
+- The server receives the request and sends a response.
 </Example>
-
-<ExamFocus
-  items={[
-    { good: "", bad: "", note: "f asked to explain how a router works, mention the destination IP address, the routing table, route selection and forwarding the packet to the next network." },
-  ]}
-  mistake="Write the one mistake students make most often in this topic."
-/>
 
 ## Practice
 
 <PracticeQuestions>
   <PracticeItem question="1. What is the main purpose of a router?  Think about what happens when data needs to travel from one network to another." answer="A router connects different networks and forwards data packets towards their destinations using IP addresses." />
-  <PracticeItem question="Why does a router examine the destination IP address?" answer="t uses the destination IP address to identify the destination network and select an appropriate route or next hop." level="challenge" />
+  <PracticeItem question="Why does a router examine the destination IP address?" answer="t uses the destination IP address to identify the destination network and select an appropriate route or next hop." />
   <PracticeItem question="What is the purpose of a routing table?" answer="A  routing table stores route information that helps the router determine where packets should be forwarded." />
   <PracticeItem question="Explain one difference between a router and a network switch." answer="A router forwards packets between IP networks using IP addresses, whereas a typical network switch forwards frames within a LAN using MAC addresses." />
   <PracticeItem question="A school router fails. Explain one possible effect on the school network." answer="Devices may lose access to the internet or to other networks connected through that router. Devices on the same local network may still communicate if their local switches remain operational." />
