@@ -8,12 +8,4 @@ export const SUBJECT_GLYPHS: Record<string, string> = {
   chemistry: "H₂",
   biology: "DNA",
   "computer-science": "</>",
-  english: "Aa",
-  history: "AD",
-  geography: "◎",
-  economics: "↗",
-  psychology: "Ψ",
-  sociology: "◉",
-  "political-science": "⚖",
-  russian: "Ж",
 };

@@ -55,14 +55,6 @@ const GLYPHS: Record<string, string> = {
   chemistry: "H₂",
   biology: "DNA",
   "computer-science": "</>",
-  english: "Aa",
-  history: "AD",
-  geography: "◎",
-  economics: "↗",
-  "psychology": "Ψ",
-  "sociology": "◉",
-  "political-science": "⚖",
-  "russian": "Ж",
 };
 
 export default async function LevelPage(props: { params: Promise<Params> }) {
@@ -140,7 +132,7 @@ export default async function LevelPage(props: { params: Promise<Params> }) {
                 className="inline-link"
                 href={withLang(levelPath(curriculum.id, level.id) + "/subjects", lang)}
               >
-                {t(lang, "curriculum.level.browseAll")}
+                {t(lang, "curriculum.level.browseAll", { level: levelName })}
               </Link>
             </p>
           </>

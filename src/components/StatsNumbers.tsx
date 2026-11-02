@@ -2,8 +2,8 @@
  * STATS & NUMBERS (home page, after From the Library).
  * Adapted from a stats + CTA layout — but every figure is REAL, computed
  * from the content library on the server (no invented brand metrics, no
- * stock-photo "social proof": the avatar stack is subject glyphs).
- * Left: tag, serif headline, lede, CTAs, glyph stack. Right: one wide
+ * stock-photo "social proof").
+ * Left: tag, serif headline, lede, CTAs. Right: one wide
  * metric card over two half cards, oversized light numerals.
  * Reveals are CSS transitions (.st-* in globals.css) switched on by an
  * IntersectionObserver when the section scrolls into view.
@@ -15,7 +15,6 @@ import { useEffect, useRef, useState } from "react";
 import type { Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 import SectionTag from "./SectionTag";
-import { FaceAvatar } from "./FromTheLibrary";
 
 export interface StatsData {
   lessons: number;
@@ -94,7 +93,7 @@ export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsDa
   return (
     <section className={`section${on ? " st-on" : ""}`} id="numbers" ref={ref}>
       <div className="st-grid">
-        {/* ---- left: headline, CTAs, glyph stack ---- */}
+        {/* ---- left: headline, CTAs ---- */}
         <div className="st-left">
           <div className="st-reveal" style={{ transitionDelay: "0ms" }}>
             <SectionTag label={t(lang, "home.st.tag")} />
@@ -119,16 +118,6 @@ export default function StatsNumbers({ lang, data }: { lang: Lang; data: StatsDa
             <a href="#subjects" className="st-btn2">
               {t(lang, "home.st.btn2")}
             </a>
-          </div>
-          <div className="st-proof st-reveal" style={{ transitionDelay: "320ms" }}>
-            <span className="st-stack" aria-hidden="true">
-              {[2, 3, 8].map((v) => (
-                <span key={v}>
-                  <FaceAvatar v={v} />
-                </span>
-              ))}
-            </span>
-            <p>{t(lang, "home.st.proof")}</p>
           </div>
         </div>
 

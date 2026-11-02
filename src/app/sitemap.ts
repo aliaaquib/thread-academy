@@ -15,7 +15,7 @@ import { SITE_URL } from "@/lib/seo";
 // Next 16 requires an explicit static opt-in for metadata routes in `output: "export"`.
 export const dynamic = "force-static";
 import { type Lang } from "@/lib/i18n";
-import { SUBJECT_SLUGS } from "@/lib/subjects";
+import { CATEGORY_ORDER, SUBJECT_SLUGS } from "@/lib/subjects";
 import { getAllPosts } from "@/lib/blog";
 import { contentRoot, getAllTopicParams, getContentChapters, topicFileMtime } from "@/lib/content";
 import { GRADES, allGradeChapters, getChaptersForGrade, getGradeForChapter, gradeSlug } from "@/lib/grades";
@@ -96,7 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         }
 
         // Subject category indexes (e.g. /cambridge/lower-secondary/subjects/stem).
-        for (const category of ["stem", "humanities", "languages"]) {
+        for (const category of CATEGORY_ORDER.map((c) => c.toLowerCase())) {
           add(`${levelPath(curriculum.id, level.id)}/subjects/${category}`, 0.8, buildDate, lang);
         }
 

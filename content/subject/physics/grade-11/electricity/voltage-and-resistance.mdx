@@ -1,73 +1,99 @@
 ---
 title: "Voltage and Resistance"
-lede: "Using V = I × R and reading simple circuit measurements."
+lede: "Explain potential difference and resistance, then use V = IR to analyse simple circuits."
 ---
 
 <LearningObjectives>
-  <li>Define and explain Voltage and Resistance in your own words</li>
-  <li>Use key terms such as voltage accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Define potential difference and resistance</li>
+  <li>Use V = IR in calculations</li>
+  <li>Describe how to measure the resistance of a component</li>
+  <li>Interpret a current and voltage graph for a resistor</li>
 </LearningObjectives>
 
-This lesson focuses on Voltage and Resistance: using V = I × R and reading simple circuit measurements.
+<BeforeYouStart>
+  You know that current is the rate of flow of charge, and that an ammeter is connected in series to measure it.
+</BeforeYouStart>
 
-<Definition term="Voltage and Resistance">
-  Using V = I × R and reading simple circuit measurements.
+## Potential difference
+
+A cell gives energy to the charges in a circuit. Components transfer that energy as the charges pass through them. Potential difference, also called voltage, measures the energy transferred per unit of charge. We measure it with a voltmeter connected in parallel across a component.
+
+<Definition term="potential difference">
+  The energy transferred per coulomb of charge between two points, measured in volts (V).
 </Definition>
 
-## Key ideas
+## Resistance
 
-### Voltage, current and resistance are linked by V = IR
+Resistance describes how strongly a component opposes current. For the same potential difference, a higher resistance gives a smaller current.
 
-Voltage drives current through resistance like pressure drives water through a pipe. Doubling the voltage doubles the current through a fixed resistor. Ohmic conductors give a straight-line current–voltage graph through the origin — this is Ohm's law.
+<Definition term="resistance">
+  The ratio of potential difference to current, measured in ohms (Ω).
+</Definition>
 
-### Resistance opposes the current
+<Formula label="Resistance equation">
+  V = I × R
+</Formula>
 
-Resistance, measured in ohms (Ω), tells you how hard it is to push current through a component. Long thin wires and poor conductors have high resistance; short thick copper wires have low resistance. Ohmic conductors (like a wire at constant temperature) obey V = IR exactly, giving a straight-line I–V graph — but filament bulbs and diodes do not, because their resistance changes as they heat up.
+At constant temperature, the current through a fixed resistor is directly proportional to the potential difference. Its current and voltage graph is therefore a straight line through the origin.
 
-**Key term — voltage:** The energy transferred per unit charge, measured in volts (V) — the 'push' driving the current.
+<WorkedExample title="Find resistance from a measurement">
+  A resistor has 6.0 V across it and a current of 0.30 A through it. Find its resistance.
 
-<WorkedExample title="Worked example: Voltage and Resistance">
-  A 6 Ω resistor has 2 A flowing through it. Calculate the voltage across it.
+  ```maths
+  V = IR
+  R = V ÷ I
+  R = 6.0 ÷ 0.30 = 20 Ω
+  ```
 
-  Use V = IR: V = 2 × 6 = 12 V.
-
-  **Answer:** 12 V across the resistor.
+  **Answer:** 20 Ω
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Saying current is 'used up' in a circuit** Current is the same all round a series loop; it is energy that is transferred to the components.
-  - **Adding resistances in parallel like series** In parallel, 1/R = 1/R₁ + 1/R₂ — two 4 Ω resistors in parallel give 2 Ω, not 8 Ω.
+<ImportantNote title="Meter positions">
+  Put the ammeter in series with the component and the voltmeter in parallel across it.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "Potential difference is the energy transferred per unit charge.", bad: "Voltage is the speed of electricity.", note: "Use the definition based on energy and charge." },
+  ]}
+  mistake="Connecting a voltmeter in series, or forgetting to convert mA to A before using V = IR."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="A bulb has 2 A through it and 12 V across it. Calculate its resistance." hint="R = V ÷ I.">
-    12 ÷ 2 = 6 Ω.
-  </PracticeItem>
-  <PracticeItem question="A current of 0.5 A flows for 20 s. How much charge passes?" hint="Q = It.">
-    0.5 × 20 = 10 C.
-  </PracticeItem>
-  <PracticeItem question="Two 6 Ω resistors are in series across a 12 V battery. What is the current?" hint="Add the resistances first.">
-    Total R = 12 Ω, so I = 12 ÷ 12 = 1 A.
-  </PracticeItem>
-  <PracticeItem question="A kettle draws 5 A from the 230 V mains. Calculate its power." hint="P = IV.">
-    5 × 230 = 1150 W.
-  </PracticeItem>
+  <PracticeItem question="A 12 V supply is connected to a 4 Ω resistor. Find the current." answer="I = V ÷ R = 12 ÷ 4 = 3 A." />
+  <PracticeItem question="A current of 2 A flows through a 15 Ω resistor. Find the potential difference." answer="V = IR = 2 × 15 = 30 V." />
+  <PracticeItem question="A current of 200 mA flows with 5 V across a component. Find the resistance." answer="200 mA = 0.2 A, so R = 5 ÷ 0.2 = 25 Ω." />
+  <PracticeItem question="A student doubles the voltage across a filament lamp and the current less than doubles. Explain what happened to its resistance." answer="R = V ÷ I increased. The lamp became hotter, so the metal ions vibrated more and opposed the flow of charge more." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="Voltage and Resistance — quick check">
-  <QuizQuestion question="Which of these best defines &quot;voltage&quot;?" options={["How much a component opposes current, measured in ohms (Ω).", "The rate of flow of electric charge, measured in amperes (A).", "The rate of energy transfer, measured in watts (W).", "The energy transferred per unit charge, measured in volts (V) — the 'push' driving the current."]} answer={3} explanation="The energy transferred per unit charge, measured in volts (V) — the 'push' driving the current." />
-  <QuizQuestion question="How much energy does a 100 W bulb transfer in 60 s?" options={["101 × 60 = 6000 J.", "99 × 60 = 6000 J.", "102 × 60 = 6000 J.", "100 × 60 = 6000 J."]} answer={3} explanation="100 × 60 = 6000 J." />
+<Quiz title="Voltage and resistance quick check">
+  <QuizQuestion
+    question="What is the unit of resistance?"
+    options={["Ohm", "Volt", "Ampere", "Coulomb"]}
+    answer={0}
+    explanation="One volt per ampere equals one unit, shown by the Ω symbol."
+  />
+  <QuizQuestion
+    question="How is a voltmeter connected?"
+    options={["In series", "Across the cell only", "In parallel with the component", "To the ammeter"]}
+    answer={2}
+    explanation="It compares energy per charge between two points on either side of the component."
+  />
+  <QuizQuestion
+    question="If V stays fixed and R doubles, what happens to I?"
+    options={["It doubles", "It stays the same", "It quadruples", "It halves"]}
+    answer={3}
+    explanation="From I = V ÷ R, a larger denominator makes the current smaller in proportion."
+  />
 </Quiz>
 
 <Summary>
-  - Voltage and Resistance: using V = I × R and reading simple circuit measurements.
-  - Voltage, current and resistance are linked by V = IR: Voltage drives current through resistance like pressure drives water through a pipe.
-  - resistance: How much a component opposes current, measured in ohms (Ω).
-  - Watch out for: saying current is 'used up' in a circuit
+  - Potential difference is energy transferred per unit charge.
+  - Resistance is potential difference divided by current.
+  - Use V = IR with volts, amps and ohms.
+  - Connect ammeters in series and voltmeters in parallel.
 </Summary>

@@ -234,6 +234,9 @@ export function AskAiWidget() {
   const [hover, setHover] = useState(false);
   const [user, setUser] = useState<{ name: string; email: string } | null>(null);
   const boxRef = useRef<HTMLDivElement>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const launcherRef = useRef<HTMLButtonElement>(null);
+  const wasOpen = useRef(false);
   const s = STR[lang];
   const t = (k: string) => s[k] as string;
 
@@ -272,6 +275,14 @@ export function AskAiWidget() {
       setMsgs([{ role: "tutor", text: t("greeting") }]);
     }
   }, [open]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Focus moves into the dialog and back to the launcher. The dialog itself
+  // takes focus, not the input, so opening doesn't pop up a phone keyboard.
+  useEffect(() => {
+    if (open) dialogRef.current?.focus();
+    else if (wasOpen.current) launcherRef.current?.focus();
+    wasOpen.current = open;
+  }, [open]);
 
   useEffect(() => {
     boxRef.current?.scrollTo({ top: boxRef.current.scrollHeight, behavior: "smooth" });
@@ -364,6 +375,7 @@ export function AskAiWidget() {
     <>
       {!open && (
         <button
+          ref={launcherRef}
           type="button"
           onClick={() => setOpen(true)}
           onMouseEnter={() => setHover(true)}
@@ -383,7 +395,7 @@ export function AskAiWidget() {
             border: "none",
             cursor: "pointer",
             padding: "12px 20px",
-            fontSize: 14,
+            fontSize: "var(--fs-small)",
             fontWeight: 600,
             boxShadow: "0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1)",
             transform: hover ? "scale(1.05)" : "scale(1)",
@@ -396,8 +408,13 @@ export function AskAiWidget() {
       )}
       {open && (
         <div
+          ref={dialogRef}
           role="dialog"
           aria-label={t("title")}
+          tabIndex={-1}
+          onKeyDown={(e) => {
+            if (e.key === "Escape") setOpen(false);
+          }}
           style={{
             position: "fixed",
             bottom: 20,
@@ -423,7 +440,7 @@ export function AskAiWidget() {
               padding: "12px 16px",
             }}
           >
-            <p style={{ margin: 0, fontSize: 14, fontWeight: 600, color: "#fff" }}>
+            <p style={{ margin: 0, fontSize: "var(--fs-small)", fontWeight: 600, color: "#fff" }}>
               <span aria-hidden="true" className="brand-star" style={{ marginRight: 8 }}>
                 ✦
               </span>
@@ -437,7 +454,7 @@ export function AskAiWidget() {
                 background: "none",
                 border: "none",
                 cursor: "pointer",
-                fontSize: 20,
+                fontSize: "var(--fs-title)",
                 lineHeight: 1,
                 color: "rgba(255,255,255,.8)",
               }}
@@ -461,7 +478,7 @@ export function AskAiWidget() {
                 <>
                   <span
                     style={{
-                      fontSize: 12,
+                      fontSize: "var(--fs-caption)",
                       color: "#525252",
                       overflow: "hidden",
                       textOverflow: "ellipsis",
@@ -477,7 +494,7 @@ export function AskAiWidget() {
                       background: "none",
                       border: "none",
                       cursor: "pointer",
-                      fontSize: 12,
+                      fontSize: "var(--fs-caption)",
                       color: "#737373",
                       textDecoration: "underline",
                       padding: 0,
@@ -502,7 +519,7 @@ export function AskAiWidget() {
                     borderRadius: 999,
                     cursor: "pointer",
                     padding: "8px 12px",
-                    fontSize: 13,
+                    fontSize: "var(--fs-caption)",
                     fontWeight: 600,
                     color: "#1a1a1a",
                   }}
@@ -536,7 +553,7 @@ export function AskAiWidget() {
                 margin: 0,
                 padding: "6px 16px 0",
                 background: "#faf8f2",
-                fontSize: 11,
+                fontSize: "var(--fs-caption)",
                 color: "#a3a3a3",
                 textAlign: "center",
               }}
@@ -546,6 +563,7 @@ export function AskAiWidget() {
           )}
           <div
             ref={boxRef}
+            aria-live="polite"
             style={{
               flex: 1,
               display: "flex",
@@ -567,14 +585,14 @@ export function AskAiWidget() {
                       borderRadius: 16,
                       borderBottomRightRadius: 4,
                       padding: "10px 14px",
-                      fontSize: 14,
+                      fontSize: "var(--fs-small)",
                     }}
                   >
                     {m.text}
                   </div>
                 </div>
               ) : m.role === "note" ? (
-                <p key={i} style={{ margin: 0, fontSize: 12, fontStyle: "italic", color: "#737373" }}>
+                <p key={i} style={{ margin: 0, fontSize: "var(--fs-caption)", fontStyle: "italic", color: "#737373" }}>
                   {m.text}
                 </p>
               ) : (
@@ -587,7 +605,7 @@ export function AskAiWidget() {
                       borderRadius: 16,
                       borderBottomLeftRadius: 4,
                       padding: "10px 14px",
-                      fontSize: 14,
+                      fontSize: "var(--fs-small)",
                       color: "#1a1a1a",
                     }}
                   >
@@ -598,7 +616,7 @@ export function AskAiWidget() {
                           margin: "8px 0 0",
                           borderTop: "1px dashed #e3ddd0",
                           paddingTop: 6,
-                          fontSize: 12,
+                          fontSize: "var(--fs-caption)",
                           color: "#737373",
                         }}
                       >
@@ -612,7 +630,7 @@ export function AskAiWidget() {
               )
             )}
             {busy && (
-              <p style={{ margin: 0, fontSize: 12, fontStyle: "italic", color: "#737373" }}>
+              <p style={{ margin: 0, fontSize: "var(--fs-caption)", fontStyle: "italic", color: "#737373" }}>
                 {t("thinking")}
               </p>
             )}
@@ -633,6 +651,7 @@ export function AskAiWidget() {
                 if (e.key === "Enter") ask();
               }}
               placeholder={t("placeholder")}
+              aria-label={t("placeholder")}
               maxLength={500}
               style={{
                 flex: 1,
@@ -640,7 +659,7 @@ export function AskAiWidget() {
                 borderRadius: 999,
                 border: "1px solid #1a1a1a",
                 padding: "10px 16px",
-                fontSize: 14,
+                fontSize: "var(--fs-small)",
                 outline: "none",
               }}
             />
@@ -656,7 +675,7 @@ export function AskAiWidget() {
                 border: "none",
                 cursor: "pointer",
                 padding: "10px 16px",
-                fontSize: 14,
+                fontSize: "var(--fs-small)",
                 fontWeight: 600,
                 opacity: busy || !input.trim() ? 0.4 : 1,
               }}

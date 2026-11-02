@@ -7,7 +7,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { langMeta, withLang, type Lang } from "@/lib/i18n";
-import { t } from "@/lib/strings";
+import { t, tn } from "@/lib/strings";
 
 interface IndexEntry {
   kind: string;
@@ -98,6 +98,9 @@ export function SearchOverlay({
             ✕
           </button>
         </div>
+        <p className="sr-only" role="status">
+          {!q ? "" : results.length > 0 ? tn(lang, "search.results", results.length, { n: results.length, q: query.trim() }) : t(lang, "overlay.none")}
+        </p>
         <div className="search-results">
           {!q ? (
             <div className="empty">{t(lang, "overlay.empty")}</div>

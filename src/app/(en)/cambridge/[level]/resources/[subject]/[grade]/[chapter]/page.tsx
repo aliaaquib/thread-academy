@@ -201,7 +201,7 @@ export default async function ChapterResourcesPage(props: { params: Promise<Para
                   ▶
                 </span>
                 <span>
-                  <span className="chapter-title" style={{ fontSize: "1.2rem" }}>
+                  <span className="chapter-title" style={{ fontSize: "var(--fs-title)" }}>
                     {video.title}
                   </span>
                   <span className="chapter-desc">{t(lang, "resources.videos.youtube")}</span>

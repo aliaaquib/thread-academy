@@ -1,75 +1,95 @@
 ---
 title: "How Machine Learning Works"
-lede: "See how models learn patterns from data instead of following coded rules."
+lede: "Follow how machine learning models learn from data, make predictions and are tested on new examples."
 ---
 
 <LearningObjectives>
-  <li>Define and explain How Machine Learning Works in your own words</li>
-  <li>Use key terms such as machine learning accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Describe how supervised machine learning works</li>
+  <li>Explain training data, features and labels</li>
+  <li>Explain why a model is tested on unseen data</li>
+  <li>Identify overfitting</li>
 </LearningObjectives>
 
-Modern AI does not follow hand-written rules — it learns patterns from enormous piles of data. That makes it powerful, but also unpredictable: an AI is only as fair and reliable as the data it was fed. This chapter looks under the bonnet of machine learning and asks the hard questions about using it well.
+<BeforeYouStart>
+  You know that an algorithm follows rules. In machine learning, a program finds patterns from data instead of following only hand-written rules.
+</BeforeYouStart>
 
-This lesson focuses on How Machine Learning Works: see how models learn patterns from data instead of following coded rules.
+## Learning from examples
 
-<Definition term="How Machine Learning Works">
-  See how models learn patterns from data instead of following coded rules.
+Machine learning builds a model that finds patterns in data. In supervised learning, the training data contains examples with correct answers. A spam filter, for example, studies emails labelled spam or not spam. The model adjusts its internal values to reduce its errors, then uses the patterns it learned to make predictions.
+
+<Definition term="feature">
+  A measurable input used by a model, such as the number of links in an email.
 </Definition>
 
-## Key ideas
+<Definition term="label">
+  The correct output in a training example.
+</Definition>
 
-### Learning replaces hand-written rules
+## Training and testing
 
-Nobody could write rules to recognise every cat photo, so instead a model is shown thousands of labelled examples and adjusts its internal numbers until it predicts well. This is training; the model's skill is then tested on new examples it has never seen. If it only memorises the training set — overfitting — it fails on anything new.
+We split data into a training set and a test set. The model learns from the training set. The test set is kept aside so that we can measure how well the model handles new data. Training accuracy alone can be misleading.
 
-### Biased data in, biased decisions out
+<Definition term="overfitting">
+  When a model learns details of the training data so closely that it performs poorly on new data.
+</Definition>
 
-A hiring tool trained on a decade of a company's past hires will learn to prefer the kind of people the company used to hire — baking old discrimination into new software. Because the bias hides inside millions of tuned numbers, it is hard to spot without deliberately testing for fairness across groups.
+<WorkedExample title="Spot overfitting">
+  A model scores 99% on training data but only 62% on test data. What does this suggest?
 
-**Key term — machine learning:** A branch of AI where programs improve at a task by finding patterns in data, rather than by following explicitly programmed rules.
+  It works very well on known examples.
 
-<WorkedExample title="Worked example: How Machine Learning Works">
-  What is the difference between traditional programming and machine learning?
+  It works much less well on new examples.
 
-  In traditional programming humans write explicit rules; in machine learning the program finds its own patterns by training on data.
-
-  **Answer:** In traditional programming humans write explicit rules; in machine learning the program finds its own patterns by training on data.
+  **Answer:** The model has probably overfitted, so it has not generalised well.
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Assuming AI is neutral because maths is neutral** Correction: models inherit the biases of their training data — neutrality must be tested for, never assumed.
-  - **Trusting a high accuracy score without asking what it was tested on** Correction: always ask whether the test data was balanced and representative — 98% on easy data can hide total failure elsewhere.
+<ImportantNote title="Data shapes results">
+  A model learns from the data it receives. Biased or unrepresentative data can produce unfair predictions.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "Unseen test data shows whether the model can generalise.", bad: "Test data checks the code.", note: "Refer to performance on new data." },
+  ]}
+  mistake="Measuring a model only on the same data used to train it."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="What is overfitting, and how would you detect it?" hint="Great on training data, poor on new data.">
-    Overfitting is when a model memorises training examples instead of learning general patterns; it shows as high training accuracy but poor accuracy on unseen test data.
-  </PracticeItem>
-  <PracticeItem question="Why does a model trained only on photos taken in daylight struggle at night?" hint="Think about what patterns it has actually seen.">
-    Its training data contains no night-time patterns, so it never learned the features of dark images — it can only recognise what it has seen.
-  </PracticeItem>
-  <PracticeItem question="True or false: removing names from training data guarantees a model cannot discriminate." hint="Can other details hint at the same groups?">
-    False — remaining details like postcode or school can act as proxies for protected characteristics, so bias can survive.
-  </PracticeItem>
-  <PracticeItem question="A university uses AI to screen applications, trained on ten years of past admissions. Name one fairness risk." hint="What if past admissions favoured one group?">
-    The model may learn to prefer applicants resembling past successful ones, entrenching old biases against under-represented groups.
-  </PracticeItem>
+  <PracticeItem question="What is a label in supervised learning?" answer="The correct answer attached to a training example." />
+  <PracticeItem question="Give one possible feature for predicting house prices." answer="Floor area, number of rooms or location." />
+  <PracticeItem question="Why is a test set kept separate?" answer="So that the model can be measured on data it did not learn from." />
+  <PracticeItem question="A loan model is trained mostly on applicants from one city. Explain one risk of using it in another city." answer="The data may not represent the new population, so predictions could be less accurate or unfair." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="How Machine Learning Works — quick check">
-  <QuizQuestion question="Which of these best defines &quot;machine learning&quot;?" options={["The examples a model learns from — thousands of labelled photos, texts or records. Its quality and balance shape everything the model does.", "A systematic unfairness in a model's decisions, usually inherited from unrepresentative or prejudiced training data.", "The trained program produced by machine learning — a set of tuned numbers that maps new inputs to predictions.", "A branch of AI where programs improve at a task by finding patterns in data, rather than by following explicitly programmed rules."]} answer={3} explanation="A branch of AI where programs improve at a task by finding patterns in data, rather than by following explicitly programmed rules." />
-  <QuizQuestion question="You use an AI chatbot to draft your history essay. What is the responsible way to handle this?" options={["Correction: models inherit the biases of their training data — neutrality must be tested for, never assumed.", "A systematic unfairness in a model's decisions, usually inherited from unrepresentative or prejudiced training data.", "The trained program produced by machine learning — a set of tuned numbers that maps new inputs to predictions.", "Be honest that AI assisted you, check every fact yourself (AI can invent plausible-sounding errors), and make sure the final thinking and wording are your own."]} answer={3} explanation="Be honest that AI assisted you, check every fact yourself (AI can invent plausible-sounding errors), and make sure the final thinking and wording are your own." />
+<Quiz title="Machine learning quick check">
+  <QuizQuestion
+    question="What does a model learn from?"
+    options={["Only hand-written rules", "Patterns in data", "Random guesses", "The computer's screen"]}
+    answer={1}
+    explanation="Training examples let it adjust internal values and improve its predictions."
+  />
+  <QuizQuestion
+    question="What is overfitting?"
+    options={["Doing well on training data but poorly on new data", "Using too little memory", "Having no features", "Using test data for testing"]}
+    answer={0}
+    explanation="The model memorises details and fails to generalise to fresh examples."
+  />
+  <QuizQuestion
+    question="What might biased training data cause?"
+    options={["Faster keyboards", "Better labels", "More electricity only", "Unfair predictions"]}
+    answer={3}
+    explanation="A model repeats patterns in its data, including patterns that disadvantage some groups."
+  />
 </Quiz>
 
 <Summary>
-  - How Machine Learning Works: see how models learn patterns from data instead of following coded rules.
-  - Learning replaces hand-written rules: Nobody could write rules to recognise every cat photo, so instead a model is shown thousands of labelled examples and adjusts its internal numbers until it predicts well.
-  - training data: The examples a model learns from — thousands of labelled photos, texts or records.
-  - Watch out for: assuming AI is neutral because maths is neutral
+  - Machine learning finds patterns in data.
+  - Supervised learning uses features and labels.
+  - Test data shows whether a model generalises.
+  - Biased data can lead to unfair results.
 </Summary>

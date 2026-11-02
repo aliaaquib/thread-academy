@@ -17,15 +17,18 @@ export function PracticeQuestions({ children }: { children: ReactNode }) {
 export function PracticeItem({
   question,
   hint,
+  answer,
   level,
   children,
   lang = "en",
 }: {
   question: string;
   hint?: string;
+  /** The answer as plain text, as the CMS saves it. Lessons can use children instead. */
+  answer?: string;
   /** "challenge" marks the item as the optional harder question (new topic structure). */
   level?: "challenge";
-  children: ReactNode;
+  children?: ReactNode;
   lang?: Lang;
 }) {
   const [open, setOpen] = useState(false);
@@ -37,7 +40,7 @@ export function PracticeItem({
       <button type="button" className="reveal-btn" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
         {open ? t(lang, "tb.hide") : t(lang, "tb.reveal")}
       </button>
-      <div className={`practice-answer${open ? " visible" : ""}`}>{children}</div>
+      <div className={`practice-answer${open ? " visible" : ""}`}>{children ?? answer}</div>
     </div>
   );
 }

@@ -33,7 +33,7 @@ export function KeepGoing({
           <span className="chapter-index">→</span>
           <span>
             <span className="keep-going-label">{t(lang, "tb.keepgoing.next")}</span>
-            <span className="chapter-title" style={{ fontSize: "1.35rem" }}>{next.title}</span>
+            <span className="chapter-title" style={{ fontSize: "var(--fs-title)" }}>{next.title}</span>
           </span>
           <span className="chapter-status">{t(lang, "tb.read.lesson")}</span>
         </Link>

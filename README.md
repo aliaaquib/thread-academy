@@ -2,7 +2,7 @@
 
 A free, W3Schools-style interactive learning library for school students — built with **Next.js 14 (App Router) + TypeScript + Tailwind CSS + MDX**, exported as a fully static site (no backend, no database, no auth, no tracking).
 
-Twelve subjects (Mathematics, Physics, Chemistry, Biology, Computer Science, English, History, Geography, Economics, Business, Spanish, French) across four curricula — British, Cambridge, American and IB — each keeping its own level structure.
+Five STEM subjects (Mathematics, Physics, Chemistry, Biology, Computer Science) across four curricula — British, Cambridge, American and IB — each keeping its own level structure.
 
 ## Prerequisites
 
@@ -110,4 +110,4 @@ reference always wins over Tailwind purity. Responsive breakpoints at 960px and 
 - `public/.nojekyll` is included so GitHub Pages serves files like `_next/` correctly.
 - The Python playground (`TryItPython`) loads Pyodide from the jsDelivr CDN at first use — the
   page works offline except for that widget, which needs network access to the CDN.
-- No environment variables, no server, no cookies, no analytics.
+- No server and no cookies. Vercel Web Analytics counts visits; the privacy and cookie pages describe it.

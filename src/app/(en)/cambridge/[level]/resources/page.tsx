@@ -34,10 +34,6 @@ const GLYPHS: Record<string, string> = {
   chemistry: "H₂",
   biology: "DNA",
   "computer-science": "</>",
-  english: "Aa",
-  history: "AD",
-  geography: "◎",
-  economics: "↗",
 };
 
 type Params = LangParam & { level: string };

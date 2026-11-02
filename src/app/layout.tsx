@@ -11,6 +11,7 @@
  * the current page and says plainly the AI writer isn't connected yet.
  */
 import type { Metadata, Viewport } from "next";
+import "./tokens.css";
 import "./globals.css";
 import { SITE_URL, SITE_NAME } from "@/lib/seo";
 import { t } from "@/lib/strings";

@@ -11,7 +11,7 @@
  * language. Educational routes (lessons, resources, blog posts) list only
  * genuinely translated content per language — never fake translated pages.
  */
-import { SUBJECT_SLUGS } from "./subjects";
+import { CATEGORY_ORDER, SUBJECT_SLUGS } from "./subjects";
 import { GRADES, allGradeChapters, getGradeForChapter, gradeSlug } from "./grades";
 import { getAllTopicParams, getContentChapters } from "./content";
 import { getPostSlugs } from "./blog";
@@ -31,7 +31,7 @@ export function levelParams(_lang: Lang) {
 
 /** Subject and category index pages, per curriculum level. */
 export function subjectParams(_lang: Lang) {
-  const CATEGORY_SLUGS = ["stem", "humanities", "languages"];
+  const CATEGORY_SLUGS = CATEGORY_ORDER.map((c) => c.toLowerCase());
   const params: { level: string; subject: string }[] = [];
   for (const c of activeCurricula()) {
     for (const level of c.levels) {

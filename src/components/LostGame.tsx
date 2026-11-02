@@ -10,7 +10,7 @@
  */
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import type { Lang } from "@/lib/i18n";
+import { withLang, type Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 
 type Item = { id: number; x: number; text: string; value: number; duration: number };
@@ -227,6 +227,11 @@ export default function LostGame() {
       <p className="lost-eyebrow">404</p>
       <h1 className="lost-title">{t(lang, "game.404.title")}</h1>
       <p className="lost-lede">{t(lang, "game.404.lede")}</p>
+      <nav className="lost-links" aria-label="Primary">
+        <Link href={withLang("/", lang)}>{t(lang, "nav.home")}</Link>
+        <Link href={withLang("/curricula", lang)}>{t(lang, "nav.curricula")}</Link>
+        <Link href={withLang("/search", lang)}>{t(lang, "nav.search")}</Link>
+      </nav>
 
       <div className="lost-hud">
         <div className="lost-hud-item">

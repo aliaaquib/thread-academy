@@ -1,78 +1,101 @@
 ---
 title: "Kinematics in a straight line"
-lede: "Displacement, velocity and acceleration, with the constant-acceleration SUVAT equations."
+lede: "Model motion with constant acceleration using the suvat equations and interpret the signs of velocity and acceleration."
 ---
 
 <LearningObjectives>
-  <li>Define and explain Kinematics in a straight line in your own words</li>
-  <li>Use key terms such as Displacement accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Define displacement, velocity and acceleration</li>
+  <li>Choose the correct constant acceleration equation</li>
+  <li>Solve problems that include motion under gravity</li>
 </LearningObjectives>
 
-Mechanics is mathematics with muscles: it predicts how real objects move. The same equations that time a sprinter's finish also guide satellites — learn them once and the universe starts making sense.
+<BeforeYouStart>
+  You can rearrange formulae and solve quadratic equations. You also know that speed is distance divided by time.
+</BeforeYouStart>
 
-This lesson focuses on Kinematics in a straight line: displacement, velocity and acceleration, with the constant-acceleration SUVAT equations.
+## Describing motion
 
-<Definition term="Kinematics in a straight line">
-  Displacement, velocity and acceleration, with the constant-acceleration SUVAT equations.
+Kinematics describes how objects move without asking what causes the motion. In a straight line we choose one direction as positive. Displacement and velocity then carry a sign, so a negative velocity means the object is moving in the opposite direction.
+
+<Definition term="displacement">
+  The distance from a starting point in a given direction.
 </Definition>
 
-## Key ideas
+<Definition term="acceleration">
+  The rate of change of velocity, measured in metres per second squared.
+</Definition>
 
-### SUVAT equations
+## The suvat equations
 
-For constant acceleration: v = u + at, s = ut + ½at², and v² = u² + 2as. Choose the equation containing the quantities you know and the one unknown you need; always define a positive direction first.
+When acceleration is constant, five quantities are linked: displacement s, initial velocity u, final velocity v, acceleration a and time t.
 
-### Projectile motion
+```maths
+v = u + at
+s = ut + ½at²
+s = ½(u + v)t
+v² = u² + 2as
+```
 
-Horizontal and vertical motion are independent: horizontal velocity stays constant (no air resistance), while vertical motion accelerates at g = 9.8 m/s² downwards. Resolve the initial velocity into components, then treat each direction with SUVAT.
+List the values you know, identify the one you need, and choose the equation that leaves out the unwanted quantity.
 
-**Key term — Displacement:** Distance measured in a straight line from a starting point, with direction included; unlike distance, it can be negative.
+<WorkedExample title="An accelerating car">
+  A car travelling at 5 m/s accelerates at 2 m/s² for 6 s. Find its final velocity and the distance travelled.
 
-<WorkedExample title="Constant acceleration">
-  A car accelerates uniformly from 4 m/s to 12 m/s in 4 s. Find the acceleration and the distance travelled.
+  ```maths
+  u = 5, a = 2, t = 6
+  v = u + at = 5 + 2 × 6 = 17 m/s
+  s = ut + ½at² = 5 × 6 + ½ × 2 × 6² = 66 m
+  ```
 
-  Acceleration a = (v − u)/t = (12 − 4)/4 = 8/4 = 2 m/s².
-  Distance via s = (u + v)/2 × t = (4 + 12)/2 × 4 = 8 × 4 = 32 m.
-  Check with s = ut + ½at² = 16 + 16 = 32 m. ✓.
-
-  **Answer:** Acceleration 2 m/s²; distance 32 m.
+  **Answer:** 17 m/s and 66 m.
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Confusing speed with velocity, or distance with displacement** SUVAT uses vectors: fix a positive direction at the start and keep signs consistent, or the equations give nonsense.
-  - **Using F = ma with the wrong force** It is the resultant (net) force that equals ma — add all forces vectorially first, including friction and weight components.
+<ImportantNote title="Check the conditions">
+  The suvat equations work only when acceleration is constant. If an object moves under gravity, take a = 9.8 m/s² downwards and keep the signs consistent.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "Taking up as positive: u = 14, a = −9.8, v = 0", bad: "u = 14, a = 9.8, v = 0", note: "State the positive direction, because gravity acts against upward motion." },
+  ]}
+  mistake="Mixing signs by treating upward velocity and downward acceleration as both positive."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="A particle starts from rest and accelerates at 3 m/s² for 5 s. Find its final velocity." hint="v = u + at.">
-    v = 0 + 3 × 5 = 15 m/s.
-  </PracticeItem>
-  <PracticeItem question="A 2 kg mass experiences a resultant force of 10 N. Find its acceleration." hint="F = ma.">
-    a = 10/2 = 5 m/s².
-  </PracticeItem>
-  <PracticeItem question="Find the distance travelled in the previous question." hint="s = ut + ½at².">
-    s = 0 + ½ × 3 × 25 = 37.5 m.
-  </PracticeItem>
-  <PracticeItem question="A box on rough ground has normal reaction 50 N and μ = 0.4. Find the maximum friction." hint="F_max = μR.">
-    F_max = 0.4 × 50 = 20 N.
-  </PracticeItem>
+  <PracticeItem question="A train slows from 30 m/s to 10 m/s in 40 s. Find its acceleration." answer="a = (v − u) ÷ t = (10 − 30) ÷ 40 = −0.5 m/s²." />
+  <PracticeItem question="A cyclist accelerates from rest at 1.5 m/s² for 8 s. Find the distance travelled." answer="s = ut + ½at² = 0 + ½ × 1.5 × 8² = 48 m." />
+  <PracticeItem question="A car moving at 20 m/s stops with deceleration 4 m/s². Find the stopping distance." answer="v² = u² + 2as gives 0 = 400 − 8s, so s = 50 m." />
+  <PracticeItem question="A ball is thrown upwards at 14 m/s. Find the time to reach its highest point and the maximum height." answer="At the top v = 0. Time: 0 = 14 − 9.8t, so t ≈ 1.43 s. Height: 0 = 196 − 19.6s, so s = 10 m." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="Kinematics in a straight line — quick check">
-  <QuizQuestion question="Which of these best defines &quot;Displacement&quot;?" options={["The rate of change of velocity, in m/s²; positive for speeding up in the chosen direction, negative (deceleration) for slowing down.", "A force opposing relative motion between surfaces, modelled as F ≤ μR where μ is the coefficient of friction and R the normal reaction.", "A push or pull measured in newtons (N); a resultant force causes acceleration via F = ma.", "Distance measured in a straight line from a starting point, with direction included; unlike distance, it can be negative."]} answer={3} explanation="Distance measured in a straight line from a starting point, with direction included; unlike distance, it can be negative." />
-  <QuizQuestion question="A projectile is launched horizontally at 20 m/s from a 45 m cliff. How long until it hits the sea? (g = 9.8 m/s²)" options={["t² = 91/9.8 ≈ 9.18; t ≈ 3.03 s.", "t² = 89/9.8 ≈ 9.18; t ≈ 3.03 s.", "t² = 92/9.8 ≈ 9.18; t ≈ 3.03 s.", "t² = 90/9.8 ≈ 9.18; t ≈ 3.03 s."]} answer={3} explanation="t² = 90/9.8 ≈ 9.18; t ≈ 3.03 s." />
-  <QuizQuestion question="A ball is dropped from rest. How far does it fall in 2 s? (g = 9.8 m/s²)" options={["s = ½ × 10.8 × 4 = 19.6 m.", "s = ½ × 8.8 × 4 = 19.6 m.", "s = ½ × 11.8 × 4 = 19.6 m.", "s = ½ × 9.8 × 4 = 19.6 m."]} answer={3} explanation="s = ½ × 9.8 × 4 = 19.6 m." />
+<Quiz title="Kinematics quick check">
+  <QuizQuestion
+    question="Which equation does not include time?"
+    options={["v = u + at", "s = ut + ½at²", "v² = u² + 2as", "s = ½(u + v)t"]}
+    answer={2}
+    explanation="It links speeds, acceleration and displacement, so use it when t is neither given nor needed."
+  />
+  <QuizQuestion
+    question="An object starts from rest. Which value is known immediately?"
+    options={["a = 0", "u = 0", "v = 0", "s = 1"]}
+    answer={1}
+    explanation="From rest means its initial velocity has no size at the start."
+  />
+  <QuizQuestion
+    question="What does a negative velocity show?"
+    options={["The object is slowing down", "The object has stopped", "The acceleration is zero", "The object moves opposite the positive direction"]}
+    answer={3}
+    explanation="The sign of velocity gives direction, while a separate acceleration shows how velocity changes."
+  />
 </Quiz>
 
 <Summary>
-  - Kinematics in a straight line: displacement, velocity and acceleration, with the constant-acceleration SUVAT equations.
-  - SUVAT equations: For constant acceleration: v = u + at, s = ut + ½at², and v² = u² + 2as.
-  - Acceleration: The rate of change of velocity, in m/s²; positive for speeding up in the chosen direction, negative (deceleration) for slowing down.
-  - Watch out for: confusing speed with velocity, or distance with displacement
+  - Choose a positive direction before you start.
+  - Use the suvat equations only when acceleration is constant.
+  - Pick the equation that leaves out the unwanted quantity.
+  - Under gravity, keep the signs consistent.
 </Summary>

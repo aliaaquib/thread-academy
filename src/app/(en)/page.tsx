@@ -11,23 +11,20 @@ import HeroSearch, { type QuickLink } from "@/components/HeroSearch";
 import { CATEGORY_ORDER, SUBJECT_SLUGS, getSubject, subjectsByCategory } from "@/lib/subjects";
 import { getChaptersForSubject } from "@/lib/stage-chapters";
 import { getTopicContent, type TopicParams } from "@/lib/content";
-import { gradeSlug } from "@/lib/grades";
+import { GRADES, getChaptersForGrade } from "@/lib/grades";
 import {
-  CURRICULUM_IDS,
-  CURRICULUM_NAMES,
   chapterPathForGrade,
   curriculumPath,
+  gradePath,
+  levelIdForGrade,
   levelSubjectsPath,
-  levelsWithContent,
   subjectLandingPath,
-  type CurriculumId,
 } from "@/lib/curricula";
-import CurriculumCard from "@/components/CurriculumCard";
+import GradeSubjects from "@/components/GradeSubjects";
 import HowItWorksDeck from "@/components/HowItWorksDeck";
 import SectionTag from "@/components/SectionTag";
 import FromTheLibrary from "@/components/FromTheLibrary";
 import StatsNumbers, { type StatsData } from "@/components/StatsNumbers";
-import WhyCards from "@/components/WhyCards";
 import { getChapterTopics } from "@/lib/chapters";
 import { JsonLd, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
 import { langMeta, withLang, type Lang } from "@/lib/i18n";
@@ -62,14 +59,6 @@ const GLYPHS: Record<string, string> = {
   chemistry: "H₂",
   biology: "DNA",
   "computer-science": "</>",
-  english: "Aa",
-  history: "AD",
-  geography: "◎",
-  economics: "↗",
-  psychology: "Ψ",
-  sociology: "◉",
-  "political-science": "⚖",
-  russian: "Ж",
 };
 
 /** Featured lessons for the hero quick links (only shown where they exist). */
@@ -117,14 +106,29 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
 
 
 
-  // First Cambridge level with content — homepage subject/category links
-  // land here so they never point at an empty level.
-  const firstLevel = levelsWithContent("cambridge")[0]?.id ?? "lower-secondary";
+  // The first grade with lessons sets the level, so homepage subject links
+  // never land on the empty Primary level.
+  const firstLevel = levelIdForGrade("cambridge", GRADES[0]) ?? "lower-secondary";
 
-  const curricula = (Object.keys(CURRICULUM_NAMES) as CurriculumId[]).map((id) => ({
-    id,
-    name: CURRICULUM_NAMES[id],
-    active: id === "cambridge",
+
+  // Each grade's subjects for the picker, linking straight to that grade's chapters.
+  const gradeSubjects = GRADES.map((grade) => ({
+    grade,
+    subjects: SUBJECT_SLUGS.flatMap((slug) => {
+      const chapters = getChaptersForGrade(slug, grade, lang).length;
+      const level = levelIdForGrade("cambridge", grade);
+      const subject = getSubject(slug, lang);
+      if (!chapters || !level || !subject) return [];
+      return [
+        {
+          slug,
+          name: subject.name,
+          glyph: GLYPHS[slug] ?? slug.slice(0, 2).toUpperCase(),
+          href: withLang(gradePath("cambridge", level, slug, grade), lang),
+          chapters,
+        },
+      ];
+    }),
   }));
 
   return (
@@ -143,32 +147,6 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
         <HeroSearch lang={lang} links={quickLinks(lang)} />
       </header>
 
-      <section className="section" id="curricula">
-        <div className="section-head">
-          <div>
-            <SectionTag label={t(lang, "nav.curricula")} />
-            <h2>{t(lang, "curricula.title")}</h2>
-          </div>
-          <p>{t(lang, "curricula.hero.lede")}</p>
-        </div>
-        <div className="subjects-grid curricula-grid">
-          {curricula.map((c) => (
-            <CurriculumCard
-              key={c.id}
-              lang={lang}
-              href={withLang(curriculumPath(c.id), lang)}
-              badge={c.active ? t(lang, "curriculum.levels.title") : t(lang, "curriculum.comingSoon")}
-              title={c.name}
-              lede={
-                c.active
-                  ? t(lang, "curriculum.landing.lede", { name: c.name })
-                  : t(lang, "curriculum.comingSoon.short", { name: c.name })
-              }
-              disabled={!c.active}
-            />
-          ))}
-        </div>
-      </section>
 
       <section className="section" id="subjects">
         <div className="section-head">
@@ -178,13 +156,14 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
           </div>
           <p>{t(lang, "home.subjects.lede")}</p>
         </div>
+        <GradeSubjects lang={lang} grades={gradeSubjects}>
         {CATEGORY_ORDER.map((category) => (
           <div key={category}>
             <div className="eyebrow" style={{ margin: "42px 0 16px" }}>
               {t(lang, `subject.category.${category.toLowerCase()}`)}
             </div>
             <div className="subjects-grid">
-              {subjectsByCategory(category, lang).slice(0, 3).map((subject) => {
+              {subjectsByCategory(category, lang).map((subject) => {
                 const n = getChaptersForSubject(subject.slug, lang).length;
                 const href = subjectLandingPath(subject.slug);
                 if (!href) return null;
@@ -225,23 +204,9 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
             {t(lang, "home.browse.all")} <span aria-hidden="true">→</span>
           </Link>
         </p>
+        </GradeSubjects>
       </section>
 
-      <section className="section" id="why">
-        <div className="section-head">
-          <div>
-            <SectionTag label={t(lang, "home.stag.why")} />
-            <h2>{t(lang, "home.why.title")}</h2>
-          </div>
-          <p>{t(lang, "home.why.copy")}</p>
-        </div>
-        <WhyCards lang={lang} />
-        <p style={{ marginTop: 30 }}>
-          <Link className="inline-link" href={withLang("/about", lang)}>
-            {t(lang, "home.why.link")} <span aria-hidden="true">→</span>
-          </Link>
-        </p>
-      </section>
 
       <HowItWorksDeck lang={lang} />
 

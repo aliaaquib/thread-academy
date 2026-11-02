@@ -1,77 +1,89 @@
 ---
 title: "Order of Operations"
-lede: "Apply BIDMAS to multi-step calculations."
+lede: "Use BIDMAS to work out calculations with more than one operation and get the same answer every time."
 ---
 
 <LearningObjectives>
-  <li>Define and explain Order of Operations in your own words</li>
-  <li>Use key terms such as BIDMAS accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>State the order of operations</li>
+  <li>Work out calculations with brackets and powers</li>
+  <li>Use brackets to change the value of a calculation</li>
 </LearningObjectives>
 
-This lesson focuses on Order of Operations: apply BIDMAS to multi-step calculations.
+<BeforeYouStart>
+  You can already add, subtract, multiply and divide. You also know that 3² means 3 × 3.
+</BeforeYouStart>
 
-<Definition term="Order of Operations">
-  Apply BIDMAS to multi-step calculations.
+## Why we need an order
+
+Look at 2 + 3 × 4. If you add first you get 20, but if you multiply first you get 14. Both cannot be right, so mathematicians agreed on one order. The correct answer is 14 because multiplication comes before addition.
+
+<Definition term="BIDMAS">
+  The order of operations: Brackets, Indices, Division and Multiplication, then Addition and Subtraction.
 </Definition>
 
-## Key ideas
+## Using BIDMAS
 
-### BIDMAS
+Division and multiplication have equal priority, so work them from left to right. Addition and subtraction also have equal priority, so work them from left to right as well. This means 24 ÷ 4 × 2 is 6 × 2, which equals 12.
 
-Without an agreed order, 2 + 3 × 4 could be 20 or 14. BIDMAS — brackets, indices, division and multiplication, addition and subtraction — fixes it as 14.
+<WorkedExample title="Brackets, a power and subtraction">
+  Work out (4 + 3)² − 5.
 
-### Equivalent forms
+  ```maths
+  (4 + 3)² − 5
+  7² − 5        brackets first
+  49 − 5        then the power
+  44            then the subtraction
+  ```
 
-1/2 = 0.5 = 50% — fractions, decimals and percentages are three ways of writing the same amount. Choosing the handiest form makes each calculation easier.
-
-**Key term — BIDMAS:** The agreed order for calculations: Brackets, Indices, Division and Multiplication, Addition and Subtraction.
-
-<WorkedExample title="The shopping bill">
-  A shopper buys 3 packs of pens at £2.40 each and a notebook for £5. There is a 10% discount on the total. How much is paid?
-
-  Multiply first: 3 × £2.40 = £7.20.
-  Add the notebook: £7.20 + £5 = £12.20.
-  Find the discount: 10% of £12.20 = £1.22.
-  Subtract: £12.20 − £1.22 = £10.98.
-
-  **Answer:** £10.98.
+  **Answer:** 44
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Adding before multiplying** In 2 + 3 × 4 the answer is 14, not 20 — multiplication comes before addition in BIDMAS.
-  - **Reading 3.45 as bigger than 3.5** Compare the tenths first: 3.5 is 3.50, which beats 3.45.
+<ImportantNote title="Equal priority">
+  Multiplication does not always come before division. When they appear together, work from left to right.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "20 − 6 ÷ 2 = 20 − 3 = 17", bad: "20 − 6 ÷ 2 = 14 ÷ 2 = 7", note: "Division comes before subtraction, so 6 ÷ 2 is worked out first." },
+  ]}
+  mistake="Working from left to right through the whole calculation instead of following BIDMAS."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="Work out 2 + 3 × 4." hint="Multiply before you add.">
-    14 — 3 × 4 = 12, then 2 + 12 = 14.
-  </PracticeItem>
-  <PracticeItem question="Write 3/8 as a decimal." hint="Divide 3 by 8.">
-    0.375 — 3 ÷ 8 = 0.375.
-  </PracticeItem>
-  <PracticeItem question="What is 25% of 80?" hint="25% is one quarter.">
-    20 — 80 ÷ 4 = 20.
-  </PracticeItem>
-  <PracticeItem question="Work out −4 + 9 − 3." hint="Move along the number line.">
-    2 — −4 + 9 = 5, then 5 − 3 = 2.
-  </PracticeItem>
+  <PracticeItem question="Work out 8 + 2 × 5." answer="2 × 5 = 10, then 8 + 10 = 18." />
+  <PracticeItem question="Work out 3 × (6 − 2)²." answer="6 − 2 = 4, then 4² = 16, then 3 × 16 = 48." />
+  <PracticeItem question="Work out 24 ÷ 4 × 2." answer="Work left to right: 24 ÷ 4 = 6, then 6 × 2 = 12." />
+  <PracticeItem question="Work out 2 + 3 × (8 − 2)² ÷ 4." answer="8 − 2 = 6, then 6² = 36. 3 × 36 = 108, then 108 ÷ 4 = 27. Finally 2 + 27 = 29." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="Order of Operations — quick check">
-  <QuizQuestion question="Which of these best defines &quot;BIDMAS&quot;?" options={["A whole number greater than 1 with exactly two factors: 1 and itself, such as 7 or 13.", "A decimal with a digit or group of digits that repeats forever, such as 0.333…", "A number that divides another exactly, with no remainder. 3 is a factor of 12.", "The agreed order for calculations: Brackets, Indices, Division and Multiplication, Addition and Subtraction."]} answer={3} explanation="The agreed order for calculations: Brackets, Indices, Division and Multiplication, Addition and Subtraction." />
-  <QuizQuestion question="Round 7.846 to 2 decimal places." options={["8.85 — the third digit, 6, rounds the 4 up to 5.", "9.85 — the third digit, 6, rounds the 4 up to 5.", "6.85 — the third digit, 6, rounds the 4 up to 5.", "7.85 — the third digit, 6, rounds the 4 up to 5."]} answer={3} explanation="7.85 — the third digit, 6, rounds the 4 up to 5." />
-  <QuizQuestion question="List the factors of 24." options={["2 2, 3, 4, 6, 8, 12, 24.", "3 2, 3, 4, 6, 8, 12, 24.", "0 2, 3, 4, 6, 8, 12, 24.", "1, 2, 3, 4, 6, 8, 12, 24."]} answer={3} explanation="1, 2, 3, 4, 6, 8, 12, 24." />
+<Quiz title="Order of operations quick check">
+  <QuizQuestion
+    question="What is 6 + 4 × 2?"
+    options={["20", "14", "12", "16"]}
+    answer={1}
+    explanation="Multiply 4 by 2 first to get 8, then add 6."
+  />
+  <QuizQuestion
+    question="What is (6 + 4) × 2?"
+    options={["14", "16", "20", "12"]}
+    answer={2}
+    explanation="Brackets come first, so add to get 10, then multiply by 2."
+  />
+  <QuizQuestion
+    question="Which step comes first in 5 + 2³ × 3?"
+    options={["5 + 2", "2 × 3", "3 × 3", "Working out 2³"]}
+    answer={3}
+    explanation="Indices come before multiplication and addition, so find the power first."
+  />
 </Quiz>
 
 <Summary>
-  - Order of Operations: apply BIDMAS to multi-step calculations.
-  - BIDMAS: Without an agreed order, 2 + 3 × 4 could be 20 or 14.
-  - Prime number: A whole number greater than 1 with exactly two factors: 1 and itself, such as 7 or 13.
-  - Watch out for: adding before multiplying
+  - Follow BIDMAS so everyone gets the same answer.
+  - Work division and multiplication from left to right.
+  - Work addition and subtraction from left to right.
+  - Use brackets to change the order.
 </Summary>

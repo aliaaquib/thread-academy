@@ -5,6 +5,7 @@
  */
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { openSiteSearch } from "./search-bus";
@@ -14,10 +15,12 @@ import { withLang, type Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
 
 /** Official horizontal Thread Academy logo; at <=980px the links collapse
- *  but toggle and search remain; at <=650px the logo renders at 34px.
+ *  into a menu button, and toggle and search remain; at <=650px the logo
+ *  renders at 34px.
  *  Sign in lives in the nav-actions cluster (student = Google via the
  *  tutor worker, teacher = link to the teacher CMS login). */
 export default function SiteHeader({ lang }: { lang: Lang }) {
+  const [menuOpen, setMenuOpen] = useState(false);
   const NAV = [
     { href: withLang("/", lang), label: t(lang, "nav.home") },
     { href: withLang("/curricula", lang), label: t(lang, "nav.curricula") },
@@ -26,7 +29,12 @@ export default function SiteHeader({ lang }: { lang: Lang }) {
     { href: withLang("/about", lang), label: t(lang, "nav.about") },
   ];
   return (
-    <header className="nav">
+    <header
+      className="nav"
+      onKeyDown={(e) => {
+        if (e.key === "Escape") setMenuOpen(false);
+      }}
+    >
       <Link href={withLang("/", lang)} className="brand" aria-label={t(lang, "nav.brand.home")}>
         <Image
           src="/brand/logo-horizontal-light.png"
@@ -37,9 +45,9 @@ export default function SiteHeader({ lang }: { lang: Lang }) {
           priority
         />
       </Link>
-      <nav className="nav-links" aria-label="Primary">
+      <nav id="site-nav" className={`nav-links${menuOpen ? " open" : ""}`} aria-label="Primary">
         {NAV.map((item) => (
-          <Link key={item.href} href={item.href}>
+          <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
             {item.label}
           </Link>
         ))}
@@ -51,6 +59,17 @@ export default function SiteHeader({ lang }: { lang: Lang }) {
           <svg width="19" height="19" viewBox="0 0 19 19" fill="none" aria-hidden="true">
             <circle cx="8.5" cy="8.5" r="6.5" stroke="currentColor" strokeWidth="2" />
             <path d="M13.5 13.5L17.5 17.5" stroke="currentColor" strokeWidth="2" />
+          </svg>
+        </button>
+        <button
+          className="nav-menu-btn"
+          aria-label={t(lang, "nav.menu")}
+          aria-expanded={menuOpen}
+          aria-controls="site-nav"
+          onClick={() => setMenuOpen((v) => !v)}
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d={menuOpen ? "M4 4L16 16M16 4L4 16" : "M2 5H18M2 10H18M2 15H18"} stroke="currentColor" strokeWidth="2" />
           </svg>
         </button>
       </div>
