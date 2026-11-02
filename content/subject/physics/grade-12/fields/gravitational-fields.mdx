@@ -1,78 +1,97 @@
 ---
 title: "Gravitational Fields"
-lede: "Mapping g fields with F = GmM/r² and linking field strength to potential."
+lede: "Describe gravitational fields around masses and calculate field strength using Newton's law of gravitation."
 ---
 
 <LearningObjectives>
-  <li>Define and explain Gravitational Fields in your own words</li>
-  <li>Use key terms such as field strength accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Define gravitational field strength</li>
+  <li>Use Newton's law of gravitation</li>
+  <li>Calculate field strength around a point mass</li>
+  <li>Compare uniform and radial fields</li>
 </LearningObjectives>
 
-Fields are physics' way of describing action at a distance. Gravity, electricity and magnetism all fill space with invisible influence — and all three can be mapped, measured and calculated. Welcome to the architecture of the universe.
+<BeforeYouStart>
+  You can use F = ma and standard form. You also know that weight is the gravitational force on a mass.
+</BeforeYouStart>
 
-This lesson focuses on Gravitational Fields: mapping g fields with F = GmM/r² and linking field strength to potential.
+## What is a gravitational field?
 
-<Definition term="Gravitational Fields">
-  Mapping g fields with F = GmM/r² and linking field strength to potential.
+A gravitational field is a region where a mass experiences a force. Field lines show the direction of the force on a small test mass. Near the surface of a planet the lines look almost parallel, so the field is nearly uniform. Further away, the lines point towards the centre, so the field is radial.
+
+<Definition term="gravitational field strength">
+  The gravitational force per unit mass at a point, measured in N/kg.
 </Definition>
 
-## Key ideas
+## Newton's law of gravitation
 
-### Fields are mapped with lines
+Every pair of masses attracts each other. The force is proportional to the product of the masses and inversely proportional to the square of the distance between their centres.
 
-Field lines show direction — the way a test mass or positive charge would be pushed — and spacing shows strength: closer lines mean a stronger field. Gravitational and electric field lines radiate from masses and charges; magnetic field lines form closed loops, emerging from north poles and entering south poles.
+```maths
+F = Gm₁m₂ ÷ r²
+g = F ÷ m
+g = GM ÷ r²
+```
 
-### Inverse-square laws govern point sources
+G is the gravitational constant, 6.67 × 10⁻¹¹ N m² kg⁻².
 
-Around a point mass, g = GM/r²; around a point charge, E = Q/(4πε₀r²). Doubling the distance quarters the field strength — the same mathematics in both cases, hinting at a deep unity. Inside a uniform field, like between charged plates, E = V/d is constant everywhere.
+<WorkedExample title="Field strength at Earth's surface">
+  Earth has mass 6.0 × 10²⁴ kg and radius 6.4 × 10⁶ m. Calculate g at its surface.
 
-**Key term — field strength:** Force per unit mass (N/kg) or per unit charge (N/C) at a point in the field.
+  ```maths
+  g = GM ÷ r²
+  g = (6.67 × 10⁻¹¹ × 6.0 × 10²⁴) ÷ (6.4 × 10⁶)²
+  g ≈ 9.8 N/kg
+  ```
 
-<WorkedExample title="Field between charged plates">
-  Two parallel plates 0.05 m apart have a potential difference of 200 V. Calculate the electric field strength between them.
-
-  For a uniform field, E = V/d.
-  Substitute: E = 200 ÷ 0.05.
-  200 ÷ 0.05 = 4000.
-
-  **Answer:** 4000 V/m (equivalently 4000 N/C), directed towards the negative plate.
+  **Answer:** about 9.8 N/kg
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Confusing electric potential with field strength** Potential (V) is energy per unit charge; field strength (V/m) is its gradient — E = −ΔV/Δx.
-  - **Drawing field lines crossing** Field lines never cross — a crossing would mean two field directions at one point, which is impossible.
+<ImportantNote title="Measure r from the centre">
+  For a satellite, r is the planet's radius plus the height above the surface.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "r is measured from the centre of the planet to the satellite.", bad: "r is the height above the surface.", note: "Forgetting the planet's radius gives a very wrong answer." },
+  ]}
+  mistake="Forgetting to square r, or using height above the surface instead of distance from the centre."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="A 0.3 m wire carrying 2 A sits perpendicular to a 0.5 T field. Find the force on it." hint="F = BIl.">
-    0.5 × 2 × 0.3 = 0.3 N.
-  </PracticeItem>
-  <PracticeItem question="Describe the electric field pattern around an isolated positive point charge." hint="Which way would a positive test charge be pushed?">
-    Radial lines pointing straight outwards from the charge, getting further apart with distance as the field weakens.
-  </PracticeItem>
-  <PracticeItem question="Use Fleming's left-hand rule: magnetic field into the page, current to the right. Which way is the force?" hint="First finger field, second finger current.">
-    Upwards — with the first finger pointing into the page and the second finger to the right, the thumb points up.
-  </PracticeItem>
-  <PracticeItem question="Why is no work done moving a charge along an equipotential?" hint="What is the potential difference along it?">
-    Potential is constant along an equipotential, so ΔV = 0 and W = QΔV = 0.
-  </PracticeItem>
+  <PracticeItem question="A 2.0 kg mass has a weight of 3.2 N on the Moon. Find g." answer="g = F ÷ m = 3.2 ÷ 2.0 = 1.6 N/kg." />
+  <PracticeItem question="The distance between two masses doubles. What happens to the gravitational force?" answer="The force becomes one quarter, because F is proportional to 1 ÷ r²." />
+  <PracticeItem question="Why is the field close to Earth's surface treated as uniform?" answer="Over a small height, the field lines are nearly parallel and g is almost constant." />
+  <PracticeItem question="A satellite orbits at 2R from Earth's centre, where R is Earth's radius. Find g there if g = 9.8 N/kg at the surface." answer="g is proportional to 1 ÷ r². Doubling r gives g = 9.8 ÷ 4 = 2.45 N/kg." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="Gravitational Fields — quick check">
-  <QuizQuestion question="Which of these best defines &quot;field strength&quot;?" options={["Magnetic field strength B, measured in tesla (T).", "A region where an object experiences a non-contact force, mapped by field lines.", "A line or surface where the potential is constant — no work is done moving along it.", "Force per unit mass (N/kg) or per unit charge (N/C) at a point in the field."]} answer={3} explanation="Force per unit mass (N/kg) or per unit charge (N/C) at a point in the field." />
-  <QuizQuestion question="A satellite orbits at twice Earth's radius from the centre. How does g there compare to the surface value?" options={["g ∝ 0/r², so doubling r quarters g — about 9.8 ÷ 4 ≈ 2.45 N/kg.", "g ∝ 3/r², so doubling r quarters g — about 9.8 ÷ 4 ≈ 2.45 N/kg.", "g ∝ 2/r², so doubling r quarters g — about 9.8 ÷ 4 ≈ 2.45 N/kg.", "g ∝ 1/r², so doubling r quarters g — about 9.8 ÷ 4 ≈ 2.45 N/kg."]} answer={3} explanation="g ∝ 1/r², so doubling r quarters g — about 9.8 ÷ 4 ≈ 2.45 N/kg." />
-  <QuizQuestion question="Earth's mass is 6.0 × 10²⁴ kg. Calculate g at 6.4 × 10⁶ m from its centre (G = 6.67 × 10⁻¹¹ N m²/kg²)." options={["(5.67 × 10⁻¹¹ × 6.0 × 10²⁴) ÷ (6.4 × 10⁶)² = 4.0 × 10¹⁴ ÷ 4.096 × 10¹³ ≈ 9.8 N/kg.", "(8.67 × 10⁻¹¹ × 6.0 × 10²⁴) ÷ (6.4 × 10⁶)² = 4.0 × 10¹⁴ ÷ 4.096 × 10¹³ ≈ 9.8 N/kg.", "(7.67 × 10⁻¹¹ × 6.0 × 10²⁴) ÷ (6.4 × 10⁶)² = 4.0 × 10¹⁴ ÷ 4.096 × 10¹³ ≈ 9.8 N/kg.", "(6.67 × 10⁻¹¹ × 6.0 × 10²⁴) ÷ (6.4 × 10⁶)² = 4.0 × 10¹⁴ ÷ 4.096 × 10¹³ ≈ 9.8 N/kg."]} answer={3} explanation="(6.67 × 10⁻¹¹ × 6.0 × 10²⁴) ÷ (6.4 × 10⁶)² = 4.0 × 10¹⁴ ÷ 4.096 × 10¹³ ≈ 9.8 N/kg." />
+<Quiz title="Gravitational fields quick check">
+  <QuizQuestion
+    question="What is the unit of gravitational field strength?"
+    options={["kg/N", "N/kg", "N/m", "J/s"]}
+    answer={1}
+    explanation="It is defined as force divided by mass at a point."
+  />
+  <QuizQuestion
+    question="If r triples, what happens to g around a point mass?"
+    options={["It triples", "It becomes one third", "It stays the same", "It becomes one ninth"]}
+    answer={3}
+    explanation="The formula divides by r², and 3² equals 9."
+  />
+  <QuizQuestion
+    question="What shape are field lines around an isolated planet?"
+    options={["Radial, pointing inwards", "Parallel, pointing outwards", "Circular around the planet", "Random"]}
+    answer={0}
+    explanation="A test mass feels a force towards the planet's centre from every direction."
+  />
 </Quiz>
 
 <Summary>
-  - Gravitational Fields: mapping g fields with F = GmM/r² and linking field strength to potential.
-  - Fields are mapped with lines: Field lines show direction — the way a test mass or positive charge would be pushed — and spacing shows strength: closer lines mean a stronger field.
-  - flux density: Magnetic field strength B, measured in tesla (T).
-  - Watch out for: confusing electric potential with field strength
+  - A gravitational field is a region where masses feel a force.
+  - g is the force per unit mass.
+  - Force follows an inverse square law.
+  - Measure r between centres of mass.
 </Summary>

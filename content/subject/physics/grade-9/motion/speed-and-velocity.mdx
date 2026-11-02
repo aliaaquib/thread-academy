@@ -1,75 +1,96 @@
 ---
 title: "Speed and Velocity"
-lede: "Calculating speed from distance and time, and seeing how velocity adds direction."
+lede: "Calculate speed from distance and time, and learn why velocity also needs a direction."
 ---
 
 <LearningObjectives>
-  <li>Define and explain Speed and Velocity in your own words</li>
-  <li>Use key terms such as speed accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Calculate speed, distance and time</li>
+  <li>Explain the difference between speed and velocity</li>
+  <li>Calculate average speed for a journey</li>
 </LearningObjectives>
 
-Describing motion precisely is the first step to predicting it. With a few equations and some clever graphs, you can work out how fast anything moves — from a sprinter to a satellite. This chapter turns journeys into numbers.
+<BeforeYouStart>
+  You can rearrange simple equations and convert minutes into seconds. Both skills help in speed calculations.
+</BeforeYouStart>
 
-This lesson focuses on Speed and Velocity: calculating speed from distance and time, and seeing how velocity adds direction.
+## Speed
 
-<Definition term="Speed and Velocity">
-  Calculating speed from distance and time, and seeing how velocity adds direction.
+Speed tells us how much distance an object covers in a certain time. A runner who covers 100 m in 10 s has a speed of 10 m/s. Most journeys are not perfectly steady, so we usually calculate an average speed for the whole trip.
+
+<Formula label="Speed equation">
+  speed = distance ÷ time
+</Formula>
+
+<Definition term="average speed">
+  Total distance travelled divided by total time taken.
 </Definition>
 
-## Key ideas
+## Velocity
 
-### Speed tells you how fast, velocity tells you how fast and where to
+Speed has only a size. Velocity has both a size and a direction. Two cars moving at 20 m/s in opposite directions have the same speed but different velocities. If an object changes direction, its velocity changes even when its speed stays the same.
 
-Speed = distance ÷ time is a scalar with no direction. Velocity adds direction, making it a vector. Two cars can share a speed of 20 m/s yet have different velocities if they head opposite ways — and that difference matters in collisions.
+<Definition term="velocity">
+  Speed in a stated direction.
+</Definition>
 
-### Graphs turn journeys into pictures
+<WorkedExample title="Average speed">
+  A cyclist travels 3 km in 10 minutes. Find the average speed in m/s.
 
-On a distance–time graph, the gradient (slope) equals the speed — steeper means faster, flat means stationary. On a velocity–time graph the gradient gives acceleration, and the area under the line gives the distance travelled. One graph can replace a whole table of data.
+  ```maths
+  distance = 3 km = 3000 m
+  time = 10 min = 600 s
+  speed = 3000 ÷ 600 = 5 m/s
+  ```
 
-**Key term — speed:** How fast something moves: distance travelled divided by time taken, measured in m/s or km/h.
-
-<WorkedExample title="Worked example: Speed and Velocity">
-  How is distance found from a velocity–time graph?
-
-  It equals the area under the graph, between the line and the time axis.
-
-  **Answer:** It equals the area under the graph, between the line and the time axis.
+  **Answer:** 5 m/s
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Reading the gradient of a velocity–time graph as speed** The gradient of a velocity–time graph is acceleration; speed is read straight off the vertical axis.
-  - **Mixing up distance and displacement** Distance is the total path travelled; displacement is the straight line from start to end — they match only on a straight one-way trip.
+<ImportantNote title="Match your units">
+  Convert distance and time before you calculate if the question asks for m/s.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "Velocity is 12 m/s north.", bad: "Velocity is 12 m/s.", note: "A velocity needs a direction as well as a size." },
+  ]}
+  mistake="Averaging two speeds instead of dividing total distance by total time."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="A train rounds a bend at a constant 40 m/s. Is it accelerating? Explain." hint="Velocity includes direction.">
-    Yes — its direction is changing, so its velocity is changing, which means it is accelerating even though its speed is constant.
-  </PracticeItem>
-  <PracticeItem question="On a distance–time graph, what does a flat horizontal section mean?" hint="Is the distance changing?">
-    The object is stationary — distance is not changing as time passes.
-  </PracticeItem>
-  <PracticeItem question="A runner covers 100 m in 12.5 s. Calculate the average speed." hint="Divide distance by time.">
-    100 ÷ 12.5 = 8 m/s.
-  </PracticeItem>
-  <PracticeItem question="A car travels at a steady 25 m/s for 40 s. How far does it go?" hint="Rearrange: distance = speed × time.">
-    25 × 40 = 1000 m.
-  </PracticeItem>
+  <PracticeItem question="A sprinter runs 200 m in 25 s. Find the speed." answer="200 ÷ 25 = 8 m/s." />
+  <PracticeItem question="A bus travels at 15 m/s for 40 s. How far does it go?" answer="distance = speed × time = 15 × 40 = 600 m." />
+  <PracticeItem question="How long does it take to walk 120 m at 1.5 m/s?" answer="time = distance ÷ speed = 120 ÷ 1.5 = 80 s." />
+  <PracticeItem question="A car travels 60 km in 1 hour, then 30 km in 1 hour. Find its average speed." answer="Total distance is 90 km and total time is 2 hours, so average speed = 45 km/h." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="Speed and Velocity — quick check">
-  <QuizQuestion question="Which of these best defines &quot;speed&quot;?" options={["The rate of change of velocity, in m/s². Positive means speeding up, negative means slowing down.", "The straight-line distance from start to finish in a given direction — unlike total distance travelled.", "Speed in a stated direction — a vector, so 30 m/s north and 30 m/s south are different velocities.", "How fast something moves: distance travelled divided by time taken, measured in m/s or km/h."]} answer={3} explanation="How fast something moves: distance travelled divided by time taken, measured in m/s or km/h." />
-  <QuizQuestion question="A van accelerates from 10 m/s to 22 m/s in 6 s. Find the acceleration." options={["(21 − 10) ÷ 6 = 12 ÷ 6 = 2 m/s².", "(24 − 10) ÷ 6 = 12 ÷ 6 = 2 m/s².", "(23 − 10) ÷ 6 = 12 ÷ 6 = 2 m/s².", "(22 − 10) ÷ 6 = 12 ÷ 6 = 2 m/s²."]} answer={3} explanation="(22 − 10) ÷ 6 = 12 ÷ 6 = 2 m/s²." />
+<Quiz title="Speed and velocity quick check">
+  <QuizQuestion
+    question="Which equation gives distance?"
+    options={["speed ÷ time", "speed × time", "time ÷ speed", "speed + time"]}
+    answer={1}
+    explanation="Rearranging speed = distance ÷ time by multiplying both sides by time gives this result."
+  />
+  <QuizQuestion
+    question="Which is a velocity?"
+    options={["15 m/s", "3 km", "20 s", "8 m/s east"]}
+    answer={3}
+    explanation="It includes a size and a direction, which is what velocity requires."
+  />
+  <QuizQuestion
+    question="A car goes around a roundabout at steady speed. What changes?"
+    options={["Velocity", "Mass", "Speed", "Weight"]}
+    answer={0}
+    explanation="Its direction keeps changing, so this directional quantity changes too."
+  />
 </Quiz>
 
 <Summary>
-  - Speed and Velocity: calculating speed from distance and time, and seeing how velocity adds direction.
-  - Speed tells you how fast, velocity tells you how fast and where to: Speed = distance ÷ time is a scalar with no direction.
-  - velocity: Speed in a stated direction — a vector, so 30 m/s north and 30 m/s south are different velocities.
-  - Watch out for: reading the gradient of a velocity–time graph as speed
+  - Speed = distance ÷ time.
+  - Average speed uses total distance and total time.
+  - Velocity is speed in a stated direction.
+  - Check the units before calculating.
 </Summary>

@@ -1,75 +1,92 @@
 ---
 title: "Breaking Problems Down"
-lede: "Split large problems into smaller, solvable pieces."
+lede: "Break big problems into smaller parts that are easier to understand, solve and test."
 ---
 
 <LearningObjectives>
-  <li>Define and explain Breaking Problems Down in your own words</li>
-  <li>Use key terms such as decomposition accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Define decomposition</li>
+  <li>Break a problem into smaller tasks</li>
+  <li>Explain the benefits of decomposition</li>
 </LearningObjectives>
 
-Long before anyone writes code, programmers think. Computational thinking is the four-part mindset behind every app, game and website: break problems down, spot patterns, ignore irrelevant detail and design step-by-step solutions. Master these habits and programming becomes far easier — they work for exam revision and everyday life too.
+<BeforeYouStart>
+  You know that computers follow algorithms step by step. Before writing an algorithm, you need to understand the problem.
+</BeforeYouStart>
 
-This lesson focuses on Breaking Problems Down: split large problems into smaller, solvable pieces.
+## Solve one part at a time
 
-<Definition term="Breaking Problems Down">
-  Split large problems into smaller, solvable pieces.
+Big problems can feel impossible at first. Decomposition means splitting a problem into smaller parts. Each part is easier to think about and solve. When every part works, you can join them to solve the original problem. Teams can also share the work, with each person building a separate part.
+
+<Definition term="decomposition">
+  Breaking a problem down into smaller, more manageable parts.
 </Definition>
 
-## Key ideas
+<Definition term="subproblem">
+  A smaller problem that forms part of a larger one.
+</Definition>
 
-### Patterns turn one solution into many
+## Decomposing a game
 
-Once you write a procedure that finds the largest number in a list, you have also solved finding the highest exam score, the warmest day and the most expensive item — the pattern is identical. Recognising this saves programmers from reinventing solutions.
+A quiz game may sound like one large task, but it contains smaller ones: storing questions, showing a question, reading an answer, checking the answer, updating the score and showing the result. Each part can be built and tested on its own.
 
-### The four pillars work together
+<WorkedExample title="Plan a school website">
+  Decompose the task of creating a school website.
 
-Faced with organising a school fair, you decompose it into stalls, tickets and publicity; you recognise the pattern that ticket selling works like last year's concert; you abstract away details like the colour of the tickets; then you write the algorithm — the ordered steps for setting up each stall. Real programmers cycle through all four constantly.
+  1. Plan the pages that are needed.
+  2. Write the content.
+  3. Design the layout.
+  4. Add photos and links.
+  5. Test the website on different devices.
 
-**Key term — decomposition:** Breaking a large, complex problem into smaller sub-problems that are easier to solve one at a time.
-
-<WorkedExample title="Worked example: Breaking Problems Down">
-  You must organise a charity run. Name two ways to decompose the problem.
-
-  Possible splits: route planning, sponsorship and publicity; or before, during and after the event — any sensible split into smaller sub-problems scores.
-
-  **Answer:** Possible splits: route planning, sponsorship and publicity; or before, during and after the event — any sensible split into smaller sub-problems scores.
+  **Answer:** One large task is now five smaller tasks.
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Jumping straight to code without thinking** Correction: spend ten minutes decomposing and planning on paper first — it prevents hours of rewriting later.
-  - **Treating a coincidence as a pattern** Correction: check a pattern holds in several cases before building a solution on it; one example is not a pattern.
+<ImportantNote title="Stop when a task is clear">
+  Keep breaking a problem down until each part is small enough to solve directly.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "Decomposition makes each part easier to solve and test.", bad: "It makes the problem simple.", note: "State the exact benefit." },
+  ]}
+  mistake="Listing the parts in a random order or naming a benefit without explaining it."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="Why is 'make a game' too big to start coding directly?" hint="Think about decomposition.">
-    It is a huge problem hiding dozens of sub-problems — graphics, controls, scoring — which must be decomposed and tackled one at a time.
-  </PracticeItem>
-  <PracticeItem question="True or false: computational thinking can only be used with computers." hint="Think about the revision timetable example.">
-    False — it is a general problem-solving mindset that works for planning, studying and organising anything.
-  </PracticeItem>
-  <PracticeItem question="How is recognising patterns useful when solving maths homework?" hint="Think about questions that look different but work the same way.">
-    Questions sharing the same structure can be solved with the same method, so spotting the pattern lets you reuse a method instead of starting from scratch.
-  </PracticeItem>
-  <PracticeItem question="A bus timetable shows routes and times but not the colour of each bus. What thinking skill is this?" hint="Unnecessary detail has been removed.">
-    Abstraction — irrelevant detail (bus colour) is stripped away, leaving what matters (routes and times).
-  </PracticeItem>
+  <PracticeItem question="What is decomposition?" answer="Breaking a large problem into smaller parts." />
+  <PracticeItem question="Give one benefit of decomposition." answer="Each part is easier to solve and test, and teams can share the work." />
+  <PracticeItem question="Break making a sandwich into four smaller steps." answer="For example: get the bread, add the filling, close the sandwich and cut it." />
+  <PracticeItem question="Decompose a program that records homework and warns when work is due tomorrow." answer="Parts include adding homework, storing tasks, reading today's date, comparing due dates and displaying warnings." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="Breaking Problems Down — quick check">
-  <QuizQuestion question="Which of these best defines &quot;decomposition&quot;?" options={["Getting a computer to carry out a well-defined set of steps, so the solution runs without human effort each time.", "Removing unnecessary detail to focus on the important features of a problem — like using a map that shows roads but not every tree.", "Noticing similarities or repetitions within and between problems, so a solution that worked before can be reused.", "Breaking a large, complex problem into smaller sub-problems that are easier to solve one at a time."]} answer={3} explanation="Breaking a large, complex problem into smaller sub-problems that are easier to solve one at a time." />
-  <QuizQuestion question="Give an example of automation in everyday life." options={["Removing unnecessary detail to focus on the important features of a problem — like using a map that shows roads but not every tree.", "Getting a computer to carry out a well-defined set of steps, so the solution runs without human effort each time.", "Noticing similarities or repetitions within and between problems, so a solution that worked before can be reused.", "A washing machine running its wash cycle, or a central heating timer — both follow predefined steps without human input each time."]} answer={3} explanation="A washing machine running its wash cycle, or a central heating timer — both follow predefined steps without human input each time." />
+<Quiz title="Decomposition quick check">
+  <QuizQuestion
+    question="What does decomposition do to a problem?"
+    options={["Hides its details", "Deletes its data", "Makes it run faster", "Splits it into smaller parts"]}
+    answer={3}
+    explanation="Each smaller task can then be understood and solved separately."
+  />
+  <QuizQuestion
+    question="Why does decomposition help teams?"
+    options={["Different people can work on different parts", "Computers become cheaper", "No testing is needed", "All code becomes shorter"]}
+    answer={0}
+    explanation="Separate tasks can be shared, then joined together when they work."
+  />
+  <QuizQuestion
+    question="Which is a good subproblem of a quiz game?"
+    options={["Build everything", "Check the player's answer", "Make computing", "Finish the project"]}
+    answer={1}
+    explanation="It is one clear job that can be written and tested alone."
+  />
 </Quiz>
 
 <Summary>
-  - Breaking Problems Down: split large problems into smaller, solvable pieces.
-  - Patterns turn one solution into many: Once you write a procedure that finds the largest number in a list, you have also solved finding the highest exam score, the warmest day and the most expensive item — the pattern is identical.
-  - pattern recognition: Noticing similarities or repetitions within and between problems, so a solution that worked before can be reused.
-  - Watch out for: jumping straight to code without thinking
+  - Decomposition breaks a problem into smaller parts.
+  - Smaller parts are easier to solve and test.
+  - Teams can work on different parts.
+  - Stop when each part is clear.
 </Summary>

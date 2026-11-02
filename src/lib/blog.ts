@@ -157,6 +157,8 @@ export function getRelatedLinks(post: BlogPostMeta, lang: Lang = "en"): RelatedL
     if (!chapter) continue;
     const grade = getGradeForChapter(post.subjectSlug, chapterId);
     if (!grade) continue;
+    // Posts can name lessons that aren't on the site right now.
+    if (!getTopicContent({ subject: post.subjectSlug, chapter: chapterId, topic: topicId }, lang)) continue;
     coveredChapters.add(chapterId);
     const lessonHref = chapterPathForGrade(post.subjectSlug, grade, chapterId, topicId);
     if (!lessonHref) continue;

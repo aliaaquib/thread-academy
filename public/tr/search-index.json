@@ -1,115 +1,10 @@
 [
  {
   "kind": "topic",
-  "title": "10'a Kadar Sayı İkilileri",
-  "path": "Matematik → 7. Sınıf → Toplama ve Çıkarma → 10'a Kadar Sayı İkilileri",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/addition-subtraction/number-bonds-10",
-  "text": "10'a kadar sayı ikilileri matematik → 7. sınıf → toplama ve çıkarma → 10'a kadar sayı ikilileri toplamı 10 eden sayı çiftlerini öğren. toplamı 10 eden sayı çiftlerini öğren."
- },
- {
-  "kind": "topic",
-  "title": "10'a Kadar Sayma",
-  "path": "Matematik → 7. Sınıf → Sayma → 10'a Kadar Sayma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/counting/counting-to-10",
-  "text": "10'a kadar sayma matematik → 7. sınıf → sayma → 10'a kadar sayma nesneleri ve sayı şarkılarını kullanarak 0'dan 10'a kadar güvenle say. nesneleri ve sayı şarkılarını kullanarak 0'dan 10'a kadar güvenle say."
- },
- {
-  "kind": "topic",
-  "title": "100'e Kadar Sayma",
-  "path": "Matematik → 7. Sınıf → Sayma → 100'e Kadar Sayma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/counting/counting-to-100",
-  "text": "100'e kadar sayma matematik → 7. sınıf → sayma → 100'e kadar sayma 100'e kadar birer ve onar ileriye ve geriye say. 100'e kadar birer ve onar ileriye ve geriye say."
- },
- {
-  "kind": "topic",
   "title": "Açılar ve Açı Bilgileri",
   "path": "Matematik → 10. Sınıf → Geometri → Açılar ve Açı Bilgileri",
   "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/geometry/angles-and-angle-facts",
   "text": "açılar ve açı bilgileri matematik → 10. sınıf → geometri → açılar ve açı bilgileri açıların adları, doğru üzerindeki ve bir nokta etrafındaki açılar ve paralel doğruların oluşturduğu açılar. açıların adları, doğru üzerindeki ve bir nokta etrafındaki açılar ve paralel doğruların oluşturduğu açılar."
- },
- {
-  "kind": "topic",
-  "title": "Aerobik ve Anaerobik Solunum",
-  "path": "Biyoloji → 10. Sınıf → Biyoenerjetik → Aerobik ve Anaerobik Solunum",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/bioenergetics/respiration",
-  "text": "aerobik ve anaerobik solunum biyoloji → 10. sınıf → biyoenerjetik → aerobik ve anaerobik solunum oksijenli ve oksijensiz solunumun denklemlerini ve kullanım alanlarını karşılaştırın. oksijenli ve oksijensiz solunumun denklemlerini ve kullanım alanlarını karşılaştırın."
- },
- {
-  "kind": "topic",
-  "title": "Ağ Güvenliği",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Ağlar → Ağ Güvenliği",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/networks/network-security",
-  "text": "ağ güvenliği bilgisayar bilimi → 10. sınıf → ağlar → ağ güvenliği şifreleme ve güvenlik duvarlarının ağları nasıl güvenli tuttuğunu öğrenin. şifreleme ve güvenlik duvarlarının ağları nasıl güvenli tuttuğunu öğrenin."
- },
- {
-  "kind": "topic",
-  "title": "Ağ Nedir?",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Ağlar → Ağ Nedir?",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/networks/what-is-a-network",
-  "text": "ağ nedir? bilgisayar bilimi → 10. sınıf → ağlar → ağ nedir? lan'ları, wan'ları ve cihazları bağlayan donanımı keşfedin. lan'ları, wan'ları ve cihazları bağlayan donanımı keşfedin."
- },
- {
-  "kind": "topic",
-  "title": "Ağ Türleri",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Ağlar ve Dijital İletişim → Ağ Türleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/networks-and-digital-communication/types-of-network",
-  "text": "ağ türleri bilgisayar bilimi → 7. sınıf → ağlar ve dijital iletişim → ağ türleri bilgisayarlar nasıl bağlanır: pan, lan, wan ve internet. bilgisayarlar nasıl bağlanır: pan, lan, wan ve internet."
- },
- {
-  "kind": "topic",
-  "title": "Ağaç Diyagramları ve Koşullu Olasılık",
-  "path": "Matematik → 11. Sınıf → Olasılık → Ağaç Diyagramları ve Koşullu Olasılık",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/probability/tree-diagrams-and-conditional",
-  "text": "ağaç diyagramları ve koşullu olasılık matematik → 11. sınıf → olasılık → ağaç diyagramları ve koşullu olasılık yerine koyarak ve koymadan olaylar için ağaç diyagramları kurma ve koşullu olasılıkları bulma. yerine koyarak ve koymadan olaylar için ağaç diyagramları kurma ve koşullu olasılıkları bulma."
- },
- {
-  "kind": "topic",
-  "title": "Ağaç Yapıları",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veri Yapıları → Ağaç Yapıları",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/data-structures/trees",
-  "text": "ağaç yapıları bilgisayar bilimi → 11. sınıf → veri yapıları → ağaç yapıları ikili ağaçlar ve dolaşmalarla hiyerarşik veriyi düzenleyin. ikili ağaçlar ve dolaşmalarla hiyerarşik veriyi düzenleyin."
- },
- {
-  "kind": "topic",
-  "title": "Ağırlık ve Kapasite",
-  "path": "Matematik → 7. Sınıf → Şekiller ve Ölçüler → Ağırlık ve Kapasite",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/shapes-measures/weight-and-capacity",
-  "text": "ağırlık ve kapasite matematik → 7. sınıf → şekiller ve ölçüler → ağırlık ve kapasite şeylerin ne kadar ağır olduğunu ve kapların ne kadar aldığını karşılaştır. şeylerin ne kadar ağır olduğunu ve kapların ne kadar aldığını karşılaştır."
- },
- {
-  "kind": "chapter",
-  "title": "Ağlar",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Ağlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/networks",
-  "text": "ağlar bilgisayar bilimi → 10. sınıf → ağlar bilgisayarlar nasıl bağlanır ve bilgi paylaşır. ağ nedir? paketler ve protokoller internet nasıl çalışır ağ güvenliği"
- },
- {
-  "kind": "resource",
-  "title": "Ağlar kaynakları",
-  "path": "Kaynaklar → Bilgisayar Bilimi → 10. Sınıf → Ağlar",
-  "url": "/tr/cambridge/upper-secondary/resources/computer-science/grade-10/networks",
-  "text": "ağlar kaynakları bilgisayar bilimi → 10. sınıf → ağlar ağ nedir? paketler ve protokoller internet nasıl çalışır ağ güvenliği"
- },
- {
-  "kind": "chapter",
-  "title": "Ağlar ve Dijital İletişim",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Ağlar ve Dijital İletişim",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/networks-and-digital-communication",
-  "text": "ağlar ve dijital iletişim bilgisayar bilimi → 7. sınıf → ağlar ve dijital iletişim cihazlar nasıl bağlanır ve veri dünyayı nasıl dolaşır. web sitelerine erişme ağ türleri veri iletimi"
- },
- {
-  "kind": "resource",
-  "title": "Ağlar ve Dijital İletişim kaynakları",
-  "path": "Kaynaklar → Bilgisayar Bilimi → 7. Sınıf → Ağlar ve Dijital İletişim",
-  "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-7/networks-and-digital-communication",
-  "text": "ağlar ve dijital iletişim kaynakları bilgisayar bilimi → 7. sınıf → ağlar ve dijital iletişim web sitelerine erişme ağ türleri veri iletimi"
- },
- {
-  "kind": "topic",
-  "title": "Akım ve Yük",
-  "path": "Fizik → 11. Sınıf → Elektrik → Akım ve Yük",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/electricity/current-and-charge",
-  "text": "akım ve yük fizik → 11. sınıf → elektrik → akım ve yük akımı q = ı × t formülüyle yük akışına bağlama. akımı q = ı × t formülüyle yük akışına bağlama."
  },
  {
   "kind": "topic",
@@ -119,67 +14,32 @@
   "text": "akış şemaları bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama → akış şemaları bir çözümün adımlarını standart akış şeması sembolleriyle çiz. bir çözümün adımlarını standart akış şeması sembolleriyle çiz."
  },
  {
-  "kind": "topic",
-  "title": "Akış Şemalarında Örüntü Tanıma ve Alt Programlar",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama → Akış Şemalarında Örüntü Tanıma ve Alt Programlar",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computational-thinking-programming/pattern-recognition-and-subroutines-in-flowcharts",
-  "text": "akış şemalarında örüntü tanıma ve alt programlar bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama → akış şemalarında örüntü tanıma ve alt programlar tekrarlanan adımları fark et ve bunları yeniden kullanılabilir alt programlara dönüştür. tekrarlanan adımları fark et ve bunları yeniden kullanılabilir alt programlara dönüştür."
- },
- {
-  "kind": "topic",
-  "title": "Akış Şemalarında Seçim ve Mantık",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama → Akış Şemalarında Seçim ve Mantık",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computational-thinking-programming/selection-and-logic-in-flowcharts",
-  "text": "akış şemalarında seçim ve mantık bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama → akış şemalarında seçim ve mantık eşkenar dörtgenlerle karar ver, ve, veya ve değil ile koşulları birleştir. eşkenar dörtgenlerle karar ver, ve, veya ve değil ile koşulları birleştir."
- },
- {
-  "kind": "topic",
-  "title": "Aktiflik Serisi",
-  "path": "Kimya → 10. Sınıf → Kimyasal Değişimler → Aktiflik Serisi",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-changes/reactivity-series",
-  "text": "aktiflik serisi kimya → 10. sınıf → kimyasal değişimler → aktiflik serisi yer değiştirme ve elde etme tepkimelerini tahmin etmek için seriyi kullanın. yer değiştirme ve elde etme tepkimelerini tahmin etmek için seriyi kullanın."
- },
- {
   "kind": "chapter",
   "title": "Alanlar",
   "path": "Fizik → 12. Sınıf → Alanlar",
   "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/fields",
-  "text": "alanlar fizik → 12. sınıf → alanlar kütle çekim, elektrik ve manyetik alanlar. kütle çekim alanları elektrik alanlar manyetik alanlar potansiyeller ve eşpotansiyeller"
+  "text": "alanlar fizik → 12. sınıf → alanlar kütle çekim, elektrik ve manyetik alanlar. kütle çekim alanları"
  },
  {
   "kind": "resource",
   "title": "Alanlar kaynakları",
   "path": "Kaynaklar → Fizik → 12. Sınıf → Alanlar",
   "url": "/tr/cambridge/upper-secondary/resources/physics/grade-12/fields",
-  "text": "alanlar kaynakları fizik → 12. sınıf → alanlar kütle çekim alanları elektrik alanlar manyetik alanlar potansiyeller ve eşpotansiyeller"
- },
- {
-  "kind": "topic",
-  "title": "Alev Testleri ve Çökeltiler",
-  "path": "Kimya → 12. Sınıf → Analitik Teknikler → Alev Testleri ve Çökeltiler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/analytical-chemistry/flame-tests",
-  "text": "alev testleri ve çökeltiler kimya → 12. sınıf → analitik teknikler → alev testleri ve çökeltiler metal iyonlarını alev renkleri ve çökelme ile tanıyın. metal iyonlarını alev renkleri ve çökelme ile tanıyın."
+  "text": "alanlar kaynakları fizik → 12. sınıf → alanlar kütle çekim alanları"
  },
  {
   "kind": "chapter",
   "title": "Algoritmalar",
   "path": "Bilgisayar Bilimi → 10. Sınıf → Algoritmalar",
   "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/algorithms",
-  "text": "algoritmalar bilgisayar bilimi → 10. sınıf → algoritmalar adım adım çözüm tasarlama: arama, sıralama ve verimlilik. doğrusal arama ikili arama kabarcık sıralama verimliliği ölçme"
+  "text": "algoritmalar bilgisayar bilimi → 10. sınıf → algoritmalar adım adım çözüm tasarlama: arama, sıralama ve verimlilik. doğrusal arama"
  },
  {
   "kind": "resource",
   "title": "Algoritmalar kaynakları",
   "path": "Kaynaklar → Bilgisayar Bilimi → 10. Sınıf → Algoritmalar",
   "url": "/tr/cambridge/upper-secondary/resources/computer-science/grade-10/algorithms",
-  "text": "algoritmalar kaynakları bilgisayar bilimi → 10. sınıf → algoritmalar doğrusal arama ikili arama kabarcık sıralama verimliliği ölçme"
- },
- {
-  "kind": "topic",
-  "title": "Algoritmik Düşünme",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Hesaplamalı Düşünme → Algoritmik Düşünme",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/computational-thinking/algorithmic-thinking",
-  "text": "algoritmik düşünme bilgisayar bilimi → 8. sınıf → hesaplamalı düşünme → algoritmik düşünme planını bilgisayarın izleyebileceği açık ve sıralı adımlara dönüştür. planını bilgisayarın izleyebileceği açık ve sıralı adımlara dönüştür."
+  "text": "algoritmalar kaynakları bilgisayar bilimi → 10. sınıf → algoritmalar doğrusal arama"
  },
  {
   "kind": "topic",
@@ -189,88 +49,32 @@
   "text": "alkanlarla tanışma kimya → 12. sınıf → organik kimya → alkanlarla tanışma doymuş hidrokarbonları, fraksiyonel damıtmayı ve yanmayı inceleyin. doymuş hidrokarbonları, fraksiyonel damıtmayı ve yanmayı inceleyin."
  },
  {
-  "kind": "topic",
-  "title": "Alkoller ve Yükseltgenme",
-  "path": "Kimya → 12. Sınıf → Organik Kimya → Alkoller ve Yükseltgenme",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/organic-chemistry/alcohols",
-  "text": "alkoller ve yükseltgenme kimya → 12. sınıf → organik kimya → alkoller ve yükseltgenme alkolleri sınıflandırın ve karbonillere ve asitlere yükseltgenmelerini izleyin. alkolleri sınıflandırın ve karbonillere ve asitlere yükseltgenmelerini izleyin."
- },
- {
-  "kind": "chapter",
-  "title": "Analitik Teknikler",
-  "path": "Kimya → 12. Sınıf → Analitik Teknikler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/analytical-chemistry",
-  "text": "analitik teknikler kimya → 12. sınıf → analitik teknikler maddeler için spektroskopi ve kimyasal testler. kimyasal testler alev testleri ve çökeltiler kütle spektrometrisi kızılötesi ve nmr spektroskopisi"
- },
- {
-  "kind": "resource",
-  "title": "Analitik Teknikler kaynakları",
-  "path": "Kaynaklar → Kimya → 12. Sınıf → Analitik Teknikler",
-  "url": "/tr/cambridge/upper-secondary/resources/chemistry/grade-12/analytical-chemistry",
-  "text": "analitik teknikler kaynakları kimya → 12. sınıf → analitik teknikler kimyasal testler alev testleri ve çökeltiler kütle spektrometrisi kızılötesi ve nmr spektroskopisi"
- },
- {
-  "kind": "topic",
-  "title": "Animasyonun Temelleri",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Dijital Medya Oluşturma → Animasyonun Temelleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/creating-media/animation-basics",
-  "text": "animasyonun temelleri bilgisayar bilimi → 8. sınıf → dijital medya oluşturma → animasyonun temelleri sırayla bir hikâye anlatan basit animasyonlar ve slayt gösterileri yap. "
- },
- {
-  "kind": "topic",
-  "title": "Asitler Bazlarla Buluşur",
-  "path": "Kimya → 9. Sınıf → Asitler ve Bazlar → Asitler Bazlarla Buluşur",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/acids-alkalis/neutralisation",
-  "text": "asitler bazlarla buluşur kimya → 9. sınıf → asitler ve bazlar → asitler bazlarla buluşur asitlerin ve bazların birbirini nasıl yok ettiğini görün. asitlerin ve bazların birbirini nasıl yok ettiğini görün."
- },
- {
   "kind": "chapter",
   "title": "Asitler ve Bazlar",
   "path": "Kimya → 9. Sınıf → Asitler ve Bazlar",
   "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/acids-alkalis",
-  "text": "asitler ve bazlar kimya → 9. sınıf → asitler ve bazlar ph ölçeği, indikatörler ve nötrleşme. günlük hayatta asitler ph ölçeği belirteçlerle test etme asitler bazlarla buluşur"
+  "text": "asitler ve bazlar kimya → 9. sınıf → asitler ve bazlar ph ölçeği, indikatörler ve nötrleşme. ph ölçeği"
  },
  {
   "kind": "resource",
   "title": "Asitler ve Bazlar kaynakları",
   "path": "Kaynaklar → Kimya → 9. Sınıf → Asitler ve Bazlar",
   "url": "/tr/cambridge/lower-secondary/resources/chemistry/grade-9/acids-alkalis",
-  "text": "asitler ve bazlar kaynakları kimya → 9. sınıf → asitler ve bazlar günlük hayatta asitler ph ölçeği belirteçlerle test etme asitler bazlarla buluşur"
- },
- {
-  "kind": "topic",
-  "title": "Aşılar Nasıl Çalışır",
-  "path": "Biyoloji → 9. Sınıf → Sağlık ve Hastalık → Aşılar Nasıl Çalışır",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/health-disease/vaccines",
-  "text": "aşılar nasıl çalışır biyoloji → 9. sınıf → sağlık ve hastalık → aşılar nasıl çalışır aşılamanın bağışıklık sistemini, hastalık vurmadan önce onu yenmek için nasıl eğittiğini öğren. aşılamanın bağışıklık sistemini, hastalık vurmadan önce onu yenmek için nasıl eğittiğini öğren."
- },
- {
-  "kind": "topic",
-  "title": "Atom Altı Tanecikler",
-  "path": "Kimya → 8. Sınıf → Atom Yapısı → Atom Altı Tanecikler",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/atomic-structure/subatomic-particles",
-  "text": "atom altı tanecikler kimya → 8. sınıf → atom yapısı → atom altı tanecikler proton, nötron ve elektronlarla tanışın; yüklerini ve kütlelerini öğrenin. proton, nötron ve elektronlarla tanışın; yüklerini ve kütlelerini öğrenin."
- },
- {
-  "kind": "topic",
-  "title": "Atom Numarası ve Kütle Numarası",
-  "path": "Kimya → 8. Sınıf → Atom Yapısı → Atom Numarası ve Kütle Numarası",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/atomic-structure/atomic-number-mass",
-  "text": "atom numarası ve kütle numarası kimya → 8. sınıf → atom yapısı → atom numarası ve kütle numarası herhangi bir atomu tanımlamak için proton ve nükleon sayılarını kullanın. herhangi bir atomu tanımlamak için proton ve nükleon sayılarını kullanın."
+  "text": "asitler ve bazlar kaynakları kimya → 9. sınıf → asitler ve bazlar ph ölçeği"
  },
  {
   "kind": "chapter",
   "title": "Atom Yapısı",
   "path": "Kimya → 8. Sınıf → Atom Yapısı",
   "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/atomic-structure",
-  "text": "atom yapısı kimya → 8. sınıf → atom yapısı atomlar, elementler ve içlerindeki parçacıklar. atomlar ve elementler atom altı tanecikler atom numarası ve kütle numarası elektron katmanları"
+  "text": "atom yapısı kimya → 8. sınıf → atom yapısı atomlar, elementler ve içlerindeki parçacıklar. atomlar ve elementler"
  },
  {
   "kind": "resource",
   "title": "Atom Yapısı kaynakları",
   "path": "Kaynaklar → Kimya → 8. Sınıf → Atom Yapısı",
   "url": "/tr/cambridge/lower-secondary/resources/chemistry/grade-8/atomic-structure",
-  "text": "atom yapısı kaynakları kimya → 8. sınıf → atom yapısı atomlar ve elementler atom altı tanecikler atom numarası ve kütle numarası elektron katmanları"
+  "text": "atom yapısı kaynakları kimya → 8. sınıf → atom yapısı atomlar ve elementler"
  },
  {
   "kind": "topic",
@@ -281,94 +85,17 @@
  },
  {
   "kind": "topic",
-  "title": "Bağımsız ve Ayrık Olaylar",
-  "path": "Matematik → 11. Sınıf → Olasılık → Bağımsız ve Ayrık Olaylar",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/probability/independent-and-mutually-exclusive",
-  "text": "bağımsız ve ayrık olaylar matematik → 11. sınıf → olasılık → bağımsız ve ayrık olaylar bağımsız olaylar için olasılıkları çarpma, ayrık olaylar için toplama. bağımsız olaylar için olasılıkları çarpma, ayrık olaylar için toplama."
- },
- {
-  "kind": "topic",
-  "title": "Basamak Değeri",
-  "path": "Matematik → 8. Sınıf → Sayılar ve Aritmetik → Basamak Değeri",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/number-arithmetic/place-value",
-  "text": "basamak değeri matematik → 8. sınıf → sayılar ve aritmetik → basamak değeri basamak değerini kullanarak büyük sayıları oku, yaz ve karşılaştır. basamak değerini kullanarak büyük sayıları oku, yaz ve karşılaştır."
- },
- {
-  "kind": "topic",
   "title": "Basit Besin Zincirleri",
   "path": "Biyoloji → 7. Sınıf → Canlılar → Basit Besin Zincirleri",
   "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/living-things/simple-food-chains",
   "text": "basit besin zincirleri biyoloji → 7. sınıf → canlılar → basit besin zincirleri besin zincirlerini üreticiden tüketiciye takip et ve bitkilerin neden hepsinin başında olduğunu gör. besin zincirlerini üreticiden tüketiciye takip et ve bitkilerin neden hepsinin başında olduğunu gör."
  },
  {
-  "kind": "topic",
-  "title": "Basit Harmonik Hareket",
-  "path": "Fizik → 11. Sınıf → İleri Mekanik → Basit Harmonik Hareket",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/further-mechanics/simple-harmonic-motion",
-  "text": "basit harmonik hareket fizik → 11. sınıf → ileri mekanik → basit harmonik hareket salınımları a = −ω²x ile modelleme ve yay–kütle periyodu. salınımları a = −ω²x ile modelleme ve yay–kütle periyodu."
- },
- {
-  "kind": "topic",
-  "title": "Başlatma ve Durdurma",
-  "path": "Fizik → 7. Sınıf → İtme ve Çekme → Başlatma ve Durdurma",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/pushes-pulls/starting-and-stopping",
-  "text": "başlatma ve durdurma fizik → 7. sınıf → itme ve çekme → başlatma ve durdurma itme ve çekmelerin şeyleri nasıl harekete geçirebildiğini ya da durdurabildiğini görme. itme ve çekmelerin şeyleri nasıl harekete geçirebildiğini ya da durdurabildiğini görme."
- },
- {
-  "kind": "topic",
-  "title": "Belirteçlerle Test Etme",
-  "path": "Kimya → 9. Sınıf → Asitler ve Bazlar → Belirteçlerle Test Etme",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/acids-alkalis/indicators",
-  "text": "belirteçlerle test etme kimya → 9. sınıf → asitler ve bazlar → belirteçlerle test etme asitleri ve bazları test etmek için turnusol ve evrensel belirteç kullanın. asitleri ve bazları test etmek için turnusol ve evrensel belirteç kullanın."
- },
- {
-  "kind": "topic",
-  "title": "Beş Duyu",
-  "path": "Biyoloji → 7. Sınıf → Hayvanlar ve İnsanlar → Beş Duyu",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/animals-humans/five-senses",
-  "text": "beş duyu biyoloji → 7. sınıf → hayvanlar ve insanlar → beş duyu görme, işitme, koklama, tatma ve dokunmayı ve bu duyuları taşıyan vücut parçalarını keşfet. görme, işitme, koklama, tatma ve dokunmayı ve bu duyuları taşıyan vücut parçalarını keşfet."
- },
- {
-  "kind": "topic",
-  "title": "Besin Ağları",
-  "path": "Biyoloji → 11. Sınıf → Ekoloji → Besin Ağları",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/ecology/food-webs",
-  "text": "besin ağları biyoloji → 11. sınıf → ekoloji → besin ağları besin ağları kurun; üreticileri, tüketicileri, avcıları ve ayrıştırıcıları belirleyin. besin ağları kurun; üreticileri, tüketicileri, avcıları ve ayrıştırıcıları belirleyin."
- },
- {
   "kind": "subject",
   "title": "Bilgisayar Bilimi",
   "path": "Dersler",
   "url": "/tr/cambridge/lower-secondary/subjects/computer-science",
-  "text": "bilgisayar bilimi how computers think — and how to make them do what you want. computer science is about solving problems precisely. you'll learn how to break problems down, write programs in python, and understand the ideas — from variables to functions — that every piece of software is built on. hesaplamalı düşünme programlama temelleri algoritmalar veri temsili"
- },
- {
-  "kind": "chapter",
-  "title": "Bilgisayar Sistemleri",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Bilgisayar Sistemleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computer-systems",
-  "text": "bilgisayar sistemleri bilgisayar bilimi → 7. sınıf → bilgisayar sistemleri bilgisayarın içinde ne var ve ikili sistemle nasıl düşünür. bilgisayar tasarımı yazılım türleri veri temsili mantık kapıları otomasyon ve yapay zekâ"
- },
- {
-  "kind": "resource",
-  "title": "Bilgisayar Sistemleri kaynakları",
-  "path": "Kaynaklar → Bilgisayar Bilimi → 7. Sınıf → Bilgisayar Sistemleri",
-  "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-7/computer-systems",
-  "text": "bilgisayar sistemleri kaynakları bilgisayar bilimi → 7. sınıf → bilgisayar sistemleri bilgisayar tasarımı yazılım türleri veri temsili mantık kapıları otomasyon ve yapay zekâ"
- },
- {
-  "kind": "topic",
-  "title": "Bilgisayar Tasarımı",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Bilgisayar Sistemleri → Bilgisayar Tasarımı",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computer-systems/computer-design",
-  "text": "bilgisayar tasarımı bilgisayar bilimi → 7. sınıf → bilgisayar sistemleri → bilgisayar tasarımı girdi, işlem, çıktı: içerideki parçalar ve birlikte nasıl çalıştıkları. girdi, işlem, çıktı: içerideki parçalar ve birlikte nasıl çalıştıkları."
- },
- {
-  "kind": "topic",
-  "title": "Binom Dağılımı",
-  "path": "Matematik → 12. Sınıf → İleri İstatistik → Binom Dağılımı",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/further-statistics/binomial-distribution",
-  "text": "binom dağılımı matematik → 12. sınıf → ileri istatistik → binom dağılımı iki sonuçlu, sabit sayıda bağımsız denemeyi modelleme ve olasılıkları hesaplama. iki sonuçlu, sabit sayıda bağımsız denemeyi modelleme ve olasılıkları hesaplama."
+  "text": "bilgisayar bilimi how computers think — and how to make them do what you want. computer science is about solving problems precisely. you'll learn how to break problems down, write programs in python, and understand the ideas — from variables to functions — that every piece of software is built on. hesaplamalı düşünme programlama temelleri algoritmalar data representation"
  },
  {
   "kind": "topic",
@@ -378,193 +105,67 @@
   "text": "bir doğru üzerinde kinematik matematik → 12. sınıf → mekanik → bir doğru üzerinde kinematik yer değiştirme, hız ve ivme; sabit ivmeli suvat denklemleriyle. yer değiştirme, hız ve ivme; sabit ivmeli suvat denklemleriyle."
  },
  {
-  "kind": "topic",
-  "title": "Birleşik Sonuçlar",
-  "path": "Matematik → 11. Sınıf → Olasılık → Birleşik Sonuçlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/probability/combined-outcomes",
-  "text": "birleşik sonuçlar matematik → 11. sınıf → olasılık → birleşik sonuçlar örnek uzay diyagramları ve iki adımlı deneyler için tüm sonuçları listeleme. örnek uzay diyagramları ve iki adımlı deneyler için tüm sonuçları listeleme."
- },
- {
-  "kind": "topic",
-  "title": "Bitki Üremesi",
-  "path": "Biyoloji → 9. Sınıf → Üreme → Bitki Üremesi",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/reproduction/plant-reproduction",
-  "text": "bitki üremesi biyoloji → 9. sınıf → üreme → bitki üremesi çiçeklerin, tozlaşmanın ve tohumların bir sonraki bitki neslini nasıl oluşturduğunu öğren. çiçeklerin, tozlaşmanın ve tohumların bir sonraki bitki neslini nasıl oluşturduğunu öğren."
- },
- {
-  "kind": "chapter",
-  "title": "Bitkiler",
-  "path": "Biyoloji → 7. Sınıf → Bitkiler",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/plants",
-  "text": "bitkiler biyoloji → 7. sınıf → bitkiler bitkilerin büyümesi ve sağlıklı kalması için neye ihtiyacı olduğunu öğren. bitkinin parçaları bitkilerin ihtiyaçları tohumlar nasıl büyür bitkiler nasıl besin yapar"
- },
- {
-  "kind": "resource",
-  "title": "Bitkiler kaynakları",
-  "path": "Kaynaklar → Biyoloji → 7. Sınıf → Bitkiler",
-  "url": "/tr/cambridge/lower-secondary/resources/biology/grade-7/plants",
-  "text": "bitkiler kaynakları biyoloji → 7. sınıf → bitkiler bitkinin parçaları bitkilerin ihtiyaçları tohumlar nasıl büyür bitkiler nasıl besin yapar"
- },
- {
-  "kind": "topic",
-  "title": "Bitkiler Nasıl Besin Yapar",
-  "path": "Biyoloji → 7. Sınıf → Bitkiler → Bitkiler Nasıl Besin Yapar",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/plants/making-food",
-  "text": "bitkiler nasıl besin yapar biyoloji → 7. sınıf → bitkiler → bitkiler nasıl besin yapar fotosentezi basit kelimelerle tanı: yapraklar güneş ışığı, su ve havayı kullanarak besin yapar. fotosentezi basit kelimelerle tanı: yapraklar güneş ışığı, su ve havayı kullanarak besin yapar."
- },
- {
-  "kind": "topic",
-  "title": "Bitkilerin İhtiyaçları",
-  "path": "Biyoloji → 7. Sınıf → Bitkiler → Bitkilerin İhtiyaçları",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/plants/what-plants-need",
-  "text": "bitkilerin ihtiyaçları biyoloji → 7. sınıf → bitkiler → bitkilerin ihtiyaçları bitkilerin sağlıklı kalıp büyümesi için gereken ışık, su, sıcaklık ve havayı keşfet. bitkilerin sağlıklı kalıp büyümesi için gereken ışık, su, sıcaklık ve havayı keşfet."
- },
- {
-  "kind": "topic",
-  "title": "Bitkinin Parçaları",
-  "path": "Biyoloji → 7. Sınıf → Bitkiler → Bitkinin Parçaları",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/plants/parts-of-a-plant",
-  "text": "bitkinin parçaları biyoloji → 7. sınıf → bitkiler → bitkinin parçaları kökleri, gövdeyi, yaprakları ve çiçeği yaz ve her parçanın bitki için ne yaptığını öğren. kökleri, gövdeyi, yaprakları ve çiçeği yaz ve her parçanın bitki için ne yaptığını öğren."
- },
- {
   "kind": "chapter",
   "title": "Biyoenerjetik",
   "path": "Biyoloji → 10. Sınıf → Biyoenerjetik",
   "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/bioenergetics",
-  "text": "biyoenerjetik biyoloji → 10. sınıf → biyoenerjetik fotosentez ve solunum: yaşam enerjisini nasıl elde eder. fotosentez nasıl çalışır sınırlayıcı faktörler aerobik ve anaerobik solunum ekosistemlerde enerji"
+  "text": "biyoenerjetik biyoloji → 10. sınıf → biyoenerjetik fotosentez ve solunum: yaşam enerjisini nasıl elde eder. fotosentez nasıl çalışır"
  },
  {
   "kind": "resource",
   "title": "Biyoenerjetik kaynakları",
   "path": "Kaynaklar → Biyoloji → 10. Sınıf → Biyoenerjetik",
   "url": "/tr/cambridge/upper-secondary/resources/biology/grade-10/bioenergetics",
-  "text": "biyoenerjetik kaynakları biyoloji → 10. sınıf → biyoenerjetik fotosentez nasıl çalışır sınırlayıcı faktörler aerobik ve anaerobik solunum ekosistemlerde enerji"
+  "text": "biyoenerjetik kaynakları biyoloji → 10. sınıf → biyoenerjetik fotosentez nasıl çalışır"
  },
  {
   "kind": "chapter",
   "title": "Biyokimya",
   "path": "Biyoloji → 11. Sınıf → Biyokimya",
   "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/biochemistry",
-  "text": "biyokimya biyoloji → 11. sınıf → biyokimya yaşamın molekülleri: proteinler, enzimler ve dna. biyolojik moleküller protein yapısı enzimler derinlemesine dna yapısı ve eşlenmesi"
+  "text": "biyokimya biyoloji → 11. sınıf → biyokimya yaşamın molekülleri: proteinler, enzimler ve dna. enzimler derinlemesine"
  },
  {
   "kind": "resource",
   "title": "Biyokimya kaynakları",
   "path": "Kaynaklar → Biyoloji → 11. Sınıf → Biyokimya",
   "url": "/tr/cambridge/upper-secondary/resources/biology/grade-11/biochemistry",
-  "text": "biyokimya kaynakları biyoloji → 11. sınıf → biyokimya biyolojik moleküller protein yapısı enzimler derinlemesine dna yapısı ve eşlenmesi"
- },
- {
-  "kind": "topic",
-  "title": "Biyokütle Piramitleri",
-  "path": "Biyoloji → 11. Sınıf → Ekoloji → Biyokütle Piramitleri",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/ecology/pyramids-of-biomass",
-  "text": "biyokütle piramitleri biyoloji → 11. sınıf → ekoloji → biyokütle piramitleri biyokütle piramitleri kurun ve enerji transferinin neden verimsiz olduğunu açıklayın. biyokütle piramitleri kurun ve enerji transferinin neden verimsiz olduğunu açıklayın."
+  "text": "biyokimya kaynakları biyoloji → 11. sınıf → biyokimya enzimler derinlemesine"
  },
  {
   "kind": "subject",
   "title": "Biyoloji",
   "path": "Dersler",
   "url": "/tr/cambridge/lower-secondary/subjects/biology",
-  "text": "biyoloji the science of living things. biology is the study of life — from the microscopic machinery inside a single cell to entire ecosystems. you'll learn how living things are built, how they work, and how they interact with each other and their environment. hücre biyolojisi organizasyon biyoenerjetik kalıtım ve genetik ekoloji"
- },
- {
-  "kind": "topic",
-  "title": "Biyolojik Moleküller",
-  "path": "Biyoloji → 11. Sınıf → Biyokimya → Biyolojik Moleküller",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/biochemistry/biological-molecules",
-  "text": "biyolojik moleküller biyoloji → 11. sınıf → biyokimya → biyolojik moleküller karbonhidratları, lipitleri, proteinleri ve nükleik asitleri sınıflandırın; besinleri onlar için test edin. karbonhidratları, lipitleri, proteinleri ve nükleik asitleri sınıflandırın; besinleri onlar için test edin."
- },
- {
-  "kind": "topic",
-  "title": "Buharlaştırma ile Ayırma",
-  "path": "Kimya → 7. Sınıf → Karışımlar → Buharlaştırma ile Ayırma",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/mixtures/evaporating",
-  "text": "buharlaştırma ile ayırma kimya → 7. sınıf → karışımlar → buharlaştırma ile ayırma su buharlaşırken çözünmüş tuzu geride bırakmak için suyu hafifçe ısıtın. su buharlaşırken çözünmüş tuzu geride bırakmak için suyu hafifçe ısıtın."
- },
- {
-  "kind": "topic",
-  "title": "Canlı Nedir?",
-  "path": "Biyoloji → 7. Sınıf → Canlılar → Canlı Nedir?",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/living-things/what-is-alive",
-  "text": "canlı nedir? biyoloji → 7. sınıf → canlılar → canlı nedir? canlıları hiç canlı olmamış şeylerden ayıran yedi yaşam sürecini (mrs gren) öğren. canlıları hiç canlı olmamış şeylerden ayıran yedi yaşam sürecini (mrs gren) öğren."
+  "text": "biyoloji the science of living things. biology is the study of life — from the microscopic machinery inside a single cell to entire ecosystems. you'll learn how living things are built, how they work, and how they interact with each other and their environment. hücre biyolojisi organisation biyoenerjetik ınheritance & genetics ecology"
  },
  {
   "kind": "chapter",
   "title": "Canlılar",
   "path": "Biyoloji → 7. Sınıf → Canlılar",
   "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/living-things",
-  "text": "canlılar biyoloji → 7. sınıf → canlılar bir şeyi canlı yapan nedir? yakınındaki yaşam alanlarını keşfet. canlı nedir? yakınındaki yaşam alanları hayvanları sınıflandırma basit besin zincirleri"
+  "text": "canlılar biyoloji → 7. sınıf → canlılar bir şeyi canlı yapan nedir? yakınındaki yaşam alanlarını keşfet. basit besin zincirleri"
  },
  {
   "kind": "resource",
   "title": "Canlılar kaynakları",
   "path": "Kaynaklar → Biyoloji → 7. Sınıf → Canlılar",
   "url": "/tr/cambridge/lower-secondary/resources/biology/grade-7/living-things",
-  "text": "canlılar kaynakları biyoloji → 7. sınıf → canlılar canlı nedir? yakınındaki yaşam alanları hayvanları sınıflandırma basit besin zincirleri"
+  "text": "canlılar kaynakları biyoloji → 7. sınıf → canlılar basit besin zincirleri"
  },
  {
   "kind": "chapter",
   "title": "Cebir",
   "path": "Matematik → 9. Sınıf → Cebir",
   "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/algebra",
-  "text": "cebir matematik → 9. sınıf → cebir sayıların yerine geçen harfler — ifadeler, denklemler ve fonksiyonlar. cebire giriş değişkenler ifadeler doğrusal denklemler ikinci dereceden denklemler fonksiyonlar"
+  "text": "cebir matematik → 9. sınıf → cebir sayıların yerine geçen harfler — ifadeler, denklemler ve fonksiyonlar. doğrusal denklemler"
  },
  {
   "kind": "resource",
   "title": "Cebir kaynakları",
   "path": "Kaynaklar → Matematik → 9. Sınıf → Cebir",
   "url": "/tr/cambridge/lower-secondary/resources/mathematics/grade-9/algebra",
-  "text": "cebir kaynakları matematik → 9. sınıf → cebir cebire giriş değişkenler ifadeler doğrusal denklemler ikinci dereceden denklemler fonksiyonlar"
- },
- {
-  "kind": "topic",
-  "title": "Cebire Giriş",
-  "path": "Matematik → 9. Sınıf → Cebir → Cebire Giriş",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/algebra/introduction",
-  "text": "cebire giriş matematik → 9. sınıf → cebir → cebire giriş cebir, henüz bilmediğin sayılar hakkında akıl yürütmeni sağlar. tüm bölümün üzerine kurulduğu kelimelerle tanış — değişken, katsayı, sabit, terim. cebir, henüz bilmediğin sayılar hakkında akıl yürütmeni sağlar. tüm bölümün üzerine kurulduğu kelimelerle tanış — değişken, katsayı, sabit, terim."
- },
- {
-  "kind": "topic",
-  "title": "Çeşitlilik ve Seçilim",
-  "path": "Biyoloji → 10. Sınıf → Kalıtım ve Genetik → Çeşitlilik ve Seçilim",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/genetics/variation-and-selection",
-  "text": "çeşitlilik ve seçilim biyoloji → 10. sınıf → kalıtım ve genetik → çeşitlilik ve seçilim popülasyonlardaki çeşitliliğin genetik ve çevresel nedenlerini açıklayın. popülasyonlardaki çeşitliliğin genetik ve çevresel nedenlerini açıklayın."
- },
- {
-  "kind": "topic",
-  "title": "Çevre ve Alan",
-  "path": "Matematik → 10. Sınıf → Geometri → Çevre ve Alan",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/geometry/perimeter-and-area",
-  "text": "çevre ve alan matematik → 10. sınıf → geometri → çevre ve alan dikdörtgen, üçgen, yamuk ve bileşik şekillerin çevresi ve alanı. dikdörtgen, üçgen, yamuk ve bileşik şekillerin çevresi ve alanı."
- },
- {
-  "kind": "topic",
-  "title": "Çıktı ve Girdi",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Programlama Temelleri → Çıktı ve Girdi",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/programming/output-and-input",
-  "text": "çıktı ve girdi bilgisayar bilimi → 9. sınıf → programlama temelleri → çıktı ve girdi sonuçları ekranda göster ve klavyeden veri al. sonuçları ekranda göster ve klavyeden veri al."
- },
- {
-  "kind": "topic",
-  "title": "Çözeltilerin Derişimi",
-  "path": "Kimya → 11. Sınıf → Nicel Kimya → Çözeltilerin Derişimi",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/quantitative-chemistry/concentrations",
-  "text": "çözeltilerin derişimi kimya → 11. sınıf → nicel kimya → çözeltilerin derişimi desimetreküp başına mol ile çalışın. desimetreküp başına mol ile çalışın."
- },
- {
-  "kind": "topic",
-  "title": "Daireler ve pi",
-  "path": "Matematik → 10. Sınıf → Geometri → Daireler ve pi",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/geometry/circles-and-pi",
-  "text": "daireler ve pi matematik → 10. sınıf → geometri → daireler ve pi dairelerin çevresi ve alanı; çap ile çevre arasındaki bağ olarak pi. dairelerin çevresi ve alanı; çap ile çevre arasındaki bağ olarak pi."
- },
- {
-  "kind": "topic",
-  "title": "Dairesel Hareket",
-  "path": "Fizik → 11. Sınıf → İleri Mekanik → Dairesel Hareket",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/further-mechanics/circular-motion",
-  "text": "dairesel hareket fizik → 11. sınıf → ileri mekanik → dairesel hareket a = v²/r'yi türetme ve f = mv²/r'yi yörüngelere ve dönel kavşaklara uygulama. a = v²/r'yi türetme ve f = mv²/r'yi yörüngelere ve dönel kavşaklara uygulama."
+  "text": "cebir kaynakları matematik → 9. sınıf → cebir doğrusal denklemler"
  },
  {
   "kind": "topic",
@@ -578,21 +179,14 @@
   "title": "Dalgalar",
   "path": "Fizik → 10. Sınıf → Dalgalar",
   "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/waves",
-  "text": "dalgalar fizik → 10. sınıf → dalgalar dalga özellikleri, ses ve elektromanyetik tayf. enine ve boyuna dalga hızı denklemi yansıma ve kırılma elektromanyetik spektrum"
+  "text": "dalgalar fizik → 10. sınıf → dalgalar dalga özellikleri, ses ve elektromanyetik tayf. dalga hızı denklemi"
  },
  {
   "kind": "resource",
   "title": "Dalgalar kaynakları",
   "path": "Kaynaklar → Fizik → 10. Sınıf → Dalgalar",
   "url": "/tr/cambridge/upper-secondary/resources/physics/grade-10/waves",
-  "text": "dalgalar kaynakları fizik → 10. sınıf → dalgalar enine ve boyuna dalga hızı denklemi yansıma ve kırılma elektromanyetik spektrum"
- },
- {
-  "kind": "topic",
-  "title": "Değişen Gölgeler",
-  "path": "Fizik → 8. Sınıf → Işık ve Gölgeler → Değişen Gölgeler",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/light-shadows/changing-shadows",
-  "text": "değişen gölgeler fizik → 8. sınıf → ışık ve gölgeler → değişen gölgeler bir ışığı veya cismi hareket ettirmenin gölgeleri nasıl büyüttüğünü, küçülttüğünü ve hareket ettirdiğini araştırmak. bir ışığı veya cismi hareket ettirmenin gölgeleri nasıl büyüttüğünü, küçülttüğünü ve hareket ettirdiğini araştırmak."
+  "text": "dalgalar kaynakları fizik → 10. sınıf → dalgalar dalga hızı denklemi"
  },
  {
   "kind": "topic",
@@ -600,76 +194,6 @@
   "path": "Bilgisayar Bilimi → 9. Sınıf → Programlama Temelleri → Değişkenler",
   "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/programming/variables",
   "text": "değişkenler bilgisayar bilimi → 9. sınıf → programlama temelleri → değişkenler verileri adlandırılmış kutularda sakla ve yeniden kullan. verileri adlandırılmış kutularda sakla ve yeniden kullan."
- },
- {
-  "kind": "topic",
-  "title": "Değişkenler",
-  "path": "Matematik → 9. Sınıf → Cebir → Değişkenler",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/algebra/variables",
-  "text": "değişkenler matematik → 9. sınıf → cebir → değişkenler x harfi bir gizem değil, bir kaptır. değişkenlerin neyi temsil ettiğini, nasıl değiştiğini ve ifadelere değer koymayı öğren. x harfi bir gizem değil, bir kaptır. değişkenlerin neyi temsil ettiğini, nasıl değiştiğini ve ifadelere değer koymayı öğren."
- },
- {
-  "kind": "topic",
-  "title": "Dengeli ve Dengesiz Kuvvetler",
-  "path": "Fizik → 8. Sınıf → Kuvvetler → Dengeli ve Dengesiz Kuvvetler",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/forces/balanced-and-unbalanced",
-  "text": "dengeli ve dengesiz kuvvetler fizik → 8. sınıf → kuvvetler → dengeli ve dengesiz kuvvetler kuvvetlerin birbirini ne zaman dengelediğini veya ivmelenmeye yol açtığını görmek için kuvvet diyagramları kullanmak. kuvvetlerin birbirini ne zaman dengelediğini veya ivmelenmeye yol açtığını görmek için kuvvet diyagramları kullanmak."
- },
- {
-  "kind": "topic",
-  "title": "Difüzyonla Yayılma",
-  "path": "Kimya → 8. Sınıf → Parçacıklar → Difüzyonla Yayılma",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/particles/diffusion",
-  "text": "difüzyonla yayılma kimya → 8. sınıf → parçacıklar → difüzyonla yayılma taneciklerin kalabalık yerlerden boş yerlere nasıl yayıldığını görün. taneciklerin kalabalık yerlerden boş yerlere nasıl yayıldığını görün."
- },
- {
-  "kind": "chapter",
-  "title": "Dijital Medya Oluşturma",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Dijital Medya Oluşturma",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/creating-media",
-  "text": "dijital medya oluşturma bilgisayar bilimi → 8. sınıf → dijital medya oluşturma basit sunumlar, görseller ve animasyonlar yap. projenin planlanması görsel oluşturma storing ımages: pixels and colour depth metin ve ses"
- },
- {
-  "kind": "resource",
-  "title": "Dijital Medya Oluşturma kaynakları",
-  "path": "Kaynaklar → Bilgisayar Bilimi → 8. Sınıf → Dijital Medya Oluşturma",
-  "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-8/creating-media",
-  "text": "dijital medya oluşturma kaynakları bilgisayar bilimi → 8. sınıf → dijital medya oluşturma projenin planlanması görsel oluşturma storing ımages: pixels and colour depth metin ve ses"
- },
- {
-  "kind": "topic",
-  "title": "Diziler ve Seriler",
-  "path": "Matematik → 11. Sınıf → Soyut Matematik → Diziler ve Seriler",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/pure-mathematics/sequences-and-series",
-  "text": "diziler ve seriler matematik → 11. sınıf → soyut matematik → diziler ve seriler aritmetik ve geometrik diziler, n. terimler ve serilerin toplamları. aritmetik ve geometrik diziler, n. terimler ve serilerin toplamları."
- },
- {
-  "kind": "topic",
-  "title": "DNA Yapısı ve Eşlenmesi",
-  "path": "Biyoloji → 11. Sınıf → Biyokimya → DNA Yapısı ve Eşlenmesi",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/biochemistry/dna-replication",
-  "text": "dna yapısı ve eşlenmesi biyoloji → 11. sınıf → biyokimya → dna yapısı ve eşlenmesi çift sarmalı ve yarı korunumlu eşlenme mekanizmasını anlatın. çift sarmalı ve yarı korunumlu eşlenme mekanizmasını anlatın."
- },
- {
-  "kind": "topic",
-  "title": "DNA, Genler ve Kromozomlar",
-  "path": "Biyoloji → 10. Sınıf → Kalıtım ve Genetik → DNA, Genler ve Kromozomlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/genetics/dna-genes-chromosomes",
-  "text": "dna, genler ve kromozomlar biyoloji → 10. sınıf → kalıtım ve genetik → dna, genler ve kromozomlar dna, genler, kromozomlar ve alelleri tek ve net bir bütün hâline getirin. dna, genler, kromozomlar ve alelleri tek ve net bir bütün hâline getirin."
- },
- {
-  "kind": "topic",
-  "title": "Doğal Seçilim",
-  "path": "Biyoloji → 12. Sınıf → Evrim → Doğal Seçilim",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/evolution/natural-selection",
-  "text": "doğal seçilim biyoloji → 12. sınıf → evrim → doğal seçilim darwin'in teorisini antibiyotik direnci gibi gerçek örneklerle adım adım açıklayın. darwin'in teorisini antibiyotik direnci gibi gerçek örneklerle adım adım açıklayın."
- },
- {
-  "kind": "topic",
-  "title": "Doğru Orantı",
-  "path": "Matematik → 9. Sınıf → Oran ve Orantı → Doğru Orantı",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/ratio-proportion/direct-proportion",
-  "text": "doğru orantı matematik → 9. sınıf → oran ve orantı → doğru orantı iki niceliğin birlikte büyüdüğü problemleri çöz. iki niceliğin birlikte büyüdüğü problemleri çöz."
  },
  {
   "kind": "topic",
@@ -686,151 +210,18 @@
   "text": "doğrusal denklemler matematik → 9. sınıf → cebir → doğrusal denklemler gizli sayıyı bul: denklemin bir tarafına ne yaparsan öbürüne de onu yap. tek adımlı ve iki adımlı denklemler. gizli sayıyı bul: denklemin bir tarafına ne yaparsan öbürüne de onu yap. tek adımlı ve iki adımlı denklemler."
  },
  {
-  "kind": "topic",
-  "title": "Döngüler",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Programlama Temelleri → Döngüler",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/programming/loops",
-  "text": "döngüler bilgisayar bilimi → 9. sınıf → programlama temelleri → döngüler adımlı ve koşullu döngülerle tekrarla, sonsuz döngülerden kaçın. adımlı ve koşullu döngülerle tekrarla, sonsuz döngülerden kaçın."
- },
- {
-  "kind": "topic",
-  "title": "Düzlemsel Şekiller",
-  "path": "Matematik → 7. Sınıf → Şekiller ve Ölçüler → Düzlemsel Şekiller",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/shapes-measures/flat-shapes",
-  "text": "düzlemsel şekiller matematik → 7. sınıf → şekiller ve ölçüler → düzlemsel şekiller daireleri, üçgenleri, dikdörtgenleri ve kareleri isimlendir ve tanımla. daireleri, üçgenleri, dikdörtgenleri ve kareleri isimlendir ve tanımla."
- },
- {
-  "kind": "topic",
-  "title": "Eğik Atış",
-  "path": "Matematik → 12. Sınıf → Mekanik → Eğik Atış",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/mechanics/projectile-motion",
-  "text": "eğik atış matematik → 12. sınıf → mekanik → eğik atış yer çekimi altında hareketi bağımsız yatay ve düşey bileşenlere ayırma. yer çekimi altında hareketi bağımsız yatay ve düşey bileşenlere ayırma."
- },
- {
-  "kind": "topic",
-  "title": "Eğitim Verisi",
-  "path": "Bilgisayar Bilimi → 12. Sınıf → Yapay Zekâ ve Etik → Eğitim Verisi",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-12/ai-ethics/training-data",
-  "text": "eğitim verisi bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik → eğitim verisi temsili, dengeli eğitim verisi toplayın ve aşırı öğrenme ile veri sızıntısından kaçının. temsili, dengeli eğitim verisi toplayın ve aşırı öğrenme ile veri sızıntısından kaçının."
- },
- {
-  "kind": "chapter",
-  "title": "Ekoloji",
-  "path": "Biyoloji → 11. Sınıf → Ekoloji",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/ecology",
-  "text": "ekoloji biyoloji → 11. sınıf → ekoloji ekosistemler, besin ağları ve insanın çevreye etkisi. besin ağları biyokütle piramitleri karbon döngüsü insanlar ve çevre"
- },
- {
-  "kind": "resource",
-  "title": "Ekoloji kaynakları",
-  "path": "Kaynaklar → Biyoloji → 11. Sınıf → Ekoloji",
-  "url": "/tr/cambridge/upper-secondary/resources/biology/grade-11/ecology",
-  "text": "ekoloji kaynakları biyoloji → 11. sınıf → ekoloji besin ağları biyokütle piramitleri karbon döngüsü insanlar ve çevre"
- },
- {
-  "kind": "topic",
-  "title": "Ekosistemlerde Enerji",
-  "path": "Biyoloji → 10. Sınıf → Biyoenerjetik → Ekosistemlerde Enerji",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/bioenergetics/energy-in-ecosystems",
-  "text": "ekosistemlerde enerji biyoloji → 10. sınıf → biyoenerjetik → ekosistemlerde enerji trofik düzeyler arasındaki enerji transferinin yüzde verimliliğini hesaplayın. trofik düzeyler arasındaki enerji transferinin yüzde verimliliğini hesaplayın."
- },
- {
   "kind": "chapter",
   "title": "Elektrik",
   "path": "Fizik → 11. Sınıf → Elektrik",
   "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/electricity",
-  "text": "elektrik fizik → 11. sınıf → elektrik akım, gerilim, direnç ve basit devreler. akım ve yük gerilim ve direnç seri ve paralel elektrik gücü"
- },
- {
-  "kind": "topic",
-  "title": "Elektrik Alanlar",
-  "path": "Fizik → 12. Sınıf → Alanlar → Elektrik Alanlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/fields/electric-fields",
-  "text": "elektrik alanlar fizik → 12. sınıf → alanlar → elektrik alanlar noktasal yükler ve düzgün alanlar için e = f/q ve e = v/d kullanımı. noktasal yükler ve düzgün alanlar için e = f/q ve e = v/d kullanımı."
- },
- {
-  "kind": "topic",
-  "title": "Elektrik Gücü",
-  "path": "Fizik → 11. Sınıf → Elektrik → Elektrik Gücü",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/electricity/electrical-power",
-  "text": "elektrik gücü fizik → 11. sınıf → elektrik → elektrik gücü p = ı × v ile gücü hesaplama ve aktarılan enerji. p = ı × v ile gücü hesaplama ve aktarılan enerji."
+  "text": "elektrik fizik → 11. sınıf → elektrik akım, gerilim, direnç ve basit devreler. gerilim ve direnç"
  },
  {
   "kind": "resource",
   "title": "Elektrik kaynakları",
   "path": "Kaynaklar → Fizik → 11. Sınıf → Elektrik",
   "url": "/tr/cambridge/upper-secondary/resources/physics/grade-11/electricity",
-  "text": "elektrik kaynakları fizik → 11. sınıf → elektrik akım ve yük gerilim ve direnç seri ve paralel elektrik gücü"
- },
- {
-  "kind": "topic",
-  "title": "Elektromanyetik Spektrum",
-  "path": "Fizik → 10. Sınıf → Dalgalar → Elektromanyetik Spektrum",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/waves/electromagnetic-spectrum",
-  "text": "elektromanyetik spektrum fizik → 10. sınıf → dalgalar → elektromanyetik spektrum spektrumu radyo dalgalarından gama ışınlarına sıralamak ve kullanımlarıyla tanışmak. spektrumu radyo dalgalarından gama ışınlarına sıralamak ve kullanımlarıyla tanışmak."
- },
- {
-  "kind": "topic",
-  "title": "Elektron Katmanları",
-  "path": "Kimya → 8. Sınıf → Atom Yapısı → Elektron Katmanları",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/atomic-structure/electron-shells",
-  "text": "elektron katmanları kimya → 8. sınıf → atom yapısı → elektron katmanları elektronları katmanlara yerleştirin ve dizilişi periyodik tabloyla ilişkilendirin. elektronları katmanlara yerleştirin ve dizilişi periyodik tabloyla ilişkilendirin."
- },
- {
-  "kind": "topic",
-  "title": "Eleme ile Ayırma",
-  "path": "Kimya → 7. Sınıf → Karışımlar → Eleme ile Ayırma",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/mixtures/sieving",
-  "text": "eleme ile ayırma kimya → 7. sınıf → karışımlar → eleme ile ayırma undan topakları ayırmak gibi, farklı büyüklükteki katıları ayırmak için elek kullanın. undan topakları ayırmak gibi, farklı büyüklükteki katıları ayırmak için elek kullanın."
- },
- {
-  "kind": "topic",
-  "title": "Elementlerin Düzenlenmesi",
-  "path": "Kimya → 9. Sınıf → Periyodik Tablo → Elementlerin Düzenlenmesi",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/periodic-table/arranging-elements",
-  "text": "elementlerin düzenlenmesi kimya → 9. sınıf → periyodik tablo → elementlerin düzenlenmesi mendeleev'in elementleri atom kütlesine ve özelliklerine göre nasıl sıraladığını görün. mendeleev'in elementleri atom kütlesine ve özelliklerine göre nasıl sıraladığını görün."
- },
- {
-  "kind": "chapter",
-  "title": "Enerji",
-  "path": "Fizik → 9. Sınıf → Enerji",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/energy",
-  "text": "enerji fizik → 9. sınıf → enerji kinetik, potansiyel ve enerjinin korunumu. kinetik enerji potansiyel enerji enerji dönüşümleri enerjinin korunumu ve verim"
- },
- {
-  "kind": "topic",
-  "title": "Enerji Dönüşümleri",
-  "path": "Fizik → 9. Sınıf → Enerji → Enerji Dönüşümleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/energy/energy-transfers",
-  "text": "enerji dönüşümleri fizik → 9. sınıf → enerji → enerji dönüşümleri enerjiyi depolar arasında hareket ederken izlemek, pillerden zıplayan toplara. enerjiyi depolar arasında hareket ederken izlemek, pillerden zıplayan toplara."
- },
- {
-  "kind": "resource",
-  "title": "Enerji kaynakları",
-  "path": "Kaynaklar → Fizik → 9. Sınıf → Enerji",
-  "url": "/tr/cambridge/lower-secondary/resources/physics/grade-9/energy",
-  "text": "enerji kaynakları fizik → 9. sınıf → enerji kinetik enerji potansiyel enerji enerji dönüşümleri enerjinin korunumu ve verim"
- },
- {
-  "kind": "topic",
-  "title": "Enerjinin Korunumu ve Verim",
-  "path": "Fizik → 9. Sınıf → Enerji → Enerjinin Korunumu ve Verim",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/energy/conservation-and-efficiency",
-  "text": "enerjinin korunumu ve verim fizik → 9. sınıf → enerji → enerjinin korunumu ve verim enerjinin korunumunu kullanarak ve cihazların verimini hesaplayarak. enerjinin korunumunu kullanarak ve cihazların verimini hesaplayarak."
- },
- {
-  "kind": "topic",
-  "title": "Enine ve Boyuna",
-  "path": "Fizik → 10. Sınıf → Dalgalar → Enine ve Boyuna",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/waves/transverse-and-longitudinal",
-  "text": "enine ve boyuna fizik → 10. sınıf → dalgalar → enine ve boyuna iki dalga türünü ve titreşimlerinin yönünü karşılaştırmak. iki dalga türünü ve titreşimlerinin yönünü karşılaştırmak."
- },
- {
-  "kind": "topic",
-  "title": "Entalpi Değişimleri",
-  "path": "Kimya → 11. Sınıf → Fiziksel Kimya → Entalpi Değişimleri",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/physical-chemistry/enthalpy-changes",
-  "text": "entalpi değişimleri kimya → 11. sınıf → fiziksel kimya → entalpi değişimleri kalorimetre ile ısı değişimlerini ölçün ve standart entalpi tanımlarını öğrenin. kalorimetre ile ısı değişimlerini ölçün ve standart entalpi tanımlarını öğrenin."
+  "text": "elektrik kaynakları fizik → 11. sınıf → elektrik gerilim ve direnç"
  },
  {
   "kind": "topic",
@@ -840,88 +231,11 @@
   "text": "enzimler derinlemesine biyoloji → 11. sınıf → biyokimya → enzimler derinlemesine özgüllüğü, uyarılmış uyum modelini ve ph ile sıcaklığın etkilerini açıklayın. özgüllüğü, uyarılmış uyum modelini ve ph ile sıcaklığın etkilerini açıklayın."
  },
  {
-  "kind": "topic",
-  "title": "Ergenlik ve Büyümek",
-  "path": "Biyoloji → 9. Sınıf → Üreme → Ergenlik ve Büyümek",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/reproduction/puberty-and-growth",
-  "text": "ergenlik ve büyümek biyoloji → 9. sınıf → üreme → ergenlik ve büyümek ergenliğin fiziksel ve duygusal değişimlerini gerçeklere dayalı, duyarlı bir dille anla. ergenliğin fiziksel ve duygusal değişimlerini gerçeklere dayalı, duyarlı bir dille anla."
- },
- {
-  "kind": "topic",
-  "title": "Erime ve Donma",
-  "path": "Kimya → 7. Sınıf → Katılar ve Sıvılar → Erime ve Donma",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/solids-liquids/melting-and-freezing",
-  "text": "erime ve donma kimya → 7. sınıf → katılar ve sıvılar → erime ve donma buzun, çikolatanın ve tereyağının ısıtılıp soğutulduğunda ne olduğuna bakın. buzun, çikolatanın ve tereyağının ısıtılıp soğutulduğunda ne olduğuna bakın."
- },
- {
-  "kind": "topic",
-  "title": "Esnek ve Esnek Olmayan Çarpışmalar",
-  "path": "Fizik → 11. Sınıf → İleri Mekanik → Esnek ve Esnek Olmayan Çarpışmalar",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/further-mechanics/collisions",
-  "text": "esnek ve esnek olmayan çarpışmalar fizik → 11. sınıf → ileri mekanik → esnek ve esnek olmayan çarpışmalar momentumun korunumunu esnek ve esnek olmayan çarpışmalara uygulama. momentumun korunumunu esnek ve esnek olmayan çarpışmalara uygulama."
- },
- {
-  "kind": "chapter",
-  "title": "Evrim",
-  "path": "Biyoloji → 12. Sınıf → Evrim",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/evolution",
-  "text": "evrim biyoloji → 12. sınıf → evrim doğal seçilim, türleşme ve kanıtlar. doğal seçilim evrim kanıtları türleşme nasıl gerçekleşir sınıflandırma ve filogeni"
- },
- {
-  "kind": "topic",
-  "title": "Evrim Kanıtları",
-  "path": "Biyoloji → 12. Sınıf → Evrim → Evrim Kanıtları",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/evolution/evidence-for-evolution",
-  "text": "evrim kanıtları biyoloji → 12. sınıf → evrim → evrim kanıtları ortak ata için fosil, anatomik, embriyolojik ve dna kanıtlarını değerlendirin. ortak ata için fosil, anatomik, embriyolojik ve dna kanıtlarını değerlendirin."
- },
- {
-  "kind": "resource",
-  "title": "Evrim kaynakları",
-  "path": "Kaynaklar → Biyoloji → 12. Sınıf → Evrim",
-  "url": "/tr/cambridge/upper-secondary/resources/biology/grade-12/evolution",
-  "text": "evrim kaynakları biyoloji → 12. sınıf → evrim doğal seçilim evrim kanıtları türleşme nasıl gerçekleşir sınıflandırma ve filogeni"
- },
- {
   "kind": "subject",
   "title": "Fizik",
   "path": "Dersler",
   "url": "/tr/cambridge/lower-secondary/subjects/physics",
-  "text": "fizik the rules the universe plays by. physics is the study of matter, energy and how they interact. from the forces that move a football to the waves that carry light, you'll learn to describe the physical world with precision — and to predict what happens next. kuvvetler hareket enerji dalgalar elektrik"
- },
- {
-  "kind": "topic",
-  "title": "Fiziksel Hesaplama",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama → Fiziksel Hesaplama",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computational-thinking-programming/physical-computing",
-  "text": "fiziksel hesaplama bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama → fiziksel hesaplama gerçek dünyaya dokunan programlar: sensörler, düğmeler ve ışıklar. gerçek dünyaya dokunan programlar: sensörler, düğmeler ve ışıklar."
- },
- {
-  "kind": "chapter",
-  "title": "Fiziksel Kimya",
-  "path": "Kimya → 11. Sınıf → Fiziksel Kimya",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/physical-chemistry",
-  "text": "fiziksel kimya kimya → 11. sınıf → fiziksel kimya enerjetik, tepkime hızları ve dengeler. entalpi değişimleri hess yasası tepkime hızları kimyasal denge"
- },
- {
-  "kind": "resource",
-  "title": "Fiziksel Kimya kaynakları",
-  "path": "Kaynaklar → Kimya → 11. Sınıf → Fiziksel Kimya",
-  "url": "/tr/cambridge/upper-secondary/resources/chemistry/grade-11/physical-chemistry",
-  "text": "fiziksel kimya kaynakları kimya → 11. sınıf → fiziksel kimya entalpi değişimleri hess yasası tepkime hızları kimyasal denge"
- },
- {
-  "kind": "topic",
-  "title": "Fonksiyonlar",
-  "path": "Matematik → 9. Sınıf → Cebir → Fonksiyonlar",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/algebra/functions",
-  "text": "fonksiyonlar matematik → 9. sınıf → cebir → fonksiyonlar fonksiyon bir makinedir: bir sayı gir, başka bir sayı çık. fonksiyon gösterimini, fonksiyonları hesaplamayı ve grafiklerin ne anlattığını öğren. fonksiyon bir makinedir: bir sayı gir, başka bir sayı çık. fonksiyon gösterimini, fonksiyonları hesaplamayı ve grafiklerin ne anlattığını öğren."
- },
- {
-  "kind": "topic",
-  "title": "Fonksiyonlar ve Grafikler",
-  "path": "Matematik → 11. Sınıf → Soyut Matematik → Fonksiyonlar ve Grafikler",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/pure-mathematics/functions-and-graphs",
-  "text": "fonksiyonlar ve grafikler matematik → 11. sınıf → soyut matematik → fonksiyonlar ve grafikler tanım kümesi, değer kümesi, bileşke ve ters fonksiyonlar ve fonksiyon grafiklerini dönüştürme. tanım kümesi, değer kümesi, bileşke ve ters fonksiyonlar ve fonksiyon grafiklerini dönüştürme."
+  "text": "fizik the rules the universe plays by. physics is the study of matter, energy and how they interact. from the forces that move a football to the waves that carry light, you'll learn to describe the physical world with precision — and to predict what happens next. kuvvetler hareket energy dalgalar elektrik"
  },
  {
   "kind": "topic",
@@ -935,14 +249,14 @@
   "title": "Geometri",
   "path": "Matematik → 10. Sınıf → Geometri",
   "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/geometry",
-  "text": "geometri matematik → 10. sınıf → geometri açılar, şekiller, alan, çevre ve uzayın mantığı. açılar ve açı bilgileri üçgenler ve dörtgenler çevre ve alan daireler ve pi"
+  "text": "geometri matematik → 10. sınıf → geometri açılar, şekiller, alan, çevre ve uzayın mantığı. açılar ve açı bilgileri"
  },
  {
   "kind": "resource",
   "title": "Geometri kaynakları",
   "path": "Kaynaklar → Matematik → 10. Sınıf → Geometri",
   "url": "/tr/cambridge/upper-secondary/resources/mathematics/grade-10/geometry",
-  "text": "geometri kaynakları matematik → 10. sınıf → geometri açılar ve açı bilgileri üçgenler ve dörtgenler çevre ve alan daireler ve pi"
+  "text": "geometri kaynakları matematik → 10. sınıf → geometri açılar ve açı bilgileri"
  },
  {
   "kind": "topic",
@@ -952,179 +266,46 @@
   "text": "gerilim ve direnç fizik → 11. sınıf → elektrik → gerilim ve direnç v = ı × r kullanma ve basit devre ölçümlerini okuma. v = ı × r kullanma ve basit devre ölçümlerini okuma."
  },
  {
-  "kind": "topic",
-  "title": "Gölgeler Nasıl Oluşur",
-  "path": "Fizik → 8. Sınıf → Işık ve Gölgeler → Gölgeler Nasıl Oluşur",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/light-shadows/how-shadows-form",
-  "text": "gölgeler nasıl oluşur fizik → 8. sınıf → ışık ve gölgeler → gölgeler nasıl oluşur opak bir cismin ışığı engelleyerek nasıl gölge yaptığını görmek. opak bir cismin ışığı engelleyerek nasıl gölge yaptığını görmek."
- },
- {
-  "kind": "topic",
-  "title": "Görsel Oluşturma",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Dijital Medya Oluşturma → Görsel Oluşturma",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/creating-media/making-images",
-  "text": "görsel oluşturma bilgisayar bilimi → 8. sınıf → dijital medya oluşturma → görsel oluşturma resimler oluştur ve düzenle, sonra onları anlamlı dosya adlarıyla kaydet. resimler oluştur ve düzenle, sonra onları anlamlı dosya adlarıyla kaydet."
- },
- {
-  "kind": "topic",
-  "title": "Görüntüler ve Pikseller",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Veri Temsili → Görüntüler ve Pikseller",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/data-representation/images-pixels",
-  "text": "görüntüler ve pikseller bilgisayar bilimi → 9. sınıf → veri temsili → görüntüler ve pikseller renkli nokta ızgaralarının nasıl fotoğrafa dönüştüğünü keşfet. renkli nokta ızgaralarının nasıl fotoğrafa dönüştüğünü keşfet."
- },
- {
-  "kind": "topic",
-  "title": "Graf Ağları",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veri Yapıları → Graf Ağları",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/data-structures/graphs",
-  "text": "graf ağları bilgisayar bilimi → 11. sınıf → veri yapıları → graf ağları düğümler ve kenarlarla ağları ve ilişkileri modelleyin. düğümler ve kenarlarla ağları ve ilişkileri modelleyin."
- },
- {
-  "kind": "topic",
-  "title": "Grafikler ve Diyagramlar",
-  "path": "Matematik → 10. Sınıf → İstatistik → Grafikler ve Diyagramlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/statistics/charts-and-graphs",
-  "text": "grafikler ve diyagramlar matematik → 10. sınıf → istatistik → grafikler ve diyagramlar sütun grafikleri, pasta grafikleri, frekans diyagramları ve piktogramlar; doğru çizilmiş ve okunmuş. sütun grafikleri, pasta grafikleri, frekans diyagramları ve piktogramlar; doğru çizilmiş ve okunmuş."
- },
- {
-  "kind": "topic",
-  "title": "Gruplar ve Periyotlar",
-  "path": "Kimya → 9. Sınıf → Periyodik Tablo → Gruplar ve Periyotlar",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/periodic-table/groups-and-periods",
-  "text": "gruplar ve periyotlar kimya → 9. sınıf → periyodik tablo → gruplar ve periyotlar tablonun sütunlarını ve satırlarını ve size ne anlattıklarını okuyun. tablonun sütunlarını ve satırlarını ve size ne anlattıklarını okuyun."
- },
- {
-  "kind": "topic",
-  "title": "Gruplardaki Eğilimler",
-  "path": "Kimya → 9. Sınıf → Periyodik Tablo → Gruplardaki Eğilimler",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/periodic-table/group-trends",
-  "text": "gruplardaki eğilimler kimya → 9. sınıf → periyodik tablo → gruplardaki eğilimler 1. ve 7. grupta aşağı indikçe tepkime eğiliminin nasıl değiştiğini öngörün. 1. ve 7. grupta aşağı indikçe tepkime eğiliminin nasıl değiştiğini öngörün."
- },
- {
-  "kind": "topic",
-  "title": "Günlük Hayatta Asitler",
-  "path": "Kimya → 9. Sınıf → Asitler ve Bazlar → Günlük Hayatta Asitler",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/acids-alkalis/acids-everyday",
-  "text": "günlük hayatta asitler kimya → 9. sınıf → asitler ve bazlar → günlük hayatta asitler turunçgillerdeki, sirkedeki ve midedeki asitlerle tanışın. turunçgillerdeki, sirkedeki ve midedeki asitlerle tanışın."
- },
- {
-  "kind": "chapter",
-  "title": "Günlük Maddeler",
-  "path": "Fizik → 7. Sınıf → Günlük Maddeler",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/everyday-materials",
-  "text": "günlük maddeler fizik → 7. sınıf → günlük maddeler maddeleri dokunuş ve görünüşlerine göre sınıflandırma. sert ve yumuşak su geçirmez mi, değil mi? ışığı geçirsin işe uygun malzeme"
- },
- {
-  "kind": "resource",
-  "title": "Günlük Maddeler kaynakları",
-  "path": "Kaynaklar → Fizik → 7. Sınıf → Günlük Maddeler",
-  "url": "/tr/cambridge/lower-secondary/resources/physics/grade-7/everyday-materials",
-  "text": "günlük maddeler kaynakları fizik → 7. sınıf → günlük maddeler sert ve yumuşak su geçirmez mi, değil mi? ışığı geçirsin işe uygun malzeme"
- },
- {
-  "kind": "topic",
-  "title": "Hâl Değişimleri",
-  "path": "Kimya → 8. Sınıf → Parçacıklar → Hâl Değişimleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/particles/changes-of-state",
-  "text": "hâl değişimleri kimya → 8. sınıf → parçacıklar → hâl değişimleri erime, kaynama, yoğuşma ve donmayı taneciklerle açıklayın. erime, kaynama, yoğuşma ve donmayı taneciklerle açıklayın."
- },
- {
   "kind": "chapter",
   "title": "Hareket",
   "path": "Fizik → 9. Sınıf → Hareket",
   "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/motion",
-  "text": "hareket fizik → 9. sınıf → hareket sürat, hız, ivme ve hareketi grafiklerle betimleme. sürat ve hız uzaklık–zaman grafikleri ivme nedir hız–zaman grafikleri"
+  "text": "hareket fizik → 9. sınıf → hareket sürat, hız, ivme ve hareketi grafiklerle betimleme. sürat ve hız"
  },
  {
   "kind": "resource",
   "title": "Hareket kaynakları",
   "path": "Kaynaklar → Fizik → 9. Sınıf → Hareket",
   "url": "/tr/cambridge/lower-secondary/resources/physics/grade-9/motion",
-  "text": "hareket kaynakları fizik → 9. sınıf → hareket sürat ve hız uzaklık–zaman grafikleri ivme nedir hız–zaman grafikleri"
- },
- {
-  "kind": "topic",
-  "title": "Hayvan Yaşam Döngüleri",
-  "path": "Biyoloji → 9. Sınıf → Üreme → Hayvan Yaşam Döngüleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/reproduction/animal-life-cycles",
-  "text": "hayvan yaşam döngüleri biyoloji → 9. sınıf → üreme → hayvan yaşam döngüleri başkalaşım dahil memelilerin, kuşların, amfibilerin ve böceklerin yaşam döngülerini karşılaştır. başkalaşım dahil memelilerin, kuşların, amfibilerin ve böceklerin yaşam döngülerini karşılaştır."
- },
- {
-  "kind": "chapter",
-  "title": "Hayvanlar ve İnsanlar",
-  "path": "Biyoloji → 7. Sınıf → Hayvanlar ve İnsanlar",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/animals-humans",
-  "text": "hayvanlar ve insanlar biyoloji → 7. sınıf → hayvanlar ve insanlar duyular, iskeletler ve sağlıklı kalmanın yolları. beş duyu kemikler ve iskelet sağlıklı beslenme sağlıklı kalmak"
- },
- {
-  "kind": "resource",
-  "title": "Hayvanlar ve İnsanlar kaynakları",
-  "path": "Kaynaklar → Biyoloji → 7. Sınıf → Hayvanlar ve İnsanlar",
-  "url": "/tr/cambridge/lower-secondary/resources/biology/grade-7/animals-humans",
-  "text": "hayvanlar ve insanlar kaynakları biyoloji → 7. sınıf → hayvanlar ve insanlar beş duyu kemikler ve iskelet sağlıklı beslenme sağlıklı kalmak"
- },
- {
-  "kind": "topic",
-  "title": "Hayvanları Sınıflandırma",
-  "path": "Biyoloji → 7. Sınıf → Canlılar → Hayvanları Sınıflandırma",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/living-things/sorting-animals",
-  "text": "hayvanları sınıflandırma biyoloji → 7. sınıf → canlılar → hayvanları sınıflandırma hayvanları özelliklerine göre memeliler, kuşlar, balıklar, sürüngenler, amfibiler ve minik canlılar olarak grupla. hayvanları özelliklerine göre memeliler, kuşlar, balıklar, sürüngenler, amfibiler ve minik canlılar olarak grupla."
- },
- {
-  "kind": "topic",
-  "title": "Hesap Tabloları",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Veri Yönetimi → Hesap Tabloları",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/managing-data/spreadsheets",
-  "text": "hesap tabloları bilgisayar bilimi → 7. sınıf → veri yönetimi → hesap tabloları sayılarla çalışmanın en hızlı yolu: hücreler, formüller ve grafikler. sayılarla çalışmanın en hızlı yolu: hücreler, formüller ve grafikler."
+  "text": "hareket kaynakları fizik → 9. sınıf → hareket sürat ve hız"
  },
  {
   "kind": "chapter",
   "title": "Hesaplamalı Düşünme",
   "path": "Bilgisayar Bilimi → 8. Sınıf → Hesaplamalı Düşünme",
   "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/computational-thinking",
-  "text": "hesaplamalı düşünme bilgisayar bilimi → 8. sınıf → hesaplamalı düşünme her programın arkasındaki problem çözme zihniyeti. problemleri parçalara ayırma örüntü tanıma önemli olana odaklanma algoritmik düşünme"
+  "text": "hesaplamalı düşünme bilgisayar bilimi → 8. sınıf → hesaplamalı düşünme her programın arkasındaki problem çözme zihniyeti. problemleri parçalara ayırma"
  },
  {
   "kind": "resource",
   "title": "Hesaplamalı Düşünme kaynakları",
   "path": "Kaynaklar → Bilgisayar Bilimi → 8. Sınıf → Hesaplamalı Düşünme",
   "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-8/computational-thinking",
-  "text": "hesaplamalı düşünme kaynakları bilgisayar bilimi → 8. sınıf → hesaplamalı düşünme problemleri parçalara ayırma örüntü tanıma önemli olana odaklanma algoritmik düşünme"
+  "text": "hesaplamalı düşünme kaynakları bilgisayar bilimi → 8. sınıf → hesaplamalı düşünme problemleri parçalara ayırma"
  },
  {
   "kind": "chapter",
   "title": "Hesaplamalı Düşünme ve Programlama",
   "path": "Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama",
   "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computational-thinking-programming",
-  "text": "hesaplamalı düşünme ve programlama bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama akış şemalarıyla planla, sonra fikirlerini python'da hayata geçir. akış şemaları akış şemalarında seçim ve mantık akış şemalarında örüntü tanıma ve alt programlar metin tabanlı programlamaya giriş python programlama yazılım geliştirme ve test fiziksel hesaplama"
+  "text": "hesaplamalı düşünme ve programlama bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama akış şemalarıyla planla, sonra fikirlerini python'da hayata geçir. akış şemaları"
  },
  {
   "kind": "resource",
   "title": "Hesaplamalı Düşünme ve Programlama kaynakları",
   "path": "Kaynaklar → Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama",
   "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-7/computational-thinking-programming",
-  "text": "hesaplamalı düşünme ve programlama kaynakları bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama akış şemaları akış şemalarında seçim ve mantık akış şemalarında örüntü tanıma ve alt programlar metin tabanlı programlamaya giriş python programlama yazılım geliştirme ve test fiziksel hesaplama"
- },
- {
-  "kind": "topic",
-  "title": "Hess Yasası",
-  "path": "Kimya → 11. Sınıf → Fiziksel Kimya → Hess Yasası",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/physical-chemistry/hess-law",
-  "text": "hess yasası kimya → 11. sınıf → fiziksel kimya → hess yasası enerji döngüleri kullanarak entalpi değişimlerini dolaylı yoldan hesaplayın. enerji döngüleri kullanarak entalpi değişimlerini dolaylı yoldan hesaplayın."
- },
- {
-  "kind": "topic",
-  "title": "Hipotez Testi",
-  "path": "Matematik → 12. Sınıf → İleri İstatistik → Hipotez Testi",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/further-statistics/hypothesis-testing",
-  "text": "hipotez testi matematik → 12. sınıf → ileri istatistik → hipotez testi sıfır ve alternatif hipotezler, anlamlılık düzeyleri ve h₀'nın reddedilip reddedilmeyeceğine karar verme. sıfır ve alternatif hipotezler, anlamlılık düzeyleri ve h₀'nın reddedilip reddedilmeyeceğine karar verme."
- },
- {
-  "kind": "topic",
-  "title": "Hız–Zaman Grafikleri",
-  "path": "Fizik → 9. Sınıf → Hareket → Hız–Zaman Grafikleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/motion/velocity-time-graphs",
-  "text": "hız–zaman grafikleri fizik → 9. sınıf → hareket → hız–zaman grafikleri eğimden ivmeyi ve grafiğin altındaki alandan uzaklığı bulmak. eğimden ivmeyi ve grafiğin altındaki alandan uzaklığı bulmak."
+  "text": "hesaplamalı düşünme ve programlama kaynakları bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama akış şemaları"
  },
  {
   "kind": "topic",
@@ -1134,32 +315,18 @@
   "text": "homeostaz: kan şekeri biyoloji → 12. sınıf → insan fizyolojisi → homeostaz: kan şekeri insülin ve glukagonun kan şekerini negatif geri bildirimle kontrolünü açıklayın. insülin ve glukagonun kan şekerini negatif geri bildirimle kontrolünü açıklayın."
  },
  {
-  "kind": "topic",
-  "title": "Hormonal Kontrol",
-  "path": "Biyoloji → 12. Sınıf → İnsan Fizyolojisi → Hormonal Kontrol",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/physiology/hormones",
-  "text": "hormonal kontrol biyoloji → 12. sınıf → insan fizyolojisi → hormonal kontrol sinirsel ve hormonal kontrolü karşılaştırın, endokrin sistemin bezlerini inceleyin. sinirsel ve hormonal kontrolü karşılaştırın, endokrin sistemin bezlerini inceleyin."
- },
- {
   "kind": "chapter",
   "title": "Hücre Biyolojisi",
   "path": "Biyoloji → 8. Sınıf → Hücre Biyolojisi",
   "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/cell-biology",
-  "text": "hücre biyolojisi biyoloji → 8. sınıf → hücre biyolojisi yaşamın yapı taşları: hücreler, organeller ve mikroskoplar. hücre yapısı mikroskop kullanma özelleşmiş hücreler hücre bölünmesi: mitoz"
+  "text": "hücre biyolojisi biyoloji → 8. sınıf → hücre biyolojisi yaşamın yapı taşları: hücreler, organeller ve mikroskoplar. hücre yapısı"
  },
  {
   "kind": "resource",
   "title": "Hücre Biyolojisi kaynakları",
   "path": "Kaynaklar → Biyoloji → 8. Sınıf → Hücre Biyolojisi",
   "url": "/tr/cambridge/lower-secondary/resources/biology/grade-8/cell-biology",
-  "text": "hücre biyolojisi kaynakları biyoloji → 8. sınıf → hücre biyolojisi hücre yapısı mikroskop kullanma özelleşmiş hücreler hücre bölünmesi: mitoz"
- },
- {
-  "kind": "topic",
-  "title": "Hücre Bölünmesi: Mitoz",
-  "path": "Biyoloji → 8. Sınıf → Hücre Biyolojisi → Hücre Bölünmesi: Mitoz",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/cell-biology/mitosis",
-  "text": "hücre bölünmesi: mitoz biyoloji → 8. sınıf → hücre biyolojisi → hücre bölünmesi: mitoz mitozun aşamalarını izle ve büyüme ile onarımın neden birbirinin aynı hücrelere ihtiyaç duyduğunu öğren. mitozun aşamalarını izle ve büyüme ile onarımın neden birbirinin aynı hücrelere ihtiyaç duyduğunu öğren."
+  "text": "hücre biyolojisi kaynakları biyoloji → 8. sınıf → hücre biyolojisi hücre yapısı"
  },
  {
   "kind": "topic",
@@ -1169,172 +336,18 @@
   "text": "hücre yapısı biyoloji → 8. sınıf → hücre biyolojisi → hücre yapısı her canlı hücrelerden oluşur — özelleşmiş parçaları olan minik makinelerden. organel lerle tanış, her birinin ne işe yaradığını öğren ve bitki ile hayvan hücrelerinin farkını gör. her canlı hücrelerden oluşur — özelleşmiş parçaları olan minik makinelerden. organel lerle tanış, her birinin ne işe yaradığını öğren ve bitki ile hayvan hücrelerinin farkını gör."
  },
  {
-  "kind": "topic",
-  "title": "İfadeler",
-  "path": "Matematik → 9. Sınıf → Cebir → İfadeler",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/algebra/expressions",
-  "text": "ifadeler matematik → 9. sınıf → cebir → ifadeler cebiri düzenle: benzer terimleri topla, parantezleri genişlet ve çarpanlara ayır. önce sadeleştirmek her denklemi çözmeyi kolaylaştırır. cebiri düzenle: benzer terimleri topla, parantezleri genişlet ve çarpanlara ayır. önce sadeleştirmek her denklemi çözmeyi kolaylaştırır."
- },
- {
-  "kind": "topic",
-  "title": "İki Sayıyı Toplama",
-  "path": "Matematik → 7. Sınıf → Toplama ve Çıkarma → İki Sayıyı Toplama",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/addition-subtraction/adding-two-numbers",
-  "text": "iki sayıyı toplama matematik → 7. sınıf → toplama ve çıkarma → iki sayıyı toplama iki grubu birleştir ve toplamı bulmak için hepsini say. iki grubu birleştir ve toplamı bulmak için hepsini say."
- },
- {
-  "kind": "topic",
-  "title": "İkili Arama",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Algoritmalar → İkili Arama",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/algorithms/binary-search",
-  "text": "ikili arama bilgisayar bilimi → 10. sınıf → algoritmalar → ikili arama sıralı listelerde, problemi yarıya indirerek çok daha hızlı arama yapın. sıralı listelerde, problemi yarıya indirerek çok daha hızlı arama yapın."
- },
- {
-  "kind": "topic",
-  "title": "İkili Sayılar",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Veri Temsili → İkili Sayılar",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/data-representation/binary-numbers",
-  "text": "ikili sayılar bilgisayar bilimi → 9. sınıf → veri temsili → ikili sayılar 2 tabanında say ve ikili ile onlu sayı sistemi arasında dönüştür. 2 tabanında say ve ikili ile onlu sayı sistemi arasında dönüştür."
- },
- {
-  "kind": "topic",
-  "title": "İkinci Dereceden Denklemler",
-  "path": "Matematik → 9. Sınıf → Cebir → İkinci Dereceden Denklemler",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/algebra/quadratic-equations",
-  "text": "ikinci dereceden denklemler matematik → 9. sınıf → cebir → ikinci dereceden denklemler x² görününce denklemler eğrilir. ikinci dereceden denklemleri çarpanlara ayırarak çözmeyi öğren — ve asla yanıltmayan araç, ikinci dereceden denklem formülüyle tanış. x² görününce denklemler eğrilir. ikinci dereceden denklemleri çarpanlara ayırarak çözmeyi öğren — ve asla yanıltmayan araç, ikinci dereceden denklem formülüyle tanış."
- },
- {
-  "kind": "chapter",
-  "title": "İleri İstatistik",
-  "path": "Matematik → 12. Sınıf → İleri İstatistik",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/further-statistics",
-  "text": "ileri istatistik matematik → 12. sınıf → ileri istatistik dağılımlar, hipotez testi ve regresyon. binom dağılımı normal dağılım hipotez testi korelasyon ve regresyon"
- },
- {
-  "kind": "resource",
-  "title": "İleri İstatistik kaynakları",
-  "path": "Kaynaklar → Matematik → 12. Sınıf → İleri İstatistik",
-  "url": "/tr/cambridge/upper-secondary/resources/mathematics/grade-12/further-statistics",
-  "text": "ileri istatistik kaynakları matematik → 12. sınıf → ileri istatistik binom dağılımı normal dağılım hipotez testi korelasyon ve regresyon"
- },
- {
-  "kind": "chapter",
-  "title": "İleri Mekanik",
-  "path": "Fizik → 11. Sınıf → İleri Mekanik",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/further-mechanics",
-  "text": "ileri mekanik fizik → 11. sınıf → ileri mekanik dairesel hareket, salınımlar ve momentum derinlemesine. dairesel hareket basit harmonik hareket momentum ve itme esnek ve esnek olmayan çarpışmalar"
- },
- {
-  "kind": "resource",
-  "title": "İleri Mekanik kaynakları",
-  "path": "Kaynaklar → Fizik → 11. Sınıf → İleri Mekanik",
-  "url": "/tr/cambridge/upper-secondary/resources/physics/grade-11/further-mechanics",
-  "text": "ileri mekanik kaynakları fizik → 11. sınıf → ileri mekanik dairesel hareket basit harmonik hareket momentum ve itme esnek ve esnek olmayan çarpışmalar"
- },
- {
-  "kind": "chapter",
-  "title": "İlk Kesirler",
-  "path": "Matematik → 8. Sınıf → İlk Kesirler",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/fractions-first",
-  "text": "ilk kesirler matematik → 8. sınıf → ilk kesirler şekillerin ve küçük miktarların yarımları ve çeyrekleri. şekillerin yarıları sayıların yarıları şekillerin çeyrekleri kesirleri karşılaştırma"
- },
- {
-  "kind": "resource",
-  "title": "İlk Kesirler kaynakları",
-  "path": "Kaynaklar → Matematik → 8. Sınıf → İlk Kesirler",
-  "url": "/tr/cambridge/lower-secondary/resources/mathematics/grade-8/fractions-first",
-  "text": "ilk kesirler kaynakları matematik → 8. sınıf → ilk kesirler şekillerin yarıları sayıların yarıları şekillerin çeyrekleri kesirleri karşılaştırma"
- },
- {
   "kind": "chapter",
   "title": "İnsan Fizyolojisi",
   "path": "Biyoloji → 12. Sınıf → İnsan Fizyolojisi",
   "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/physiology",
-  "text": "insan fizyolojisi biyoloji → 12. sınıf → insan fizyolojisi sinirsel ve hormonal kontrol derinlemesine. nöronlar ve sinapslar refleks yayı hormonal kontrol homeostaz: kan şekeri"
+  "text": "insan fizyolojisi biyoloji → 12. sınıf → insan fizyolojisi sinirsel ve hormonal kontrol derinlemesine. homeostaz: kan şekeri"
  },
  {
   "kind": "resource",
   "title": "İnsan Fizyolojisi kaynakları",
   "path": "Kaynaklar → Biyoloji → 12. Sınıf → İnsan Fizyolojisi",
   "url": "/tr/cambridge/upper-secondary/resources/biology/grade-12/physiology",
-  "text": "insan fizyolojisi kaynakları biyoloji → 12. sınıf → insan fizyolojisi nöronlar ve sinapslar refleks yayı hormonal kontrol homeostaz: kan şekeri"
- },
- {
-  "kind": "topic",
-  "title": "İnsan Yaşam Döngüsü",
-  "path": "Biyoloji → 9. Sınıf → Üreme → İnsan Yaşam Döngüsü",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/reproduction/human-life-cycle",
-  "text": "insan yaşam döngüsü biyoloji → 9. sınıf → üreme → insan yaşam döngüsü bebeklikten yetişkinliğe ve yaşlılığa uzanan aşamaları ve her aşamada neyin değiştiğini izle. bebeklikten yetişkinliğe ve yaşlılığa uzanan aşamaları ve her aşamada neyin değiştiğini izle."
- },
- {
-  "kind": "topic",
-  "title": "İnsanlar ve Çevre",
-  "path": "Biyoloji → 11. Sınıf → Ekoloji → İnsanlar ve Çevre",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/ecology/human-impacts",
-  "text": "insanlar ve çevre biyoloji → 11. sınıf → ekoloji → insanlar ve çevre ormansızlaşmayı, kirliliği ve küresel ısınmayı değerlendirin; nasıl karşılık verebileceğimizi görün. ormansızlaşmayı, kirliliği ve küresel ısınmayı değerlendirin; nasıl karşılık verebileceğimizi görün."
- },
- {
-  "kind": "topic",
-  "title": "İntegrale Giriş",
-  "path": "Matematik → 11. Sınıf → Soyut Matematik → İntegrale Giriş",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/pure-mathematics/introducing-integration",
-  "text": "integrale giriş matematik → 11. sınıf → soyut matematik → integrale giriş ters türev, belirli integraller ve eğriler altında kalan alanlar. ters türev, belirli integraller ve eğriler altında kalan alanlar."
- },
- {
-  "kind": "topic",
-  "title": "İnternet Nasıl Çalışır",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Ağlar → İnternet Nasıl Çalışır",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/networks/how-the-internet-works",
-  "text": "internet nasıl çalışır bilgisayar bilimi → 10. sınıf → ağlar → internet nasıl çalışır bir web isteğini cihazınızdan sunucuya ve geri izleyin. bir web isteğini cihazınızdan sunucuya ve geri izleyin."
- },
- {
-  "kind": "topic",
-  "title": "İşe Uygun Malzeme",
-  "path": "Fizik → 7. Sınıf → Günlük Maddeler → İşe Uygun Malzeme",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/everyday-materials/right-material-for-the-job",
-  "text": "işe uygun malzeme fizik → 7. sınıf → günlük maddeler → işe uygun malzeme özelliklerine bakarak günlük eşyalar için malzeme seçme. özelliklerine bakarak günlük eşyalar için malzeme seçme."
- },
- {
-  "kind": "topic",
-  "title": "Işığı Geçirsin",
-  "path": "Fizik → 7. Sınıf → Günlük Maddeler → Işığı Geçirsin",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/everyday-materials/let-the-light-through",
-  "text": "ışığı geçirsin fizik → 7. sınıf → günlük maddeler → ışığı geçirsin malzemeleri saydam, yarı saydam ve opak olarak ayırma. malzemeleri saydam, yarı saydam ve opak olarak ayırma."
- },
- {
-  "kind": "topic",
-  "title": "Işık Doğru İlerler",
-  "path": "Fizik → 8. Sınıf → Işık ve Gölgeler → Işık Doğru İlerler",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/light-shadows/light-travels-straight",
-  "text": "ışık doğru ilerler fizik → 8. sınıf → ışık ve gölgeler → ışık doğru ilerler ışığın doğru çizgiler hâlinde ilerlediğini ve köşelerin etrafından bükülemeyeceğini öğrenmek. ışığın doğru çizgiler hâlinde ilerlediğini ve köşelerin etrafından bükülemeyeceğini öğrenmek."
- },
- {
-  "kind": "topic",
-  "title": "Işık Kaynakları",
-  "path": "Fizik → 8. Sınıf → Işık ve Gölgeler → Işık Kaynakları",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/light-shadows/sources-of-light",
-  "text": "ışık kaynakları fizik → 8. sınıf → ışık ve gölgeler → ışık kaynakları güneş'ten ampullere, doğal ve yapay ışık kaynaklarını saymak. güneş'ten ampullere, doğal ve yapay ışık kaynaklarını saymak."
- },
- {
-  "kind": "chapter",
-  "title": "Işık ve Gölgeler",
-  "path": "Fizik → 8. Sınıf → Işık ve Gölgeler",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/light-shadows",
-  "text": "ışık ve gölgeler fizik → 8. sınıf → ışık ve gölgeler ışık kaynakları ve gölgelerin nasıl oluştuğu. ışık kaynakları ışık doğru ilerler gölgeler nasıl oluşur değişen gölgeler"
- },
- {
-  "kind": "resource",
-  "title": "Işık ve Gölgeler kaynakları",
-  "path": "Kaynaklar → Fizik → 8. Sınıf → Işık ve Gölgeler",
-  "url": "/tr/cambridge/lower-secondary/resources/physics/grade-8/light-shadows",
-  "text": "ışık ve gölgeler kaynakları fizik → 8. sınıf → ışık ve gölgeler ışık kaynakları ışık doğru ilerler gölgeler nasıl oluşur değişen gölgeler"
- },
- {
-  "kind": "topic",
-  "title": "Isıtma ve Soğutma",
-  "path": "Kimya → 7. Sınıf → Katılar ve Sıvılar → Isıtma ve Soğutma",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/solids-liquids/heating-and-cooling",
-  "text": "ısıtma ve soğutma kimya → 7. sınıf → katılar ve sıvılar → ısıtma ve soğutma ısıtma ve soğutmanın malzemeleri nasıl değiştirdiğini ve adil testin nasıl yapılacağını araştırın. ısıtma ve soğutmanın malzemeleri nasıl değiştirdiğini ve adil testin nasıl yapılacağını araştırın."
+  "text": "insan fizyolojisi kaynakları biyoloji → 12. sınıf → insan fizyolojisi homeostaz: kan şekeri"
  },
  {
   "kind": "topic",
@@ -1345,45 +358,17 @@
  },
  {
   "kind": "chapter",
-  "title": "İstatistik",
-  "path": "Matematik → 10. Sınıf → İstatistik",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/statistics",
-  "text": "istatistik matematik → 10. sınıf → istatistik veriyi doğru işleme: ortalamalar, grafikler ve gerçek anlamları. ortalamalar ve açıklık grafikler ve diyagramlar saçılma diyagramları veriyi dürüstçe yorumlama"
- },
- {
-  "kind": "resource",
-  "title": "İstatistik kaynakları",
-  "path": "Kaynaklar → Matematik → 10. Sınıf → İstatistik",
-  "url": "/tr/cambridge/upper-secondary/resources/mathematics/grade-10/statistics",
-  "text": "istatistik kaynakları matematik → 10. sınıf → istatistik ortalamalar ve açıklık grafikler ve diyagramlar saçılma diyagramları veriyi dürüstçe yorumlama"
- },
- {
-  "kind": "chapter",
   "title": "İtme ve Çekme",
   "path": "Fizik → 7. Sınıf → İtme ve Çekme",
   "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/pushes-pulls",
-  "text": "itme ve çekme fizik → 7. sınıf → itme ve çekme itme ve çekmelerin nesnelerin hareketini nasıl değiştirdiği. itme ya da çekme nedir başlatma ve durdurma şekil değiştirme sürtünme: dost mu düşman mı?"
+  "text": "itme ve çekme fizik → 7. sınıf → itme ve çekme itme ve çekmelerin nesnelerin hareketini nasıl değiştirdiği. sürtünme: dost mu düşman mı?"
  },
  {
   "kind": "resource",
   "title": "İtme ve Çekme kaynakları",
   "path": "Kaynaklar → Fizik → 7. Sınıf → İtme ve Çekme",
   "url": "/tr/cambridge/lower-secondary/resources/physics/grade-7/pushes-pulls",
-  "text": "itme ve çekme kaynakları fizik → 7. sınıf → itme ve çekme itme ya da çekme nedir başlatma ve durdurma şekil değiştirme sürtünme: dost mu düşman mı?"
- },
- {
-  "kind": "topic",
-  "title": "İtme ya da Çekme Nedir",
-  "path": "Fizik → 7. Sınıf → İtme ve Çekme → İtme ya da Çekme Nedir",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/pushes-pulls/what-is-a-push-or-pull",
-  "text": "itme ya da çekme nedir fizik → 7. sınıf → itme ve çekme → itme ya da çekme nedir bir kuvvetin aslında bir itme ya da çekme olduğunu öğrenme ve ikisini de günlük hayatta fark etme. bir kuvvetin aslında bir itme ya da çekme olduğunu öğrenme ve ikisini de günlük hayatta fark etme."
- },
- {
-  "kind": "topic",
-  "title": "İvme Nedir",
-  "path": "Fizik → 9. Sınıf → Hareket → İvme Nedir",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/motion/acceleration",
-  "text": "ivme nedir fizik → 9. sınıf → hareket → ivme nedir a = (v − u) ÷ t formülüyle hızın ne kadar hızlı değiştiğini bulmak. a = (v − u) ÷ t formülüyle hızın ne kadar hızlı değiştiğini bulmak."
+  "text": "itme ve çekme kaynakları fizik → 7. sınıf → itme ve çekme sürtünme: dost mu düşman mı?"
  },
  {
   "kind": "topic",
@@ -1391,48 +376,6 @@
   "path": "Kimya → 10. Sınıf → Kimyasal Bağlar → İyonik Bağ",
   "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-bonding/ionic-bonding",
   "text": "iyonik bağ kimya → 10. sınıf → kimyasal bağlar → iyonik bağ metal ve ametallerin elektron aktararak nasıl bağlandığını öğrenin. metal ve ametallerin elektron aktararak nasıl bağlandığını öğrenin."
- },
- {
-  "kind": "topic",
-  "title": "Kabarcık Sıralama",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Algoritmalar → Kabarcık Sıralama",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/algorithms/bubble-sort",
-  "text": "kabarcık sıralama bilgisayar bilimi → 10. sınıf → algoritmalar → kabarcık sıralama komşu öğeleri tekrar tekrar yer değiştirerek listeleri sıralayın. komşu öğeleri tekrar tekrar yer değiştirerek listeleri sıralayın."
- },
- {
-  "kind": "chapter",
-  "title": "Kalıtım ve Genetik",
-  "path": "Biyoloji → 10. Sınıf → Kalıtım ve Genetik",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/genetics",
-  "text": "kalıtım ve genetik biyoloji → 10. sınıf → kalıtım ve genetik dna, genler ve özelliklerin nesiller arasında nasıl aktarıldığı. dna, genler ve kromozomlar punnett kareleri kalıtsal bozukluklar çeşitlilik ve seçilim"
- },
- {
-  "kind": "resource",
-  "title": "Kalıtım ve Genetik kaynakları",
-  "path": "Kaynaklar → Biyoloji → 10. Sınıf → Kalıtım ve Genetik",
-  "url": "/tr/cambridge/upper-secondary/resources/biology/grade-10/genetics",
-  "text": "kalıtım ve genetik kaynakları biyoloji → 10. sınıf → kalıtım ve genetik dna, genler ve kromozomlar punnett kareleri kalıtsal bozukluklar çeşitlilik ve seçilim"
- },
- {
-  "kind": "topic",
-  "title": "Kalıtsal Bozukluklar",
-  "path": "Biyoloji → 10. Sınıf → Kalıtım ve Genetik → Kalıtsal Bozukluklar",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/genetics/inherited-disorders",
-  "text": "kalıtsal bozukluklar biyoloji → 10. sınıf → kalıtım ve genetik → kalıtsal bozukluklar kistik fibroz ve polidaktiliyi aile ağaçları içinde izleyin. kistik fibroz ve polidaktiliyi aile ağaçları içinde izleyin."
- },
- {
-  "kind": "topic",
-  "title": "Kalp ve Dolaşım",
-  "path": "Biyoloji → 8. Sınıf → Organizasyon → Kalp ve Dolaşım",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/organisation/heart-circulation",
-  "text": "kalp ve dolaşım biyoloji → 8. sınıf → organizasyon → kalp ve dolaşım çift dolaşım sistemini keşfet; kanın vücutta nasıl dolaştığını öğren. çift dolaşım sistemini keşfet; kanın vücutta nasıl dolaştığını öğren."
- },
- {
-  "kind": "topic",
-  "title": "Karbon Döngüsü",
-  "path": "Biyoloji → 11. Sınıf → Ekoloji → Karbon Döngüsü",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/ecology/carbon-cycle",
-  "text": "karbon döngüsü biyoloji → 11. sınıf → ekoloji → karbon döngüsü karbonu fotosentez, solunum, çürüme ve yanma yoluyla takip edin. karbonu fotosentez, solunum, çürüme ve yanma yoluyla takip edin."
  },
  {
   "kind": "topic",
@@ -1446,154 +389,35 @@
   "title": "Karışımlar",
   "path": "Kimya → 7. Sınıf → Karışımlar",
   "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/mixtures",
-  "text": "karışımlar kimya → 7. sınıf → karışımlar karışımları süzme, eleme ve buharlaştırma ile ayırma. karışım nedir eleme ile ayırma süzme ile ayırma buharlaştırma ile ayırma"
+  "text": "karışımlar kimya → 7. sınıf → karışımlar karışımları süzme, eleme ve buharlaştırma ile ayırma. karışım nedir"
  },
  {
   "kind": "resource",
   "title": "Karışımlar kaynakları",
   "path": "Kaynaklar → Kimya → 7. Sınıf → Karışımlar",
   "url": "/tr/cambridge/lower-secondary/resources/chemistry/grade-7/mixtures",
-  "text": "karışımlar kaynakları kimya → 7. sınıf → karışımlar karışım nedir eleme ile ayırma süzme ile ayırma buharlaştırma ile ayırma"
- },
- {
-  "kind": "topic",
-  "title": "Katı Nedir",
-  "path": "Kimya → 7. Sınıf → Katılar ve Sıvılar → Katı Nedir",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/solids-liquids/what-is-a-solid",
-  "text": "katı nedir kimya → 7. sınıf → katılar ve sıvılar → katı nedir katıların hareket ettirildiğinde bile şekillerini nasıl koruduğunu keşfedin. katıların hareket ettirildiğinde bile şekillerini nasıl koruduğunu keşfedin."
- },
- {
-  "kind": "chapter",
-  "title": "Katılar ve Sıvılar",
-  "path": "Kimya → 7. Sınıf → Katılar ve Sıvılar",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/solids-liquids",
-  "text": "katılar ve sıvılar kimya → 7. sınıf → katılar ve sıvılar maddeler ısıtıldığında veya soğutulduğunda ne olur. katı nedir sıvı nedir erime ve donma ısıtma ve soğutma"
- },
- {
-  "kind": "resource",
-  "title": "Katılar ve Sıvılar kaynakları",
-  "path": "Kaynaklar → Kimya → 7. Sınıf → Katılar ve Sıvılar",
-  "url": "/tr/cambridge/lower-secondary/resources/chemistry/grade-7/solids-liquids",
-  "text": "katılar ve sıvılar kaynakları kimya → 7. sınıf → katılar ve sıvılar katı nedir sıvı nedir erime ve donma ısıtma ve soğutma"
- },
- {
-  "kind": "topic",
-  "title": "Katılar, Sıvılar ve Gazlar",
-  "path": "Kimya → 8. Sınıf → Parçacıklar → Katılar, Sıvılar ve Gazlar",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/particles/solids-liquids-gases",
-  "text": "katılar, sıvılar ve gazlar kimya → 8. sınıf → parçacıklar → katılar, sıvılar ve gazlar her hâlde taneciklerin nasıl dizildiğini ve hareket ettiğini karşılaştırın. her hâlde taneciklerin nasıl dizildiğini ve hareket ettiğini karşılaştırın."
- },
- {
-  "kind": "topic",
-  "title": "Kemikler ve İskelet",
-  "path": "Biyoloji → 7. Sınıf → Hayvanlar ve İnsanlar → Kemikler ve İskelet",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/animals-humans/bones-and-skeletons",
-  "text": "kemikler ve iskelet biyoloji → 7. sınıf → hayvanlar ve insanlar → kemikler ve iskelet iskeletin vücudu nasıl desteklediğini, hassas organları nasıl koruduğunu ve hareket etmemize nasıl yardımcı olduğunu öğren. iskeletin vücudu nasıl desteklediğini, hassas organları nasıl koruduğunu ve hareket etmemize nasıl yardımcı olduğunu öğren."
- },
- {
-  "kind": "topic",
-  "title": "Kesirler, Ondalık Sayılar ve Yüzdeler",
-  "path": "Matematik → 8. Sınıf → Sayılar ve Aritmetik → Kesirler, Ondalık Sayılar ve Yüzdeler",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/number-arithmetic/fractions-decimals-percentages",
-  "text": "kesirler, ondalık sayılar ve yüzdeler matematik → 8. sınıf → sayılar ve aritmetik → kesirler, ondalık sayılar ve yüzdeler kesirler, ondalık sayılar ve yüzdeler arasında akıcı bir şekilde geçiş yap. kesirler, ondalık sayılar ve yüzdeler arasında akıcı bir şekilde geçiş yap."
- },
- {
-  "kind": "topic",
-  "title": "Kesirleri Karşılaştırma",
-  "path": "Matematik → 8. Sınıf → İlk Kesirler → Kesirleri Karşılaştırma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/fractions-first/comparing-fractions",
-  "text": "kesirleri karşılaştırma matematik → 8. sınıf → ilk kesirler → kesirleri karşılaştırma hangisi daha büyük karar ver: bir yarım mı bir çeyrek mi? hangisi daha büyük karar ver: bir yarım mı bir çeyrek mi?"
+  "text": "karışımlar kaynakları kimya → 7. sınıf → karışımlar karışım nedir"
  },
  {
   "kind": "subject",
   "title": "Kimya",
   "path": "Dersler",
   "url": "/tr/cambridge/lower-secondary/subjects/chemistry",
-  "text": "kimya what stuff is made of — and why it reacts. chemistry explains the material world: the atoms everything is built from, how they bond into molecules, and why substances transform in reactions. you'll move from particles you can't see to predictions you can test. atom yapısı periyodik tablo kimyasal bağlar kimyasal değişimler nicel kimya"
+  "text": "kimya what stuff is made of — and why it reacts. chemistry explains the material world: the atoms everything is built from, how they bond into molecules, and why substances transform in reactions. you'll move from particles you can't see to predictions you can test. atom yapısı the periodic table kimyasal bağlar chemical changes nicel kimya"
  },
  {
   "kind": "chapter",
   "title": "Kimyasal Bağlar",
   "path": "Kimya → 10. Sınıf → Kimyasal Bağlar",
   "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-bonding",
-  "text": "kimyasal bağlar kimya → 10. sınıf → kimyasal bağlar iyonik, kovalent ve metalik bağlar: atomlar nasıl bir arada durur. iyonik bağ kovalent bağ metalik bağ yapılar ve özellikler"
+  "text": "kimyasal bağlar kimya → 10. sınıf → kimyasal bağlar iyonik, kovalent ve metalik bağlar: atomlar nasıl bir arada durur. iyonik bağ"
  },
  {
   "kind": "resource",
   "title": "Kimyasal Bağlar kaynakları",
   "path": "Kaynaklar → Kimya → 10. Sınıf → Kimyasal Bağlar",
   "url": "/tr/cambridge/upper-secondary/resources/chemistry/grade-10/chemical-bonding",
-  "text": "kimyasal bağlar kaynakları kimya → 10. sınıf → kimyasal bağlar iyonik bağ kovalent bağ metalik bağ yapılar ve özellikler"
- },
- {
-  "kind": "chapter",
-  "title": "Kimyasal Değişimler",
-  "path": "Kimya → 10. Sınıf → Kimyasal Değişimler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-changes",
-  "text": "kimyasal değişimler kimya → 10. sınıf → kimyasal değişimler tepkimeler, asitler ve bazlar ile bunlardaki enerji değişimleri. metaller ve karbonatlarla asitler tuz hazırlama aktiflik serisi tepkimelerde enerji"
- },
- {
-  "kind": "resource",
-  "title": "Kimyasal Değişimler kaynakları",
-  "path": "Kaynaklar → Kimya → 10. Sınıf → Kimyasal Değişimler",
-  "url": "/tr/cambridge/upper-secondary/resources/chemistry/grade-10/chemical-changes",
-  "text": "kimyasal değişimler kaynakları kimya → 10. sınıf → kimyasal değişimler metaller ve karbonatlarla asitler tuz hazırlama aktiflik serisi tepkimelerde enerji"
- },
- {
-  "kind": "topic",
-  "title": "Kimyasal Denge",
-  "path": "Kimya → 11. Sınıf → Fiziksel Kimya → Kimyasal Denge",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/physical-chemistry/equilibria",
-  "text": "kimyasal denge kimya → 11. sınıf → fiziksel kimya → kimyasal denge le chatelier ilkesini uygulayın ve denge sabitlerini hesaplayın. le chatelier ilkesini uygulayın ve denge sabitlerini hesaplayın."
- },
- {
-  "kind": "topic",
-  "title": "Kimyasal Testler",
-  "path": "Kimya → 12. Sınıf → Analitik Teknikler → Kimyasal Testler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/analytical-chemistry/chemical-tests",
-  "text": "kimyasal testler kimya → 12. sınıf → analitik teknikler → kimyasal testler gazları ve iyonları klasik deney tüpü testleriyle tanıyın. gazları ve iyonları klasik deney tüpü testleriyle tanıyın."
- },
- {
-  "kind": "topic",
-  "title": "Kinetik Enerji",
-  "path": "Fizik → 9. Sınıf → Enerji → Kinetik Enerji",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/energy/kinetic-energy",
-  "text": "kinetik enerji fizik → 9. sınıf → enerji → kinetik enerji e = ½mv² formülüyle hareket eden nesnelerin enerjisini hesaplamak. e = ½mv² formülüyle hareket eden nesnelerin enerjisini hesaplamak."
- },
- {
-  "kind": "topic",
-  "title": "Kızılötesi ve NMR Spektroskopisi",
-  "path": "Kimya → 12. Sınıf → Analitik Teknikler → Kızılötesi ve NMR Spektroskopisi",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/analytical-chemistry/spectroscopy",
-  "text": "kızılötesi ve nmr spektroskopisi kimya → 12. sınıf → analitik teknikler → kızılötesi ve nmr spektroskopisi moleküllerdeki bağları ve hidrojen ortamlarını tanıyın. moleküllerdeki bağları ve hidrojen ortamlarını tanıyın."
- },
- {
-  "kind": "topic",
-  "title": "Korelasyon ve Regresyon",
-  "path": "Matematik → 12. Sınıf → İleri İstatistik → Korelasyon ve Regresyon",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/further-statistics/correlation-and-regression",
-  "text": "korelasyon ve regresyon matematik → 12. sınıf → ileri istatistik → korelasyon ve regresyon doğrusal ilişkiyi ölçme ve tahmin için regresyon doğruları uydurma. doğrusal ilişkiyi ölçme ve tahmin için regresyon doğruları uydurma."
- },
- {
-  "kind": "topic",
-  "title": "Kovalent Bağ",
-  "path": "Kimya → 10. Sınıf → Kimyasal Bağlar → Kovalent Bağ",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-bonding/covalent-bonding",
-  "text": "kovalent bağ kimya → 10. sınıf → kimyasal bağlar → kovalent bağ ametallerin elektron çiftlerini nasıl paylaştığını görün. ametallerin elektron çiftlerini nasıl paylaştığını görün."
- },
- {
-  "kind": "topic",
-  "title": "Kuantum Fikirleri",
-  "path": "Fizik → 12. Sınıf → Parçacık Fiziği → Kuantum Fikirleri",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/particle-physics/quantum-ideas",
-  "text": "kuantum fikirleri fizik → 12. sınıf → parçacık fiziği → kuantum fikirleri fotonlara giriş, e = hf ve fotoelektrik etki. fotonlara giriş, e = hf ve fotoelektrik etki."
- },
- {
-  "kind": "topic",
-  "title": "Kuarklar ve Hadronlar",
-  "path": "Fizik → 12. Sınıf → Parçacık Fiziği → Kuarklar ve Hadronlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/particle-physics/quarks-and-hadrons",
-  "text": "kuarklar ve hadronlar fizik → 12. sınıf → parçacık fiziği → kuarklar ve hadronlar yukarı ve aşağı kuarklardan proton, nötron ve mezonlar inşa etmek. yukarı ve aşağı kuarklardan proton, nötron ve mezonlar inşa etmek."
+  "text": "kimyasal bağlar kaynakları kimya → 10. sınıf → kimyasal bağlar iyonik bağ"
  },
  {
   "kind": "topic",
@@ -1603,60 +427,18 @@
   "text": "kütle çekim alanları fizik → 12. sınıf → alanlar → kütle çekim alanları f = gmm/r² ile g alanlarını haritalamak ve alan şiddetini potansiyelle ilişkilendirmek. f = gmm/r² ile g alanlarını haritalamak ve alan şiddetini potansiyelle ilişkilendirmek."
  },
  {
-  "kind": "topic",
-  "title": "Kütle Spektrometrisi",
-  "path": "Kimya → 12. Sınıf → Analitik Teknikler → Kütle Spektrometrisi",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/analytical-chemistry/mass-spectrometry",
-  "text": "kütle spektrometrisi kimya → 12. sınıf → analitik teknikler → kütle spektrometrisi m/z piklerinden bağıl kütleleri ve molekül formüllerini bulun. m/z piklerinden bağıl kütleleri ve molekül formüllerini bulun."
- },
- {
-  "kind": "topic",
-  "title": "Kuvvet Türleri",
-  "path": "Fizik → 8. Sınıf → Kuvvetler → Kuvvet Türleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/forces/types-of-forces",
-  "text": "kuvvet türleri fizik → 8. sınıf → kuvvetler → kuvvet türleri sürtünme gibi temas kuvvetleri ile yerçekimi ve manyetizma gibi temassız kuvvetlerle tanışmak. sürtünme gibi temas kuvvetleri ile yerçekimi ve manyetizma gibi temassız kuvvetlerle tanışmak."
- },
- {
   "kind": "chapter",
   "title": "Kuvvetler",
   "path": "Fizik → 8. Sınıf → Kuvvetler",
   "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/forces",
-  "text": "kuvvetler fizik → 8. sınıf → kuvvetler itme, çekme ve newton'un üç hareket yasası. newton'un hareket yasaları kuvvet türleri dengeli ve dengesiz kuvvetler sürtünme ve hava direnci"
+  "text": "kuvvetler fizik → 8. sınıf → kuvvetler itme, çekme ve newton'un üç hareket yasası. newton'un hareket yasaları"
  },
  {
   "kind": "resource",
   "title": "Kuvvetler kaynakları",
   "path": "Kaynaklar → Fizik → 8. Sınıf → Kuvvetler",
   "url": "/tr/cambridge/lower-secondary/resources/physics/grade-8/forces",
-  "text": "kuvvetler kaynakları fizik → 8. sınıf → kuvvetler newton'un hareket yasaları kuvvet türleri dengeli ve dengesiz kuvvetler sürtünme ve hava direnci"
- },
- {
-  "kind": "topic",
-  "title": "Kuyruk Kullanma",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veri Yapıları → Kuyruk Kullanma",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/data-structures/queues",
-  "text": "kuyruk kullanma bilgisayar bilimi → 11. sınıf → veri yapıları → kuyruk kullanma veriyi gerçek bir kuyruk gibi ilk giren ilk çıkar saklayın. veriyi gerçek bir kuyruk gibi ilk giren ilk çıkar saklayın."
- },
- {
-  "kind": "topic",
-  "title": "Madde Antimaddeyle Buluşuyor",
-  "path": "Fizik → 12. Sınıf → Parçacık Fiziği → Madde Antimaddeyle Buluşuyor",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/particle-physics/antimatter",
-  "text": "madde antimaddeyle buluşuyor fizik → 12. sınıf → parçacık fiziği → madde antimaddeyle buluşuyor her parçacığın bir antiparçacığı olduğunu ve buluştuklarında ne olduğunu görmek. her parçacığın bir antiparçacığı olduğunu ve buluştuklarında ne olduğunu görmek."
- },
- {
-  "kind": "chapter",
-  "title": "Maddeleri Sınıflandırma",
-  "path": "Kimya → 7. Sınıf → Maddeleri Sınıflandırma",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/sorting-materials",
-  "text": "maddeleri sınıflandırma kimya → 7. sınıf → maddeleri sınıflandırma günlük maddeleri özelliklerine göre gruplama. malzemeleri tanımlama özellikleri test etme malzemeleri gruplama malzeme seçimi"
- },
- {
-  "kind": "resource",
-  "title": "Maddeleri Sınıflandırma kaynakları",
-  "path": "Kaynaklar → Kimya → 7. Sınıf → Maddeleri Sınıflandırma",
-  "url": "/tr/cambridge/lower-secondary/resources/chemistry/grade-7/sorting-materials",
-  "text": "maddeleri sınıflandırma kaynakları kimya → 7. sınıf → maddeleri sınıflandırma malzemeleri tanımlama özellikleri test etme malzemeleri gruplama malzeme seçimi"
+  "text": "kuvvetler kaynakları fizik → 8. sınıf → kuvvetler newton'un hareket yasaları"
  },
  {
   "kind": "topic",
@@ -1666,116 +448,25 @@
   "text": "makine öğrenmesi nasıl çalışır bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik → makine öğrenmesi nasıl çalışır modellerin eğitim verisinden kalıpları nasıl öğrendiğini ve neden başarısız olduklarını kavrayın. modellerin eğitim verisinden kalıpları nasıl öğrendiğini ve neden başarısız olduklarını kavrayın."
  },
  {
-  "kind": "topic",
-  "title": "Malzeme Seçimi",
-  "path": "Kimya → 7. Sınıf → Maddeleri Sınıflandırma → Malzeme Seçimi",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/sorting-materials/choosing-materials",
-  "text": "malzeme seçimi kimya → 7. sınıf → maddeleri sınıflandırma → malzeme seçimi pencereler için cam, giysiler için kumaş gibi, bir işe hangi malzemenin uygun olduğuna karar verin. pencereler için cam, giysiler için kumaş gibi, bir işe hangi malzemenin uygun olduğuna karar verin."
- },
- {
-  "kind": "topic",
-  "title": "Malzemeleri Gruplama",
-  "path": "Kimya → 7. Sınıf → Maddeleri Sınıflandırma → Malzemeleri Gruplama",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/sorting-materials/grouping-materials",
-  "text": "malzemeleri gruplama kimya → 7. sınıf → maddeleri sınıflandırma → malzemeleri gruplama nesneleri, pürüzlü veya pürüzsüz gibi her seferinde tek bir özellikle gruplara ayırın. nesneleri, pürüzlü veya pürüzsüz gibi her seferinde tek bir özellikle gruplara ayırın."
- },
- {
-  "kind": "topic",
-  "title": "Malzemeleri Tanımlama",
-  "path": "Kimya → 7. Sınıf → Maddeleri Sınıflandırma → Malzemeleri Tanımlama",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/sorting-materials/describing-materials",
-  "text": "malzemeleri tanımlama kimya → 7. sınıf → maddeleri sınıflandırma → malzemeleri tanımlama malzemelerin nasıl olduğunu anlatmak için sert, pürüzsüz, esnek gibi sözcükleri öğrenin. malzemelerin nasıl olduğunu anlatmak için sert, pürüzsüz, esnek gibi sözcükleri öğrenin."
- },
- {
-  "kind": "topic",
-  "title": "Mantık Kapıları",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Bilgisayar Sistemleri → Mantık Kapıları",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computer-systems/logic-gates",
-  "text": "mantık kapıları bilgisayar bilimi → 7. sınıf → bilgisayar sistemleri → mantık kapıları cpu'nun içindeki minik karar vericiler: ve, veya ve değil. cpu'nun içindeki minik karar vericiler: ve, veya ve değil."
- },
- {
-  "kind": "topic",
-  "title": "Manyetik Alanlar",
-  "path": "Fizik → 12. Sınıf → Alanlar → Manyetik Alanlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/fields/magnetic-fields",
-  "text": "manyetik alanlar fizik → 12. sınıf → alanlar → manyetik alanlar alan desenlerini bulmak ve akım taşıyan teller üzerindeki f = bıl kuvveti. alan desenlerini bulmak ve akım taşıyan teller üzerindeki f = bıl kuvveti."
- },
- {
   "kind": "subject",
   "title": "Matematik",
   "path": "Dersler",
   "url": "/tr/cambridge/lower-secondary/subjects/mathematics",
-  "text": "matematik the language of patterns — from algebra to geometry. mathematics trains you to reason precisely. start with number and arithmetic, master algebra — the art of working with unknowns — then explore geometry, statistics and probability, where patterns and chance follow strict, beautiful rules. sayılar ve aritmetik cebir geometri istatistik olasılık"
+  "text": "matematik the language of patterns — from algebra to geometry. mathematics trains you to reason precisely. start with number and arithmetic, master algebra — the art of working with unknowns — then explore geometry, statistics and probability, where patterns and chance follow strict, beautiful rules. sayılar ve aritmetik cebir geometri statistics olasılık"
  },
  {
   "kind": "chapter",
   "title": "Mekanik",
   "path": "Matematik → 12. Sınıf → Mekanik",
   "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/mechanics",
-  "text": "mekanik matematik → 12. sınıf → mekanik kinematik, kuvvetler ve harekete uygulanan newton yasaları. bir doğru üzerinde kinematik newton'un hareket yasaları sürtünme ve bağlı parçacıklar eğik atış"
+  "text": "mekanik matematik → 12. sınıf → mekanik kinematik, kuvvetler ve harekete uygulanan newton yasaları. bir doğru üzerinde kinematik"
  },
  {
   "kind": "resource",
   "title": "Mekanik kaynakları",
   "path": "Kaynaklar → Matematik → 12. Sınıf → Mekanik",
   "url": "/tr/cambridge/upper-secondary/resources/mathematics/grade-12/mechanics",
-  "text": "mekanik kaynakları matematik → 12. sınıf → mekanik bir doğru üzerinde kinematik newton'un hareket yasaları sürtünme ve bağlı parçacıklar eğik atış"
- },
- {
-  "kind": "topic",
-  "title": "Metalik Bağ",
-  "path": "Kimya → 10. Sınıf → Kimyasal Bağlar → Metalik Bağ",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-bonding/metallic-bonding",
-  "text": "metalik bağ kimya → 10. sınıf → kimyasal bağlar → metalik bağ metalleri bir arada tutan elektron denizini keşfedin. metalleri bir arada tutan elektron denizini keşfedin."
- },
- {
-  "kind": "topic",
-  "title": "Metaller ve Ametaller",
-  "path": "Kimya → 9. Sınıf → Periyodik Tablo → Metaller ve Ametaller",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/periodic-table/metals-and-nonmetals",
-  "text": "metaller ve ametaller kimya → 9. sınıf → periyodik tablo → metaller ve ametaller metallerin özelliklerini ametallerinkiyle karşılaştırın. metallerin özelliklerini ametallerinkiyle karşılaştırın."
- },
- {
-  "kind": "topic",
-  "title": "Metaller ve Karbonatlarla Asitler",
-  "path": "Kimya → 10. Sınıf → Kimyasal Değişimler → Metaller ve Karbonatlarla Asitler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-changes/acids-metals",
-  "text": "metaller ve karbonatlarla asitler kimya → 10. sınıf → kimyasal değişimler → metaller ve karbonatlarla asitler metaller ve karbonatlarla tepkimeye giren asitlerin denklemlerini yazın. metaller ve karbonatlarla tepkimeye giren asitlerin denklemlerini yazın."
- },
- {
-  "kind": "topic",
-  "title": "Metin Tabanlı Programlamaya Giriş",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama → Metin Tabanlı Programlamaya Giriş",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computational-thinking-programming/introduction-to-text-based-programming",
-  "text": "metin tabanlı programlamaya giriş bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama → metin tabanlı programlamaya giriş bloklardan yazılı koda: bir programlama dili aslında nedir. bloklardan yazılı koda: bir programlama dili aslında nedir."
- },
- {
-  "kind": "topic",
-  "title": "Metin ve Karakterler",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Veri Temsili → Metin ve Karakterler",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/data-representation/text-and-characters",
-  "text": "metin ve karakterler bilgisayar bilimi → 9. sınıf → veri temsili → metin ve karakterler bilgisayarların harfleri, rakamları ve simgeleri nasıl sakladığını anla. bilgisayarların harfleri, rakamları ve simgeleri nasıl sakladığını anla."
- },
- {
-  "kind": "topic",
-  "title": "Metin ve Ses",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Dijital Medya Oluşturma → Metin ve Ses",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/creating-media/adding-text-and-sound",
-  "text": "metin ve ses bilgisayar bilimi → 8. sınıf → dijital medya oluşturma → metin ve ses çalışmana net başlıklar, açıklamalar ve kaydedilmiş ses ekle. çalışmana net başlıklar, açıklamalar ve kaydedilmiş ses ekle."
- },
- {
-  "kind": "topic",
-  "title": "Mikroskop Kullanma",
-  "path": "Biyoloji → 8. Sınıf → Hücre Biyolojisi → Mikroskop Kullanma",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/cell-biology/using-microscopes",
-  "text": "mikroskop kullanma biyoloji → 8. sınıf → hücre biyolojisi → mikroskop kullanma ışık mikroskoplarının nasıl çalıştığını öğren ve büyütme hesabı yapma alıştırması yap. ışık mikroskoplarının nasıl çalıştığını öğren ve büyütme hesabı yapma alıştırması yap."
- },
- {
-  "kind": "topic",
-  "title": "Modelleme",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Veri Yönetimi → Modelleme",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/managing-data/modelling",
-  "text": "modelleme bilgisayar bilimi → 7. sınıf → veri yönetimi → modelleme gerçek dünyayı tablolarda canlandırmak: modeller, değişkenler ve 'ya şöyle olsaydı?' gerçek dünyayı tablolarda canlandırmak: modeller, değişkenler ve 'ya şöyle olsaydı?'"
+  "text": "mekanik kaynakları matematik → 12. sınıf → mekanik bir doğru üzerinde kinematik"
  },
  {
   "kind": "topic",
@@ -1783,34 +474,6 @@
   "path": "Kimya → 11. Sınıf → Nicel Kimya → Mol",
   "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/quantitative-chemistry/the-mole",
   "text": "mol kimya → 11. sınıf → nicel kimya → mol mol ve avogadro sabitini kullanarak tanecikleri sayın. mol ve avogadro sabitini kullanarak tanecikleri sayın."
- },
- {
-  "kind": "topic",
-  "title": "Momentum ve İtme",
-  "path": "Fizik → 11. Sınıf → İleri Mekanik → Momentum ve İtme",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/further-mechanics/momentum-and-impulse",
-  "text": "momentum ve itme fizik → 11. sınıf → ileri mekanik → momentum ve itme çarpışmalar ve güvenlik tasarımı için p = mv ve itme fδt = δp kullanma. çarpışmalar ve güvenlik tasarımı için p = mv ve itme fδt = δp kullanma."
- },
- {
-  "kind": "topic",
-  "title": "Negatif Sayılar",
-  "path": "Matematik → 8. Sınıf → Sayılar ve Aritmetik → Negatif Sayılar",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/number-arithmetic/negative-numbers",
-  "text": "negatif sayılar matematik → 8. sınıf → sayılar ve aritmetik → negatif sayılar sıfırın altındaki tam sayıları topla, çıkar ve sırala. sıfırın altındaki tam sayıları topla, çıkar ve sırala."
- },
- {
-  "kind": "topic",
-  "title": "Nesneleri Çıkarma",
-  "path": "Matematik → 7. Sınıf → Toplama ve Çıkarma → Nesneleri Çıkarma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/addition-subtraction/subtracting-objects",
-  "text": "nesneleri çıkarma matematik → 7. sınıf → toplama ve çıkarma → nesneleri çıkarma birazını al ve farkı bulmak için kalanları say. birazını al ve farkı bulmak için kalanları say."
- },
- {
-  "kind": "topic",
-  "title": "Newton'un Hareket Yasaları",
-  "path": "Matematik → 12. Sınıf → Mekanik → Newton'un Hareket Yasaları",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/mechanics/newtons-laws-of-motion",
-  "text": "newton'un hareket yasaları matematik → 12. sınıf → mekanik → newton'un hareket yasaları eylemsizlik, f = ma ve etki–tepki çiftlerinin gerçek durumlara uygulanması. eylemsizlik, f = ma ve etki–tepki çiftlerinin gerçek durumlara uygulanması."
  },
  {
   "kind": "topic",
@@ -1824,42 +487,28 @@
   "title": "Nicel Kimya",
   "path": "Kimya → 11. Sınıf → Nicel Kimya",
   "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/quantitative-chemistry",
-  "text": "nicel kimya kimya → 11. sınıf → nicel kimya moller, kütleler ve tepkimelerin matematiği. mol tepkimelerde kütleler verim ve atom ekonomisi çözeltilerin derişimi"
+  "text": "nicel kimya kimya → 11. sınıf → nicel kimya moller, kütleler ve tepkimelerin matematiği. mol"
  },
  {
   "kind": "resource",
   "title": "Nicel Kimya kaynakları",
   "path": "Kaynaklar → Kimya → 11. Sınıf → Nicel Kimya",
   "url": "/tr/cambridge/upper-secondary/resources/chemistry/grade-11/quantitative-chemistry",
-  "text": "nicel kimya kaynakları kimya → 11. sınıf → nicel kimya mol tepkimelerde kütleler verim ve atom ekonomisi çözeltilerin derişimi"
- },
- {
-  "kind": "topic",
-  "title": "Normal Dağılım",
-  "path": "Matematik → 12. Sınıf → İleri İstatistik → Normal Dağılım",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/further-statistics/normal-distribution",
-  "text": "normal dağılım matematik → 12. sınıf → ileri istatistik → normal dağılım çan eğrisi, z-skorlarıyla standartlaştırma ve tablolardan ya da teknolojiyle olasılık bulma. çan eğrisi, z-skorlarıyla standartlaştırma ve tablolardan ya da teknolojiyle olasılık bulma."
- },
- {
-  "kind": "topic",
-  "title": "Nöronlar ve Sinapslar",
-  "path": "Biyoloji → 12. Sınıf → İnsan Fizyolojisi → Nöronlar ve Sinapslar",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/physiology/neurones-synapses",
-  "text": "nöronlar ve sinapslar biyoloji → 12. sınıf → insan fizyolojisi → nöronlar ve sinapslar sinir impulslarını nöronlar boyunca ve sinapslardan ayrıntılı olarak izleyin. sinir impulslarını nöronlar boyunca ve sinapslardan ayrıntılı olarak izleyin."
+  "text": "nicel kimya kaynakları kimya → 11. sınıf → nicel kimya mol"
  },
  {
   "kind": "chapter",
   "title": "Olasılık",
   "path": "Matematik → 11. Sınıf → Olasılık",
   "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/probability",
-  "text": "olasılık matematik → 11. sınıf → olasılık şans, ihtimal ve belirsizliğin matematiği. olasılık ölçeği ve temelleri birleşik sonuçlar bağımsız ve ayrık olaylar ağaç diyagramları ve koşullu olasılık"
+  "text": "olasılık matematik → 11. sınıf → olasılık şans, ihtimal ve belirsizliğin matematiği. olasılık ölçeği ve temelleri"
  },
  {
   "kind": "resource",
   "title": "Olasılık kaynakları",
   "path": "Kaynaklar → Matematik → 11. Sınıf → Olasılık",
   "url": "/tr/cambridge/upper-secondary/resources/mathematics/grade-11/probability",
-  "text": "olasılık kaynakları matematik → 11. sınıf → olasılık olasılık ölçeği ve temelleri birleşik sonuçlar bağımsız ve ayrık olaylar ağaç diyagramları ve koşullu olasılık"
+  "text": "olasılık kaynakları matematik → 11. sınıf → olasılık olasılık ölçeği ve temelleri"
  },
  {
   "kind": "topic",
@@ -1869,158 +518,18 @@
   "text": "olasılık ölçeği ve temelleri matematik → 11. sınıf → olasılık → olasılık ölçeği ve temelleri 0 ile 1 arası ölçek, eşit muhtemel sonuçlar ve olasılıkları kesir, ondalık ya da yüzde olarak yazma. 0 ile 1 arası ölçek, eşit muhtemel sonuçlar ve olasılıkları kesir, ondalık ya da yüzde olarak yazma."
  },
  {
-  "kind": "topic",
-  "title": "Ölçek ve Haritalar",
-  "path": "Matematik → 9. Sınıf → Oran ve Orantı → Ölçek ve Haritalar",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/ratio-proportion/scale-and-maps",
-  "text": "ölçek ve haritalar matematik → 9. sınıf → oran ve orantı → ölçek ve haritalar harita ve planlardan gerçek mesafeleri bulmak için ölçek çarpanlarını kullan. harita ve planlardan gerçek mesafeleri bulmak için ölçek çarpanlarını kullan."
- },
- {
-  "kind": "topic",
-  "title": "Önemli Olana Odaklanma",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Hesaplamalı Düşünme → Önemli Olana Odaklanma",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/computational-thinking/abstraction",
-  "text": "önemli olana odaklanma bilgisayar bilimi → 8. sınıf → hesaplamalı düşünme → önemli olana odaklanma önemsiz ayrıntıları eleyip önemli olana odaklan. önemsiz ayrıntıları eleyip önemli olana odaklan."
- },
- {
-  "kind": "chapter",
-  "title": "Oran ve Orantı",
-  "path": "Matematik → 9. Sınıf → Oran ve Orantı",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/ratio-proportion",
-  "text": "oran ve orantı matematik → 9. sınıf → oran ve orantı oranlar, ölçek çarpanları ve orantısal akıl yürütme. oranları sadeleştirme oranla paylaşma doğru orantı ölçek ve haritalar"
- },
- {
-  "kind": "resource",
-  "title": "Oran ve Orantı kaynakları",
-  "path": "Kaynaklar → Matematik → 9. Sınıf → Oran ve Orantı",
-  "url": "/tr/cambridge/lower-secondary/resources/mathematics/grade-9/ratio-proportion",
-  "text": "oran ve orantı kaynakları matematik → 9. sınıf → oran ve orantı oranları sadeleştirme oranla paylaşma doğru orantı ölçek ve haritalar"
- },
- {
-  "kind": "topic",
-  "title": "Oranla Paylaşma",
-  "path": "Matematik → 9. Sınıf → Oran ve Orantı → Oranla Paylaşma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/ratio-proportion/sharing-in-a-ratio",
-  "text": "oranla paylaşma matematik → 9. sınıf → oran ve orantı → oranla paylaşma miktarları verilen orana göre adilce böl. miktarları verilen orana göre adilce böl."
- },
- {
-  "kind": "topic",
-  "title": "Oranları Sadeleştirme",
-  "path": "Matematik → 9. Sınıf → Oran ve Orantı → Oranları Sadeleştirme",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-9/ratio-proportion/simplifying-ratios",
-  "text": "oranları sadeleştirme matematik → 9. sınıf → oran ve orantı → oranları sadeleştirme oranları kesirler gibi en sade haline indir. oranları kesirler gibi en sade haline indir."
- },
- {
   "kind": "chapter",
   "title": "Organik Kimya",
   "path": "Kimya → 12. Sınıf → Organik Kimya",
   "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/organic-chemistry",
-  "text": "organik kimya kimya → 12. sınıf → organik kimya karbon bileşikleri, mekanizmalar ve sentez. alkanlarla tanışma reaktif alkenler alkoller ve yükseltgenme organik sentez"
+  "text": "organik kimya kimya → 12. sınıf → organik kimya karbon bileşikleri, mekanizmalar ve sentez. alkanlarla tanışma"
  },
  {
   "kind": "resource",
   "title": "Organik Kimya kaynakları",
   "path": "Kaynaklar → Kimya → 12. Sınıf → Organik Kimya",
   "url": "/tr/cambridge/upper-secondary/resources/chemistry/grade-12/organic-chemistry",
-  "text": "organik kimya kaynakları kimya → 12. sınıf → organik kimya alkanlarla tanışma reaktif alkenler alkoller ve yükseltgenme organik sentez"
- },
- {
-  "kind": "topic",
-  "title": "Organik Sentez",
-  "path": "Kimya → 12. Sınıf → Organik Kimya → Organik Sentez",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/organic-chemistry/organic-synthesis",
-  "text": "organik sentez kimya → 12. sınıf → organik kimya → organik sentez reaksiyon yollarını planlayın ve fonksiyonel grupları tanıyın. reaksiyon yollarını planlayın ve fonksiyonel grupları tanıyın."
- },
- {
-  "kind": "chapter",
-  "title": "Organizasyon",
-  "path": "Biyoloji → 8. Sınıf → Organizasyon",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/organisation",
-  "text": "organizasyon biyoloji → 8. sınıf → organizasyon hücrelerden dokulara, organlara ve vücut sistemlerine. organizasyon düzeyleri sindirim sistemi kalp ve dolaşım sindirimde enzimler"
- },
- {
-  "kind": "topic",
-  "title": "Organizasyon Düzeyleri",
-  "path": "Biyoloji → 8. Sınıf → Organizasyon → Organizasyon Düzeyleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/organisation/levels-of-organisation",
-  "text": "organizasyon düzeyleri biyoloji → 8. sınıf → organizasyon → organizasyon düzeyleri hücrelerden dokulara, organlara ve organ sistemlerine uzanan hiyerarşiyi kur. hücrelerden dokulara, organlara ve organ sistemlerine uzanan hiyerarşiyi kur."
- },
- {
-  "kind": "resource",
-  "title": "Organizasyon kaynakları",
-  "path": "Kaynaklar → Biyoloji → 8. Sınıf → Organizasyon",
-  "url": "/tr/cambridge/lower-secondary/resources/biology/grade-8/organisation",
-  "text": "organizasyon kaynakları biyoloji → 8. sınıf → organizasyon organizasyon düzeyleri sindirim sistemi kalp ve dolaşım sindirimde enzimler"
- },
- {
-  "kind": "topic",
-  "title": "Ortalamalar ve Açıklık",
-  "path": "Matematik → 10. Sınıf → İstatistik → Ortalamalar ve Açıklık",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/statistics/averages-and-range",
-  "text": "ortalamalar ve açıklık matematik → 10. sınıf → istatistik → ortalamalar ve açıklık aritmetik ortalama, medyan, mod ve açıklık; ve hangi ortalamanın hangi duruma uyduğu. aritmetik ortalama, medyan, mod ve açıklık; ve hangi ortalamanın hangi duruma uyduğu."
- },
- {
-  "kind": "topic",
-  "title": "Örüntü Tanıma",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Hesaplamalı Düşünme → Örüntü Tanıma",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/computational-thinking/pattern-recognition",
-  "text": "örüntü tanıma bilgisayar bilimi → 8. sınıf → hesaplamalı düşünme → örüntü tanıma çözümleri yeniden kullanmanı sağlayan benzerlik ve tekrarları fark et. çözümleri yeniden kullanmanı sağlayan benzerlik ve tekrarları fark et."
- },
- {
-  "kind": "topic",
-  "title": "Otomasyon ve Yapay Zekâ",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Bilgisayar Sistemleri → Otomasyon ve Yapay Zekâ",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computer-systems/automation-and-artificial-intelligence",
-  "text": "otomasyon ve yapay zekâ bilgisayar bilimi → 7. sınıf → bilgisayar sistemleri → otomasyon ve yapay zekâ kendi kendine hareket eden makineler: sanayide otomasyon ve yapay zekânın gerçekte ne olduğu. kendi kendine hareket eden makineler: sanayide otomasyon ve yapay zekânın gerçekte ne olduğu."
- },
- {
-  "kind": "topic",
-  "title": "Özelleşmiş Hücreler",
-  "path": "Biyoloji → 8. Sınıf → Hücre Biyolojisi → Özelleşmiş Hücreler",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/cell-biology/specialised-cells",
-  "text": "özelleşmiş hücreler biyoloji → 8. sınıf → hücre biyolojisi → özelleşmiş hücreler kök tüy hücrelerinin, sperm hücrelerinin, alyuvarların ve nöronların işlerine nasıl uyum sağladığını gör. kök tüy hücrelerinin, sperm hücrelerinin, alyuvarların ve nöronların işlerine nasıl uyum sağladığını gör."
- },
- {
-  "kind": "topic",
-  "title": "Özellikleri Test Etme",
-  "path": "Kimya → 7. Sınıf → Maddeleri Sınıflandırma → Özellikleri Test Etme",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/sorting-materials/testing-properties",
-  "text": "özellikleri test etme kimya → 7. sınıf → maddeleri sınıflandırma → özellikleri test etme hangi malzemelerin su geçirmez, manyetik veya esnek olduğunu bulmak için basit ve adil testler yapın. hangi malzemelerin su geçirmez, manyetik veya esnek olduğunu bulmak için basit ve adil testler yapın."
- },
- {
-  "kind": "topic",
-  "title": "Paketler ve Protokoller",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Ağlar → Paketler ve Protokoller",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/networks/packets-and-protocols",
-  "text": "paketler ve protokoller bilgisayar bilimi → 10. sınıf → ağlar → paketler ve protokoller verinin, üzerinde anlaşılmış kurallara uyan paketlere nasıl bölündüğünü görün. verinin, üzerinde anlaşılmış kurallara uyan paketlere nasıl bölündüğünü görün."
- },
- {
-  "kind": "chapter",
-  "title": "Parçacık Fiziği",
-  "path": "Fizik → 12. Sınıf → Parçacık Fiziği",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/particle-physics",
-  "text": "parçacık fiziği fizik → 12. sınıf → parçacık fiziği standart model ve kuantum fiziğinden fikirler. standart model madde antimaddeyle buluşuyor kuarklar ve hadronlar kuantum fikirleri"
- },
- {
-  "kind": "resource",
-  "title": "Parçacık Fiziği kaynakları",
-  "path": "Kaynaklar → Fizik → 12. Sınıf → Parçacık Fiziği",
-  "url": "/tr/cambridge/upper-secondary/resources/physics/grade-12/particle-physics",
-  "text": "parçacık fiziği kaynakları fizik → 12. sınıf → parçacık fiziği standart model madde antimaddeyle buluşuyor kuarklar ve hadronlar kuantum fikirleri"
- },
- {
-  "kind": "chapter",
-  "title": "Parçacıklar",
-  "path": "Kimya → 8. Sınıf → Parçacıklar",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/particles",
-  "text": "parçacıklar kimya → 8. sınıf → parçacıklar her şey sürekli hareket eden minik parçacıklardan oluşur. tanecik modeli katılar, sıvılar ve gazlar hâl değişimleri difüzyonla yayılma"
- },
- {
-  "kind": "resource",
-  "title": "Parçacıklar kaynakları",
-  "path": "Kaynaklar → Kimya → 8. Sınıf → Parçacıklar",
-  "url": "/tr/cambridge/lower-secondary/resources/chemistry/grade-8/particles",
-  "text": "parçacıklar kaynakları kimya → 8. sınıf → parçacıklar tanecik modeli katılar, sıvılar ve gazlar hâl değişimleri difüzyonla yayılma"
+  "text": "organik kimya kaynakları kimya → 12. sınıf → organik kimya alkanlarla tanışma"
  },
  {
   "kind": "topic",
@@ -2031,45 +540,10 @@
  },
  {
   "kind": "topic",
-  "title": "Perde ve Şiddet",
-  "path": "Fizik → 10. Sınıf → Ses → Perde ve Şiddet",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/sound/pitch-and-loudness",
-  "text": "perde ve şiddet fizik → 10. sınıf → ses → perde ve şiddet perdeyi frekansla, şiddeti genlikle ilişkilendirmek. perdeyi frekansla, şiddeti genlikle ilişkilendirmek."
- },
- {
-  "kind": "chapter",
-  "title": "Periyodik Tablo",
-  "path": "Kimya → 9. Sınıf → Periyodik Tablo",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/periodic-table",
-  "text": "periyodik tablo kimya → 9. sınıf → periyodik tablo elementler nasıl düzenlenmiştir — ve bu düzen neden önemlidir. elementlerin düzenlenmesi gruplar ve periyotlar metaller ve ametaller gruplardaki eğilimler"
- },
- {
-  "kind": "resource",
-  "title": "Periyodik Tablo kaynakları",
-  "path": "Kaynaklar → Kimya → 9. Sınıf → Periyodik Tablo",
-  "url": "/tr/cambridge/lower-secondary/resources/chemistry/grade-9/periodic-table",
-  "text": "periyodik tablo kaynakları kimya → 9. sınıf → periyodik tablo elementlerin düzenlenmesi gruplar ve periyotlar metaller ve ametaller gruplardaki eğilimler"
- },
- {
-  "kind": "topic",
   "title": "pH Ölçeği",
   "path": "Kimya → 9. Sınıf → Asitler ve Bazlar → pH Ölçeği",
   "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-9/acids-alkalis/ph-scale",
   "text": "ph ölçeği kimya → 9. sınıf → asitler ve bazlar → ph ölçeği bir çözeltinin ne kadar asidik ya da bazik olduğunu 1–14 ölçeğiyle ölçün. bir çözeltinin ne kadar asidik ya da bazik olduğunu 1–14 ölçeğiyle ölçün."
- },
- {
-  "kind": "topic",
-  "title": "Potansiyel Enerji",
-  "path": "Fizik → 9. Sınıf → Enerji → Potansiyel Enerji",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/energy/potential-energy",
-  "text": "potansiyel enerji fizik → 9. sınıf → enerji → potansiyel enerji çekim potansiyel enerjisi (e = mgh) ve depolanmış esneklik enerjisiyle çalışmak. çekim potansiyel enerjisi (e = mgh) ve depolanmış esneklik enerjisiyle çalışmak."
- },
- {
-  "kind": "topic",
-  "title": "Potansiyeller ve Eşpotansiyeller",
-  "path": "Fizik → 12. Sınıf → Alanlar → Potansiyeller ve Eşpotansiyeller",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/fields/potentials-and-equipotentials",
-  "text": "potansiyeller ve eşpotansiyeller fizik → 12. sınıf → alanlar → potansiyeller ve eşpotansiyeller eşpotansiyel aralığından alan şiddetini okumak ve yapılan işi hesaplamak. eşpotansiyel aralığından alan şiddetini okumak ve yapılan işi hesaplamak."
  },
  {
   "kind": "topic",
@@ -2083,315 +557,56 @@
   "title": "Programlama Temelleri",
   "path": "Bilgisayar Bilimi → 9. Sınıf → Programlama Temelleri",
   "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/programming",
-  "text": "programlama temelleri bilgisayar bilimi → 9. sınıf → programlama temelleri sıfırdan python: değişkenler, veri, mantık, döngüler ve fonksiyonlar. değişkenler çıktı ve girdi seçim döngüler"
+  "text": "programlama temelleri bilgisayar bilimi → 9. sınıf → programlama temelleri sıfırdan python: değişkenler, veri, mantık, döngüler ve fonksiyonlar. değişkenler"
  },
  {
   "kind": "resource",
   "title": "Programlama Temelleri kaynakları",
   "path": "Kaynaklar → Bilgisayar Bilimi → 9. Sınıf → Programlama Temelleri",
   "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-9/programming",
-  "text": "programlama temelleri kaynakları bilgisayar bilimi → 9. sınıf → programlama temelleri değişkenler çıktı ve girdi seçim döngüler"
- },
- {
-  "kind": "topic",
-  "title": "Projenin Planlanması",
-  "path": "Bilgisayar Bilimi → 8. Sınıf → Dijital Medya Oluşturma → Projenin Planlanması",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-8/creating-media/planning-your-project",
-  "text": "projenin planlanması bilgisayar bilimi → 8. sınıf → dijital medya oluşturma → projenin planlanması bir şeyler yapmaya başlamadan önce basit bir hikâye panosu çiz. bir şeyler yapmaya başlamadan önce basit bir hikâye panosu çiz."
- },
- {
-  "kind": "topic",
-  "title": "Protein Yapısı",
-  "path": "Biyoloji → 11. Sınıf → Biyokimya → Protein Yapısı",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-11/biochemistry/protein-structure",
-  "text": "protein yapısı biyoloji → 11. sınıf → biyokimya → protein yapısı amino asitlerden başlayarak birincil yapıdan dördüncül yapıya proteinleri kurun. amino asitlerden başlayarak birincil yapıdan dördüncül yapıya proteinleri kurun."
- },
- {
-  "kind": "topic",
-  "title": "Punnett Kareleri",
-  "path": "Biyoloji → 10. Sınıf → Kalıtım ve Genetik → Punnett Kareleri",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/genetics/punnett-squares",
-  "text": "punnett kareleri biyoloji → 10. sınıf → kalıtım ve genetik → punnett kareleri adım adım punnett kareleriyle tek gen çaprazlamalarının sonuçlarını tahmin edin. adım adım punnett kareleriyle tek gen çaprazlamalarının sonuçlarını tahmin edin."
- },
- {
-  "kind": "topic",
-  "title": "Python Programlama",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama → Python Programlama",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computational-thinking-programming/python-programming",
-  "text": "python programlama bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama → python programlama ilk python'un: print, değişkenler, input ve if ifadeleri. ilk python'un: print, değişkenler, input ve if ifadeleri."
- },
- {
-  "kind": "topic",
-  "title": "Reaktif Alkenler",
-  "path": "Kimya → 12. Sınıf → Organik Kimya → Reaktif Alkenler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-12/organic-chemistry/alkenes",
-  "text": "reaktif alkenler kimya → 12. sınıf → organik kimya → reaktif alkenler çift bağı, elektrofilik katılmayı ve polimerleri keşfedin. çift bağı, elektrofilik katılmayı ve polimerleri keşfedin."
- },
- {
-  "kind": "topic",
-  "title": "Refleks Yayı",
-  "path": "Biyoloji → 12. Sınıf → İnsan Fizyolojisi → Refleks Yayı",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/physiology/reflex-arc",
-  "text": "refleks yayı biyoloji → 12. sınıf → insan fizyolojisi → refleks yayı omurilik refleksinin beş aşamasını haritalayın ve hızın neden önemli olduğunu açıklayın. omurilik refleksinin beş aşamasını haritalayın ve hızın neden önemli olduğunu açıklayın."
- },
- {
-  "kind": "topic",
-  "title": "Saçılma Diyagramları",
-  "path": "Matematik → 10. Sınıf → İstatistik → Saçılma Diyagramları",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/statistics/scatter-diagrams",
-  "text": "saçılma diyagramları matematik → 10. sınıf → istatistik → saçılma diyagramları eşleştirilmiş verileri çizme, korelasyonu fark etme ve en iyi uyum doğrusu çizme. eşleştirilmiş verileri çizme, korelasyonu fark etme ve en iyi uyum doğrusu çizme."
+  "text": "programlama temelleri kaynakları bilgisayar bilimi → 9. sınıf → programlama temelleri değişkenler"
  },
  {
   "kind": "chapter",
   "title": "Sağlık ve Hastalık",
   "path": "Biyoloji → 9. Sınıf → Sağlık ve Hastalık",
   "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/health-disease",
-  "text": "sağlık ve hastalık biyoloji → 9. sınıf → sağlık ve hastalık patojenler, bağışıklık ve sağlıklı yaşam tarzları. patojenlerle tanış vücudun savunmaları aşılar nasıl çalışır sağlıklı bir yaşam tarzı"
+  "text": "sağlık ve hastalık biyoloji → 9. sınıf → sağlık ve hastalık patojenler, bağışıklık ve sağlıklı yaşam tarzları. patojenlerle tanış"
  },
  {
   "kind": "resource",
   "title": "Sağlık ve Hastalık kaynakları",
   "path": "Kaynaklar → Biyoloji → 9. Sınıf → Sağlık ve Hastalık",
   "url": "/tr/cambridge/lower-secondary/resources/biology/grade-9/health-disease",
-  "text": "sağlık ve hastalık kaynakları biyoloji → 9. sınıf → sağlık ve hastalık patojenlerle tanış vücudun savunmaları aşılar nasıl çalışır sağlıklı bir yaşam tarzı"
- },
- {
-  "kind": "topic",
-  "title": "Sağlıklı Beslenme",
-  "path": "Biyoloji → 7. Sınıf → Hayvanlar ve İnsanlar → Sağlıklı Beslenme",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/animals-humans/healthy-food",
-  "text": "sağlıklı beslenme biyoloji → 7. sınıf → hayvanlar ve insanlar → sağlıklı beslenme yiyecekleri gruplara ayır ve vücudunu güçlü tutan dengeli bir tabak oluştur. yiyecekleri gruplara ayır ve vücudunu güçlü tutan dengeli bir tabak oluştur."
- },
- {
-  "kind": "topic",
-  "title": "Sağlıklı Bir Yaşam Tarzı",
-  "path": "Biyoloji → 9. Sınıf → Sağlık ve Hastalık → Sağlıklı Bir Yaşam Tarzı",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/health-disease/healthy-lifestyle",
-  "text": "sağlıklı bir yaşam tarzı biyoloji → 9. sınıf → sağlık ve hastalık → sağlıklı bir yaşam tarzı beslenmenin, egzersizin, uykunun ve sigaradan uzak durmanın uzun vadeli sağlığı nasıl koruduğunu keşfet. beslenmenin, egzersizin, uykunun ve sigaradan uzak durmanın uzun vadeli sağlığı nasıl koruduğunu keşfet."
- },
- {
-  "kind": "topic",
-  "title": "Sağlıklı Kalmak",
-  "path": "Biyoloji → 7. Sınıf → Hayvanlar ve İnsanlar → Sağlıklı Kalmak",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/animals-humans/staying-healthy",
-  "text": "sağlıklı kalmak biyoloji → 7. sınıf → hayvanlar ve insanlar → sağlıklı kalmak egzersizin, uykunun, temiz ellerin ve temiz dişlerin her gün neden önemli olduğunu gör. egzersizin, uykunun, temiz ellerin ve temiz dişlerin her gün neden önemli olduğunu gör."
- },
- {
-  "kind": "topic",
-  "title": "Sayı Doğrusunda Adımlar",
-  "path": "Matematik → 7. Sınıf → Toplama ve Çıkarma → Sayı Doğrusunda Adımlar",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/addition-subtraction/number-line-steps",
-  "text": "sayı doğrusunda adımlar matematik → 7. sınıf → toplama ve çıkarma → sayı doğrusunda adımlar toplamak ve çıkarmak için sayı doğrusu üzerinde ileri ve geri zıpla. toplamak ve çıkarmak için sayı doğrusu üzerinde ileri ve geri zıpla."
+  "text": "sağlık ve hastalık kaynakları biyoloji → 9. sınıf → sağlık ve hastalık patojenlerle tanış"
  },
  {
   "kind": "chapter",
   "title": "Sayılar ve Aritmetik",
   "path": "Matematik → 8. Sınıf → Sayılar ve Aritmetik",
   "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/number-arithmetic",
-  "text": "sayılar ve aritmetik matematik → 8. sınıf → sayılar ve aritmetik sayı sistemleri, kesirler, ondalıklar, yüzdeler ve aritmetik kuralları. basamak değeri kesirler, ondalık sayılar ve yüzdeler işlem sırası negatif sayılar"
+  "text": "sayılar ve aritmetik matematik → 8. sınıf → sayılar ve aritmetik sayı sistemleri, kesirler, ondalıklar, yüzdeler ve aritmetik kuralları. işlem sırası"
  },
  {
   "kind": "resource",
   "title": "Sayılar ve Aritmetik kaynakları",
   "path": "Kaynaklar → Matematik → 8. Sınıf → Sayılar ve Aritmetik",
   "url": "/tr/cambridge/lower-secondary/resources/mathematics/grade-8/number-arithmetic",
-  "text": "sayılar ve aritmetik kaynakları matematik → 8. sınıf → sayılar ve aritmetik basamak değeri kesirler, ondalık sayılar ve yüzdeler işlem sırası negatif sayılar"
- },
- {
-  "kind": "topic",
-  "title": "Sayıları Karşılaştırma",
-  "path": "Matematik → 7. Sınıf → Sayma → Sayıları Karşılaştırma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/counting/comparing-numbers",
-  "text": "sayıları karşılaştırma matematik → 7. sınıf → sayma → sayıları karşılaştırma iki grubu karşılaştırmak için daha fazla ve daha az kullan. iki grubu karşılaştırmak için daha fazla ve daha az kullan."
- },
- {
-  "kind": "topic",
-  "title": "Sayıları Sıralama",
-  "path": "Matematik → 7. Sınıf → Sayma → Sayıları Sıralama",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/counting/ordering-numbers",
-  "text": "sayıları sıralama matematik → 7. sınıf → sayma → sayıları sıralama sayıları küçükten büyüğe ve tersine sıraya koy. sayıları küçükten büyüğe ve tersine sıraya koy."
- },
- {
-  "kind": "topic",
-  "title": "Sayıların Yarıları",
-  "path": "Matematik → 8. Sınıf → İlk Kesirler → Sayıların Yarıları",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/fractions-first/halves-of-numbers",
-  "text": "sayıların yarıları matematik → 8. sınıf → ilk kesirler → sayıların yarıları eşit paylaşarak küçük çift sayıların yarısını bul. eşit paylaşarak küçük çift sayıların yarısını bul."
- },
- {
-  "kind": "chapter",
-  "title": "Sayma",
-  "path": "Matematik → 7. Sınıf → Sayma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/counting",
-  "text": "sayma matematik → 7. sınıf → sayma tam sayıları güvenle say, sırala ve karşılaştır. 10'a kadar sayma 100'e kadar sayma sayıları sıralama sayıları karşılaştırma"
- },
- {
-  "kind": "resource",
-  "title": "Sayma kaynakları",
-  "path": "Kaynaklar → Matematik → 7. Sınıf → Sayma",
-  "url": "/tr/cambridge/lower-secondary/resources/mathematics/grade-7/counting",
-  "text": "sayma kaynakları matematik → 7. sınıf → sayma 10'a kadar sayma 100'e kadar sayma sayıları sıralama sayıları karşılaştırma"
- },
- {
-  "kind": "topic",
-  "title": "Seçim",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Programlama Temelleri → Seçim",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/programming/selection",
-  "text": "seçim bilgisayar bilimi → 9. sınıf → programlama temelleri → seçim `if`, `elif` ve `else` ile karar ver. `if`, `elif` ve `else` ile karar ver."
- },
- {
-  "kind": "topic",
-  "title": "Şekil Değiştirme",
-  "path": "Fizik → 7. Sınıf → İtme ve Çekme → Şekil Değiştirme",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/pushes-pulls/changing-shape",
-  "text": "şekil değiştirme fizik → 7. sınıf → itme ve çekme → şekil değiştirme itme ve çekmelerin nesneleri nasıl ezip, esnetip, büküp ve burabildiğini keşfetme. itme ve çekmelerin nesneleri nasıl ezip, esnetip, büküp ve burabildiğini keşfetme."
+  "text": "sayılar ve aritmetik kaynakları matematik → 8. sınıf → sayılar ve aritmetik işlem sırası"
  },
  {
   "kind": "chapter",
   "title": "Şekiller ve Ölçüler",
   "path": "Matematik → 7. Sınıf → Şekiller ve Ölçüler",
   "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/shapes-measures",
-  "text": "şekiller ve ölçüler matematik → 7. sınıf → şekiller ve ölçüler yaygın şekilleri tanı; uzunluk, ağırlık ve hacmi karşılaştır. düzlemsel şekiller üç boyutlu şekiller uzunluk ölçme ağırlık ve kapasite"
+  "text": "şekiller ve ölçüler matematik → 7. sınıf → şekiller ve ölçüler yaygın şekilleri tanı; uzunluk, ağırlık ve hacmi karşılaştır. üç boyutlu şekiller"
  },
  {
   "kind": "resource",
   "title": "Şekiller ve Ölçüler kaynakları",
   "path": "Kaynaklar → Matematik → 7. Sınıf → Şekiller ve Ölçüler",
   "url": "/tr/cambridge/lower-secondary/resources/mathematics/grade-7/shapes-measures",
-  "text": "şekiller ve ölçüler kaynakları matematik → 7. sınıf → şekiller ve ölçüler düzlemsel şekiller üç boyutlu şekiller uzunluk ölçme ağırlık ve kapasite"
- },
- {
-  "kind": "topic",
-  "title": "Şekillerin Çeyrekleri",
-  "path": "Matematik → 8. Sınıf → İlk Kesirler → Şekillerin Çeyrekleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/fractions-first/quarters-of-shapes",
-  "text": "şekillerin çeyrekleri matematik → 8. sınıf → ilk kesirler → şekillerin çeyrekleri şekilleri ve grupları dört eşit parçaya böl. şekilleri ve grupları dört eşit parçaya böl."
- },
- {
-  "kind": "topic",
-  "title": "Şekillerin Yarıları",
-  "path": "Matematik → 8. Sınıf → İlk Kesirler → Şekillerin Yarıları",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-8/fractions-first/halves-of-shapes",
-  "text": "şekillerin yarıları matematik → 8. sınıf → ilk kesirler → şekillerin yarıları şekilleri iki eşit parçaya böl ve bir yarımı boya. şekilleri iki eşit parçaya böl ve bir yarımı boya."
- },
- {
-  "kind": "topic",
-  "title": "SELECT Sorguları",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veritabanları ve SQL → SELECT Sorguları",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/databases-sql/select-queries",
-  "text": "select sorguları bilgisayar bilimi → 11. sınıf → veritabanları ve sql → select sorguları select, where ve order by ile tablolardan tam ihtiyacınız olan veriyi çekin. select, where ve order by ile tablolardan tam ihtiyacınız olan veriyi çekin."
- },
- {
-  "kind": "topic",
-  "title": "Seri ve Paralel",
-  "path": "Fizik → 11. Sınıf → Elektrik → Seri ve Paralel",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-11/electricity/series-and-parallel",
-  "text": "seri ve paralel fizik → 11. sınıf → elektrik → seri ve paralel iki devre türünde akım, gerilim ve direnci karşılaştırma. iki devre türünde akım, gerilim ve direnci karşılaştırma."
- },
- {
-  "kind": "topic",
-  "title": "Sert ve Yumuşak",
-  "path": "Fizik → 7. Sınıf → Günlük Maddeler → Sert ve Yumuşak",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/everyday-materials/hard-and-soft",
-  "text": "sert ve yumuşak fizik → 7. sınıf → günlük maddeler → sert ve yumuşak malzemeleri ne kadar sert ya da yumuşak olduklarına bakarak hissetme ve karşılaştırma. malzemeleri ne kadar sert ya da yumuşak olduklarına bakarak hissetme ve karşılaştırma."
- },
- {
-  "kind": "chapter",
-  "title": "Ses",
-  "path": "Fizik → 10. Sınıf → Ses",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/sound",
-  "text": "ses fizik → 10. sınıf → ses titreşimler kulaklarımıza ulaşan sesleri nasıl oluşturur. sesler nasıl oluşur sesin bir ortama ihtiyacı vardır perde ve şiddet yankı ve işitme"
- },
- {
-  "kind": "resource",
-  "title": "Ses kaynakları",
-  "path": "Kaynaklar → Fizik → 10. Sınıf → Ses",
-  "url": "/tr/cambridge/upper-secondary/resources/physics/grade-10/sound",
-  "text": "ses kaynakları fizik → 10. sınıf → ses sesler nasıl oluşur sesin bir ortama ihtiyacı vardır perde ve şiddet yankı ve işitme"
- },
- {
-  "kind": "topic",
-  "title": "Ses Örnekleme",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Veri Temsili → Ses Örnekleme",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/data-representation/sound-sampling",
-  "text": "ses örnekleme bilgisayar bilimi → 9. sınıf → veri temsili → ses örnekleme gerçek dünyadaki seslerin sayılar hâline nasıl geldiğini öğren. gerçek dünyadaki seslerin sayılar hâline nasıl geldiğini öğren."
- },
- {
-  "kind": "topic",
-  "title": "Sesin Bir Ortama İhtiyacı Vardır",
-  "path": "Fizik → 10. Sınıf → Ses → Sesin Bir Ortama İhtiyacı Vardır",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/sound/sound-needs-a-medium",
-  "text": "sesin bir ortama ihtiyacı vardır fizik → 10. sınıf → ses → sesin bir ortama ihtiyacı vardır sesin katılar, sıvılar ve gazlar içinde yayıldığını — ama uzayda yayılmadığını öğrenmek. sesin katılar, sıvılar ve gazlar içinde yayıldığını — ama uzayda yayılmadığını öğrenmek."
- },
- {
-  "kind": "topic",
-  "title": "Sesler Nasıl Oluşur",
-  "path": "Fizik → 10. Sınıf → Ses → Sesler Nasıl Oluşur",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/sound/how-sounds-are-made",
-  "text": "sesler nasıl oluşur fizik → 10. sınıf → ses → sesler nasıl oluşur duyduğun her sesi bir titreşen cisme bağlamak. duyduğun her sesi bir titreşen cisme bağlamak."
- },
- {
-  "kind": "topic",
-  "title": "Sindirim Sistemi",
-  "path": "Biyoloji → 8. Sınıf → Organizasyon → Sindirim Sistemi",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/organisation/digestive-system",
-  "text": "sindirim sistemi biyoloji → 8. sınıf → organizasyon → sindirim sistemi yiyeceği bağırsak boyunca izle ve besinlerin kana nasıl ulaştığını öğren. yiyeceği bağırsak boyunca izle ve besinlerin kana nasıl ulaştığını öğren."
- },
- {
-  "kind": "topic",
-  "title": "Sindirimde Enzimler",
-  "path": "Biyoloji → 8. Sınıf → Organizasyon → Sindirimde Enzimler",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-8/organisation/enzymes-in-digestion",
-  "text": "sindirimde enzimler biyoloji → 8. sınıf → organizasyon → sindirimde enzimler amilaz, proteaz ve lipazla tanış; enzimlerin sindirimi nasıl hızlandırdığını gör. amilaz, proteaz ve lipazla tanış; enzimlerin sindirimi nasıl hızlandırdığını gör."
- },
- {
-  "kind": "topic",
-  "title": "Sınıflandırma ve Filogeni",
-  "path": "Biyoloji → 12. Sınıf → Evrim → Sınıflandırma ve Filogeni",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/evolution/classification",
-  "text": "sınıflandırma ve filogeni biyoloji → 12. sınıf → evrim → sınıflandırma ve filogeni evrimsel ağaçlar oluşturmak için taksonomik hiyerarşiyi ve dna verilerini kullanın. evrimsel ağaçlar oluşturmak için taksonomik hiyerarşiyi ve dna verilerini kullanın."
- },
- {
-  "kind": "topic",
-  "title": "Sınırlayıcı Faktörler",
-  "path": "Biyoloji → 10. Sınıf → Biyoenerjetik → Sınırlayıcı Faktörler",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-10/bioenergetics/limiting-factors",
-  "text": "sınırlayıcı faktörler biyoloji → 10. sınıf → biyoenerjetik → sınırlayıcı faktörler ışık, karbondioksit ve sıcaklığın fotosentez hızını nasıl sınırladığını inceleyin. ışık, karbondioksit ve sıcaklığın fotosentez hızını nasıl sınırladığını inceleyin."
- },
- {
-  "kind": "topic",
-  "title": "Sıvı Nedir",
-  "path": "Kimya → 7. Sınıf → Katılar ve Sıvılar → Sıvı Nedir",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/solids-liquids/what-is-a-liquid",
-  "text": "sıvı nedir kimya → 7. sınıf → katılar ve sıvılar → sıvı nedir sıvıların nasıl aktığını ve kabının şeklini nasıl aldığını görün. sıvıların nasıl aktığını ve kabının şeklini nasıl aldığını görün."
- },
- {
-  "kind": "chapter",
-  "title": "Soyut Matematik",
-  "path": "Matematik → 11. Sınıf → Soyut Matematik",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/pure-mathematics",
-  "text": "soyut matematik matematik → 11. sınıf → soyut matematik fonksiyonlar, diziler ve kalkülüse giriş. fonksiyonlar ve grafikler diziler ve seriler türeve giriş integrale giriş"
- },
- {
-  "kind": "resource",
-  "title": "Soyut Matematik kaynakları",
-  "path": "Kaynaklar → Matematik → 11. Sınıf → Soyut Matematik",
-  "url": "/tr/cambridge/upper-secondary/resources/mathematics/grade-11/pure-mathematics",
-  "text": "soyut matematik kaynakları matematik → 11. sınıf → soyut matematik fonksiyonlar ve grafikler diziler ve seriler türeve giriş integrale giriş"
- },
- {
-  "kind": "topic",
-  "title": "Standart Model",
-  "path": "Fizik → 12. Sınıf → Parçacık Fiziği → Standart Model",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-12/particle-physics/the-standard-model",
-  "text": "standart model fizik → 12. sınıf → parçacık fiziği → standart model kuarklar, leptonlar ve kuvvet taşıyıcı bozonlarla tanışmak. kuarklar, leptonlar ve kuvvet taşıyıcı bozonlarla tanışmak."
- },
- {
-  "kind": "topic",
-  "title": "Su Geçirmez mi, Değil mi?",
-  "path": "Fizik → 7. Sınıf → Günlük Maddeler → Su Geçirmez mi, Değil mi?",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/everyday-materials/waterproof-or-not",
-  "text": "su geçirmez mi, değil mi? fizik → 7. sınıf → günlük maddeler → su geçirmez mi, değil mi? hangi malzemelerin suyu geçirdiğini, hangilerinin dışarıda tuttuğunu test etme. hangi malzemelerin suyu geçirdiğini, hangilerinin dışarıda tuttuğunu test etme."
+  "text": "şekiller ve ölçüler kaynakları matematik → 7. sınıf → şekiller ve ölçüler üç boyutlu şekiller"
  },
  {
   "kind": "topic",
@@ -2402,115 +617,10 @@
  },
  {
   "kind": "topic",
-  "title": "Sürtünme ve Bağlı Parçacıklar",
-  "path": "Matematik → 12. Sınıf → Mekanik → Sürtünme ve Bağlı Parçacıklar",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-12/mechanics/friction-and-connected-particles",
-  "text": "sürtünme ve bağlı parçacıklar matematik → 12. sınıf → mekanik → sürtünme ve bağlı parçacıklar f ≤ μr ile sürtünmeyi modelleme ve bağlı parçacık sistemlerini çözme. f ≤ μr ile sürtünmeyi modelleme ve bağlı parçacık sistemlerini çözme."
- },
- {
-  "kind": "topic",
-  "title": "Sürtünme ve Hava Direnci",
-  "path": "Fizik → 8. Sınıf → Kuvvetler → Sürtünme ve Hava Direnci",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-8/forces/friction-and-drag",
-  "text": "sürtünme ve hava direnci fizik → 8. sınıf → kuvvetler → sürtünme ve hava direnci yüzeylerin ve hava direncinin harekete nasıl karşı koyduğunu — ve bunun ne zaman işe yaradığını — keşfetmek. yüzeylerin ve hava direncinin harekete nasıl karşı koyduğunu — ve bunun ne zaman işe yaradığını — keşfetmek."
- },
- {
-  "kind": "topic",
   "title": "Sürtünme: Dost mu Düşman mı?",
   "path": "Fizik → 7. Sınıf → İtme ve Çekme → Sürtünme: Dost mu Düşman mı?",
   "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-7/pushes-pulls/friction-friend-or-foe",
   "text": "sürtünme: dost mu düşman mı? fizik → 7. sınıf → itme ve çekme → sürtünme: dost mu düşman mı? sürtünmenin hareket eden şeyleri nasıl yavaşlattığını ve bunun ne zaman işe yaradığını keşfetme. sürtünmenin hareket eden şeyleri nasıl yavaşlattığını ve bunun ne zaman işe yaradığını keşfetme."
- },
- {
-  "kind": "topic",
-  "title": "Süzme ile Ayırma",
-  "path": "Kimya → 7. Sınıf → Karışımlar → Süzme ile Ayırma",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-7/mixtures/filtering",
-  "text": "süzme ile ayırma kimya → 7. sınıf → karışımlar → süzme ile ayırma kumdan su gibi, bir katıyı sıvıdan ayırmak için süzgeç kâğıdı kullanın. kumdan su gibi, bir katıyı sıvıdan ayırmak için süzgeç kâğıdı kullanın."
- },
- {
-  "kind": "topic",
-  "title": "Tablo İlişkileri",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veritabanları ve SQL → Tablo İlişkileri",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/databases-sql/relationships",
-  "text": "tablo ilişkileri bilgisayar bilimi → 11. sınıf → veritabanları ve sql → tablo ilişkileri tabloları bire-çok ilişkilerde yabancı anahtarlarla bağlayın. tabloları bire-çok ilişkilerde yabancı anahtarlarla bağlayın."
- },
- {
-  "kind": "topic",
-  "title": "Tablolar ve Anahtarlar",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veritabanları ve SQL → Tablolar ve Anahtarlar",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/databases-sql/tables-and-keys",
-  "text": "tablolar ve anahtarlar bilgisayar bilimi → 11. sınıf → veritabanları ve sql → tablolar ve anahtarlar birincil ve yabancı anahtarlarla veriyi bulunabilir ve tutarlı tutun. birincil ve yabancı anahtarlarla veriyi bulunabilir ve tutarlı tutun."
- },
- {
-  "kind": "topic",
-  "title": "Tanecik Modeli",
-  "path": "Kimya → 8. Sınıf → Parçacıklar → Tanecik Modeli",
-  "url": "/tr/cambridge/lower-secondary/subjects/chemistry/grade-8/particles/particle-model",
-  "text": "tanecik modeli kimya → 8. sınıf → parçacıklar → tanecik modeli tüm maddelerin minik hareketli taneciklerden oluştuğu fikriyle tanışın. tüm maddelerin minik hareketli taneciklerden oluştuğu fikriyle tanışın."
- },
- {
-  "kind": "topic",
-  "title": "Tepkime Hızları",
-  "path": "Kimya → 11. Sınıf → Fiziksel Kimya → Tepkime Hızları",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/physical-chemistry/reaction-rates",
-  "text": "tepkime hızları kimya → 11. sınıf → fiziksel kimya → tepkime hızları tepkimelerin nasıl hızlandığını çarpışma teorisiyle açıklayın. tepkimelerin nasıl hızlandığını çarpışma teorisiyle açıklayın."
- },
- {
-  "kind": "topic",
-  "title": "Tepkimelerde Enerji",
-  "path": "Kimya → 10. Sınıf → Kimyasal Değişimler → Tepkimelerde Enerji",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-changes/energy-changes",
-  "text": "tepkimelerde enerji kimya → 10. sınıf → kimyasal değişimler → tepkimelerde enerji ekzotermik ve endotermik tepkimeleri ayırt edin. ekzotermik ve endotermik tepkimeleri ayırt edin."
- },
- {
-  "kind": "topic",
-  "title": "Tepkimelerde Kütleler",
-  "path": "Kimya → 11. Sınıf → Nicel Kimya → Tepkimelerde Kütleler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/quantitative-chemistry/reacting-masses",
-  "text": "tepkimelerde kütleler kimya → 11. sınıf → nicel kimya → tepkimelerde kütleler bir tepkimenin ne kadar ürün oluşturacağını hesaplayın. bir tepkimenin ne kadar ürün oluşturacağını hesaplayın."
- },
- {
-  "kind": "topic",
-  "title": "Tohumlar Nasıl Büyür",
-  "path": "Biyoloji → 7. Sınıf → Bitkiler → Tohumlar Nasıl Büyür",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/plants/how-seeds-grow",
-  "text": "tohumlar nasıl büyür biyoloji → 7. sınıf → bitkiler → tohumlar nasıl büyür bir tohumun kök ve filiz sürüp yeni bir bitkiye dönüştüğü çimlenmeyi takip et. bir tohumun kök ve filiz sürüp yeni bir bitkiye dönüştüğü çimlenmeyi takip et."
- },
- {
-  "kind": "chapter",
-  "title": "Toplama ve Çıkarma",
-  "path": "Matematik → 7. Sınıf → Toplama ve Çıkarma",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/addition-subtraction",
-  "text": "toplama ve çıkarma matematik → 7. sınıf → toplama ve çıkarma nesneler, resimler ve sayı doğruları kullanarak topla ve çıkar. iki sayıyı toplama 10'a kadar sayı ikilileri nesneleri çıkarma sayı doğrusunda adımlar"
- },
- {
-  "kind": "resource",
-  "title": "Toplama ve Çıkarma kaynakları",
-  "path": "Kaynaklar → Matematik → 7. Sınıf → Toplama ve Çıkarma",
-  "url": "/tr/cambridge/lower-secondary/resources/mathematics/grade-7/addition-subtraction",
-  "text": "toplama ve çıkarma kaynakları matematik → 7. sınıf → toplama ve çıkarma iki sayıyı toplama 10'a kadar sayı ikilileri nesneleri çıkarma sayı doğrusunda adımlar"
- },
- {
-  "kind": "topic",
-  "title": "Türeve Giriş",
-  "path": "Matematik → 11. Sınıf → Soyut Matematik → Türeve Giriş",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-11/pure-mathematics/introducing-differentiation",
-  "text": "türeve giriş matematik → 11. sınıf → soyut matematik → türeve giriş ilk ilkeler fikriyle eğimler, kuvvet kuralı ve durağan noktalar. ilk ilkeler fikriyle eğimler, kuvvet kuralı ve durağan noktalar."
- },
- {
-  "kind": "topic",
-  "title": "Türleşme Nasıl Gerçekleşir",
-  "path": "Biyoloji → 12. Sınıf → Evrim → Türleşme Nasıl Gerçekleşir",
-  "url": "/tr/cambridge/upper-secondary/subjects/biology/grade-12/evolution/speciation",
-  "text": "türleşme nasıl gerçekleşir biyoloji → 12. sınıf → evrim → türleşme nasıl gerçekleşir izolasyon ve seçilimin bir türü ikiye nasıl böldüğünü gösterin. izolasyon ve seçilimin bir türü ikiye nasıl böldüğünü gösterin."
- },
- {
-  "kind": "topic",
-  "title": "Tuz Hazırlama",
-  "path": "Kimya → 10. Sınıf → Kimyasal Değişimler → Tuz Hazırlama",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-changes/making-salts",
-  "text": "tuz hazırlama kimya → 10. sınıf → kimyasal değişimler → tuz hazırlama asitleri bazlar ve karbonatlarla tepkimeye sokarak saf tuzlar hazırlayın. asitleri bazlar ve karbonatlarla tepkimeye sokarak saf tuzlar hazırlayın."
  },
  {
   "kind": "topic",
@@ -2520,235 +630,32 @@
   "text": "üç boyutlu şekiller matematik → 7. sınıf → şekiller ve ölçüler → üç boyutlu şekiller elinde tutabildiğin küp, dikdörtgenler prizması, küre, silindir ve konilerle tanış. elinde tutabildiğin küp, dikdörtgenler prizması, küre, silindir ve konilerle tanış."
  },
  {
-  "kind": "topic",
-  "title": "Üçgenler ve Dörtgenler",
-  "path": "Matematik → 10. Sınıf → Geometri → Üçgenler ve Dörtgenler",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/geometry/triangles-and-quadrilaterals",
-  "text": "üçgenler ve dörtgenler matematik → 10. sınıf → geometri → üçgenler ve dörtgenler iki boyutlu şekillerin özellikleri, üçgen ve dörtgenlerde açı toplamları ve simetri. iki boyutlu şekillerin özellikleri, üçgen ve dörtgenlerde açı toplamları ve simetri."
- },
- {
-  "kind": "chapter",
-  "title": "Üreme",
-  "path": "Biyoloji → 9. Sınıf → Üreme",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/reproduction",
-  "text": "üreme biyoloji → 9. sınıf → üreme bitkilerde, hayvanlarda ve insanlarda yaşam döngüleri. bitki üremesi hayvan yaşam döngüleri insan yaşam döngüsü ergenlik ve büyümek"
- },
- {
-  "kind": "resource",
-  "title": "Üreme kaynakları",
-  "path": "Kaynaklar → Biyoloji → 9. Sınıf → Üreme",
-  "url": "/tr/cambridge/lower-secondary/resources/biology/grade-9/reproduction",
-  "text": "üreme kaynakları biyoloji → 9. sınıf → üreme bitki üremesi hayvan yaşam döngüleri insan yaşam döngüsü ergenlik ve büyümek"
- },
- {
-  "kind": "topic",
-  "title": "Uzaklık–Zaman Grafikleri",
-  "path": "Fizik → 9. Sınıf → Hareket → Uzaklık–Zaman Grafikleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/physics/grade-9/motion/distance-time-graphs",
-  "text": "uzaklık–zaman grafikleri fizik → 9. sınıf → hareket → uzaklık–zaman grafikleri grafikten yolculukları okumak ve eğimden sürati bulmak. grafikten yolculukları okumak ve eğimden sürati bulmak."
- },
- {
-  "kind": "topic",
-  "title": "Uzunluk Ölçme",
-  "path": "Matematik → 7. Sınıf → Şekiller ve Ölçüler → Uzunluk Ölçme",
-  "url": "/tr/cambridge/lower-secondary/subjects/mathematics/grade-7/shapes-measures/measuring-length",
-  "text": "uzunluk ölçme matematik → 7. sınıf → şekiller ve ölçüler → uzunluk ölçme cetvel ve santimetre kullanarak uzunluğu karşılaştır ve ölç. cetvel ve santimetre kullanarak uzunluğu karşılaştır ve ölç."
- },
- {
-  "kind": "topic",
-  "title": "Veri İletimi",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Ağlar ve Dijital İletişim → Veri İletimi",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/networks-and-digital-communication/data-transmission",
-  "text": "veri iletimi bilgisayar bilimi → 7. sınıf → ağlar ve dijital iletişim → veri iletimi veri ağda nasıl yolculuk eder: paketler, hız ve güvenlik. veri ağda nasıl yolculuk eder: paketler, hız ve güvenlik."
- },
- {
-  "kind": "topic",
-  "title": "Veri Temsili",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Bilgisayar Sistemleri → Veri Temsili",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computer-systems/data-representation",
-  "text": "veri temsili bilgisayar bilimi → 7. sınıf → bilgisayar sistemleri → veri temsili bilgisayarlar her şeyi ikili sayar: 0'lar ve 1'ler, metinden ses ve görüntüye. bilgisayarlar her şeyi ikili sayar: 0'lar ve 1'ler, metinden ses ve görüntüye."
- },
- {
-  "kind": "chapter",
-  "title": "Veri Temsili",
-  "path": "Bilgisayar Bilimi → 9. Sınıf → Veri Temsili",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-9/data-representation",
-  "text": "veri temsili bilgisayar bilimi → 9. sınıf → veri temsili ikili sistem, metin, görsel ve ses: bilgisayarlar her şeyi nasıl saklar. ikili sayılar metin ve karakterler görüntüler ve pikseller ses örnekleme"
- },
- {
-  "kind": "resource",
-  "title": "Veri Temsili kaynakları",
-  "path": "Kaynaklar → Bilgisayar Bilimi → 9. Sınıf → Veri Temsili",
-  "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-9/data-representation",
-  "text": "veri temsili kaynakları bilgisayar bilimi → 9. sınıf → veri temsili ikili sayılar metin ve karakterler görüntüler ve pikseller ses örnekleme"
- },
- {
-  "kind": "topic",
-  "title": "Veri Toplama",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Veri Yönetimi → Veri Toplama",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/managing-data/data-collection",
-  "text": "veri toplama bilgisayar bilimi → 7. sınıf → veri yönetimi → veri toplama iyi veri nasıl toplanır: yöntemler, sorular ve tuzaklar. iyi veri nasıl toplanır: yöntemler, sorular ve tuzaklar."
- },
- {
   "kind": "chapter",
   "title": "Veri Yapıları",
   "path": "Bilgisayar Bilimi → 11. Sınıf → Veri Yapıları",
   "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/data-structures",
-  "text": "veri yapıları bilgisayar bilimi → 11. sınıf → veri yapıları yığınlar, kuyruklar, ağaçlar ve graflar. yığın kullanma kuyruk kullanma ağaç yapıları graf ağları"
+  "text": "veri yapıları bilgisayar bilimi → 11. sınıf → veri yapıları yığınlar, kuyruklar, ağaçlar ve graflar. yığın kullanma"
  },
  {
   "kind": "resource",
   "title": "Veri Yapıları kaynakları",
   "path": "Kaynaklar → Bilgisayar Bilimi → 11. Sınıf → Veri Yapıları",
   "url": "/tr/cambridge/upper-secondary/resources/computer-science/grade-11/data-structures",
-  "text": "veri yapıları kaynakları bilgisayar bilimi → 11. sınıf → veri yapıları yığın kullanma kuyruk kullanma ağaç yapıları graf ağları"
- },
- {
-  "kind": "chapter",
-  "title": "Veri Yönetimi",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Veri Yönetimi",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/managing-data",
-  "text": "veri yönetimi bilgisayar bilimi → 7. sınıf → veri yönetimi elektronik tablolar, veritabanları ve veriyi doğru toplama. hesap tabloları modelleme veritabanları veri toplama"
- },
- {
-  "kind": "resource",
-  "title": "Veri Yönetimi kaynakları",
-  "path": "Kaynaklar → Bilgisayar Bilimi → 7. Sınıf → Veri Yönetimi",
-  "url": "/tr/cambridge/lower-secondary/resources/computer-science/grade-7/managing-data",
-  "text": "veri yönetimi kaynakları bilgisayar bilimi → 7. sınıf → veri yönetimi hesap tabloları modelleme veritabanları veri toplama"
- },
- {
-  "kind": "topic",
-  "title": "Verim ve Atom Ekonomisi",
-  "path": "Kimya → 11. Sınıf → Nicel Kimya → Verim ve Atom Ekonomisi",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-11/quantitative-chemistry/yield-and-atom-economy",
-  "text": "verim ve atom ekonomisi kimya → 11. sınıf → nicel kimya → verim ve atom ekonomisi bir tepkimenin ne kadar verimli olduğunu ölçün. bir tepkimenin ne kadar verimli olduğunu ölçün."
- },
- {
-  "kind": "topic",
-  "title": "Verimliliği Ölçme",
-  "path": "Bilgisayar Bilimi → 10. Sınıf → Algoritmalar → Verimliliği Ölçme",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-10/algorithms/measuring-efficiency",
-  "text": "verimliliği ölçme bilgisayar bilimi → 10. sınıf → algoritmalar → verimliliği ölçme big-o gösterimi ve en kötü durumlarla algoritmaları karşılaştırın. big-o gösterimi ve en kötü durumlarla algoritmaları karşılaştırın."
- },
- {
-  "kind": "topic",
-  "title": "Veritabanları",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Veri Yönetimi → Veritabanları",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/managing-data/databases",
-  "text": "veritabanları bilgisayar bilimi → 7. sınıf → veri yönetimi → veritabanları büyük veriyi düzenli tutmak: tablolar, kayıtlar ve sorgular. büyük veriyi düzenli tutmak: tablolar, kayıtlar ve sorgular."
- },
- {
-  "kind": "chapter",
-  "title": "Veritabanları ve SQL",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veritabanları ve SQL",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/databases-sql",
-  "text": "veritabanları ve sql bilgisayar bilimi → 11. sınıf → veritabanları ve sql tablolar tasarla ve sql ile sorgula. tablolar ve anahtarlar tablo ilişkileri select sorguları veriyi değiştirme"
- },
- {
-  "kind": "resource",
-  "title": "Veritabanları ve SQL kaynakları",
-  "path": "Kaynaklar → Bilgisayar Bilimi → 11. Sınıf → Veritabanları ve SQL",
-  "url": "/tr/cambridge/upper-secondary/resources/computer-science/grade-11/databases-sql",
-  "text": "veritabanları ve sql kaynakları bilgisayar bilimi → 11. sınıf → veritabanları ve sql tablolar ve anahtarlar tablo ilişkileri select sorguları veriyi değiştirme"
- },
- {
-  "kind": "topic",
-  "title": "Veriyi Değiştirme",
-  "path": "Bilgisayar Bilimi → 11. Sınıf → Veritabanları ve SQL → Veriyi Değiştirme",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-11/databases-sql/changing-data",
-  "text": "veriyi değiştirme bilgisayar bilimi → 11. sınıf → veritabanları ve sql → veriyi değiştirme ınsert, update ve delete ile satırları güvenle ekleyin, güncelleyin ve silin. ınsert, update ve delete ile satırları güvenle ekleyin, güncelleyin ve silin."
- },
- {
-  "kind": "topic",
-  "title": "Veriyi Dürüstçe Yorumlama",
-  "path": "Matematik → 10. Sınıf → İstatistik → Veriyi Dürüstçe Yorumlama",
-  "url": "/tr/cambridge/upper-secondary/subjects/mathematics/grade-10/statistics/interpreting-data",
-  "text": "veriyi dürüstçe yorumlama matematik → 10. sınıf → istatistik → veriyi dürüstçe yorumlama iddiaları eleştirel okuma ve yanıltıcı ölçekleri, seçilip alınmış ortalamaları fark etme. iddiaları eleştirel okuma ve yanıltıcı ölçekleri, seçilip alınmış ortalamaları fark etme."
- },
- {
-  "kind": "topic",
-  "title": "Vücudun Savunmaları",
-  "path": "Biyoloji → 9. Sınıf → Sağlık ve Hastalık → Vücudun Savunmaları",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-9/health-disease/body-defences",
-  "text": "vücudun savunmaları biyoloji → 9. sınıf → sağlık ve hastalık → vücudun savunmaları enfeksiyonla savaşan deriyi, mide asidini, akyuvarları ve antikorları keşfet. enfeksiyonla savaşan deriyi, mide asidini, akyuvarları ve antikorları keşfet."
- },
- {
-  "kind": "topic",
-  "title": "Web Sitelerine Erişme",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Ağlar ve Dijital İletişim → Web Sitelerine Erişme",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/networks-and-digital-communication/accessing-websites",
-  "text": "web sitelerine erişme bilgisayar bilimi → 7. sınıf → ağlar ve dijital iletişim → web sitelerine erişme adrese tıkladığında ne olur: dns, sunucular ve tarayıcın. adrese tıkladığında ne olur: dns, sunucular ve tarayıcın."
- },
- {
-  "kind": "topic",
-  "title": "Yakınındaki Yaşam Alanları",
-  "path": "Biyoloji → 7. Sınıf → Canlılar → Yakınındaki Yaşam Alanları",
-  "url": "/tr/cambridge/lower-secondary/subjects/biology/grade-7/living-things/habitats-nearby",
-  "text": "yakınındaki yaşam alanları biyoloji → 7. sınıf → canlılar → yakınındaki yaşam alanları yerel yaşam alanlarını keşfet ve hayvanlar ile bitkilerin yaşadıkları yere nasıl uyum sağladığını keşfet. yerel yaşam alanlarını keşfet ve hayvanlar ile bitkilerin yaşadıkları yere nasıl uyum sağladığını keşfet."
- },
- {
-  "kind": "topic",
-  "title": "Yankı ve İşitme",
-  "path": "Fizik → 10. Sınıf → Ses → Yankı ve İşitme",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/sound/echoes-and-hearing",
-  "text": "yankı ve işitme fizik → 10. sınıf → ses → yankı ve işitme yankıları mesafe bulmak için kullanmak ve kulağın sesi nasıl algıladığını görmek. yankıları mesafe bulmak için kullanmak ve kulağın sesi nasıl algıladığını görmek."
- },
- {
-  "kind": "topic",
-  "title": "Yanlılık ve Adillik",
-  "path": "Bilgisayar Bilimi → 12. Sınıf → Yapay Zekâ ve Etik → Yanlılık ve Adillik",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-12/ai-ethics/bias-and-fairness",
-  "text": "yanlılık ve adillik bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik → yanlılık ve adillik eğitim verisindeki yanlılığın yapay zekâ kararlarına nasıl sızdığını fark edin ve adillik için test yapın. eğitim verisindeki yanlılığın yapay zekâ kararlarına nasıl sızdığını fark edin ve adillik için test yapın."
- },
- {
-  "kind": "topic",
-  "title": "Yansıma ve Kırılma",
-  "path": "Fizik → 10. Sınıf → Dalgalar → Yansıma ve Kırılma",
-  "url": "/tr/cambridge/upper-secondary/subjects/physics/grade-10/waves/reflection-and-refraction",
-  "text": "yansıma ve kırılma fizik → 10. sınıf → dalgalar → yansıma ve kırılma dalgaların yüzeylerden nasıl yansıyıp sınırlarda nasıl büküldüğünü açıklamak. dalgaların yüzeylerden nasıl yansıyıp sınırlarda nasıl büküldüğünü açıklamak."
+  "text": "veri yapıları kaynakları bilgisayar bilimi → 11. sınıf → veri yapıları yığın kullanma"
  },
  {
   "kind": "chapter",
   "title": "Yapay Zekâ ve Etik",
   "path": "Bilgisayar Bilimi → 12. Sınıf → Yapay Zekâ ve Etik",
   "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-12/ai-ethics",
-  "text": "yapay zekâ ve etik bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik makine öğrenmesi nasıl çalışır ve sorumlu kullanımı. makine öğrenmesi nasıl çalışır eğitim verisi yanlılık ve adillik yapay zekâyı sorumluca kullanma"
+  "text": "yapay zekâ ve etik bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik makine öğrenmesi nasıl çalışır ve sorumlu kullanımı. makine öğrenmesi nasıl çalışır"
  },
  {
   "kind": "resource",
   "title": "Yapay Zekâ ve Etik kaynakları",
   "path": "Kaynaklar → Bilgisayar Bilimi → 12. Sınıf → Yapay Zekâ ve Etik",
   "url": "/tr/cambridge/upper-secondary/resources/computer-science/grade-12/ai-ethics",
-  "text": "yapay zekâ ve etik kaynakları bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik makine öğrenmesi nasıl çalışır eğitim verisi yanlılık ve adillik yapay zekâyı sorumluca kullanma"
- },
- {
-  "kind": "topic",
-  "title": "Yapay Zekâyı Sorumluca Kullanma",
-  "path": "Bilgisayar Bilimi → 12. Sınıf → Yapay Zekâ ve Etik → Yapay Zekâyı Sorumluca Kullanma",
-  "url": "/tr/cambridge/upper-secondary/subjects/computer-science/grade-12/ai-ethics/using-ai-responsibly",
-  "text": "yapay zekâyı sorumluca kullanma bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik → yapay zekâyı sorumluca kullanma yapay zekâ destekli araçları uygularken sonuçlarının sorumluluğunu üstlenin. yapay zekâ destekli araçları uygularken sonuçlarının sorumluluğunu üstlenin."
- },
- {
-  "kind": "topic",
-  "title": "Yapılar ve Özellikler",
-  "path": "Kimya → 10. Sınıf → Kimyasal Bağlar → Yapılar ve Özellikler",
-  "url": "/tr/cambridge/upper-secondary/subjects/chemistry/grade-10/chemical-bonding/structures-properties",
-  "text": "yapılar ve özellikler kimya → 10. sınıf → kimyasal bağlar → yapılar ve özellikler dev ve moleküler yapıları erime noktaları ve iletkenlikle ilişkilendirin. dev ve moleküler yapıları erime noktaları ve iletkenlikle ilişkilendirin."
- },
- {
-  "kind": "topic",
-  "title": "Yazılım Geliştirme ve Test",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Hesaplamalı Düşünme ve Programlama → Yazılım Geliştirme ve Test",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computational-thinking-programming/software-development-and-testing",
-  "text": "yazılım geliştirme ve test bilgisayar bilimi → 7. sınıf → hesaplamalı düşünme ve programlama → yazılım geliştirme ve test planla, kodla, test et, düzelt: yazılım düzgünce böyle yapılır. planla, kodla, test et, düzelt: yazılım düzgünce böyle yapılır."
- },
- {
-  "kind": "topic",
-  "title": "Yazılım Türleri",
-  "path": "Bilgisayar Bilimi → 7. Sınıf → Bilgisayar Sistemleri → Yazılım Türleri",
-  "url": "/tr/cambridge/lower-secondary/subjects/computer-science/grade-7/computer-systems/types-of-software",
-  "text": "yazılım türleri bilgisayar bilimi → 7. sınıf → bilgisayar sistemleri → yazılım türleri donanımı çalıştıran programlar: sistem yazılımı, uygulama yazılımı ve aradaki fark. donanımı çalıştıran programlar: sistem yazılımı, uygulama yazılımı ve aradaki fark."
+  "text": "yapay zekâ ve etik kaynakları bilgisayar bilimi → 12. sınıf → yapay zekâ ve etik makine öğrenmesi nasıl çalışır"
  },
  {
   "kind": "topic",

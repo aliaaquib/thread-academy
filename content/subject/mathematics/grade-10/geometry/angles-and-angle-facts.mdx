@@ -1,75 +1,92 @@
 ---
 title: "Angles and angle facts"
-lede: "Names of angles, angles on a line and around a point, and angles formed by parallel lines."
+lede: "Find missing angles using facts about straight lines, points, triangles and parallel lines, and give a reason for each step."
 ---
 
 <LearningObjectives>
-  <li>Define and explain Angles and angle facts in your own words</li>
-  <li>Use key terms such as Angle accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Use angle facts on straight lines and around a point</li>
+  <li>Use angles in a triangle and vertically opposite angles</li>
+  <li>Use alternate and corresponding angles on parallel lines</li>
+  <li>Give a geometric reason for each step</li>
 </LearningObjectives>
 
-Geometry is the mathematics of shape, space and position. From reading a floor plan to programming a robot, its rules let you measure the world and predict what fits where.
+<BeforeYouStart>
+  You can measure angles in degrees and solve simple equations. Both skills are used to find missing angles.
+</BeforeYouStart>
 
-This lesson focuses on Angles and angle facts: names of angles, angles on a line and around a point, and angles formed by parallel lines.
+## Facts about angles
 
-<Definition term="Angles and angle facts">
-  Names of angles, angles on a line and around a point, and angles formed by parallel lines.
+Angles follow fixed rules, so you can often calculate an angle without measuring it. Angles on a straight line add up to 180°, and angles around a point add up to 360°. When two straight lines cross, the opposite angles are equal. The angles inside any triangle add up to 180°.
+
+<Definition term="vertically opposite angles">
+  The equal angles on opposite sides of the point where two straight lines cross.
 </Definition>
 
-## Key ideas
+## Parallel lines
 
-### Angle facts
+Parallel lines never meet. When another line crosses them, it creates pairs of related angles. Corresponding angles are equal and form an F shape. Alternate angles are equal and form a Z shape. Co-interior angles add up to 180° and form a C shape.
 
-Angles on a straight line add to 180 degrees, and angles around a point add to 360 degrees. In a triangle the three interior angles always sum to 180 degrees, so one missing angle can be found by subtracting the other two from 180.
+<Definition term="alternate angles">
+  Equal angles on opposite sides of a line crossing two parallel lines.
+</Definition>
 
-### Area formulae
+<WorkedExample title="Find a missing angle">
+  A triangle has angles of 52° and 71°. Find the third angle, then the angle next to it on a straight line.
 
-Rectangle: base times height. Triangle: half times base times height, using the perpendicular height, not the slant side. Trapezium: half times the sum of the parallel sides times the distance between them.
+  ```maths
+  third angle = 180 − 52 − 71 = 57°     angles in a triangle add to 180°
+  next angle = 180 − 57 = 123°          angles on a straight line add to 180°
+  ```
 
-**Key term — Angle:** The amount of turn between two lines that meet, measured in degrees. A right angle is exactly 90 degrees.
-
-<WorkedExample title="Worked example: Angles and angle facts">
-  Two angles on a straight line are 112° and x. Find x.
-
-  x = 180 − 112 = 68°.
-
-  **Answer:** x = 180 − 112 = 68°.
+  **Answer:** 57° and 123°.
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Using the slant height of a triangle as its height** The height must be perpendicular to the base; measure straight down to the base line, not along the slanted edge.
-  - **Confusing radius and diameter in circle formulae** A = πr² uses the radius; C = πd uses the diameter. If given the diameter, halve it first for area.
+<ImportantNote title="Diagrams can mislead">
+  Diagrams are often not drawn to scale. Work out each angle from the facts instead of judging by eye.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "x = 65° because alternate angles are equal.", bad: "x = 65° because of the Z shape.", note: "Use the correct geometric name for the reason." },
+  ]}
+  mistake="Giving the right angle but no reason when the question asks you to give reasons."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="Find the perimeter and area of a rectangle 7 cm by 4 cm." hint="Perimeter adds all sides; area = length × width.">
-    Perimeter = 2(7 + 4) = 22 cm; area = 7 × 4 = 28 cm².
-  </PracticeItem>
-  <PracticeItem question="A triangle has base 10 cm and perpendicular height 6 cm. Find its area." hint="Area = ½ × base × height.">
-    Area = ½ × 10 × 6 = 30 cm².
-  </PracticeItem>
-  <PracticeItem question="A trapezium has parallel sides 8 cm and 5 cm, with height 4 cm. Find its area." hint="Area = ½ × (sum of parallel sides) × height.">
-    Area = ½ × (8 + 5) × 4 = ½ × 13 × 4 = 26 cm².
-  </PracticeItem>
-  <PracticeItem question="Find the circumference of a circle with diameter 14 cm (use π = 3.14)." hint="C = πd.">
-    C = 3.14 × 14 = 43.96 cm.
-  </PracticeItem>
+  <PracticeItem question="Two angles on a straight line are 110° and x. Find x." answer="x = 180° − 110° = 70°, because angles on a straight line add to 180°." />
+  <PracticeItem question="Three angles around a point are 120°, 95° and y. Find y." answer="y = 360° − 120° − 95° = 145°, because angles around a point add to 360°." />
+  <PracticeItem question="An isosceles triangle has a top angle of 40°. Find each base angle." answer="The base angles are equal: (180° − 40°) ÷ 2 = 70°." />
+  <PracticeItem question="Two angles on a straight line are 2x + 10 and 3x − 5. Find x." answer="2x + 10 + 3x − 5 = 180, so 5x + 5 = 180, so 5x = 175 and x = 35." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="Angles and angle facts — quick check">
-  <QuizQuestion question="Which of these best defines &quot;Angle&quot;?" options={["The total distance around the edge of a 2D shape, found by adding all its side lengths.", "Two lines are parallel when they run in the same direction and never meet, like the rails of a railway track.", "The ratio of a circle's circumference to its diameter, approximately 3.14159, which is constant for every circle.", "The amount of turn between two lines that meet, measured in degrees. A right angle is exactly 90 degrees."]} answer={3} explanation="An angle measures turn, not length: a wider opening means a bigger angle, even if the lines are short. Perimeter and π describe lengths, and parallel lines never meet, so they make no angle." />
-  <QuizQuestion question="A circle has radius 5 cm. Find its area (use π = 3.14)." options={["A = 4.14 × 25 = 78.5 cm².", "A = 5.14 × 25 = 78.5 cm².", "A = 2.14 × 25 = 78.5 cm².", "A = 3.14 × 25 = 78.5 cm²."]} answer={3} explanation="Area = πr². Square the radius first: 5² = 25. Then 3.14 × 25 = 78.5 cm². A common mistake is doubling the radius instead of squaring it." />
+<Quiz title="Angle facts quick check">
+  <QuizQuestion
+    question="What do the angles in a triangle add up to?"
+    options={["90°", "180°", "270°", "360°"]}
+    answer={1}
+    explanation="Any triangle's three angles fit together to make a straight line."
+  />
+  <QuizQuestion
+    question="Which pair of angles on parallel lines is equal and forms a Z shape?"
+    options={["Co-interior", "Reflex", "Corresponding", "Alternate"]}
+    answer={3}
+    explanation="They sit on opposite sides of the crossing line, between the parallel lines."
+  />
+  <QuizQuestion
+    question="Two lines cross and one angle is 48°. What is the opposite angle?"
+    options={["48°", "132°", "42°", "312°"]}
+    answer={0}
+    explanation="Vertically opposite angles are always equal, so the size stays the same."
+  />
 </Quiz>
 
 <Summary>
-  - Angles and angle facts: names of angles, angles on a line and around a point, and angles formed by parallel lines.
-  - Angle facts: Angles on a straight line add to 180 degrees, and angles around a point add to 360 degrees.
-  - Parallel: Two lines are parallel when they run in the same direction and never meet, like the rails of a railway track.
-  - Watch out for: using the slant height of a triangle as its height
+  - Straight line angles add to 180° and angles around a point add to 360°.
+  - Angles in a triangle add to 180°.
+  - On parallel lines, alternate and corresponding angles are equal.
+  - Give a reason for each step.
 </Summary>

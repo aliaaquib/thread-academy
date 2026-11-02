@@ -1,75 +1,98 @@
 ---
 title: "The Mole"
-lede: "Count particles using the mole and Avogadro's constant."
+lede: "Use the mole to count particles and connect the mass of a substance to chemical equations."
 ---
 
 <LearningObjectives>
-  <li>Define and explain The Mole in your own words</li>
-  <li>Use key terms such as mole accurately</li>
-  <li>Apply what you have learned to new examples and questions</li>
-  <li>Avoid the common mistakes learners make with this topic</li>
+  <li>Define the mole and the Avogadro constant</li>
+  <li>Calculate moles from mass and molar mass</li>
+  <li>Use moles to find reacting masses</li>
 </LearningObjectives>
 
-Chemists cannot count atoms one by one, so they weigh them instead — the mole links mass to numbers of particles. With it you can predict exactly how much product a reaction should make, and judge how efficient real reactions are. In this chapter you will do the maths that industry relies on.
+<BeforeYouStart>
+  You can find relative formula mass from a periodic table and balance chemical equations.
+</BeforeYouStart>
 
-This lesson focuses on The Mole: count particles using the mole and Avogadro's constant.
+## Counting particles
 
-<Definition term="The Mole">
-  Count particles using the mole and Avogadro's constant.
+Atoms are too small to count one by one, so chemists count them in moles. One mole of any substance contains 6.02 × 10²³ particles. This number is called the Avogadro constant. A mole works like the word dozen, but it represents a far larger number.
+
+<Definition term="mole">
+  The amount of substance containing 6.02 × 10²³ particles.
 </Definition>
 
-## Key ideas
+<Definition term="molar mass">
+  The mass of one mole of a substance, measured in g/mol.
+</Definition>
 
-### The mole connects mass and particles
+## Moles and mass
 
-One mole of any substance contains 6.02 × 10²³ particles and has a mass in grams equal to its relative formula mass — so 18 g of water is one mole. The relationship moles = mass ÷ Mr lets you convert between the two in seconds. This is the key that unlocks every reacting-mass calculation.
+The molar mass of a substance has the same value as its relative formula mass. Carbon dioxide has Mr = 44, so one mole has a mass of 44 g.
 
-### Use the equation's molar ratio
+<Formula label="Moles from mass">
+  moles = mass ÷ molar mass
+</Formula>
 
-A balanced equation gives the ratio of moles that react: in 2Mg + O₂ → 2MgO, 2 moles of Mg make 2 moles of MgO, a 1:1 ratio. The method is always the same: convert the known mass to moles, use the ratio to find moles of the unknown, then convert back to mass. If a reactant runs out first, it is the limiting reactant and it alone sets the maximum product.
+<WorkedExample title="Reacting masses">
+  What mass of magnesium oxide forms from 4.8 g of magnesium?
 
-**Key term — mole:** The amount of substance containing 6.02 × 10²³ particles (Avogadro's constant).
+  ```maths
+  2Mg + O₂ → 2MgO
+  moles of Mg = 4.8 ÷ 24 = 0.20 mol
+  mole ratio Mg : MgO = 2 : 2
+  moles of MgO = 0.20 mol
+  mass of MgO = 0.20 × 40 = 8.0 g
+  ```
 
-<WorkedExample title="Worked example: The Mole">
-  Calculate the number of moles in 10.0 g of sodium hydroxide, NaOH. (Ar: Na = 23.0, H = 1.0, O = 16.0).
-
-  Mr = 23.0 + 16.0 + 1.0 = 40.0. Moles = 10.0 ÷ 40.0 = 0.250 mol.
-
-  **Answer:** Mr = 23.0 + 16.0 + 1.0 = 40.0. Moles = 10.0 ÷ 40.0 = 0.250 mol.
+  **Answer:** 8.0 g
 </WorkedExample>
 
-<ImportantNote title="Common mistakes">
-  - **Using the mass ratio instead of the mole ratio** Grams do not react in the equation's ratio — moles do. Always convert masses to moles first, apply the ratio from the balanced equation, then convert back to grams.
-  - **Forgetting to double the oxygen in O₂** Mr of O₂ is 32, not 16 — the molecule has two atoms. The same trap applies to H₂, N₂ and the halogens: read the formula, not just the element.
+<ImportantNote title="Use the equation ratio">
+  Convert to moles before using the ratio. Masses do not follow the balancing numbers directly.
 </ImportantNote>
+
+<ExamFocus
+  items={[
+    { good: "Moles of CO₂ = 11 ÷ 44 = 0.25 mol", bad: "11 × 44 = 484 mol", note: "Divide mass by molar mass." },
+  ]}
+  mistake="Using the mass ratio from the equation before converting masses into moles."
+/>
 
 ## Practice
 
 <PracticeQuestions>
-  <PracticeItem question="In the worked example, what mass of oxygen reacts with the 12.0 g of magnesium?" hint="Use the 2:1 ratio of Mg to O₂.">
-    Moles of Mg = 0.494; moles of O₂ = 0.494 ÷ 2 = 0.247 mol; mass = 0.247 × 32.0 = 7.90 g. (Check: 12.0 + 7.90 = 19.9 g of product.).
-  </PracticeItem>
-  <PracticeItem question="5.84 g of NaCl is dissolved to make 1.00 dm³ of solution. What is its concentration? (Mr of NaCl = 58.4)" hint="Convert grams to moles first.">
-    Moles = 5.84 ÷ 58.4 = 0.100 mol; concentration = 0.100 ÷ 1.00 = 0.100 mol/dm³.
-  </PracticeItem>
-  <PracticeItem question="A reaction should theoretically make 8.40 g of product but only 6.72 g is obtained. Calculate the percentage yield." hint="(actual ÷ theoretical) × 100.">
-    (6.72 ÷ 8.40) × 100 = 80.0%.
-  </PracticeItem>
-  <PracticeItem question="Calculate the concentration of a solution containing 0.20 mol of solute in 0.50 dm³ of solution." hint="Concentration = moles ÷ volume.">
-    0.20 ÷ 0.50 = 0.40 mol/dm³.
-  </PracticeItem>
+  <PracticeItem question="How many moles are in 36 g of water? Mr = 18." answer="36 ÷ 18 = 2.0 mol." />
+  <PracticeItem question="Find the mass of 0.50 mol of NaCl. Mr = 58.5." answer="0.50 × 58.5 = 29.25 g." />
+  <PracticeItem question="How many atoms are in 2.0 mol of helium?" answer="2.0 × 6.02 × 10²³ = 1.204 × 10²⁴ atoms." />
+  <PracticeItem question="Calcium carbonate decomposes: CaCO₃ → CaO + CO₂. Find the mass of CaO from 25 g of CaCO₃." answer="Moles of CaCO₃ = 25 ÷ 100 = 0.25 mol. The ratio is 1:1, so mass of CaO = 0.25 × 56 = 14 g." level="challenge" />
 </PracticeQuestions>
 
 ## Quick check
 
-<Quiz title="The Mole — quick check">
-  <QuizQuestion question="Which of these best defines &quot;mole&quot;?" options={["Moles of solute per cubic decimetre of solution, in mol/dm³.", "The sum of the relative atomic masses in a formula, e.g. Mr of H₂O = 18.", "The reactant that runs out first and therefore decides how much product forms.", "The amount of substance containing 6.02 × 10²³ particles (Avogadro's constant)."]} answer={3} explanation="The amount of substance containing 6.02 × 10²³ particles (Avogadro's constant)." />
-  <QuizQuestion question="Explain why a chemist might prefer a reaction with 100% atom economy even if its percentage yield is lower." options={["Moles of solute per cubic decimetre of solution, in mol/dm³.", "Using the mass ratio instead of the mole ratio", "Grams do not react in the equation's ratio — moles do. Always convert masses to moles first, apply the ratio from the balanced equation, then convert back to grams.", "High atom economy means most reactant atoms end up in the desired product rather than waste, saving raw materials and reducing waste disposal — even if some product is lost in practice."]} answer={3} explanation="High atom economy means most reactant atoms end up in the desired product rather than waste, saving raw materials and reducing waste disposal — even if some product is lost in practice." />
+<Quiz title="The mole quick check">
+  <QuizQuestion
+    question="What is the Avogadro constant?"
+    options={["6.02 × 10²³", "1.60 × 10⁻¹⁹", "3.00 × 10⁸", "9.81"]}
+    answer={0}
+    explanation="This is the number of particles counted in one mole of a substance."
+  />
+  <QuizQuestion
+    question="How many moles are in 12 g of magnesium? Ar = 24."
+    options={["2.0 mol", "12 mol", "288 mol", "0.50 mol"]}
+    answer={3}
+    explanation="Divide the mass by molar mass, so 12 is divided by 24."
+  />
+  <QuizQuestion
+    question="What is the molar mass of CO₂?"
+    options={["28 g/mol", "32 g/mol", "44 g/mol", "16 g/mol"]}
+    answer={2}
+    explanation="Add one carbon at 12 and two oxygens at 16 each."
+  />
 </Quiz>
 
 <Summary>
-  - The Mole: count particles using the mole and Avogadro's constant.
-  - The mole connects mass and particles: One mole of any substance contains 6.02 × 10²³ particles and has a mass in grams equal to its relative formula mass — so 18 g of water is one mole.
-  - concentration: Moles of solute per cubic decimetre of solution, in mol/dm³.
-  - Watch out for: using the mass ratio instead of the mole ratio
+  - One mole contains 6.02 × 10²³ particles.
+  - Moles = mass ÷ molar mass.
+  - Equation ratios compare moles, not masses.
+  - Convert back to mass at the end.
 </Summary>
