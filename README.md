@@ -2,7 +2,7 @@
 
 A free, W3Schools-style interactive learning library for school students — built with **Next.js 14 (App Router) + TypeScript + Tailwind CSS + MDX**, exported as a fully static site (no backend, no database, no auth, no tracking).
 
-Twelve subjects (Mathematics, Physics, Chemistry, Biology, Computer Science, English, History, Geography, Economics, Business, Spanish, French) across four curricula — British, Cambridge, American and IB — each keeping its own level structure.
+Five STEM subjects (Mathematics, Physics, Chemistry, Biology, Computer Science) across four curricula — British, Cambridge, American and IB — each keeping its own level structure.
 
 ## Prerequisites
 

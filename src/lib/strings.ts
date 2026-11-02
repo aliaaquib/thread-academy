@@ -128,7 +128,7 @@ const en: Dict = {
   // ---- subjects index ----
   "subjects.meta.title": "Subjects",
   "subjects.meta.desc":
-    "Explore 13 school subjects by category. Every subject is organised into chapters with lessons, worked examples and practice.",
+    "Explore 5 school subjects by category. Every subject is organised into chapters with lessons, worked examples and practice.",
   "subjects.hero.title": "Subjects",
   "subjects.hero.lede":
     "Explore school subjects by category. Every subject is organised into chapters with lessons, worked examples and practice.",
@@ -505,7 +505,7 @@ const en: Dict = {
   "terms.hero.title": "Terms and Conditions",
   "terms.meta.desc": "Terms and Conditions for using Thread Academy: lessons, Ask AI tutor, accounts, and acceptable use.",
   "terms.meta.title": "Terms and Conditions",
-  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com) is a free educational website offering chapter-based lessons across 13 school subjects for grades 7–12, in English, Turkish, Russian, and Kyrgyz.\n\nBy using the site, you agree to these terms. If you do not agree, please do not use the service.",
+  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com) is a free educational website offering chapter-based lessons across 5 school subjects for grades 7–12, in English, Turkish, Russian, and Kyrgyz.\n\nBy using the site, you agree to these terms. If you do not agree, please do not use the service.",
   "terms.s1.title": "About the service",
   "terms.s2.body": "All lessons, chapters, and resources are free to read — no account needed. The Ask AI tutor is also free within daily limits: 5 questions per day without signing in, and 30 per day when you sign in with Google.\n\nWe may adjust these limits or the service itself at any time to keep it running fairly for everyone.",
   "terms.s2.title": "Free use and limits",
@@ -654,7 +654,7 @@ const tr: Dict = {
   // ---- subjects index ----
   "subjects.meta.title": "Dersler",
   "subjects.meta.desc":
-    "13 okul dersini kategorilere göre keşfet. Her ders; dersler, çözümlü örnekler ve pratik içeren bölümler hâlinde düzenlenmiştir.",
+    "5 okul dersini kategorilere göre keşfet. Her ders; dersler, çözümlü örnekler ve pratik içeren bölümler hâlinde düzenlenmiştir.",
   "subjects.hero.title": "Dersler",
   "subjects.hero.lede":
     "Okul derslerini kategorilere göre keşfet. Her ders; bölümler, çözümlü örnekler ve pratik sorularla düzenlenmiştir.",
@@ -1011,7 +1011,7 @@ const tr: Dict = {
   "terms.hero.title": "Şartlar ve Koşullar",
   "terms.meta.desc": "Thread Academy kullanım Şartları ve Koşulları: dersler, Ask AI öğreticisi, hesaplar ve kabul edilebilir kullanım.",
   "terms.meta.title": "Şartlar ve Koşullar",
-  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com), 7–12. sınıflar için 13 okul dersinde bölüm tabanlı dersler sunan ücretsiz bir eğitim sitesidir; İngilizce, Türkçe, Rusça ve Kırgızca olarak.\n\nSiteyi kullanarak bu şartları kabul etmiş olursunuz. Kabul etmiyorsanız lütfen hizmeti kullanmayın.",
+  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com), 7–12. sınıflar için 5 okul dersinde bölüm tabanlı dersler sunan ücretsiz bir eğitim sitesidir; İngilizce, Türkçe, Rusça ve Kırgızca olarak.\n\nSiteyi kullanarak bu şartları kabul etmiş olursunuz. Kabul etmiyorsanız lütfen hizmeti kullanmayın.",
   "terms.s1.title": "Hizmet hakkında",
   "terms.s2.body": "Tüm dersler, bölümler ve kaynaklar ücretsizdir — hesap gerekmez. Ask AI öğreticisi de günlük limitler dahilinde ücretsizdir: giriş yapmadan günde 5 soru, Google ile giriş yaptığınızda günde 30 soru.\n\nHerkes için adil çalışmayı sürdürmek adına bu limitleri veya hizmetin kendisini dilediğimiz zaman değiştirebiliriz.",
   "terms.s2.title": "Ücretsiz kullanım ve sınırlar",
@@ -1164,7 +1164,7 @@ const ru: Dict = {
   // ---- subjects index ----
   "subjects.meta.title": "Предметы",
   "subjects.meta.desc":
-    "13 школьных предметов по категориям. Каждый предмет организован по главам: уроки, разобранные примеры и практика.",
+    "5 школьных предметов по категориям. Каждый предмет организован по главам: уроки, разобранные примеры и практика.",
   "subjects.hero.title": "Предметы",
   "subjects.hero.lede":
     "Школьные предметы по категориям. Каждый предмет — разделы с уроками, разобранными примерами и практикой.",
@@ -1531,7 +1531,7 @@ const ru: Dict = {
   "terms.hero.title": "Условия использования",
   "terms.meta.desc": "Условия использования Thread Academy: уроки, репетитор Ask AI, аккаунты и правила использования.",
   "terms.meta.title": "Условия использования",
-  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com) — это бесплатный образовательный сайт с уроками по главам по 13 школьным предметам для 7–12 классов на английском, турецком, русском и кыргызском языках.\n\nИспользуя сайт, вы принимаете эти условия. Если вы не согласны с ними, пожалуйста, не пользуйтесь сервисом.",
+  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com) — это бесплатный образовательный сайт с уроками по главам по 5 школьным предметам для 7–12 классов на английском, турецком, русском и кыргызском языках.\n\nИспользуя сайт, вы принимаете эти условия. Если вы не согласны с ними, пожалуйста, не пользуйтесь сервисом.",
   "terms.s1.title": "О сервисе",
   "terms.s2.body": "Все уроки, главы и ресурсы доступны бесплатно — аккаунт не нужен. Репетитор Ask AI также бесплатен в рамках дневных лимитов: 5 вопросов в день без входа в аккаунт и 30 в день после входа через Google.\n\nМы можем в любой момент изменить эти лимиты или сам сервис, чтобы он честно работал для всех.",
   "terms.s2.title": "Бесплатное использование и лимиты",
@@ -1680,7 +1680,7 @@ const ky: Dict = {
   // ---- subjects index ----
   "subjects.meta.title": "Предметтер",
   "subjects.meta.desc":
-    "13 мектеп предметин категориялар боюнча карап чык. Ар бир предмет сабактар, иштетилген мисалдар жана практика камтыган бөлүмдөргө бөлүнгөн.",
+    "5 мектеп предметин категориялар боюнча карап чык. Ар бир предмет сабактар, иштетилген мисалдар жана практика камтыган бөлүмдөргө бөлүнгөн.",
   "subjects.hero.title": "Предметтер",
   "subjects.hero.lede":
     "Мектеп предметтерин категориялар боюнча карап чык. Ар бир предмет сабактар, иштетилген мисалдар жана практика менен уюштурулган.",
@@ -2037,7 +2037,7 @@ const ky: Dict = {
   "terms.hero.title": "Колдонуу шарттары",
   "terms.meta.desc": "Thread Academy'ди колдонуу шарттары: сабактар, Ask AI насаатчысы, аккаунттар жана кабыл алынуучу колдонуу.",
   "terms.meta.title": "Колдонуу шарттары",
-  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com) — 7–12-класстар үчүн 13 мектеп предмети боюнча бөлүмдүк сабактарды англис, түрк, орус жана кыргыз тилдеринде сунуштаган акысыз билим берүү веб-сайты.\n\nСайтты колдонуу менен сиз бул шарттарга макул болосуз. Эгер макул эмес болсоңуз, кызматты колдонбоңуз.",
+  "terms.s1.body": "Thread Academy (threadacademy.aaquibali.com) — 7–12-класстар үчүн 5 мектеп предмети боюнча бөлүмдүк сабактарды англис, түрк, орус жана кыргыз тилдеринде сунуштаган акысыз билим берүү веб-сайты.\n\nСайтты колдонуу менен сиз бул шарттарга макул болосуз. Эгер макул эмес болсоңуз, кызматты колдонбоңуз.",
   "terms.s1.title": "Кызмат жөнүндө",
   "terms.s2.body": "Бардык сабактар, бөлүмдөр жана ресурстар акысыз окулат — аккаунт керек эмес. Ask AI насаатчысы да күнүмдүк чектөөлөр чегинде акысыз: кирбей туруп күнүнө 5 суроо, Google аркылуу киргенде күнүнө 30 суроо.\n\nБаары үчүн кызматты адилеттүү иштетүү үчүн бул чектөөлөрдү же кызматтын өзүн каалаган убакта өзгөртө алабыз.",
   "terms.s2.title": "Акысыз колдонуу жана чектөөлөр",

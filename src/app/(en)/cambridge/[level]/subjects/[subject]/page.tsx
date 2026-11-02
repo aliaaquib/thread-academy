@@ -36,17 +36,8 @@ const GLYPHS: Record<string, string> = {
   chemistry: "H₂",
   biology: "DNA",
   "computer-science": "</>",
-  english: "Aa",
-  history: "AD",
-  geography: "◎",
-  economics: "↗",
-  psychology: "Ψ",
-  sociology: "◉",
-  "political-science": "⚖",
-  "russian": "Ж",
 };
 
-const CATEGORY_SLUGS = ["stem", "humanities", "languages"];
 
 function categoryFromSlug(slug: string): SubjectCategory | null {
   const upper = slug.toUpperCase();

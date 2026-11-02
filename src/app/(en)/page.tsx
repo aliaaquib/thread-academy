@@ -59,14 +59,6 @@ const GLYPHS: Record<string, string> = {
   chemistry: "H₂",
   biology: "DNA",
   "computer-science": "</>",
-  english: "Aa",
-  history: "AD",
-  geography: "◎",
-  economics: "↗",
-  psychology: "Ψ",
-  sociology: "◉",
-  "political-science": "⚖",
-  russian: "Ж",
 };
 
 /** Featured lessons for the hero quick links (only shown where they exist). */
@@ -171,7 +163,7 @@ export default async function HomePage(props: { params: Promise<LangParam> }) {
               {t(lang, `subject.category.${category.toLowerCase()}`)}
             </div>
             <div className="subjects-grid">
-              {subjectsByCategory(category, lang).slice(0, 3).map((subject) => {
+              {subjectsByCategory(category, lang).map((subject) => {
                 const n = getChaptersForSubject(subject.slug, lang).length;
                 const href = subjectLandingPath(subject.slug);
                 if (!href) return null;
