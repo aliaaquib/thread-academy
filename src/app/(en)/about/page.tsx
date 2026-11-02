@@ -5,6 +5,7 @@
  */
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
+import FromTheLibrary from "@/components/FromTheLibrary";
 import { pageMetadata } from "@/lib/seo";
 import { withLang, type Lang } from "@/lib/i18n";
 import { t } from "@/lib/strings";
@@ -40,6 +41,7 @@ export default async function AboutPage(props: { params: Promise<{ lang?: LangPa
         title={t(lang, "about.hero.title")}
         lede={t(lang, "about.hero.lede")}
       />
+      <FromTheLibrary lang={lang} />
       <section className="subject-overview">
         <div className="overview-grid">
           <aside className="overview-aside">

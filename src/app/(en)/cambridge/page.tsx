@@ -5,6 +5,7 @@
  * honest "coming soon" state — no fake subjects.
  * Also lists the other curricula (British, American, IB) as coming soon.
  */
+import { GRADES } from "@/lib/grades";
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import CurriculumCard from "@/components/CurriculumCard";
@@ -54,7 +55,7 @@ export default async function CambridgePage(props: { params: Promise<LangParam> 
           {t(lang, "curriculum.levels.title")}
         </div>
         <div className="subjects-grid">
-          {curriculum.levels.map((level) => {
+          {curriculum.levels.filter((level) => level.grades.some((g) => (GRADES as readonly number[]).includes(g))).map((level) => {
             const levelName = t(lang, levelStringKey(level.id));
             const hasContent = level.grades.length > 0;
             const gradesLabel =
@@ -81,28 +82,6 @@ export default async function CambridgePage(props: { params: Promise<LangParam> 
           })}
         </div>
 
-        <div className="eyebrow" style={{ margin: "56px 0 16px" }}>
-          {t(lang, "curricula.other.title")}
-        </div>
-        <div className="subjects-grid">
-          {(CURRICULUM_IDS as CurriculumId[])
-            .filter((id) => id !== "cambridge")
-            .map((id) => {
-              const c = getCurriculum(id)!;
-              const active = c.status === "active";
-              return (
-                <CurriculumCard
-                  key={id}
-                  lang={lang}
-                  href={withLang(curriculumPath(id), lang)}
-                  badge={active ? t(lang, "curriculum.levels.title") : t(lang, "curriculum.comingSoon")}
-                  title={CURRICULUM_NAMES[id]}
-                  lede={t(lang, "curriculum.comingSoon.short", { name: CURRICULUM_NAMES[id] })}
-                  disabled={!active}
-                />
-              );
-            })}
-        </div>
       </section>
     </>
   );

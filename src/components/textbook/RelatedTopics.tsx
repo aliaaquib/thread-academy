@@ -22,7 +22,7 @@ export function RelatedTopics({ items, lang = "en" }: { items: RelatedLink[]; la
         <Link key={item.href} className="chapter-link" href={item.href}>
           <span className="chapter-index">{String(i + 1).padStart(2, "0")}</span>
           <span>
-            <span className="chapter-title" style={{ fontSize: "1.35rem" }}>
+            <span className="chapter-title" style={{ fontSize: "var(--fs-title)" }}>
               {item.title}
             </span>
           </span>

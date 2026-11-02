@@ -1,0 +1,25 @@
+/* Thread Academy design tokens: the same file in thread-academy and thread-academy-cms.
+   shortcut: copied by hand between the two repos; move to a shared package if the copies drift. */
+:root{
+  color-scheme:light;
+
+  /* Colour */
+  --bg:#fff;--surface:#f5f6f2;--surface-2:#eceee8;
+  --ink:#171914;--muted:#62665c;--line:#dfe2da;
+  --accent:#d8ff3e;--accent-ink:#273300;--accent-deep:#526d00;
+  --success:#386400;--danger:#a63a35;
+  --code:#171b16;--code-ink:#f2f6ee;
+  --shadow:0 18px 54px rgba(20,25,15,.08);
+
+  /* Type */
+  --font-sans:Manrope,sans-serif;
+  --font-serif:Newsreader,Georgia,serif;
+  --fs-caption:.8125rem;
+  --fs-small:.875rem;
+  --fs-body:1rem;
+  --fs-lead:1.125rem;
+  --fs-title:1.25rem;
+  --fs-h2:1.75rem;
+  --fs-h1:clamp(2.3rem,4.5vw,3.3rem);
+  --fs-display:clamp(3.6rem,7vw,6.2rem);
+}

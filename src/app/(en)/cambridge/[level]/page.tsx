@@ -140,7 +140,7 @@ export default async function LevelPage(props: { params: Promise<Params> }) {
                 className="inline-link"
                 href={withLang(levelPath(curriculum.id, level.id) + "/subjects", lang)}
               >
-                {t(lang, "curriculum.level.browseAll")}
+                {t(lang, "curriculum.level.browseAll", { level: levelName })}
               </Link>
             </p>
           </>

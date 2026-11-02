@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import LostGame from "@/components/LostGame";
 
 export const metadata: Metadata = {
-  title: "Page not found — Thread Academy",
+  title: "Page not found",
   robots: { index: false, follow: false },
 };
 

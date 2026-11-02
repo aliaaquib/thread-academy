@@ -31,7 +31,7 @@ const btn: React.CSSProperties = {
   border: "none",
   cursor: "pointer",
   padding: "6px 4px",
-  fontSize: 14,
+  fontSize: "var(--fs-small)",
   color: "#62665c",
 };
 

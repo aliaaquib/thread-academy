@@ -46,7 +46,7 @@ export default async function CurriculaPage(props: { params: Promise<LangParam> 
       />
       <section className="subject-overview">
         <div className="subjects-grid">
-          {(CURRICULUM_IDS as CurriculumId[]).map((id) => {
+          {(CURRICULUM_IDS as CurriculumId[]).filter((id) => getCurriculum(id)!.status === "active").map((id) => {
             const c = getCurriculum(id)!;
             const active = c.status === "active";
             const name = CURRICULUM_NAMES[id];

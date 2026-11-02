@@ -138,7 +138,7 @@ export default function SearchUI({ lang }: { lang: Lang }) {
 
       {results.length > 0 && (
         <>
-          <p className="muted" style={{ margin: "6px 0 0" }}>
+          <p className="muted" role="status" style={{ margin: "6px 0 0" }}>
             {tn(lang, "search.results", results.length, { n: results.length, q })}
           </p>
           <div className="search-results">
@@ -156,7 +156,7 @@ export default function SearchUI({ lang }: { lang: Lang }) {
       )}
 
       {index !== null && tokens(q, locale).length > 0 && results.length === 0 && !failed && (
-        <div className="empty">
+        <div className="empty" role="status">
           <b style={{ color: "var(--ink)" }}>{t(lang, "search.noresults.title")}</b>
           <br />
           {t(lang, "search.noresults.body", { q })}
