@@ -8,6 +8,7 @@
 import { createContext, useCallback, useContext, useEffect, useId, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import type { Lang } from "@/lib/i18n";
+import { quizOrder } from "@/lib/quiz-order";
 import { t } from "@/lib/strings";
 
 interface QuizApi {
@@ -56,7 +57,7 @@ export function Quiz({ title, children, lang = "en" }: { title?: string; childre
       <div className="quiz">
         <div className="quiz-head">{head}</div>
         <div className="quiz-body">{children}</div>
-        <div className={`quiz-score${total > 0 && done === total ? " visible" : ""}`}>
+        <div className={`quiz-score${total > 0 && done === total ? " visible" : ""}`} aria-live="polite">
           {scoreLine}
         </div>
       </div>
@@ -95,7 +96,8 @@ export function QuizQuestion({
     <div className="quiz-q">
       <p className="q-text">{question}</p>
       <div className="quiz-opts">
-        {options.map((opt, i) => {
+        {quizOrder(question, options).map((i) => {
+          const opt = options[i];
           let cls = "quiz-opt";
           if (picked !== null) {
             if (i === answer) cls += " correct";
@@ -108,7 +110,9 @@ export function QuizQuestion({
           );
         })}
       </div>
-      <div className={`quiz-explain${picked !== null && explanation ? " visible" : ""}`}>{explanation}</div>
+      <div className={`quiz-explain${picked !== null && explanation ? " visible" : ""}`} aria-live="polite">
+        {explanation}
+      </div>
     </div>
   );
 }
